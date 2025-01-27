@@ -220,12 +220,12 @@ fffd2637-1493-41f9-a140-08ba67621b10	Dennis Muchangi	dennismuchangi46@gmail.com	
 d91dee2c-782d-4f5d-96a5-79287b8a8daf	Anthony Njoroge	antonykarangi17@gmail.com	t	$2b$15$p3u56cNQcGLieot1mEaVkuiZnQVjMAjiANj9P7r9hP1fqc1IbbaWq	AGENT	26	Male	\N	f	2024-11-06 17:32:27.580024+00
 14713925-327a-4233-8a54-c0f61d673205	Anungo	anungopamphil@gmail.com	t	$2b$15$SoWFApX7TTMwLH76r2pbNulEZ7pjKwEgFQ13eOsxrNxg3yJSAs2Ie	AGENT	28	Male	\N	f	2024-11-07 19:54:43.466003+00
 70eff330-56a7-498d-b658-6dd3c8c0a254	Anna Kigunda	annakigunda@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 00:45:03.0034+00
-7c34897f-92ec-4166-a363-b54316d95438	Eugene Gadson	eugenegadson788@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 02:58:53.088397+00
 dc4e4f16-92e6-4200-8f02-2bb00ffd6ee2	Joan Anne Wanjiku Karima	karimajoan08@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 04:32:08.208366+00
 12019715-0870-4fe8-acf9-9b437ebf891c	Carol Mugasia	lenacarol215@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 05:46:54.501729+00
 93ea3232-3b94-42a3-ab5a-5f20e144842e	Sylvia Matisi	slymatisi7@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 06:11:20.517356+00
 578faed5-dc33-486c-bf0e-9568ce03ec99	Briver wasilwa	bwasilwa0@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 06:53:58.253326+00
 7e544bfc-cbad-4bf4-b59a-7b24e7519474	Jonner Kithinji	jonnerkits@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 07:25:42.915051+00
+7c34897f-92ec-4166-a363-b54316d95438	Eugene Gadson	eugenegadson788@gmail.com	t	$2b$15$lWQjZ3ggIetMz3jHCzkW6OviXCEykm0iFUNqatOjEYXu0qm9hDKUS	AGENT	21	Male	\N	f	2025-01-17 02:58:53.088397+00
 c70c4444-cd96-445d-ac7d-78488334faf5	Juliet daliza	julietdaliza333@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 12:45:58.443125+00
 195701c9-eed6-453f-9bf9-fa54dab68d57	Martha kwamboka Biginga	kwambokabiginga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:35:06.872359+00
 fa91e9e8-c7cb-42da-a152-a99df912a383	Rophine akoth opwapo	rophineopwapo4@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:42:12.457214+00
@@ -584,7 +584,6 @@ d218da17-6eb3-481f-907b-9c3046a5fb6f	Mosesakola22@gmail.com	0794446220	2001-06-2
 4815e34c-6994-4384-9277-c23f124eedd7	mumolucy3@gmail.com	0757753042	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
 a0f9e01c-f3cf-44cf-916b-7bde7e115adb	mutuanzomoeli@gmail.com	0700061792	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
 70eff330-56a7-498d-b658-6dd3c8c0a254	annakigunda@gmail.com	0721552549	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
-7c34897f-92ec-4166-a363-b54316d95438	eugenegadson788@gmail.com	0793390743	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
 dc4e4f16-92e6-4200-8f02-2bb00ffd6ee2	karimajoan08@gmail.com	0790232140	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
 6ad97e91-3a9a-4308-b938-f98981621b1a	brianrichie745@gmail.com	0705042179	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
 de70e826-2e3e-410e-8737-a060c60b7cc3	kahurocharles@gmail.com	0790849609	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
@@ -596,6 +595,7 @@ a78b1ef4-41a7-41e6-ba09-592f465f28c6	kenvilla607@gmil.com	0790204675	2001-06-23	
 45f7bb0f-9aeb-4cb4-bae2-56d8a92537d9	florencemwaka23@gmail.com	0786236922	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
 d0d0c6b8-e2ab-46dc-b28b-5dea13cf2460	rebeccalvin411@gmail.com	0112219600	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
 a3d62f48-426b-4d42-912e-0441d36f312a	cwambua518@gmail.com	0728965335	2001-06-23	Mombasa	Jomvu	20000 - 50000	Student	High-School	stephennjoroge480@gmail.com	0	0	0	f	t	\N
+7c34897f-92ec-4166-a363-b54316d95438	eugenegadson788@gmail.com	0793390743	2004-01-20	Nairobi	Kasarani	10000 - 20000	Employed	Under-Graduate	Environment 	0	0	0	f	f	\N
 42ab60ec-e810-4143-bf8a-9d336e5de4a0	sharonwairimu37@gmail.com	0794565591	2001-03-03	Kiambu	Kikuyu	10000 - 20000	Self-Employed	Under-Graduate	Fashion	0	0	0	f	f	\N
 ffce55fe-67cf-479b-93cc-a7eae65375c5	annaodhiambo703@gmail.com	758535448	6/21/1998	Nairobi	Starehe	20000 - 50000	Self-Employed	Under-Graduate	Information Technology	50	0	50	f	t	\N
 ee3323cf-3e6b-4fb8-a02d-e57e2680d38e	annastaciambula43@gmail.com	0706100693	7/26/1998	Machakos	Mavoko	20000 - 50000	Self-Employed	High-School	Fashion	50	50	0	f	t	\N
@@ -6279,6 +6279,7 @@ b3f3f446129ce81664ed9f4016b4cdb8439051b0bd075c794576e5029061b4df	1b9357a0-e19f-4
 d7006dd8faca255b962dd74c34a70d0aad2a757cd8964c1dfddfdb926c8222b0	912a32c1-dc82-4ce5-825a-0e0c7c2594c1	2025-01-25 12:18:01.362+00
 cee12b8cd5e1f976fdeb5a06ea9ada5c1cba72099b8aca7964c239e888d9f24e	912a32c1-dc82-4ce5-825a-0e0c7c2594c1	2025-01-25 12:20:54.873+00
 e87b73bc44fb3e1087b327f98de52817c403b831dd53ad426e858bad57eec063	12059b01-c2cd-4ec0-a640-c4f80728ab8e	2025-01-25 15:27:56.644+00
+8b98f0c08f2eca6ae1af01aacc86ad951f5c7eea2da2d2522918c75d19b35e4c	7c34897f-92ec-4166-a363-b54316d95438	2025-01-26 14:34:46.332+00
 \.
 
 
@@ -6347,7 +6348,7 @@ SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 2, true);
 -- Name: password_reset_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."password_reset_id_seq"', 15, true);
+SELECT pg_catalog.setval('"public"."password_reset_id_seq"', 16, true);
 
 
 --
