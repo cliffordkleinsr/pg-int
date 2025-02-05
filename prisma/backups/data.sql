@@ -6051,9 +6051,9 @@ d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	\N	\N	
 
 COPY "public"."client_data" ("client_id", "client_email", "company_name", "phone", "county", "sector", "packageid", "one_time", "package_type_id", "payment_status", "processed_at", "expires_at", "created_at") FROM stdin;
 002f1ef2-4eb5-43c4-87fc-e60b38a7feea	cnjoroge925@gmail.com	Aliquot	0799725093	Kiambu	Information Technology	prod_QjUMG44vCFNGXO	f	price_1Ps1ODRpYHoLk6LSMN8kgMJf	t	2024-11-22 09:37:28.386+00	2025-11-22 12:37:28.386+00	2024-11-06 08:51:31.834973+00
-c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Nairobi	Others	\N	f	\N	f	2024-11-11 13:21:20.73+00	\N	2024-11-11 13:06:37.681435+00
 f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	foxdrive.rycoh@gmail.com	Mw	+254720133519	Baringo	Information Technology	\N	f	\N	f	\N	\N	2025-01-21 15:53:08.870496+00
 01055346-f4e3-4282-a2ca-e87deedfd078	tsimanjig123@gmail.com	Intuitive insights	0742452146	Mombasa	Fashion	\N	f	\N	f	\N	\N	2025-01-22 10:18:58.286771+00
+c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Nairobi	Others	prod_QjUMG44vCFNGXO	f	price_1Ps1ODRpYHoLk6LSMN8kgMJf	t	2025-02-02 13:21:20.73+00	2025-03-02 13:21:20.73+00	2024-11-11 13:06:37.681435+00
 \.
 
 
@@ -6287,6 +6287,7 @@ a4b1adc7ccf2899a912281b798f07169a44d9c7d2130de029a2d05d9700e1b64	68427b34-46ba-4
 430d6a972825116ffd39329329d6a1c07bf28b4c4157b6be35a5eb0c900b1f27	fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	2025-01-30 11:48:17.511+00
 03dfa3285c8b058568c00d563b0fcaf9c30448b9a7fe83001ab1ae298f857996	68427b34-46ba-40e0-b01c-6336ab006d94	2025-01-31 07:06:48.936+00
 d5bce804be9be5961b8b4fe2a9175fcbf9c093546151d4a5bfec3529db05062d	2bf87d93-8904-4d8f-877e-f6db2996f760	2025-01-31 08:24:11.687+00
+bf5558683b2679c98ba1859dbf60080a17a143c3f5515f2b11fb6235dcb7e575	c1bde176-582a-4028-888e-a70875a11f51	2025-02-04 09:47:42.049+00
 \.
 
 
