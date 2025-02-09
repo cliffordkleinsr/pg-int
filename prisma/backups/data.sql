@@ -326,7 +326,6 @@ a429cc4f-2511-42a9-b375-07b9cd47cacb	judith malinda	ndulujudith@gmail.com	t	$2a$
 af2caf3e-5a28-491a-bc5f-f869ccc09f38	Stella njagi	njagiwawira18@gmail.com	t	$2b$15$YwIWxSKeSpyFEBkbf3LgEeadtIBS23e6K.SVEhGYtbxGDe0o/5hm2	AGENT	25	Female	\N	f	2024-11-11 06:50:07.47159+00
 431841a4-269e-4fa9-a265-476836e7369f	Grace Nyambura	nyamburagrace380@gmail.com	t	$2b$15$dSZlsixuT52otmhEFsfmH.QleG5MRJSEDhwgRFdiscizlJdyL382q	AGENT	23	Female	\N	f	2024-11-09 19:39:12.091415+00
 3bca75f1-bba8-4e61-8a2c-60e9c96863cb	Maxwel Odol	ochiengmaxwel@gmail.com	t	$2b$15$QkxXOsri1MO/lR.Bk5zxFunYYmFBKnBS74pZLV8zUXVhSEJZIBFwK	AGENT	25	Male	\N	f	2024-11-06 13:23:07.97707+00
-3e8bcfdf-7d25-4213-8401-43f25abe93ed	Alphonce Odhiambo	odhiamboalphonce23@gmail.com	t	$2b$15$sGikuBwF2LWo8.zHcSjdSe04AQeZaSUcRLG4P0NYh5jm771XnOmm.	AGENT	23	Male	\N	f	2024-11-10 15:42:42.895929+00
 5f86f90d-b1a8-4ecc-a8c8-b97a6e889f13	Cecil Oduor	oduorcecil731@gmail.com	t	$2b$15$esHWl51/C/G0EZuNom4L2uASPTyvHn2ECl0JDICrKfyDUgeR6rENG	AGENT	22	Male	\N	f	2024-11-11 11:02:08.286174+00
 fbe0dd97-1226-4e2b-9587-8ad93339c11a	CHARITY ATIENO OKEYO	okeyocharity93@gmail.com	t	$2b$15$Gm2IwwpHgku4aI6tv4LmFusp7DaSxpZFoLZ0dl3/eQoyqb3Ae4nU6	AGENT	25	Female	\N	f	2024-11-07 10:31:01.949898+00
 739e8b3b-fb8b-41b6-97f0-f06d4a2ae9dc	Olivia Atieno Okoko	oliviaokoko01@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-10 04:03:34.74316+00
@@ -352,6 +351,7 @@ f8b3c5d2-d56a-4425-8736-53d5463ecf12	Sharon akinyi onyango	shaakionyi@gmail.com	
 c087535c-2607-4622-902a-51b6e1dae5f3	Salma Sika	sikasalma2017@gmail.com	t	$2b$15$s7iedBIWrtU4MFOsbrzL9ur4.dDteq3HQc2D6cosWtwESyLllaRca	AGENT	26	Female	\N	f	2024-11-06 12:22:02.685373+00
 3ca33325-2cac-4895-a875-71e4e3a6e931	STANLEY THIONG'O	stanleythiongo32@gmail.com	t	$2b$15$ZEzKQo1uVdO2He336PPUKeIdaG1HAjaiPgN327FSQYVLL5qRYqBj6	AGENT	25	Male	\N	f	2024-11-08 06:45:59.158497+00
 c5b2084c-de9b-4b57-9019-19374c439cc8	Stacy Stefani Njuguna	stefaninjuguna8@yahoo.com	t	$2b$15$Ugvnj4SjhdSJIEjQF2qxZ.leFM6VKwSSosoOoXnPcNQQ7VxDxLIMS	AGENT	24	Female	\N	f	2024-12-12 08:51:03.506298+00
+3e8bcfdf-7d25-4213-8401-43f25abe93ed	Alphonce Odhiambo	odhiamboalphonce23@gmail.com	t	$2b$15$G6wAebQI2pksrQ6fWQ9ElekQ4AInZzSCwaIbTO7g7b/b7yT.gKYkC	AGENT	23	Male	\N	f	2024-11-10 15:42:42.895929+00
 fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	Fredrick Odhiambo matete	dyfredash@gmail.com	t	$2b$15$g5B9aiYGRf1Hmdg9kFcqXea3Vud4xllpbUYiYGdit5nqWCE3w67BS	AGENT	38	Male	\N	f	2025-01-21 14:30:36.675255+00
 97cdba61-a19b-4dd5-8a68-34fbe21d9a36	stellandanuMusembi	stellandanu57@gmail.com	t	$2b$15$35Z3W6465VHxIubJ1xX5NeZwCzkhG06YPxRQVZrwgUfE8NpyqUvlq	AGENT	19	Female	\N	f	2024-11-11 09:50:48.435472+00
 1a749cf5-8652-4318-b1c0-a9b67b7fd4ee	Sylvia Jepkoech	sylviachepm@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Female	\N	f	2025-01-10 08:20:39.76417+00
@@ -473,7 +473,6 @@ a429cc4f-2511-42a9-b375-07b9cd47cacb	ndulujudith@gmail.com	0701309973	3/2/1984	M
 af2caf3e-5a28-491a-bc5f-f869ccc09f38	njagiwawira18@gmail.com	0792550743	7/16/1999	Kiambu	Kiambaa	00000 - 10000	Self-Employed	Post-Graduate	Others	50	50	0	f	t	\N
 431841a4-269e-4fa9-a265-476836e7369f	nyamburagrace380@gmail.com	0790011470	11/30/2001	Kiambu	Ruiru	20000 - 50000	Employed	Under-Graduate	Food & Beverage	50	50	0	f	f	Social media 
 3bca75f1-bba8-4e61-8a2c-60e9c96863cb	ochiengmaxwel@gmail.com	0700071119	10/28/1999	Mombasa	Nyali	20000 - 50000	Employed	Under-Graduate	Transportation	50	50	0	f	t	\N
-3e8bcfdf-7d25-4213-8401-43f25abe93ed	odhiamboalphonce23@gmail.com	0707984706	12/31/2001	Nairobi	Kasarani	20000 - 50000	Employed	Under-Graduate	Information Technology	0	0	0	f	t	\N
 5f86f90d-b1a8-4ecc-a8c8-b97a6e889f13	oduorcecil731@gmail.com	0793723121	11/26/2002	Nairobi	Makadara	10000 - 20000	Self-Employed	Under-Graduate	Media	25	0	25	f	t	\N
 fbe0dd97-1226-4e2b-9587-8ad93339c11a	okeyocharity93@gmail.com	0718447531	5/5/1999	Nairobi	Mathare	00000 - 10000	Student	High-School	Others	0	0	0	f	t	\N
 739e8b3b-fb8b-41b6-97f0-f06d4a2ae9dc	oliviaokoko01@gmail.com	0717782440	1/22/1993	Machakos	Mavoko	20000 - 50000	Employed	Post-Graduate	Entertainment	0	0	0	f	t	\N
@@ -520,6 +519,7 @@ d618da68-10ac-4822-a536-ec15839c3c77	victornjuguna26@gmail.com	0791151507	9/6/19
 121f945d-4974-4a74-97e0-2bb9cdadb25b	vitaliswangila57@gmail.com	0798794482	5/31/1995	Nairobi	Dagoretti North	10000 - 20000	Employed	High-School	Others	50	50	0	f	t	\N
 72c9a021-91fb-4319-8858-789ee9f83d6f	Wanjikumayliza9@gmail.com	0748466984	1/1/1998	Nairobi	Embakasi East	20000 - 50000	Self-Employed	Post-Graduate	Automotive	0	0	0	f	t	\N
 f20f511a-1581-48b9-976a-3574c7dac6cb	wanyamadevis077@gmail.com	0727986248	7/11/1996	Nairobi	Embakasi North	20000 - 50000	Self-Employed	Post-Graduate	Information Technology	50	50	0	f	t	\N
+3e8bcfdf-7d25-4213-8401-43f25abe93ed	odhiamboalphonce23@gmail.com	0707984706	2001-03-12	Mombasa	Kisauni	10000 - 20000	Employed	Under-Graduate	Information Technology	0	0	0	f	f	\N
 36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	kentrellnamaswa@yahoo.com	0710722625	1990-01-15	Mombasa	Kisauni	100000 - 500000	Employed	Under-Graduate	Manufacturing	0	0	0	f	f	\N
 6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	thangaranijoseph@gmail.com	0715030040	1994-08-18	Laikipia	Laikipia North	10000 - 20000	Employed	Under-Graduate	NGOs	0	0	0	f	f	\N
 0dc55b78-1b38-4b00-972f-82db326c93b4	darvinkilui@gmail.com	0706355807	1999-06-02	Bungoma	Kabuchai	20000 - 50000	Self-Employed	Post-Graduate	Food & Beverage	0	0	0	f	f	\N
