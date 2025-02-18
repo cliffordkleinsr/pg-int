@@ -150,251 +150,250 @@ COPY "pgsodium"."key" ("id", "status", "created", "expires", "key_type", "key_id
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."users" ("id", "fullname", "email", "is_email_verified", "password", "userole", "age", "gender", "profile_pic", "disabled", "created_at") FROM stdin;
-81aee39e-2723-436b-bf84-bf2a2a0c6c60	Orenge Aroisa	aroisagetrude@gmail.com	t	$2b$15$O/sLqwNVBli/3gtwxVB5lOr8cTw7xOtrafnnYPBLLvvfnbc5717Qe	AGENT	27	Female	\N	f	2024-12-12 04:25:56.095471+00
-6b4ea9af-2dc2-4c90-bce7-8091b34de6d9	Augustine  mutua	augustinemutua5@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	29	Male	\N	f	2025-01-10 03:38:20.02361+00
-9cf2cf48-c595-4ed0-9d46-d4da1acb1c7f	Austine Mailu Kalovwe	austinmailu9@gmail.com	t	$2b$15$aSNogfkay4vtJjuCALCYneTOfe1MpvOOydOh/aQOgPpxyGwlek/BK	AGENT	32	Male	\N	f	2024-11-06 11:14:10.643231+00
-182cb6c1-cc48-4d31-9a06-c4b4fe7bd2ea	Luther	avisaluther84@gmail.com	t	$2b$15$NNDhTqkyDSma1k19rxbwkOCqW7ubI7X5HE0eFnqBSFUneechwUTs6	AGENT	20	Male	\N	f	2024-11-06 22:44:58.01396+00
-68427b34-46ba-40e0-b01c-6336ab006d94	Dorcas Awesit	awesitdorcas00@gmail.com	t	$2b$15$HW0HCKTMMX1V5ThPj6H9qOAz2Yr.j5zxxIzjumJZCzuc79kReuZhW	AGENT	26	Female	\N	f	2024-11-09 18:05:35.69928+00
-e6dd5228-a780-4b6e-94da-626d32fb8190	Christine  Awuor	awuorchristine392@gmail.com	t	$2b$15$3m6.oBmgYv1Bb7VuGD4ho.hH3ZofKOe83jn7Y9xqZ6HQjbq5DdwPG	AGENT	28	Female	\N	f	2024-11-08 06:14:33.771457+00
-b4f75ba7-7b1e-45b7-bcc6-cbbbdbf9c268	Rebecca kinuthia	beckykinuthia4@gmail.com	t	$2b$15$xCjJQbmJpJYLDAkZR.qpAuvgk6frpzGJy9RDNqCTg4miJQsxNfhuq	AGENT	40	Female	\N	f	2024-11-09 04:06:57.748974+00
-8fb2b20c-5971-4f87-97f6-ae839c4d7804	Benson	bensonkiplagat98@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	22	Male	\N	f	2025-01-09 19:11:07.672642+00
-70080823-9509-4792-b3d3-767df62de09a	Seline Adhiambo	Adhiamboseline97@97gmail.com	t	$2b$15$ziDBJPmBceZFpYPzIMi7lerGYGXBuvCdKi6PHeuZU2uEvZrokijuG	AGENT	22	Female	\N	f	2024-11-07 11:53:02.867665+00
-58d3c3cb-0914-4516-bf95-ceef24429241	Seline Ochieng	Adhiamboseline97@gmail.com	t	$2b$15$8.juD88T0MgElvV.2U18Q.CLQF67O0YG8U5KX68Zm4WVNmI.1UVM2	AGENT	22	Female	\N	f	2024-11-07 12:12:49.859487+00
-ed030e9b-3f7e-4988-a86b-04a8f075cee6	Grace Mbuti	neemambuti@gmail.com	t	$2b$15$tOkuhRktSz6hkORoMniWxuJLXG8p8OGfoMM57CBgwo2ZQI1UpfQzi	AGENT	35	Female	\N	f	2025-01-21 18:30:46.170476+00
-01055346-f4e3-4282-a2ca-e87deedfd078	Gaudencia tsimanji	tsimanjig123@gmail.com	t	$2b$15$Jegvzu.Lmeohn7DopGDJeev0gk9r9uVHvyMh2y0938DERIdUmHecy	CLIENT	\N	\N	\N	f	2025-01-22 10:18:58.073015+00
-b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	Hannah wambui kamau	hannahkamau9137@gmail.com	t	$2b$15$Z7o2vWZKXhx3/NonHKdgvurlWfuyM6UFcmpBRtRGZhUZuu.uYsEmK	AGENT	24	Female	\N	f	2025-01-21 07:52:30.9226+00
-d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$15$n6EzEe005jIqjKhabB/RUuhcLJmiIszECy2KwGv2dTki84lzqrhJe	AGENT	29	Male	\N	f	2025-01-21 18:50:12.494244+00
-93325eb3-6c9e-4bd0-854a-88abf48f9887	Alicia Mwisangwe	aliciamwisangwe@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 09:03:53.553715+00
-85536ca4-ab4f-4eff-a4cc-a81486346505	Thomas wambua Kamau	Twambua2030@gmail.com	t	$2b$15$NKUYlE0x0lkt0qFgydyrj.P8FybRqonI/HZRUibDqcS4GOcAtcQu2	AGENT	25	Male	\N	f	2025-01-22 13:42:56.435374+00
-0193625d-3a30-74a5-a759-1c7d5f69e14c	Super User	info@int-insights.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	ADMIN	23	\N	\N	f	2024-11-25 08:12:03+00
-c1bde176-582a-4028-888e-a70875a11f51	Christine Staicy	christinestaicy@gmail.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	CLIENT	23	\N	\N	f	2024-11-11 13:06:37.486145+00
-36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	Kentrell Williams	kentrellnamaswa@yahoo.com	t	$2b$15$EPae5dM3N8WjayuJ6Rh1lObIVgOTRTJeeT4l15xuRNPdc0YZ.8Tne	AGENT	35	Female	\N	f	2025-01-21 10:56:09.017717+00
-6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	JOSEPH THANGARANI	thangaranijoseph@gmail.com	t	$2b$15$g4fbYTq2c6DEVmRnUJOnhOaEGMCB0fprs5N6ebWDKBlTJANia2CXm	AGENT	30	Male	\N	f	2025-01-21 20:12:10.625092+00
-0dc55b78-1b38-4b00-972f-82db326c93b4	Darvin Omuse	darvinkilui@gmail.com	t	$2b$15$RlBZSKiahleSjIYJHfAnbOi9cAUdmhCmo.UJK63ejnbFugjD2ZCja	AGENT	25	Male	\N	f	2025-01-21 20:39:21.750203+00
-edfb1b6c-3230-4a79-a6e0-004ded923356	Josephine K	alinamutua4@gmail.com	t	$2b$15$gdPOKrjqgI7ifyPXyS6HBeiGpxHno.5jVTXR6pHPeMftvhcToNJdK	AGENT	46	Female	\N	f	2024-11-07 06:59:10.840789+00
-fd8cf7cc-32cb-4b2c-b8c7-25f648edbf16	Rebecca Amakobe	amakobebecky@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-10 03:56:36.340381+00
-ec4b09e2-a645-425c-b43b-b59f19525056	Belinda Amondi	amondibelinda0@gmail.com	t	$2b$15$ezsfEnpvRUAqOqbqUVO6XubU86szxoAL4TdbTENiUeVOIoCJZZcwe	AGENT	26	Female	\N	f	2024-11-07 06:21:09.391527+00
-b4d3f648-ee61-4857-8202-98bba2e42360	Ganet Mwaura	mwauraganet6@gmail.com	t	$2b$15$0SYcNPZulwRs/SRBE74JS.sdNxamZx6kH0cboT3CsbsrzCdMxRt6y	AGENT	20	Female	\N	f	2025-01-15 11:56:46.244318+00
-2e00b4ab-d73c-4e24-aac8-1bc0095f15c6	Christine Ndolo	christinembithendolo@gmail.com	t	$2b$15$M8YEe4.xw0etC35fm0Lrpe0cGx4fGvupt7Q8vkR7qdtEHFGe/9tdq	AGENT	28	Female	\N	f	2025-01-15 11:56:46.244318+00
-1adae48f-088a-46f5-af29-7a551e7f2aa2	Hussein Sadick	sadickhussein24@gmail.com	t	$2b$15$bH.XM80f6lJjJb0uuMC3XOqkH3zqRKLSgeCZN6cR8b4.3liOMAxkS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-39671909-2af2-4edf-b653-166689c525a1	Gabriel Njeru	mjmurithi@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 08:43:25.899503+00
-365ae29d-cbaf-442f-8005-c81db0d5f52c	Faith ñduku mulei	fayyfayy20@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-13 10:08:16.26229+00
-c5a7fdce-2475-49d5-a93c-cc788fb2fa58	Kofi Anan ogaga	kofiananogaga67@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 10:16:15.412893+00
-907de806-eb5d-4ab2-94e3-b25f2732c69c	Agnes Atieno Metho	agnesmetho3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-13 12:15:38.448843+00
-d78b692b-4327-4bb6-bd50-74270fa66ee6	Victor ochieng odoyo	victorodoyo78@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 17:10:35.521938+00
-952c8806-c89a-444c-98a2-dfdfd9a736e3	Ibrahim Odhiambo Ogweno	ogwenoibrahim005@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 17:16:12.705826+00
-e7cb31c6-ec86-48e1-a3d3-3cafc1e630ea	Stephen Njoroge	stephennjoroge480@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-9d8840fb-f3a3-43af-b9b0-53ca8d5b5694	Blaise Manirampa	jospinmike7@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-e9399ea6-19a3-4e71-872c-f965a846097f	Samuel Njenga	kiriganjeri@gmail.com	t	$2b$15$DtKlQZpKckFPTy9ShOhFd.1q09NOqMMrrYI1o6eSynT4HZ1U0eZ5y	AGENT	34	Male	\N	f	2025-01-15 11:56:46.244318+00
-423e2fa3-d41c-4009-8417-886d87ceac32	Serah Thuku	thukuserah@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00
-730995b6-9753-4dcf-a65d-fb0cbc0c4526	Ian Githuba	iangithuba@gmail.com	t	$2b$15$RgrNveVYNiQfys2v4lkOBujySmnYy/ioqBPFwDK.2i4cjLJzFes5G	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-158107f8-76a4-4a22-b86e-e1a3819e4513	Elizabeth Mwangi	elizabethmiruri08@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00
-6ed14e45-6595-4114-a6f4-aa4c623f41de	Jeff Karanja	Lchussy@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-edaccdba-c344-447f-8bb2-a5f98aa94aae	Sharifah Abdallah	sherriedullax@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-e31080e9-038f-41e1-b3bd-5c214f5c4983	Judith Mkimbo	etheljudith3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00
-912a32c1-dc82-4ce5-825a-0e0c7c2594c1	Gorreti Muthama	gorretimwikali18@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00
-1c7647e3-8268-4b4d-bda7-6ce5977ac446	Rashid Kale	rashidkale77@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-49362377-0576-472c-9e69-ea55e88519ef	Sharaf Mohamed	sharafhaidar444@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-c1fca44d-dbaf-403c-aceb-d9aa39c41131	James kalu	jkalu3636@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-506e9a67-9311-4336-88c3-94a41e758c7c	Marlyn Ameyo	marylynkayla@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 12:21:22.366534+00
-4877e8c6-8b96-4b75-ac74-406d8fd64144	Veronicah Nyambura	veronicahmanyeki24@gmailcom	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00
-ef54b94e-b3b6-4fa8-97f3-dcbbcd73f634	Kibet Prestone	presytbett@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 11:09:40.885398+00
-bbb78bf4-70e2-4c5a-b352-4cf67df0261e	Janet Muthoni Nginyi	muthoninginyi@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 13:07:36.83146+00
-12286b2e-cc87-4cb9-970b-5f0fbd0703c8	Elizabeth barasa	barasaelizabeth965@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 16:19:09.521599+00
-6869f962-56a5-4e73-9137-a638d4f9ba03	Junior Mutisya	juniormutisya3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 17:54:24.564845+00
-8d8d7a45-6d50-495f-86cd-42a6bb6adf51	Allan Thiong'o Kimani	allalokeym@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 18:06:41.364475+00
-895336e0-3158-4f0d-95c0-2f1a986d60a0	Peris Wairimu	wairimuperis054@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 18:24:50.402249+00
-d218da17-6eb3-481f-907b-9c3046a5fb6f	Moses Sikuku Akola	Mosesakola22@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 18:45:43.22585+00
-32bd7728-8edb-46ee-86cd-1efa8f7b4070	Okore Samuel	samokore@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 20:02:50.190549+00
-4815e34c-6994-4384-9277-c23f124eedd7	Lucy M	mumolucy3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 20:16:07.809855+00
-a0f9e01c-f3cf-44cf-916b-7bde7e115adb	Elijah Nzomo	mutuanzomoeli@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 21:57:35.945886+00
-a66345f5-6cc3-402d-a7a2-0db21b9869a3	Ibrahim Hamadi	ibralito39@gmail.com	t	$2b$15$WiqHxOMKMyFmIoZq8Am6/uXDKkWiit2WRf7y/oh0aoyJiW7.8xs0C	AGENT	22	Male	\N	f	2025-01-15 11:56:46.244318+00
-fb293319-b39f-4132-8284-22f66da56937	Andrew Ombaka	andrewelly787@gmail.com	t	$2b$15$UpGpSz2rw/rij2dTlyiLcupuPmRCJ03C/F.KpP.6JyxzDjAv3YbuO	AGENT	24	Male	\N	f	2024-11-07 06:21:45.227945+00
-ffce55fe-67cf-479b-93cc-a7eae65375c5	Anne Odhiambo	annaodhiambo703@gmail.com	t	$2b$15$mBepPQiuEg0LxzjZgccNtOx.ZTEZnxEW3tWbuBZoizIY9WWzN/iOK	AGENT	26	Female	\N	f	2024-11-06 11:33:43.638691+00
-ee3323cf-3e6b-4fb8-a02d-e57e2680d38e	Annastacia mbula kiio	annastaciambula43@gmail.com	t	$2b$15$ek4mWkK.o/HA.TxIWDQubeBzjtPyzSQuWkXwV/8tx33uy87w5Zkhm	AGENT	26	Female	\N	f	2024-11-07 05:12:59.854167+00
-823b3f7f-83da-4cdc-a94e-92979e443bb5	Harriet mmboga	harrietmmboga456@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 11:46:29.210233+00
-2a164b3c-581a-401f-80d3-e498997796ff	Peter Musambai	petermusambai60@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 12:01:05.272846+00
-002f1ef2-4eb5-43c4-87fc-e60b38a7feea	Cliff Njoroge	cnjoroge925@gmail.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	CLIENT	23	\N	\N	f	2024-11-06 08:51:31.352149+00
-fffd2637-1493-41f9-a140-08ba67621b10	Dennis Muchangi	dennismuchangi46@gmail.com	t	$2b$15$XvIGb5YVKJPENxPOWRpCF.1wa.00nG5yoMd5/zJKLjlh23U8bqoVG	AGENT	34	Male	\N	f	2025-01-21 11:34:28.100039+00
-d91dee2c-782d-4f5d-96a5-79287b8a8daf	Anthony Njoroge	antonykarangi17@gmail.com	t	$2b$15$p3u56cNQcGLieot1mEaVkuiZnQVjMAjiANj9P7r9hP1fqc1IbbaWq	AGENT	26	Male	\N	f	2024-11-06 17:32:27.580024+00
-14713925-327a-4233-8a54-c0f61d673205	Anungo	anungopamphil@gmail.com	t	$2b$15$SoWFApX7TTMwLH76r2pbNulEZ7pjKwEgFQ13eOsxrNxg3yJSAs2Ie	AGENT	28	Male	\N	f	2024-11-07 19:54:43.466003+00
-70eff330-56a7-498d-b658-6dd3c8c0a254	Anna Kigunda	annakigunda@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 00:45:03.0034+00
-dc4e4f16-92e6-4200-8f02-2bb00ffd6ee2	Joan Anne Wanjiku Karima	karimajoan08@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 04:32:08.208366+00
-12019715-0870-4fe8-acf9-9b437ebf891c	Carol Mugasia	lenacarol215@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 05:46:54.501729+00
-93ea3232-3b94-42a3-ab5a-5f20e144842e	Sylvia Matisi	slymatisi7@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 06:11:20.517356+00
-578faed5-dc33-486c-bf0e-9568ce03ec99	Briver wasilwa	bwasilwa0@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 06:53:58.253326+00
-7e544bfc-cbad-4bf4-b59a-7b24e7519474	Jonner Kithinji	jonnerkits@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 07:25:42.915051+00
-7c34897f-92ec-4166-a363-b54316d95438	Eugene Gadson	eugenegadson788@gmail.com	t	$2b$15$lWQjZ3ggIetMz3jHCzkW6OviXCEykm0iFUNqatOjEYXu0qm9hDKUS	AGENT	21	Male	\N	f	2025-01-17 02:58:53.088397+00
-c70c4444-cd96-445d-ac7d-78488334faf5	Juliet daliza	julietdaliza333@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 12:45:58.443125+00
-195701c9-eed6-453f-9bf9-fa54dab68d57	Martha kwamboka Biginga	kwambokabiginga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:35:06.872359+00
-fa91e9e8-c7cb-42da-a152-a99df912a383	Rophine akoth opwapo	rophineopwapo4@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:42:12.457214+00
-98c15a99-b1f9-4853-b497-9b80663fe60e	Sarah njeri	njerisarah904@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:43:22.692631+00
-67f9ea8d-953e-4d56-ac9b-dacd04a7ab15	Mary	mbuthiamary40@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:44:12.623836+00
-002960a2-cf21-4b33-8a88-5b3b90b5bfcd	Linet Kagasa	linetkagasa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:51:33.568365+00
-a8327a88-6261-4dc5-a9aa-e066d3abfc14	Joyce Wahinya wambui	jas981611@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:58:52.281341+00
-2bf87d93-8904-4d8f-877e-f6db2996f760	Elvin kamau	elvinkim16@gmail.com	t	$2b$15$q8GI/Wzzz41Qw8wEQs709e339/tnLFmVRsTQqROvcpiF6DXqAVAbC	AGENT	27	Male	\N	f	2025-01-18 07:53:39.224629+00
-eeb7b38e-54f3-44d1-8e51-9dd06c90b200	Eddy Ochango	eddyochango93@gmail.com	t	$2b$15$9snUi90Qnya4hOE2H2Yuoef2Aix9jY1RoHbhTh1masLK8X1J5.INW	AGENT	31	Male	\N	f	2025-01-22 04:41:17.789151+00
-06e63731-8535-4949-8386-e1f531cc7538	bradon kiiza ngo'ng'olo	brandonkiiza18@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Male	\N	f	2025-01-11 06:01:30.828026+00
-139cdc9b-82b0-4db2-ae12-9da4c3dbb18f	Brenda Atieno	brendahzam@gmail.com	t	$2b$15$AiFuut3tL1JEtdRBOsxQkOi/Jg6gjhkpiCCVnYIfQULED6pRVEIGW	AGENT	33	Female	\N	f	2024-11-06 12:18:54.075553+00
-10d805ed-704a-493f-93de-9c0bd809121b	Benny mumbua	b7162796@gmail.com	t	$2b$15$Kc77tZ1xNDZppcJyU2Vij.503Ja6kaiUjuFxh476V39ktlkAj4CDK	AGENT	25	Female	\N	f	2025-01-21 12:00:26.861249+00
-2865a5fb-dde2-4301-b776-cdbb955841ca	Lorine Amakobe Sakwa	sakwalorine98@gmail.com	t	$2b$15$QYo/gFXZ03DpYYsGdIe.G.HSDhMOiv5wXmMzp9H7vgvg3fL0/WNXS	AGENT	26	Female	\N	f	2025-01-22 05:05:30.720876+00
-4f1afdc2-ad42-48f2-9031-3e9de92d1b3f	BRIAN MUTINDA MAKETI	brianmutinda407@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	18	Male	\N	f	2025-01-10 05:25:57.610369+00
-3fcdaf3b-1016-4d3a-b114-f1991e06eab9	BRIAN OUMA OTIENO	briotienoo@gmail.com	t	$2b$15$iQHXs9.FEK92XCRxSBNlsOB8tsd/.mcNhj/VF6FgYaI9ucBBxzqmO	AGENT	27	Male	\N	f	2024-11-06 19:27:48.028075+00
-dca92a17-18d7-49e2-9019-71c897ac13ec	Brian Onyango	bshmigs18@gmail.com	t	$2b$15$TANu6fcM5QQMTz8ktYNgHeAF0nGl62iOPSQL0G2RPCCc17v1ALWzW	AGENT	25	Male	\N	f	2024-11-06 16:57:22.063476+00
-667a67bf-51fe-4df3-b523-00ae295a68ce	Charity Moraa	charitymoraa780@gmail.com	t	$2b$15$Mgw5A1E95VsN9JES/A9QZOfGDX0fC/83FEq1qsiG4FnApN48iAhya	AGENT	24	Female	\N	f	2024-11-06 11:01:44.095525+00
-d0f1b707-51f2-4e1c-a9b6-a2e53be83141	Charity Munanie Nzomo	charitynzomo227@gmail.com	t	$2b$15$CyzLHUeH3342BU5fi0AU6eCqYSq1JqvnWpk7JCKzE9dL8no4YFnhi	AGENT	27	Female	\N	f	2024-11-06 12:03:22.445972+00
-f71951ad-c751-4e1c-9a01-bea44b935e86	Cherish Walker	cherishwalker254@gmail.com	t	$2b$15$/mZHEDUsb4diZlIZp17Sl.LNMeXSU23k3OtnJSKVHc50kkXifWmMS	AGENT	20	Female	\N	f	2024-11-06 11:05:25.919156+00
-999c84a7-dd44-4f2b-9a86-134ef97f90be	Christine Okore	Christineshanil@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	18	Female	\N	f	2025-01-10 18:30:03.152375+00
-285f2f2e-64ab-4270-92be-c481dffa0647	Caroline wanza Jeremiah	cjeremiah44@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	40	Female	\N	f	2025-01-10 06:13:57.147739+00
-24a31c60-e722-46e4-b5c9-4f514987267c	Emily Claire Nyamolo	clairenyamolo@gmail.com	t	$2b$15$ehw4xnFqusdgNkQXNnmcU.rVsKSnbFQoXS/.00IQm7kS8oe0HSrPC	AGENT	43	Female	\N	f	2024-11-08 06:31:19.069845+00
-097ffa61-c4da-47cd-a0e4-e3375e20a387	Clare	clareyakhama@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	33	Female	\N	f	2025-01-10 02:31:31.169923+00
-77c64b4f-76b5-4fb6-81da-677ab1b3163c	Clinton Obingo Onyango	clintbakhresa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	25	Male	\N	f	2025-01-10 05:22:50.510313+00
-5a980e05-778c-40b9-a623-31035b5b7f1f	Damaris wanza Mutinda	damamutinda1@gmail.com	t	$2b$15$WOHTUxXB3/iz4zeEZU6leuBkJWCCnU5nqxXXu/e9N.NzbDW9cMO/K	AGENT	29	Female	\N	f	2024-11-06 13:48:17.602992+00
-8f48fc15-6112-4dd3-893e-1e50805d37c6	Daniel Ogamba Monyoncho	danogamba@gmail.com	t	$2b$15$d0.AWkH4y3jb.GG/G70Vxusoxg2mYNtmDWiN.Sqx.lciV4k7z8KPa	AGENT	42	Male	\N	f	2024-12-02 22:08:49.063969+00
-1cdb9264-020b-43bf-bc50-5d340d8516f7	Brian oburu	darlingtonongera@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	22	Male	\N	f	2025-01-10 09:30:08.867511+00
-3325f09e-46ad-416f-a828-5c087a3929c4	Evan David	davidevan289@gmail.com	t	$2b$15$aOMPlVpD2EUGQnj7zERGZOJ6tI0hg30qE8YJNqypodOu0iUuwPece	AGENT	31	Male	\N	f	2024-11-11 06:19:35.996937+00
-b6f08194-a214-48f0-858c-435a84c1eb2e	David Mutinda Musyoka	davidhobbes254@gmail.com	t	$2b$15$x3xDeu3Xa4m7EWJAr5nC3.lpJGAUXPu6rDPYhjdAaN7adBFvva3jq	AGENT	23	Male	\N	f	2024-11-08 09:26:59.536091+00
-f9bd0d46-0c09-4694-91fb-f83e900af5e2	Dianah Naliaka Wabomba	dianahnaliaka046@gmail.com	t	$2b$15$xJmd3fiNWEComkLDZ9YnOud0xNHlo0E6zX/8f9wACuY3TwEYGa9XK	AGENT	21	Female	\N	f	2024-11-11 07:15:28.498056+00
-96b9d28c-4d4c-452f-a3e7-9f7580cc4322	Elizabeth Wanjiku Gakuru	elizagakuru54@gmail.com	t	$2b$15$AsQJzWogqLffgQL.9oagwO1WsIf3fBRGZtDZQPRJ7Ini3ylc2s8tm	AGENT	54	Female	\N	f	2024-11-06 12:55:06.092266+00
-5624a568-b393-4e62-a56c-1673b0482c1c	Anne Musyoka	elsieannembithe@gmail.com	t	$2b$15$3hbMewZtNATXzoQNo10FguC0wpxdix4e/gHSjKfAfLuol5EYv/v4C	AGENT	30	Female	\N	f	2024-11-08 06:38:50.180429+00
-23a17622-a50f-47b2-8d10-6769e4acf30a	Esther Nzioka	emuute@gmail.com	t	$2b$15$QcRoEg1I/UUdwq6J5a2ymOnbLvmdmx26ZDpTNDqeTbWRMyTczBFhe	AGENT	38	Female	\N	f	2024-11-11 06:20:24.002367+00
-06ebad48-e594-4137-bf33-4974e1102917	Faberson kyalo Simon	fabersonkyalosimon254@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	25	Male	\N	f	2025-01-09 11:03:23.22205+00
-17e70ae6-12fe-46a7-9d6f-472e8297cb12	Faith cherono	faithcheronotwo@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 08:56:42.754961+00
-7ca7d821-22be-4834-84b2-c80e5a5361cf	Daina Fransisca	fransdaina@gmail.com	t	$2b$15$QjWUhPy0W22cMXibM5b8sOkAI9ZmCJgvJ8Vr1lqkDfXgKs0kBz5bi	AGENT	21	Female	\N	f	2024-11-06 13:07:11.661246+00
-b13cb7aa-f6a3-4eeb-9124-84c4590ff148	Gladys Mavisi	gimweka50@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	55	Female	\N	f	2025-01-10 15:51:51.199006+00
-b2715e1a-0cc2-4e7a-9128-045c0c688611	Gloria Kasaya	gloadira@gmail.com	t	$2b$15$rVX4ncqyCGxpaKdCaxu9RuxKEnXdch4YuVKIV6hPZnhBY8WhFfzoW	AGENT	40	Female	\N	f	2024-11-11 09:07:36.333429+00
-51d92d75-a817-476c-9477-7327d748bb91	Gregory isaac	gregoryisaa005@gmail.com	t	$2b$15$PsqS5a4xx.A9pPLpZLkQMedwmpSJisw5su8zXazqozKijZ7S6FvMu	AGENT	23	Male	\N	f	2024-11-07 06:56:26.251132+00
-e27db88b-2061-4cfb-91b5-d83904320202	Monicah waithera Kamau	hacinomceerah@gmail.com	t	$2b$15$6kf2j/IdzUTxMZmU6sIFd.nwypAskFDE/GQS5ii4BekhJYZAywXr.	AGENT	27	Female	\N	f	2024-11-06 11:38:39.599886+00
-cde22970-f53d-47fa-97ed-db016c009f98	Haron Kencie	haronkencie@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	38	Male	\N	f	2025-01-09 09:09:07.674027+00
-4615f82c-0260-4aa4-ae6b-999dcce70f3d	Halima Nyamizi	herlymah099@gmail.com	t	$2b$15$.8vtM.rp0x7ECfCf25jaBOBqoYdB1bJxm9m8tcjmgEnWC9pe/0hNO	AGENT	25	Female	\N	f	2024-11-06 08:23:14.960112+00
-4398d0a9-933e-4efd-9906-b920e390c872	Hannah Wanjiru Gichuhi	hgichuhi646@gmail.com	t	$2b$15$xf7HYidxfA2vk4KYagacCOxopeUr0BP7/O3MO2KMyqHJ5y.RUepaC	AGENT	31	Female	\N	f	2024-11-11 07:07:20.983135+00
-41dc1b6b-00f4-48d1-b083-d1d6ad62bd1f	Tomi Igan	Igantomi@gmail.com	t	$2b$15$0FHCAcUxOyaJiDhQCGAOxeEXnDr8J6GnMXKDmYqwFno3HMH/2YXAi	AGENT	32	Male	\N	f	2024-11-07 08:12:59.478524+00
-1280a7c8-3af8-4fa7-bb97-5bb989dccf56	Irene Akoth chanzu	Irenechanzu@gmail.com	t	$2b$15$JhHKX0kcGLigTRKPLORy0exqi6E2sMMs97k7xe8MRhYGeqS5gMGxO	AGENT	27	Female	\N	f	2024-11-06 11:42:39.120131+00
-a2d5b801-5a09-415e-afc7-e4e16400eca2	Awino	itzayanaamariah@gmail.com	t	$2b$15$RNv2ExAIegIFsFC9qWrX6.0jBVaIG6vav4mQk7r9XIMUbKYBuYDmi	AGENT	35	Female	\N	f	2024-11-09 22:54:04.713577+00
-e3fc0be9-1068-4a67-a933-b13d4e13daa9	Jack Alaii	jackdavid69558@gmail.com	t	$2b$15$v9Q523mdGLZzvXvw46DaROMmJ.IMB5f6FfNo5oHz0glEw0IFplbfy	AGENT	23	Male	\N	f	2024-11-11 10:08:31.147422+00
-edcf5863-e044-48b3-a6b7-69ffa7f265c2	Jamal Said Tendwa	jamaltendwa18@gmail.com	t	$2b$15$LiGgBfEbciWdX6jS/8RkZO.n73pN.wPufwy8OKfksvHqbs2Og5tvq	AGENT	23	Male	\N	f	2024-11-09 17:25:47.995181+00
-3e9c4be0-d7fc-4d75-8fdc-bfefe3b7b66d	Mary wamaitha	jaymohhazi@gmail.com	t	$2b$15$sqkF1dq4b2OintRvxxz3VOO7vy8FZUuOSnI3/tM4OL3vMJwganjrG	AGENT	32	Female	\N	f	2024-11-10 17:24:31.457546+00
-d0b05df9-2e8f-43ab-a16e-247efb7b6fa0	Neema akinyi	jennifermaaga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-10 06:15:32.809806+00
-11f24999-5b2c-4b15-a0d0-3554121bf9ed	Christine Gesare	christinegrsare@gmail.com	t	$2b$15$WCqZAczDIZkDwVg0bqD/3O1qFnpEyCM1xZpdaLV4rLhGtPW7G2wfW	AGENT	23	Female	\N	f	2025-01-21 13:45:41.702548+00
-415f0130-2e4b-4513-8b74-d21445461a79	Donald Misati	donaldosoro96@gmail.com	t	$2b$15$aA/Ei/xZvm9nXYsSuFSnJOPlv2ioQMhPuM5tBNoJXYCryeLu2R86.	AGENT	21	Male	\N	f	2025-01-22 06:32:04.965742+00
-4dcd4071-5314-4bea-874c-e4c072f25f3c	Jotham	jothamwekesa9@gmail.com	t	$2b$15$W7ZPanXwqqdpMOBV3o3KqOdJ0bvGQQtjOArUulxGe/2aFAvu9tWle	AGENT	30	Male	\N	f	2024-11-11 07:21:53.770501+00
-1e91527b-44e5-4939-9eb0-3dd0d61499d0	Judith Kagwiria	judykagwiria38@gmail.com	t	$2b$15$jje9BkYr7zPwXu3t082s5eYdN1g9xV3OPdEybN0F/BTwniP0ePNm2	AGENT	28	Female	\N	f	2024-11-06 12:34:04.32544+00
-e6e98e27-ea8c-4b26-b53c-bd63dc0917ce	Winnie Kagendo Rutere	kagendowinnie@gmail.com	t	$2b$15$CjG3fI2Y6EWbwXNUxOL1Ce3CPixpunn0JCtOGb1Gb0yTGqnL8eGYe	AGENT	30	Female	\N	f	2024-12-12 07:44:16.208016+00
-25ad8bad-e01b-48ce-ade1-f4abf05b1eb3	Magdalene Kalekye	kalekyemagdalene9@gmail.com	t	$2b$15$M.lw5N9As0MasSPfkFqz2e/OPnowPQBzTBmT/Avw8QYtXZKSHidl2	AGENT	22	Female	\N	f	2024-11-11 09:38:05.846672+00
-0c69b211-08bf-49e2-80b9-d345b34a1539	Daniel kamau nyambura	kamaudaniel975@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-09 17:58:16.701053+00
-cedcb55f-d753-485b-ac19-72225d399bc9	KAREN NDANU MWENDWA	karenndanu1983@gmail.com	t	$2b$15$u5NLZQNUqfu/QPTKhlOjE.jF.1bc8jjORH575/RcrykiZ0rPcgObi	AGENT	41	Female	\N	f	2024-11-09 17:05:39.819834+00
-d5864654-8e03-459f-9641-67cc53e0a1d6	Naima Kariuki	kariukinaima@gmail.com	t	$2b$15$bYXgCMwR68edzA8tGz8j.O/YQrNgHzEcMKB59GYub3JcMvqg3S9zq	AGENT	20	Female	\N	f	2024-11-11 10:28:47.495728+00
-d420e7c7-3fca-4984-9a7a-e254039ed9c9	Karl Erick Mohami	karlerick678@gmail.com	t	$2b$15$MRe6Q3wJIu2ClyxFzsQYZuOKydY2KDobb.0o.DD4N./Rn3PfG3m76	AGENT	20	Male	\N	f	2024-11-09 18:10:43.765289+00
-52432a7c-8874-41c9-8e22-23fb1c7823d0	Jesse kimani macharia	keemkimani7@gmail.com	t	$2b$15$9aIRlbk/7jNbF5MKgkzrp.IP7JLmQT9L16afPVHL9ejYRUcCTiEJa	AGENT	22	Male	\N	f	2024-11-11 09:54:21.38517+00
-97f03cbb-2462-44e3-bee4-ea20c5f5ff33	Kibibi Mohammed Athman	kibibiathman3@gmail.com	t	$2b$15$Z8WosITwaUCHfCy3gCPtVe/diPCebZUXkF/Fy3LZLMUR0xVbz6nXC	AGENT	34	Female	\N	f	2024-11-11 06:38:02.923829+00
-580ecee2-43ff-4af2-b3b6-e8fc2e35d577	Faith Mumbia	kingoofaith17@gmail.com	t	$2b$15$ljYmFK/yFQmVm8Bey/5YOO6r95xBP1mOCOQyX8m4An4RSO0UXYaRO	AGENT	27	Female	\N	f	2024-11-11 09:20:24.073778+00
-ebacacd0-20dd-433e-8cec-2e072453705e	Cornelius Kipyego	kipcor3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	36	Male	\N	f	2025-01-10 08:16:03.722673+00
-6232ba3f-45c7-4e21-ac60-e5e11b550211	David Livaha Kitisia	kitisiad@gmail.com	t	$2b$15$O.QTYB.mKioAbH8no5ZQB.mZAa3gMbjdbRDoNmfdfoKmx7m/efCjC	AGENT	52	Male	\N	f	2024-12-02 11:25:28.427567+00
-69bee2d7-0255-44e7-bd56-24a4f137827e	Harry Kitonga	kitongah1@gmail.com	t	$2b$15$a6JkgX.KZLO19ka14Tb5vOoGlYRSiVIueM1N8K7rnbWT6jiLK4/KS	AGENT	32	Male	\N	f	2024-11-07 11:36:38.014133+00
-2c588913-9361-4dae-8f33-e4973ec44dc5	Philip Kitoto	kitotophilip@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	34	Male	\N	f	2025-01-11 10:26:52.841189+00
-f47f2950-4c39-4fe3-9c63-78042db0f6bf	LEMISO PATRICK	lemisopatrick1@gmail.com	t	$2b$15$eQP/pZPblaoviSxkLKCRD.QewyiqL4pAiSPI0x9/2TIkRsRyv85.6	AGENT	27	Male	\N	f	2024-11-07 09:41:54.53711+00
-f5d69fc0-e80b-4c25-ba76-60fe1eccf3a8	Tristan Mwendwa	lewisboom321@gmail.com	t	$2b$15$iJqxU7ZoYA62wvndc6IfauLominFYeDryKU9JiBEW0TCXICon2816	AGENT	29	Male	\N	f	2024-11-11 08:21:34.989632+00
-b679f41d-3873-4109-9d1b-aa124af12b6b	Lewis Muia Machowe	lewismachowe@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	30	Male	\N	f	2025-01-10 05:16:18.429287+00
-66227dae-7448-424d-8eba-026c3ebd99d9	Lilian.  Andisi	lilianandisi367@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	37	Female	\N	f	2025-01-11 11:48:34.355843+00
-3f5d3c7f-4993-48c1-8499-fba142eb8b49	Loise Njoki Wanjira	lnjoki1880@gmail.com	t	$2b$15$CmslQGQPLRErtt4ywtiJh.ItP8OU7H9rNTXtFCJXX7mzBbj7PWFiC	AGENT	21	Female	\N	f	2024-11-06 12:21:43.683938+00
-db118a6c-ee11-42b1-8746-d2b43890f3b5	Lauren mwanga	lomwanga1@gmail.com	t	$2b$15$jaJbaDixT2Yenos/PHx.g.IQbagOh8GjxBHtRE43vl9CT/SXQDPaa	AGENT	23	Female	\N	f	2024-11-11 10:27:34.262572+00
-41b23501-8877-4a01-8152-f67094581304	Loret Atieno	loretatieno@gmail.com	t	$2b$15$Ah/A1c.UgLok341n3QitkufoSFBKzVRtfRLgCZvq3ho1AZRnZpO1a	AGENT	34	Female	\N	f	2024-11-09 15:18:49.57842+00
-eeb4e81c-81f8-4d90-a39c-d4ea906e3337	Lunayo Yvonne M'mbone	lunayoyvonne@gmail.com	t	$2b$15$N.IsBSCOLtuJtBq9SoQxHOb19hNIyfhnnTG5FhJEvEiKg3nnsDmj.	AGENT	28	Female	\N	f	2024-11-06 11:23:50.380818+00
-f0e6fa0a-21d3-4a14-98de-f9105b5f569a	Esmily makio mwawasi	makiomwawasi@gmail.com	t	$2b$15$yF31gDHDPVI/gqCJXKYh5eFgu6eA9mN24K8GlVwjcZgFKjtloYcqC	AGENT	57	Female	\N	f	2024-11-06 12:17:35.707939+00
-bf12e948-da47-4690-8772-efb6ce2e7fe5	vanessa  malesi	Malesivanessa5@gmail.com	t	$2b$15$8tKA.7BqbgbQrMV1mzET2OYVsuMtfevKotusyoQxEjSTLbhAFKwyC	AGENT	27	Female	\N	f	2024-11-06 12:18:23.327639+00
-5ce766ba-9c10-4515-8510-12b2c32e44d2	Maryanne  Wambu	maryannewambu2@gmail.com	t	$2b$15$W0Ll4s3B9TLwiqZAcYGoBOPEn05mRa0bPgfbEk6HZHNRs0/NNq5sW	AGENT	22	Female	\N	f	2024-11-11 10:08:18.847294+00
-6203c286-76b3-4684-a33e-6344cf5cb905	Climson Matasyo	matasyoclimson813@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	26	Male	\N	f	2025-01-10 20:36:13.205413+00
-3faf9701-6499-4e1d-9fd7-0b7d04fcfa7b	Mercy mutiso	mercymutiso57@gmail.com	t	$2b$15$sgQtLPTHJBoEu4O5wf2pAumC1kewlixGtXkX8Vpj5wfdPkEhPuJoW	AGENT	21	Female	\N	f	2024-11-06 12:33:24.943596+00
-f5b72654-37e1-4fbe-8ec8-5f82fec41fc1	Mercy Mwende Mwiti	mercymwende812@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	20	Female	\N	f	2025-01-10 13:32:52.061964+00
-f522d6fc-340d-4878-871a-a39aff2431a1	Nicholas Mhandoh Opadoh	mhandohnicholas@gmail.com	t	$2b$15$0YPgy5HxLZhzRpIGJNhXUO2G5ACNwoGXfiqMtiuhPEEYls8M4drbW	AGENT	25	Male	\N	f	2024-11-06 13:15:56.391123+00
-10838292-3331-4e99-9482-f345c60eda58	Michael Kamau	michaelkamau2276@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-10 05:28:43.603574+00
-32b3005d-61e7-4b06-b4e5-742b070968e3	Michael Ochieng	mikeogwe@gmail.com	t	$2b$15$ybEOxJjCeUEB126hYTHCguA8aouCp/ezzpy4dQTVMsD.0z0b.fRZ2	AGENT	25	Male	\N	f	2024-11-07 11:25:44.94497+00
-a1b48c81-a072-4c55-ac64-b8027b889b7a	Philegonah Mitchelle Atieno	mitchellephilegonah@gmail.com	t	$2b$15$m85shm8eSIBtVHymt3rIHenMmvajGC9zNeIYlIXMtAB6iw9Bjt/KC	AGENT	24	Female	\N	f	2024-11-06 11:51:06.686585+00
-af1e06f0-6143-4474-804a-35d8ac3cd650	Mustafa Mamadi	mustafamamadi12@gmail.com	t	$2b$15$zZ9mx8SzJLudaKL5yNTo.ekXH5xRIUCftyQbmPCiirHtTLsLWPbPm	AGENT	25	Male	\N	f	2024-11-11 11:37:57.507331+00
-b73c1522-4204-426a-82e8-6d201d06f1eb	Daniel Muuo	mutukudaniel009@gmail.com	t	$2b$15$uvQ.qk4V948FvZ.3MirUuOo5FBC8BbE4OAmg9A1KiZIKNDlqUPtBy	AGENT	25	Male	\N	f	2024-11-08 09:08:34.200564+00
-900b7a11-44eb-43ee-a255-a44db0c51e52	Samuel Mwangi Njoroge	mwasein99@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	35	Male	\N	f	2025-01-12 06:22:43.940373+00
-a82b8e1e-faa2-4fce-817b-a6fd656ba4f6	Caroline Mwende kioko	mwendecaro96@gmail.com	t	$2b$15$r0or0Ex/Yzw3G0JsI0ibDOiM9PLoll9SkAdUPjLM8doUIjy.MMPwK	AGENT	34	Female	\N	f	2024-11-07 10:12:33.45006+00
-01939367-739e-4fac-b0a6-cb01a8067a79	Genedy Tartavosky	genedy@gmail.com	t	$2b$15$RnucoFaDJfPugyr9igv7W.LeYfIt05182hJQHSQ/KVsgQvZT3QtX6	AGENT	40	Male	\N	f	2024-11-06 11:56:46.244318+00
-42ab60ec-e810-4143-bf8a-9d336e5de4a0	Sharon Wairimu Muthoni	sharonwairimu37@gmail.com	t	$2b$15$wrbQeBr.uUAHEoG/gNZPkOdCb/Qaw/xnkXoZQF6uDJ2uTq0nOvWZW	AGENT	23	Female	\N	f	2025-01-21 14:29:37.832261+00
-3869797e-34e2-45ff-af1e-1bb41c484c1b	Annitah kyuma	mwendekyuma22@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Female	\N	f	2025-01-12 10:53:08.752291+00
-49c5437e-d309-4abe-96e9-23fa7398d776	emily waeni king'oo	mwendwacaleb90@gmail.com	t	$2b$15$xz9BLLo0yJTjWOzlpob8qO8HDS/8Bi7FNX4Qee5YSjP8w95fBbK5W	AGENT	26	Female	\N	f	2024-11-06 18:18:21.025249+00
-818831a5-b451-4c20-bbf0-024669cf7577	Reginalda Nasambu	nasambureginald.nr@gmail.com	t	$2b$15$TFQ8Tk7/U7Wo4GXG4zd7e.ZXyIbJBBPcHupISaqAD6G0lTonp5IvC	AGENT	24	Female	\N	f	2024-11-08 07:14:23.331126+00
-a429cc4f-2511-42a9-b375-07b9cd47cacb	judith malinda	ndulujudith@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	40	Female	\N	f	2025-01-10 04:22:20.074196+00
-212a1408-70b6-4592-be49-d4ba81008add	Nellius Irungu	nelliusirungu97@gmail.com	t	$2b$15$IXqxa8440kGOpTNz4V.TF.XrdRHw8E6Tw3Jk3Jvj2eMCYqPQIRyJO	AGENT	27	Female	\N	f	2024-11-11 07:08:58.741565+00
-75fcfe69-fa3e-4462-a4be-ea438612cb6b	Nguiyu Mutungi  Nicholas	nicholasmutungi2@gmail.com	t	$2b$15$pOINgpvUdlEbagm3c9I4t..fm51HcZ9fj9Puq2FO2nb1yHzlSAule	AGENT	49	Male	\N	f	2024-11-07 07:15:10.732544+00
-af2caf3e-5a28-491a-bc5f-f869ccc09f38	Stella njagi	njagiwawira18@gmail.com	t	$2b$15$YwIWxSKeSpyFEBkbf3LgEeadtIBS23e6K.SVEhGYtbxGDe0o/5hm2	AGENT	25	Female	\N	f	2024-11-11 06:50:07.47159+00
-431841a4-269e-4fa9-a265-476836e7369f	Grace Nyambura	nyamburagrace380@gmail.com	t	$2b$15$dSZlsixuT52otmhEFsfmH.QleG5MRJSEDhwgRFdiscizlJdyL382q	AGENT	23	Female	\N	f	2024-11-09 19:39:12.091415+00
-3bca75f1-bba8-4e61-8a2c-60e9c96863cb	Maxwel Odol	ochiengmaxwel@gmail.com	t	$2b$15$QkxXOsri1MO/lR.Bk5zxFunYYmFBKnBS74pZLV8zUXVhSEJZIBFwK	AGENT	25	Male	\N	f	2024-11-06 13:23:07.97707+00
-5f86f90d-b1a8-4ecc-a8c8-b97a6e889f13	Cecil Oduor	oduorcecil731@gmail.com	t	$2b$15$esHWl51/C/G0EZuNom4L2uASPTyvHn2ECl0JDICrKfyDUgeR6rENG	AGENT	22	Male	\N	f	2024-11-11 11:02:08.286174+00
-fbe0dd97-1226-4e2b-9587-8ad93339c11a	CHARITY ATIENO OKEYO	okeyocharity93@gmail.com	t	$2b$15$Gm2IwwpHgku4aI6tv4LmFusp7DaSxpZFoLZ0dl3/eQoyqb3Ae4nU6	AGENT	25	Female	\N	f	2024-11-07 10:31:01.949898+00
-739e8b3b-fb8b-41b6-97f0-f06d4a2ae9dc	Olivia Atieno Okoko	oliviaokoko01@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-10 04:03:34.74316+00
-fe77139a-17e2-4d68-b0e5-29b401ee03cb	Trevor Omondi Onyango	omonditrevorr@gmail.com	t	$2b$15$GI.pUUbG28lFmzxCvhOzN.DaUH1oO8xxyDpPKaMWLZSgt7CarSA52	AGENT	26	Male	\N	f	2024-11-07 05:18:55.17981+00
-44663c0d-e051-4cfc-9803-211def0c67cc	NELLY OMUTOKO KAGAI	onekaholdings@gmail.com	t	$2b$15$cXfWiZWxN4E6cRz.nseYqee0el26RevXHfdzBhb//CbF1D.5B4mk2	AGENT	39	Female	\N	f	2024-11-11 10:55:01.034436+00
-0b29de00-c97e-444c-8640-87fee3330781	Christine Opadoh	opadohchristineawino@gmail.com	t	$2b$15$eoABmTrFQ8L1GSqyIbScJOxEYUqQYxCtN9leLn9Ct5vKowG1kO.8q	AGENT	27	Female	\N	f	2024-11-06 12:15:20.26456+00
-2adc2ecb-d68d-4fe7-94b4-3300b7ab43bb	PATIENCE JANE KIMANZI	patiencejane1996@gmail.com	t	$2b$15$1rvMmRBnJh8CXA3Xe/u.a.eOMg/5BILR5c4AmiCl6Y40xYgTHb./2	AGENT	28	Female	\N	f	2024-11-11 11:42:12.490536+00
-4581c5c1-996b-46bc-a4bb-c63f5a0ff232	Patricia wanjiru	patricia.ndungu@gmail.com	t	$2b$15$vGCzddgerPZPW7Ep3p6csOkPway73ZmNXGoVIgO9IwbiPxAcMKT.C	AGENT	42	Female	\N	f	2024-11-11 06:37:53.860889+00
-199cdab2-6af3-457d-8590-4069f4b5ab27	Peter chemos kimachas	peterchemos82@gmail.com	t	$2b$15$hLjP6xrL/NffTDMKGqbjWuhejZedSUX49cd/s76mBdjpgkzQkObWq	AGENT	21	Male	\N	f	2024-11-11 08:56:08.075466+00
-ffd9df51-64f1-42c0-a732-bd73e2fc2666	Peter Gathii Mungai	petergathii.pg@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	27	Male	\N	f	2025-01-09 17:39:20.074652+00
-d70f8ac6-7f00-4dec-9b7c-7c3e804eecfb	peter kilimbui mutuku	peterkilimbuimutuku@gmail.com	t	$2b$15$51q6Rhooaw1aC/DBnexdE..x3pCbCNIxXMYlg3KyGQFu78QxlQjsq	AGENT	36	Male	\N	f	2024-11-11 09:09:49.398795+00
-c5e824ad-5c95-471c-8889-a2d0faba20e4	Peter mwangi wanjiku	petermwa213@gmail.com	t	$2b$15$VUWrwkY6C8jen0OrQr.QhO2OnS/vNas4NbOk36VkwR6R0WPzKrxW.	AGENT	29	Male	\N	f	2024-12-12 10:39:16.888495+00
-fd8a6e5d-cb3e-4a91-a04b-9c4cacb6b09a	Reginah	reginakemunto95@gmail.com	t	$2b$15$O0AhUUGH/ieuTPqlr.r/2eethilJvun.PVhXVRIa305VSSOZs3jfi	AGENT	29	Female	\N	f	2024-11-10 05:35:18.301193+00
-5dcc831e-1718-4f56-9c44-250814c45d40	Rennice Tamara	rennicetamara@gmail.com	t	$2b$15$t/ddOUVzbrJphqk1g9cvd.saaUq6PoW/73V4KL3rmFHL4i70JZZD.	AGENT	18	Female	\N	f	2024-12-01 00:23:58.042301+00
-aac7a99a-ddef-4493-badc-63487c667327	Rhyan Ochieng Otieno	rhyanochieng@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	26	Male	\N	f	2025-01-10 04:40:52.560929+00
-f4cd1ed0-e7c5-4664-9d8f-179db40cb245	Ricardo Omondi Ng'ani	ricardoomondingani@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	20	Male	\N	f	2025-01-13 06:40:46.441288+00
-a6c2e31a-9cba-485e-9944-78e15d5872c2	Rosemary muchene	rmuchene13@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-13 06:23:50.254653+00
-84a74d7e-c01e-463b-9a0f-6b7c38531c00	Evelyn Runo	runoevelyn@gmail.com	t	$2b$15$wcawoChf9w5D7/FYQWOPfuGd0hsUn.v9yJIZ3dh0baOzirvSzcoUe	AGENT	37	Female	\N	f	2024-11-11 10:56:39.834057+00
-1dc74f31-a53e-461a-aef1-fb2488b86736	Cess wambui	samkiki088@gmail.com	t	$2b$15$c6/52bJ4NSawRQUKZdM0ZOqP3NQF6jtVFUn5Ubi8x0YRNLP79q9Uu	AGENT	24	Female	\N	f	2024-11-06 12:36:25.194348+00
-cd81dc40-36f1-4399-b5dd-65a0b43b0fec	Samson Odoyo Oliech	samsonodoyo1234@gmail.com	t	$2b$15$RzMvxTQeLyf1rsxFCgRxHOpFyKDAAQmTBUAiQrL/b49QnmuCzUu9K	AGENT	50	Male	\N	f	2024-11-11 10:58:32.736025+00
-f8b3c5d2-d56a-4425-8736-53d5463ecf12	Sharon akinyi onyango	shaakionyi@gmail.com	t	$2b$15$MmlNzSsHULZFLeB0JTdve.xKHNBMIHwYkJ0Jsgk7hI3h25uwm.tYm	AGENT	35	Female	\N	f	2024-11-07 10:03:17.020052+00
-4de64e92-dc71-4005-a0de-f46e4df56f27	Ann Onsongo	shoppzone19@gmail.com	t	$2b$15$fDttiNQGdnUu.q2TVljigO267NWSCLl4uHYg1zvNhZEBtMb66Q2AG	AGENT	29	Female	\N	f	2024-11-09 11:34:55.175186+00
-c087535c-2607-4622-902a-51b6e1dae5f3	Salma Sika	sikasalma2017@gmail.com	t	$2b$15$s7iedBIWrtU4MFOsbrzL9ur4.dDteq3HQc2D6cosWtwESyLllaRca	AGENT	26	Female	\N	f	2024-11-06 12:22:02.685373+00
-3ca33325-2cac-4895-a875-71e4e3a6e931	STANLEY THIONG'O	stanleythiongo32@gmail.com	t	$2b$15$ZEzKQo1uVdO2He336PPUKeIdaG1HAjaiPgN327FSQYVLL5qRYqBj6	AGENT	25	Male	\N	f	2024-11-08 06:45:59.158497+00
-c5b2084c-de9b-4b57-9019-19374c439cc8	Stacy Stefani Njuguna	stefaninjuguna8@yahoo.com	t	$2b$15$Ugvnj4SjhdSJIEjQF2qxZ.leFM6VKwSSosoOoXnPcNQQ7VxDxLIMS	AGENT	24	Female	\N	f	2024-12-12 08:51:03.506298+00
-3e8bcfdf-7d25-4213-8401-43f25abe93ed	Alphonce Odhiambo	odhiamboalphonce23@gmail.com	t	$2b$15$G6wAebQI2pksrQ6fWQ9ElekQ4AInZzSCwaIbTO7g7b/b7yT.gKYkC	AGENT	23	Male	\N	f	2024-11-10 15:42:42.895929+00
-fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	Fredrick Odhiambo matete	dyfredash@gmail.com	t	$2b$15$g5B9aiYGRf1Hmdg9kFcqXea3Vud4xllpbUYiYGdit5nqWCE3w67BS	AGENT	38	Male	\N	f	2025-01-21 14:30:36.675255+00
-97cdba61-a19b-4dd5-8a68-34fbe21d9a36	stellandanuMusembi	stellandanu57@gmail.com	t	$2b$15$35Z3W6465VHxIubJ1xX5NeZwCzkhG06YPxRQVZrwgUfE8NpyqUvlq	AGENT	19	Female	\N	f	2024-11-11 09:50:48.435472+00
-1a749cf5-8652-4318-b1c0-a9b67b7fd4ee	Sylvia Jepkoech	sylviachepm@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Female	\N	f	2025-01-10 08:20:39.76417+00
-220c3547-0541-45e1-b769-e4a02cee8945	Stella Syomiti	syomitistella11@gmail.com	t	$2b$15$A93MnVy0AUIF9lL9ixj7wugYAl76v7andDQWfznfnYdB/HELcIK.O	AGENT	26	Female	\N	f	2024-11-07 11:46:37.470836+00
-8a33d66f-89ed-41d9-8d5c-95ca9f74fb9d	Richmond Taari	taaririchmond9@gmail.com	t	$2b$15$6xjTvSJ57WqqqOav./luweR5X1voI.xihkLAN9XYGU65mCCb9ixVi	AGENT	23	Male	\N	f	2024-11-11 09:44:38.871008+00
-f1bf08a4-085f-4b82-b296-639d636fb2f0	Taati Eric Nteere	taati.nteere@gmail.com	t	$2b$15$iNEMfU3z1nIeMctlVZ8xKeJoqIt3c2IvdZiv5rD90XZ3rRcQsGxNK	AGENT	21	Male	\N	f	2024-11-08 07:05:26.015633+00
-4b937413-4084-48a1-b6b2-8f856442f7ae	Claire Wanjiku Chege	tatecla@gmail.com	t	$2b$15$WePZD/X8dv/ALqvEBwn3t..OtguluzeJNoYjzYvpvyBBtJ9ZuO24S	AGENT	34	Female	\N	f	2024-11-07 12:05:56.515278+00
-6d7b25aa-a203-4980-b14c-e41c92ab0c87	Taunas Otieno	taunasotieno@gmail.com	t	$2b$15$822724Hy4bK6wbrw7RXXQeGm1e4cxDz0U2hzNm6GIVXpOKpCXlwHW	AGENT	30	Male	\N	f	2024-11-07 07:26:21.899166+00
-4b07c44e-a189-4fb7-bf08-18414c44f187	Tracie Khasiala Sakwa	tracysakwa@gmail.com	t	$2b$15$wwM6G.ET/WJ9o..LyRwJue4P1SYk92ILvH2CtyzwX66FEW.8cP4Qe	AGENT	27	Female	\N	f	2024-11-11 12:18:28.781656+00
-9752158e-7e1f-498a-b058-d9bb38a2ce30	Vera Osodo	veranicks59@gmail.com	t	$2b$15$cruEzNbrssyxIAxh5sGDYeOtXDPaxWjn/YDruHJI5uNATDhXCActS	AGENT	37	Female	\N	f	2024-11-06 12:23:46.057162+00
-7fab95dc-bf02-4489-b176-22388372351f	Victor Afwande Ojiambo	victorafwande@gmail.com	t	$2b$15$5NqqpIkdBNNQpczViZV4xuARLf9.hKJnnb/Va75hl1jdsOLKCgdzu	AGENT	35	Male	\N	f	2025-01-09 01:44:52.363212+00
-e83a0142-c342-40de-aad2-835e5d614ccc	Victoria	victoriaotieno@yahoo.co.uk	t	$2b$15$MfdqkFutyO/2sK9SUY.29Oop1aj6FFyVfMXKGGk/1SHEvXYGXOF3u	AGENT	51	Female	\N	f	2024-11-11 08:48:11.898592+00
-efa4772a-cf28-4f3c-b2af-96ca2e50f4a0	Victor Kilesi	victorkilesi99@gmail.com	t	$2b$15$iSmMDInVvI/YdQGr1sx9E.tXgMrqkX68iOmg89OLd2ZYzTma368Ry	AGENT	28	Male	\N	f	2024-11-10 13:38:34.632716+00
-815533a5-6869-4118-9d2b-8d094faa6f90	Victor Musyoka	victormusyoka101@gmail.com	t	$2b$15$scWZytkmg/Sz.S8iwDjypu68ZFdMEPfKp2sEt6HL.BE1SderJQei.	AGENT	23	Male	\N	f	2024-11-06 12:17:26.315133+00
-d618da68-10ac-4822-a536-ec15839c3c77	Victor Mwangi Njuguna	victornjuguna26@gmail.com	t	$2b$15$Ui1YYRygcWPgGUy7qiinEuTKEc4Ji432/T/7twAiUy.kMAc5Qpmhm	AGENT	31	Male	\N	f	2024-11-09 18:31:08.693346+00
-779c8b25-8d69-496b-8fde-b8f1748b385e	Victor Omari Ondara	victorondara8@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	30	Male	\N	f	2025-01-10 09:28:32.085668+00
-121f945d-4974-4a74-97e0-2bb9cdadb25b	vitalis wafula	vitaliswangila57@gmail.com	t	$2b$15$Eiko/LdY/r3E0iQw7amnSulfJ6M59ETr/p6ELCGPSpPyOTLcHtnIa	AGENT	29	Male	\N	f	2024-11-06 12:27:52.606323+00
-72c9a021-91fb-4319-8858-789ee9f83d6f	Mayliza wanjiku	Wanjikumayliza9@gmail.com	t	$2b$15$b19QvavFmDMFMzVdMzlyz.69mSeKFSep3LtP3o4El6U2fpR3R7D8i	AGENT	27	Female	\N	f	2024-12-02 19:25:30.782928+00
-f20f511a-1581-48b9-976a-3574c7dac6cb	Devis Wanyama	wanyamadevis077@gmail.com	t	$2b$15$nhfi3epDVcffZ0cI33SiNeHZqR0qYzgRZiVWFZ4iBcaoVVDevOg7y	AGENT	28	Male	\N	f	2024-11-06 13:23:42.315758+00
-79e0b32b-5650-4c8c-8d73-71f3e1302ba5	Racheal Nafula	wasike.rakels.racheal1@gmail.com	t	$2b$15$68tywPMsZ.muRkb4cLucdef3GqC7sVoc56as9tOv5L9s/Cz5KF.7e	AGENT	30	Female	\N	f	2024-11-06 11:10:18.26752+00
-eeeae060-fa85-48a8-8b91-6a952d6f158e	Don Odhiambo	webmastadon@gmail.com	t	$2b$15$Tq6KLQz9W//haYNEykbece387ZwqRp1xoV8BtXabZdkzxh9ae9rjW	AGENT	42	Male	\N	f	2024-11-07 12:55:32.124502+00
-d5493931-5cd9-4913-a2a1-f8a96874332b	Williiam owade	willyhill384@gmail.com	t	$2b$15$P8QOOhNUX7UJQh2JJF8WZ.czMcwStTvUEWtRK/QnbBt8xgA9YhT..	AGENT	24	Male	\N	f	2024-12-12 09:44:41.05047+00
-1423b0b1-d059-430d-9dfb-2bf7bc8b1b59	Gekonge Nyabando Wilson	wilsonnyaband73@gmail.com	t	$2b$15$p52iRpV/JmtdlSalFIzDceLoU5vvrSyIbj2EpQiQHAmGMLtC/ijRi	AGENT	26	Male	\N	f	2024-11-08 09:26:56.21665+00
-500ca188-07bf-474d-89fc-bfadd41cd7d3	Nazarene Nyambura Njuguna	zonahnyambura@gmail.com	t	$2b$15$QTRooPC0Rl9r.8Ra5fR03.uuPhmE7zvqxl68QItcSCNSRhjcZOhfy	AGENT	26	Female	\N	f	2024-11-06 13:54:35.78191+00
-e23b4ca0-5104-4061-ba8e-118a9f3f562d	Charity Njoroge	charitynjoroge644@gmail.com	t	$2b$15$SU26HaI9HKqUgccziI7RAum05xGWHF9jNh7mBvNQ.aGDtNvC72rKC	AGENT	54	Female	\N	f	2025-01-15 11:56:46.244318+00
-12059b01-c2cd-4ec0-a640-c4f80728ab8e	WAYNE EASTER	wayneeaster95@gmail.com	t	$2b$15$d82pzyTwp0MOY/RwoXOdDuN7S2nNQGdIsi3erOGg4TbpjYG0SExuq	AGENT	22	Male	\N	f	2024-11-10 18:54:12.169293+00
-f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	Ery	foxdrive.rycoh@gmail.com	t	$2b$15$mYRf1dS0DyRQZTOBwsdCbeAK/15bTHv3.jmuVCHeHqO22QnqqXzkO	CLIENT	\N	\N	\N	f	2025-01-21 15:53:08.650564+00
-55c8bb46-93a8-4fa8-91f8-c9630eaac44a	Mitchel Oyugi Onyango	pharellesmith@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-11 04:06:21.600006+00
-9c159f1c-6589-41e7-84c7-3da9eb15809c	Edith Nakabuye Joyce	edithnakabuye@gmail.com	t	$2b$15$zuti.7KDiHLbtj8sgvWu3OFwhnYQSyfc5vqGRXtsrAaLr9Lb8nP3q	AGENT	23	Female	\N	f	2025-01-18 11:51:08.908325+00
-1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	Lewis Manyeki	lewismanyekinyambura@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00
-d9e28da8-ab57-415c-b304-4faafeebb8ae	Felisia imende muhonja	felisiareginald@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 10:02:08.365802+00
-6ad97e91-3a9a-4308-b938-f98981621b1a	Richie	brianrichie745@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-18 10:34:02.556728+00
-beb327d2-537d-45c8-8863-a8cc16ac0c89	Ruth Mariatso	mariatsoamtsama@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 11:48:28.47491+00
-a58e726a-9f4a-4545-9634-c5ff1ec82dfc	Issah Mohaa	issahmohaa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-18 15:48:03.438686+00
-a78b1ef4-41a7-41e6-ba09-592f465f28c6	kennedy	kenvilla607@gmil.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 17:45:29.090031+00
-031db3cd-7c5f-4135-9cf8-5678b19b9e73	Byron Orwa	byronorwa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-18 18:29:05.484023+00
-45f7bb0f-9aeb-4cb4-bae2-56d8a92537d9	Florence  zawadi	florencemwaka23@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-19 09:35:49.20446+00
-d0d0c6b8-e2ab-46dc-b28b-5dea13cf2460	Rebecca Nyamanguye	rebeccalvin411@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-19 13:41:29.154178+00
-a3d62f48-426b-4d42-912e-0441d36f312a	CHARLES KIOKO WAMBUA	cwambua518@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-20 08:52:59.240556+00
-de70e826-2e3e-410e-8737-a060c60b7cc3	Charles Kahuro	kahurocharles@gmail.com	t	$2b$15$GacGiRkefsu9TCRXSt.c/.zFXJoxvECetok2gndfBX2ODWuLGjmgq	AGENT	23	Male	\N	f	2025-01-18 11:23:39.743481+00
-3ded56e2-2462-4734-8201-5e738afc7b3a	Stewa kamau	kamausteve1999@gmail.com	t	$2b$15$daTZeNVP4B00Kt.zsXMhUuQ8PnunsDzxUg235DWRWrUdomUgdRhdC	AGENT	43	Male	\N	f	2025-01-21 18:26:45.895929+00
-6312d59a-3fa7-4b5c-9477-838a2a245445	Susan daggers	susanwanjira699@gmail.com	t	$2b$15$bHMurCT64PLIqvvjck3UdOW95pPOkEmnh0MjshNTC7QgLr0HhC5n2	AGENT	28	Female	\N	f	2025-01-21 18:41:36.567543+00
-5de1db58-f659-4bf3-8ff1-eaf3aaf85f31	Everlyne	oukoe32@gmail.com	t	$2b$15$i10CXsvu9gZ8Lvga5NMFYeOgA9NQpnyqgFYbsPP6632yE3V/BNA4.	AGENT	47	Female	\N	f	2025-01-21 18:44:35.587073+00
+COPY "public"."users" ("id", "fullname", "email", "is_email_verified", "password", "userole", "age", "gender", "profile_pic", "disabled", "created_at", "google_id", "update_registry") FROM stdin;
+81aee39e-2723-436b-bf84-bf2a2a0c6c60	Orenge Aroisa	aroisagetrude@gmail.com	t	$2b$15$O/sLqwNVBli/3gtwxVB5lOr8cTw7xOtrafnnYPBLLvvfnbc5717Qe	AGENT	27	Female	\N	f	2024-12-12 04:25:56.095471+00	\N	f
+6b4ea9af-2dc2-4c90-bce7-8091b34de6d9	Augustine  mutua	augustinemutua5@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	29	Male	\N	f	2025-01-10 03:38:20.02361+00	\N	f
+9cf2cf48-c595-4ed0-9d46-d4da1acb1c7f	Austine Mailu Kalovwe	austinmailu9@gmail.com	t	$2b$15$aSNogfkay4vtJjuCALCYneTOfe1MpvOOydOh/aQOgPpxyGwlek/BK	AGENT	32	Male	\N	f	2024-11-06 11:14:10.643231+00	\N	f
+182cb6c1-cc48-4d31-9a06-c4b4fe7bd2ea	Luther	avisaluther84@gmail.com	t	$2b$15$NNDhTqkyDSma1k19rxbwkOCqW7ubI7X5HE0eFnqBSFUneechwUTs6	AGENT	20	Male	\N	f	2024-11-06 22:44:58.01396+00	\N	f
+68427b34-46ba-40e0-b01c-6336ab006d94	Dorcas Awesit	awesitdorcas00@gmail.com	t	$2b$15$HW0HCKTMMX1V5ThPj6H9qOAz2Yr.j5zxxIzjumJZCzuc79kReuZhW	AGENT	26	Female	\N	f	2024-11-09 18:05:35.69928+00	\N	f
+e6dd5228-a780-4b6e-94da-626d32fb8190	Christine  Awuor	awuorchristine392@gmail.com	t	$2b$15$3m6.oBmgYv1Bb7VuGD4ho.hH3ZofKOe83jn7Y9xqZ6HQjbq5DdwPG	AGENT	28	Female	\N	f	2024-11-08 06:14:33.771457+00	\N	f
+b4f75ba7-7b1e-45b7-bcc6-cbbbdbf9c268	Rebecca kinuthia	beckykinuthia4@gmail.com	t	$2b$15$xCjJQbmJpJYLDAkZR.qpAuvgk6frpzGJy9RDNqCTg4miJQsxNfhuq	AGENT	40	Female	\N	f	2024-11-09 04:06:57.748974+00	\N	f
+8fb2b20c-5971-4f87-97f6-ae839c4d7804	Benson	bensonkiplagat98@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	22	Male	\N	f	2025-01-09 19:11:07.672642+00	\N	f
+70080823-9509-4792-b3d3-767df62de09a	Seline Adhiambo	Adhiamboseline97@97gmail.com	t	$2b$15$ziDBJPmBceZFpYPzIMi7lerGYGXBuvCdKi6PHeuZU2uEvZrokijuG	AGENT	22	Female	\N	f	2024-11-07 11:53:02.867665+00	\N	f
+58d3c3cb-0914-4516-bf95-ceef24429241	Seline Ochieng	Adhiamboseline97@gmail.com	t	$2b$15$8.juD88T0MgElvV.2U18Q.CLQF67O0YG8U5KX68Zm4WVNmI.1UVM2	AGENT	22	Female	\N	f	2024-11-07 12:12:49.859487+00	\N	f
+ed030e9b-3f7e-4988-a86b-04a8f075cee6	Grace Mbuti	neemambuti@gmail.com	t	$2b$15$tOkuhRktSz6hkORoMniWxuJLXG8p8OGfoMM57CBgwo2ZQI1UpfQzi	AGENT	35	Female	\N	f	2025-01-21 18:30:46.170476+00	\N	f
+01055346-f4e3-4282-a2ca-e87deedfd078	Gaudencia tsimanji	tsimanjig123@gmail.com	t	$2b$15$Jegvzu.Lmeohn7DopGDJeev0gk9r9uVHvyMh2y0938DERIdUmHecy	CLIENT	\N	\N	\N	f	2025-01-22 10:18:58.073015+00	\N	f
+b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	Hannah wambui kamau	hannahkamau9137@gmail.com	t	$2b$15$Z7o2vWZKXhx3/NonHKdgvurlWfuyM6UFcmpBRtRGZhUZuu.uYsEmK	AGENT	24	Female	\N	f	2025-01-21 07:52:30.9226+00	\N	f
+d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$15$n6EzEe005jIqjKhabB/RUuhcLJmiIszECy2KwGv2dTki84lzqrhJe	AGENT	29	Male	\N	f	2025-01-21 18:50:12.494244+00	\N	f
+93325eb3-6c9e-4bd0-854a-88abf48f9887	Alicia Mwisangwe	aliciamwisangwe@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 09:03:53.553715+00	\N	f
+85536ca4-ab4f-4eff-a4cc-a81486346505	Thomas wambua Kamau	Twambua2030@gmail.com	t	$2b$15$NKUYlE0x0lkt0qFgydyrj.P8FybRqonI/HZRUibDqcS4GOcAtcQu2	AGENT	25	Male	\N	f	2025-01-22 13:42:56.435374+00	\N	f
+0193625d-3a30-74a5-a759-1c7d5f69e14c	Super User	info@int-insights.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	ADMIN	23	\N	\N	f	2024-11-25 08:12:03+00	\N	f
+c1bde176-582a-4028-888e-a70875a11f51	Christine Staicy	christinestaicy@gmail.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	CLIENT	23	\N	\N	f	2024-11-11 13:06:37.486145+00	\N	f
+36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	Kentrell Williams	kentrellnamaswa@yahoo.com	t	$2b$15$EPae5dM3N8WjayuJ6Rh1lObIVgOTRTJeeT4l15xuRNPdc0YZ.8Tne	AGENT	35	Female	\N	f	2025-01-21 10:56:09.017717+00	\N	f
+6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	JOSEPH THANGARANI	thangaranijoseph@gmail.com	t	$2b$15$g4fbYTq2c6DEVmRnUJOnhOaEGMCB0fprs5N6ebWDKBlTJANia2CXm	AGENT	30	Male	\N	f	2025-01-21 20:12:10.625092+00	\N	f
+0dc55b78-1b38-4b00-972f-82db326c93b4	Darvin Omuse	darvinkilui@gmail.com	t	$2b$15$RlBZSKiahleSjIYJHfAnbOi9cAUdmhCmo.UJK63ejnbFugjD2ZCja	AGENT	25	Male	\N	f	2025-01-21 20:39:21.750203+00	\N	f
+edfb1b6c-3230-4a79-a6e0-004ded923356	Josephine K	alinamutua4@gmail.com	t	$2b$15$gdPOKrjqgI7ifyPXyS6HBeiGpxHno.5jVTXR6pHPeMftvhcToNJdK	AGENT	46	Female	\N	f	2024-11-07 06:59:10.840789+00	\N	f
+fd8cf7cc-32cb-4b2c-b8c7-25f648edbf16	Rebecca Amakobe	amakobebecky@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-10 03:56:36.340381+00	\N	f
+ec4b09e2-a645-425c-b43b-b59f19525056	Belinda Amondi	amondibelinda0@gmail.com	t	$2b$15$ezsfEnpvRUAqOqbqUVO6XubU86szxoAL4TdbTENiUeVOIoCJZZcwe	AGENT	26	Female	\N	f	2024-11-07 06:21:09.391527+00	\N	f
+b4d3f648-ee61-4857-8202-98bba2e42360	Ganet Mwaura	mwauraganet6@gmail.com	t	$2b$15$0SYcNPZulwRs/SRBE74JS.sdNxamZx6kH0cboT3CsbsrzCdMxRt6y	AGENT	20	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+2e00b4ab-d73c-4e24-aac8-1bc0095f15c6	Christine Ndolo	christinembithendolo@gmail.com	t	$2b$15$M8YEe4.xw0etC35fm0Lrpe0cGx4fGvupt7Q8vkR7qdtEHFGe/9tdq	AGENT	28	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+1adae48f-088a-46f5-af29-7a551e7f2aa2	Hussein Sadick	sadickhussein24@gmail.com	t	$2b$15$bH.XM80f6lJjJb0uuMC3XOqkH3zqRKLSgeCZN6cR8b4.3liOMAxkS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+39671909-2af2-4edf-b653-166689c525a1	Gabriel Njeru	mjmurithi@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 08:43:25.899503+00	\N	f
+365ae29d-cbaf-442f-8005-c81db0d5f52c	Faith ñduku mulei	fayyfayy20@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-13 10:08:16.26229+00	\N	f
+c5a7fdce-2475-49d5-a93c-cc788fb2fa58	Kofi Anan ogaga	kofiananogaga67@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 10:16:15.412893+00	\N	f
+907de806-eb5d-4ab2-94e3-b25f2732c69c	Agnes Atieno Metho	agnesmetho3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-13 12:15:38.448843+00	\N	f
+d78b692b-4327-4bb6-bd50-74270fa66ee6	Victor ochieng odoyo	victorodoyo78@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 17:10:35.521938+00	\N	f
+952c8806-c89a-444c-98a2-dfdfd9a736e3	Ibrahim Odhiambo Ogweno	ogwenoibrahim005@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 17:16:12.705826+00	\N	f
+e7cb31c6-ec86-48e1-a3d3-3cafc1e630ea	Stephen Njoroge	stephennjoroge480@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+9d8840fb-f3a3-43af-b9b0-53ca8d5b5694	Blaise Manirampa	jospinmike7@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+e9399ea6-19a3-4e71-872c-f965a846097f	Samuel Njenga	kiriganjeri@gmail.com	t	$2b$15$DtKlQZpKckFPTy9ShOhFd.1q09NOqMMrrYI1o6eSynT4HZ1U0eZ5y	AGENT	34	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+423e2fa3-d41c-4009-8417-886d87ceac32	Serah Thuku	thukuserah@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+730995b6-9753-4dcf-a65d-fb0cbc0c4526	Ian Githuba	iangithuba@gmail.com	t	$2b$15$RgrNveVYNiQfys2v4lkOBujySmnYy/ioqBPFwDK.2i4cjLJzFes5G	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+158107f8-76a4-4a22-b86e-e1a3819e4513	Elizabeth Mwangi	elizabethmiruri08@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+6ed14e45-6595-4114-a6f4-aa4c623f41de	Jeff Karanja	Lchussy@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+edaccdba-c344-447f-8bb2-a5f98aa94aae	Sharifah Abdallah	sherriedullax@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+e31080e9-038f-41e1-b3bd-5c214f5c4983	Judith Mkimbo	etheljudith3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+912a32c1-dc82-4ce5-825a-0e0c7c2594c1	Gorreti Muthama	gorretimwikali18@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+1c7647e3-8268-4b4d-bda7-6ce5977ac446	Rashid Kale	rashidkale77@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+49362377-0576-472c-9e69-ea55e88519ef	Sharaf Mohamed	sharafhaidar444@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+c1fca44d-dbaf-403c-aceb-d9aa39c41131	James kalu	jkalu3636@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+506e9a67-9311-4336-88c3-94a41e758c7c	Marlyn Ameyo	marylynkayla@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 12:21:22.366534+00	\N	f
+4877e8c6-8b96-4b75-ac74-406d8fd64144	Veronicah Nyambura	veronicahmanyeki24@gmailcom	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+ef54b94e-b3b6-4fa8-97f3-dcbbcd73f634	Kibet Prestone	presytbett@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 11:09:40.885398+00	\N	f
+bbb78bf4-70e2-4c5a-b352-4cf67df0261e	Janet Muthoni Nginyi	muthoninginyi@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 13:07:36.83146+00	\N	f
+12286b2e-cc87-4cb9-970b-5f0fbd0703c8	Elizabeth barasa	barasaelizabeth965@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 16:19:09.521599+00	\N	f
+6869f962-56a5-4e73-9137-a638d4f9ba03	Junior Mutisya	juniormutisya3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 17:54:24.564845+00	\N	f
+8d8d7a45-6d50-495f-86cd-42a6bb6adf51	Allan Thiong'o Kimani	allalokeym@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 18:06:41.364475+00	\N	f
+895336e0-3158-4f0d-95c0-2f1a986d60a0	Peris Wairimu	wairimuperis054@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 18:24:50.402249+00	\N	f
+d218da17-6eb3-481f-907b-9c3046a5fb6f	Moses Sikuku Akola	Mosesakola22@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 18:45:43.22585+00	\N	f
+32bd7728-8edb-46ee-86cd-1efa8f7b4070	Okore Samuel	samokore@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 20:02:50.190549+00	\N	f
+4815e34c-6994-4384-9277-c23f124eedd7	Lucy M	mumolucy3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 20:16:07.809855+00	\N	f
+a0f9e01c-f3cf-44cf-916b-7bde7e115adb	Elijah Nzomo	mutuanzomoeli@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 21:57:35.945886+00	\N	f
+a66345f5-6cc3-402d-a7a2-0db21b9869a3	Ibrahim Hamadi	ibralito39@gmail.com	t	$2b$15$WiqHxOMKMyFmIoZq8Am6/uXDKkWiit2WRf7y/oh0aoyJiW7.8xs0C	AGENT	22	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+fb293319-b39f-4132-8284-22f66da56937	Andrew Ombaka	andrewelly787@gmail.com	t	$2b$15$UpGpSz2rw/rij2dTlyiLcupuPmRCJ03C/F.KpP.6JyxzDjAv3YbuO	AGENT	24	Male	\N	f	2024-11-07 06:21:45.227945+00	\N	f
+ffce55fe-67cf-479b-93cc-a7eae65375c5	Anne Odhiambo	annaodhiambo703@gmail.com	t	$2b$15$mBepPQiuEg0LxzjZgccNtOx.ZTEZnxEW3tWbuBZoizIY9WWzN/iOK	AGENT	26	Female	\N	f	2024-11-06 11:33:43.638691+00	\N	f
+ee3323cf-3e6b-4fb8-a02d-e57e2680d38e	Annastacia mbula kiio	annastaciambula43@gmail.com	t	$2b$15$ek4mWkK.o/HA.TxIWDQubeBzjtPyzSQuWkXwV/8tx33uy87w5Zkhm	AGENT	26	Female	\N	f	2024-11-07 05:12:59.854167+00	\N	f
+823b3f7f-83da-4cdc-a94e-92979e443bb5	Harriet mmboga	harrietmmboga456@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 11:46:29.210233+00	\N	f
+2a164b3c-581a-401f-80d3-e498997796ff	Peter Musambai	petermusambai60@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 12:01:05.272846+00	\N	f
+fffd2637-1493-41f9-a140-08ba67621b10	Dennis Muchangi	dennismuchangi46@gmail.com	t	$2b$15$XvIGb5YVKJPENxPOWRpCF.1wa.00nG5yoMd5/zJKLjlh23U8bqoVG	AGENT	34	Male	\N	f	2025-01-21 11:34:28.100039+00	\N	f
+d91dee2c-782d-4f5d-96a5-79287b8a8daf	Anthony Njoroge	antonykarangi17@gmail.com	t	$2b$15$p3u56cNQcGLieot1mEaVkuiZnQVjMAjiANj9P7r9hP1fqc1IbbaWq	AGENT	26	Male	\N	f	2024-11-06 17:32:27.580024+00	\N	f
+14713925-327a-4233-8a54-c0f61d673205	Anungo	anungopamphil@gmail.com	t	$2b$15$SoWFApX7TTMwLH76r2pbNulEZ7pjKwEgFQ13eOsxrNxg3yJSAs2Ie	AGENT	28	Male	\N	f	2024-11-07 19:54:43.466003+00	\N	f
+70eff330-56a7-498d-b658-6dd3c8c0a254	Anna Kigunda	annakigunda@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 00:45:03.0034+00	\N	f
+dc4e4f16-92e6-4200-8f02-2bb00ffd6ee2	Joan Anne Wanjiku Karima	karimajoan08@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 04:32:08.208366+00	\N	f
+12019715-0870-4fe8-acf9-9b437ebf891c	Carol Mugasia	lenacarol215@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 05:46:54.501729+00	\N	f
+93ea3232-3b94-42a3-ab5a-5f20e144842e	Sylvia Matisi	slymatisi7@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 06:11:20.517356+00	\N	f
+578faed5-dc33-486c-bf0e-9568ce03ec99	Briver wasilwa	bwasilwa0@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 06:53:58.253326+00	\N	f
+7e544bfc-cbad-4bf4-b59a-7b24e7519474	Jonner Kithinji	jonnerkits@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 07:25:42.915051+00	\N	f
+7c34897f-92ec-4166-a363-b54316d95438	Eugene Gadson	eugenegadson788@gmail.com	t	$2b$15$lWQjZ3ggIetMz3jHCzkW6OviXCEykm0iFUNqatOjEYXu0qm9hDKUS	AGENT	21	Male	\N	f	2025-01-17 02:58:53.088397+00	\N	f
+c70c4444-cd96-445d-ac7d-78488334faf5	Juliet daliza	julietdaliza333@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 12:45:58.443125+00	\N	f
+195701c9-eed6-453f-9bf9-fa54dab68d57	Martha kwamboka Biginga	kwambokabiginga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:35:06.872359+00	\N	f
+fa91e9e8-c7cb-42da-a152-a99df912a383	Rophine akoth opwapo	rophineopwapo4@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:42:12.457214+00	\N	f
+98c15a99-b1f9-4853-b497-9b80663fe60e	Sarah njeri	njerisarah904@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:43:22.692631+00	\N	f
+67f9ea8d-953e-4d56-ac9b-dacd04a7ab15	Mary	mbuthiamary40@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:44:12.623836+00	\N	f
+002960a2-cf21-4b33-8a88-5b3b90b5bfcd	Linet Kagasa	linetkagasa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:51:33.568365+00	\N	f
+a8327a88-6261-4dc5-a9aa-e066d3abfc14	Joyce Wahinya wambui	jas981611@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:58:52.281341+00	\N	f
+2bf87d93-8904-4d8f-877e-f6db2996f760	Elvin kamau	elvinkim16@gmail.com	t	$2b$15$q8GI/Wzzz41Qw8wEQs709e339/tnLFmVRsTQqROvcpiF6DXqAVAbC	AGENT	27	Male	\N	f	2025-01-18 07:53:39.224629+00	\N	f
+eeb7b38e-54f3-44d1-8e51-9dd06c90b200	Eddy Ochango	eddyochango93@gmail.com	t	$2b$15$9snUi90Qnya4hOE2H2Yuoef2Aix9jY1RoHbhTh1masLK8X1J5.INW	AGENT	31	Male	\N	f	2025-01-22 04:41:17.789151+00	\N	f
+06e63731-8535-4949-8386-e1f531cc7538	bradon kiiza ngo'ng'olo	brandonkiiza18@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Male	\N	f	2025-01-11 06:01:30.828026+00	\N	f
+139cdc9b-82b0-4db2-ae12-9da4c3dbb18f	Brenda Atieno	brendahzam@gmail.com	t	$2b$15$AiFuut3tL1JEtdRBOsxQkOi/Jg6gjhkpiCCVnYIfQULED6pRVEIGW	AGENT	33	Female	\N	f	2024-11-06 12:18:54.075553+00	\N	f
+10d805ed-704a-493f-93de-9c0bd809121b	Benny mumbua	b7162796@gmail.com	t	$2b$15$Kc77tZ1xNDZppcJyU2Vij.503Ja6kaiUjuFxh476V39ktlkAj4CDK	AGENT	25	Female	\N	f	2025-01-21 12:00:26.861249+00	\N	f
+2865a5fb-dde2-4301-b776-cdbb955841ca	Lorine Amakobe Sakwa	sakwalorine98@gmail.com	t	$2b$15$QYo/gFXZ03DpYYsGdIe.G.HSDhMOiv5wXmMzp9H7vgvg3fL0/WNXS	AGENT	26	Female	\N	f	2025-01-22 05:05:30.720876+00	\N	f
+4f1afdc2-ad42-48f2-9031-3e9de92d1b3f	BRIAN MUTINDA MAKETI	brianmutinda407@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	18	Male	\N	f	2025-01-10 05:25:57.610369+00	\N	f
+3fcdaf3b-1016-4d3a-b114-f1991e06eab9	BRIAN OUMA OTIENO	briotienoo@gmail.com	t	$2b$15$iQHXs9.FEK92XCRxSBNlsOB8tsd/.mcNhj/VF6FgYaI9ucBBxzqmO	AGENT	27	Male	\N	f	2024-11-06 19:27:48.028075+00	\N	f
+dca92a17-18d7-49e2-9019-71c897ac13ec	Brian Onyango	bshmigs18@gmail.com	t	$2b$15$TANu6fcM5QQMTz8ktYNgHeAF0nGl62iOPSQL0G2RPCCc17v1ALWzW	AGENT	25	Male	\N	f	2024-11-06 16:57:22.063476+00	\N	f
+667a67bf-51fe-4df3-b523-00ae295a68ce	Charity Moraa	charitymoraa780@gmail.com	t	$2b$15$Mgw5A1E95VsN9JES/A9QZOfGDX0fC/83FEq1qsiG4FnApN48iAhya	AGENT	24	Female	\N	f	2024-11-06 11:01:44.095525+00	\N	f
+d0f1b707-51f2-4e1c-a9b6-a2e53be83141	Charity Munanie Nzomo	charitynzomo227@gmail.com	t	$2b$15$CyzLHUeH3342BU5fi0AU6eCqYSq1JqvnWpk7JCKzE9dL8no4YFnhi	AGENT	27	Female	\N	f	2024-11-06 12:03:22.445972+00	\N	f
+f71951ad-c751-4e1c-9a01-bea44b935e86	Cherish Walker	cherishwalker254@gmail.com	t	$2b$15$/mZHEDUsb4diZlIZp17Sl.LNMeXSU23k3OtnJSKVHc50kkXifWmMS	AGENT	20	Female	\N	f	2024-11-06 11:05:25.919156+00	\N	f
+999c84a7-dd44-4f2b-9a86-134ef97f90be	Christine Okore	Christineshanil@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	18	Female	\N	f	2025-01-10 18:30:03.152375+00	\N	f
+285f2f2e-64ab-4270-92be-c481dffa0647	Caroline wanza Jeremiah	cjeremiah44@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	40	Female	\N	f	2025-01-10 06:13:57.147739+00	\N	f
+24a31c60-e722-46e4-b5c9-4f514987267c	Emily Claire Nyamolo	clairenyamolo@gmail.com	t	$2b$15$ehw4xnFqusdgNkQXNnmcU.rVsKSnbFQoXS/.00IQm7kS8oe0HSrPC	AGENT	43	Female	\N	f	2024-11-08 06:31:19.069845+00	\N	f
+097ffa61-c4da-47cd-a0e4-e3375e20a387	Clare	clareyakhama@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	33	Female	\N	f	2025-01-10 02:31:31.169923+00	\N	f
+77c64b4f-76b5-4fb6-81da-677ab1b3163c	Clinton Obingo Onyango	clintbakhresa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	25	Male	\N	f	2025-01-10 05:22:50.510313+00	\N	f
+5a980e05-778c-40b9-a623-31035b5b7f1f	Damaris wanza Mutinda	damamutinda1@gmail.com	t	$2b$15$WOHTUxXB3/iz4zeEZU6leuBkJWCCnU5nqxXXu/e9N.NzbDW9cMO/K	AGENT	29	Female	\N	f	2024-11-06 13:48:17.602992+00	\N	f
+8f48fc15-6112-4dd3-893e-1e50805d37c6	Daniel Ogamba Monyoncho	danogamba@gmail.com	t	$2b$15$d0.AWkH4y3jb.GG/G70Vxusoxg2mYNtmDWiN.Sqx.lciV4k7z8KPa	AGENT	42	Male	\N	f	2024-12-02 22:08:49.063969+00	\N	f
+1cdb9264-020b-43bf-bc50-5d340d8516f7	Brian oburu	darlingtonongera@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	22	Male	\N	f	2025-01-10 09:30:08.867511+00	\N	f
+3325f09e-46ad-416f-a828-5c087a3929c4	Evan David	davidevan289@gmail.com	t	$2b$15$aOMPlVpD2EUGQnj7zERGZOJ6tI0hg30qE8YJNqypodOu0iUuwPece	AGENT	31	Male	\N	f	2024-11-11 06:19:35.996937+00	\N	f
+b6f08194-a214-48f0-858c-435a84c1eb2e	David Mutinda Musyoka	davidhobbes254@gmail.com	t	$2b$15$x3xDeu3Xa4m7EWJAr5nC3.lpJGAUXPu6rDPYhjdAaN7adBFvva3jq	AGENT	23	Male	\N	f	2024-11-08 09:26:59.536091+00	\N	f
+f9bd0d46-0c09-4694-91fb-f83e900af5e2	Dianah Naliaka Wabomba	dianahnaliaka046@gmail.com	t	$2b$15$xJmd3fiNWEComkLDZ9YnOud0xNHlo0E6zX/8f9wACuY3TwEYGa9XK	AGENT	21	Female	\N	f	2024-11-11 07:15:28.498056+00	\N	f
+96b9d28c-4d4c-452f-a3e7-9f7580cc4322	Elizabeth Wanjiku Gakuru	elizagakuru54@gmail.com	t	$2b$15$AsQJzWogqLffgQL.9oagwO1WsIf3fBRGZtDZQPRJ7Ini3ylc2s8tm	AGENT	54	Female	\N	f	2024-11-06 12:55:06.092266+00	\N	f
+5624a568-b393-4e62-a56c-1673b0482c1c	Anne Musyoka	elsieannembithe@gmail.com	t	$2b$15$3hbMewZtNATXzoQNo10FguC0wpxdix4e/gHSjKfAfLuol5EYv/v4C	AGENT	30	Female	\N	f	2024-11-08 06:38:50.180429+00	\N	f
+23a17622-a50f-47b2-8d10-6769e4acf30a	Esther Nzioka	emuute@gmail.com	t	$2b$15$QcRoEg1I/UUdwq6J5a2ymOnbLvmdmx26ZDpTNDqeTbWRMyTczBFhe	AGENT	38	Female	\N	f	2024-11-11 06:20:24.002367+00	\N	f
+06ebad48-e594-4137-bf33-4974e1102917	Faberson kyalo Simon	fabersonkyalosimon254@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	25	Male	\N	f	2025-01-09 11:03:23.22205+00	\N	f
+17e70ae6-12fe-46a7-9d6f-472e8297cb12	Faith cherono	faithcheronotwo@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 08:56:42.754961+00	\N	f
+7ca7d821-22be-4834-84b2-c80e5a5361cf	Daina Fransisca	fransdaina@gmail.com	t	$2b$15$QjWUhPy0W22cMXibM5b8sOkAI9ZmCJgvJ8Vr1lqkDfXgKs0kBz5bi	AGENT	21	Female	\N	f	2024-11-06 13:07:11.661246+00	\N	f
+b13cb7aa-f6a3-4eeb-9124-84c4590ff148	Gladys Mavisi	gimweka50@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	55	Female	\N	f	2025-01-10 15:51:51.199006+00	\N	f
+b2715e1a-0cc2-4e7a-9128-045c0c688611	Gloria Kasaya	gloadira@gmail.com	t	$2b$15$rVX4ncqyCGxpaKdCaxu9RuxKEnXdch4YuVKIV6hPZnhBY8WhFfzoW	AGENT	40	Female	\N	f	2024-11-11 09:07:36.333429+00	\N	f
+51d92d75-a817-476c-9477-7327d748bb91	Gregory isaac	gregoryisaa005@gmail.com	t	$2b$15$PsqS5a4xx.A9pPLpZLkQMedwmpSJisw5su8zXazqozKijZ7S6FvMu	AGENT	23	Male	\N	f	2024-11-07 06:56:26.251132+00	\N	f
+e27db88b-2061-4cfb-91b5-d83904320202	Monicah waithera Kamau	hacinomceerah@gmail.com	t	$2b$15$6kf2j/IdzUTxMZmU6sIFd.nwypAskFDE/GQS5ii4BekhJYZAywXr.	AGENT	27	Female	\N	f	2024-11-06 11:38:39.599886+00	\N	f
+cde22970-f53d-47fa-97ed-db016c009f98	Haron Kencie	haronkencie@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	38	Male	\N	f	2025-01-09 09:09:07.674027+00	\N	f
+4615f82c-0260-4aa4-ae6b-999dcce70f3d	Halima Nyamizi	herlymah099@gmail.com	t	$2b$15$.8vtM.rp0x7ECfCf25jaBOBqoYdB1bJxm9m8tcjmgEnWC9pe/0hNO	AGENT	25	Female	\N	f	2024-11-06 08:23:14.960112+00	\N	f
+4398d0a9-933e-4efd-9906-b920e390c872	Hannah Wanjiru Gichuhi	hgichuhi646@gmail.com	t	$2b$15$xf7HYidxfA2vk4KYagacCOxopeUr0BP7/O3MO2KMyqHJ5y.RUepaC	AGENT	31	Female	\N	f	2024-11-11 07:07:20.983135+00	\N	f
+41dc1b6b-00f4-48d1-b083-d1d6ad62bd1f	Tomi Igan	Igantomi@gmail.com	t	$2b$15$0FHCAcUxOyaJiDhQCGAOxeEXnDr8J6GnMXKDmYqwFno3HMH/2YXAi	AGENT	32	Male	\N	f	2024-11-07 08:12:59.478524+00	\N	f
+1280a7c8-3af8-4fa7-bb97-5bb989dccf56	Irene Akoth chanzu	Irenechanzu@gmail.com	t	$2b$15$JhHKX0kcGLigTRKPLORy0exqi6E2sMMs97k7xe8MRhYGeqS5gMGxO	AGENT	27	Female	\N	f	2024-11-06 11:42:39.120131+00	\N	f
+a2d5b801-5a09-415e-afc7-e4e16400eca2	Awino	itzayanaamariah@gmail.com	t	$2b$15$RNv2ExAIegIFsFC9qWrX6.0jBVaIG6vav4mQk7r9XIMUbKYBuYDmi	AGENT	35	Female	\N	f	2024-11-09 22:54:04.713577+00	\N	f
+e3fc0be9-1068-4a67-a933-b13d4e13daa9	Jack Alaii	jackdavid69558@gmail.com	t	$2b$15$v9Q523mdGLZzvXvw46DaROMmJ.IMB5f6FfNo5oHz0glEw0IFplbfy	AGENT	23	Male	\N	f	2024-11-11 10:08:31.147422+00	\N	f
+edcf5863-e044-48b3-a6b7-69ffa7f265c2	Jamal Said Tendwa	jamaltendwa18@gmail.com	t	$2b$15$LiGgBfEbciWdX6jS/8RkZO.n73pN.wPufwy8OKfksvHqbs2Og5tvq	AGENT	23	Male	\N	f	2024-11-09 17:25:47.995181+00	\N	f
+3e9c4be0-d7fc-4d75-8fdc-bfefe3b7b66d	Mary wamaitha	jaymohhazi@gmail.com	t	$2b$15$sqkF1dq4b2OintRvxxz3VOO7vy8FZUuOSnI3/tM4OL3vMJwganjrG	AGENT	32	Female	\N	f	2024-11-10 17:24:31.457546+00	\N	f
+d0b05df9-2e8f-43ab-a16e-247efb7b6fa0	Neema akinyi	jennifermaaga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-10 06:15:32.809806+00	\N	f
+11f24999-5b2c-4b15-a0d0-3554121bf9ed	Christine Gesare	christinegrsare@gmail.com	t	$2b$15$WCqZAczDIZkDwVg0bqD/3O1qFnpEyCM1xZpdaLV4rLhGtPW7G2wfW	AGENT	23	Female	\N	f	2025-01-21 13:45:41.702548+00	\N	f
+415f0130-2e4b-4513-8b74-d21445461a79	Donald Misati	donaldosoro96@gmail.com	t	$2b$15$aA/Ei/xZvm9nXYsSuFSnJOPlv2ioQMhPuM5tBNoJXYCryeLu2R86.	AGENT	21	Male	\N	f	2025-01-22 06:32:04.965742+00	\N	f
+4dcd4071-5314-4bea-874c-e4c072f25f3c	Jotham	jothamwekesa9@gmail.com	t	$2b$15$W7ZPanXwqqdpMOBV3o3KqOdJ0bvGQQtjOArUulxGe/2aFAvu9tWle	AGENT	30	Male	\N	f	2024-11-11 07:21:53.770501+00	\N	f
+1e91527b-44e5-4939-9eb0-3dd0d61499d0	Judith Kagwiria	judykagwiria38@gmail.com	t	$2b$15$jje9BkYr7zPwXu3t082s5eYdN1g9xV3OPdEybN0F/BTwniP0ePNm2	AGENT	28	Female	\N	f	2024-11-06 12:34:04.32544+00	\N	f
+e6e98e27-ea8c-4b26-b53c-bd63dc0917ce	Winnie Kagendo Rutere	kagendowinnie@gmail.com	t	$2b$15$CjG3fI2Y6EWbwXNUxOL1Ce3CPixpunn0JCtOGb1Gb0yTGqnL8eGYe	AGENT	30	Female	\N	f	2024-12-12 07:44:16.208016+00	\N	f
+25ad8bad-e01b-48ce-ade1-f4abf05b1eb3	Magdalene Kalekye	kalekyemagdalene9@gmail.com	t	$2b$15$M.lw5N9As0MasSPfkFqz2e/OPnowPQBzTBmT/Avw8QYtXZKSHidl2	AGENT	22	Female	\N	f	2024-11-11 09:38:05.846672+00	\N	f
+0c69b211-08bf-49e2-80b9-d345b34a1539	Daniel kamau nyambura	kamaudaniel975@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-09 17:58:16.701053+00	\N	f
+cedcb55f-d753-485b-ac19-72225d399bc9	KAREN NDANU MWENDWA	karenndanu1983@gmail.com	t	$2b$15$u5NLZQNUqfu/QPTKhlOjE.jF.1bc8jjORH575/RcrykiZ0rPcgObi	AGENT	41	Female	\N	f	2024-11-09 17:05:39.819834+00	\N	f
+d5864654-8e03-459f-9641-67cc53e0a1d6	Naima Kariuki	kariukinaima@gmail.com	t	$2b$15$bYXgCMwR68edzA8tGz8j.O/YQrNgHzEcMKB59GYub3JcMvqg3S9zq	AGENT	20	Female	\N	f	2024-11-11 10:28:47.495728+00	\N	f
+d420e7c7-3fca-4984-9a7a-e254039ed9c9	Karl Erick Mohami	karlerick678@gmail.com	t	$2b$15$MRe6Q3wJIu2ClyxFzsQYZuOKydY2KDobb.0o.DD4N./Rn3PfG3m76	AGENT	20	Male	\N	f	2024-11-09 18:10:43.765289+00	\N	f
+52432a7c-8874-41c9-8e22-23fb1c7823d0	Jesse kimani macharia	keemkimani7@gmail.com	t	$2b$15$9aIRlbk/7jNbF5MKgkzrp.IP7JLmQT9L16afPVHL9ejYRUcCTiEJa	AGENT	22	Male	\N	f	2024-11-11 09:54:21.38517+00	\N	f
+97f03cbb-2462-44e3-bee4-ea20c5f5ff33	Kibibi Mohammed Athman	kibibiathman3@gmail.com	t	$2b$15$Z8WosITwaUCHfCy3gCPtVe/diPCebZUXkF/Fy3LZLMUR0xVbz6nXC	AGENT	34	Female	\N	f	2024-11-11 06:38:02.923829+00	\N	f
+580ecee2-43ff-4af2-b3b6-e8fc2e35d577	Faith Mumbia	kingoofaith17@gmail.com	t	$2b$15$ljYmFK/yFQmVm8Bey/5YOO6r95xBP1mOCOQyX8m4An4RSO0UXYaRO	AGENT	27	Female	\N	f	2024-11-11 09:20:24.073778+00	\N	f
+ebacacd0-20dd-433e-8cec-2e072453705e	Cornelius Kipyego	kipcor3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	36	Male	\N	f	2025-01-10 08:16:03.722673+00	\N	f
+6232ba3f-45c7-4e21-ac60-e5e11b550211	David Livaha Kitisia	kitisiad@gmail.com	t	$2b$15$O.QTYB.mKioAbH8no5ZQB.mZAa3gMbjdbRDoNmfdfoKmx7m/efCjC	AGENT	52	Male	\N	f	2024-12-02 11:25:28.427567+00	\N	f
+69bee2d7-0255-44e7-bd56-24a4f137827e	Harry Kitonga	kitongah1@gmail.com	t	$2b$15$a6JkgX.KZLO19ka14Tb5vOoGlYRSiVIueM1N8K7rnbWT6jiLK4/KS	AGENT	32	Male	\N	f	2024-11-07 11:36:38.014133+00	\N	f
+2c588913-9361-4dae-8f33-e4973ec44dc5	Philip Kitoto	kitotophilip@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	34	Male	\N	f	2025-01-11 10:26:52.841189+00	\N	f
+f47f2950-4c39-4fe3-9c63-78042db0f6bf	LEMISO PATRICK	lemisopatrick1@gmail.com	t	$2b$15$eQP/pZPblaoviSxkLKCRD.QewyiqL4pAiSPI0x9/2TIkRsRyv85.6	AGENT	27	Male	\N	f	2024-11-07 09:41:54.53711+00	\N	f
+f5d69fc0-e80b-4c25-ba76-60fe1eccf3a8	Tristan Mwendwa	lewisboom321@gmail.com	t	$2b$15$iJqxU7ZoYA62wvndc6IfauLominFYeDryKU9JiBEW0TCXICon2816	AGENT	29	Male	\N	f	2024-11-11 08:21:34.989632+00	\N	f
+b679f41d-3873-4109-9d1b-aa124af12b6b	Lewis Muia Machowe	lewismachowe@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	30	Male	\N	f	2025-01-10 05:16:18.429287+00	\N	f
+66227dae-7448-424d-8eba-026c3ebd99d9	Lilian.  Andisi	lilianandisi367@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	37	Female	\N	f	2025-01-11 11:48:34.355843+00	\N	f
+3f5d3c7f-4993-48c1-8499-fba142eb8b49	Loise Njoki Wanjira	lnjoki1880@gmail.com	t	$2b$15$CmslQGQPLRErtt4ywtiJh.ItP8OU7H9rNTXtFCJXX7mzBbj7PWFiC	AGENT	21	Female	\N	f	2024-11-06 12:21:43.683938+00	\N	f
+db118a6c-ee11-42b1-8746-d2b43890f3b5	Lauren mwanga	lomwanga1@gmail.com	t	$2b$15$jaJbaDixT2Yenos/PHx.g.IQbagOh8GjxBHtRE43vl9CT/SXQDPaa	AGENT	23	Female	\N	f	2024-11-11 10:27:34.262572+00	\N	f
+41b23501-8877-4a01-8152-f67094581304	Loret Atieno	loretatieno@gmail.com	t	$2b$15$Ah/A1c.UgLok341n3QitkufoSFBKzVRtfRLgCZvq3ho1AZRnZpO1a	AGENT	34	Female	\N	f	2024-11-09 15:18:49.57842+00	\N	f
+eeb4e81c-81f8-4d90-a39c-d4ea906e3337	Lunayo Yvonne M'mbone	lunayoyvonne@gmail.com	t	$2b$15$N.IsBSCOLtuJtBq9SoQxHOb19hNIyfhnnTG5FhJEvEiKg3nnsDmj.	AGENT	28	Female	\N	f	2024-11-06 11:23:50.380818+00	\N	f
+f0e6fa0a-21d3-4a14-98de-f9105b5f569a	Esmily makio mwawasi	makiomwawasi@gmail.com	t	$2b$15$yF31gDHDPVI/gqCJXKYh5eFgu6eA9mN24K8GlVwjcZgFKjtloYcqC	AGENT	57	Female	\N	f	2024-11-06 12:17:35.707939+00	\N	f
+bf12e948-da47-4690-8772-efb6ce2e7fe5	vanessa  malesi	Malesivanessa5@gmail.com	t	$2b$15$8tKA.7BqbgbQrMV1mzET2OYVsuMtfevKotusyoQxEjSTLbhAFKwyC	AGENT	27	Female	\N	f	2024-11-06 12:18:23.327639+00	\N	f
+5ce766ba-9c10-4515-8510-12b2c32e44d2	Maryanne  Wambu	maryannewambu2@gmail.com	t	$2b$15$W0Ll4s3B9TLwiqZAcYGoBOPEn05mRa0bPgfbEk6HZHNRs0/NNq5sW	AGENT	22	Female	\N	f	2024-11-11 10:08:18.847294+00	\N	f
+6203c286-76b3-4684-a33e-6344cf5cb905	Climson Matasyo	matasyoclimson813@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	26	Male	\N	f	2025-01-10 20:36:13.205413+00	\N	f
+3faf9701-6499-4e1d-9fd7-0b7d04fcfa7b	Mercy mutiso	mercymutiso57@gmail.com	t	$2b$15$sgQtLPTHJBoEu4O5wf2pAumC1kewlixGtXkX8Vpj5wfdPkEhPuJoW	AGENT	21	Female	\N	f	2024-11-06 12:33:24.943596+00	\N	f
+f5b72654-37e1-4fbe-8ec8-5f82fec41fc1	Mercy Mwende Mwiti	mercymwende812@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	20	Female	\N	f	2025-01-10 13:32:52.061964+00	\N	f
+f522d6fc-340d-4878-871a-a39aff2431a1	Nicholas Mhandoh Opadoh	mhandohnicholas@gmail.com	t	$2b$15$0YPgy5HxLZhzRpIGJNhXUO2G5ACNwoGXfiqMtiuhPEEYls8M4drbW	AGENT	25	Male	\N	f	2024-11-06 13:15:56.391123+00	\N	f
+10838292-3331-4e99-9482-f345c60eda58	Michael Kamau	michaelkamau2276@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-10 05:28:43.603574+00	\N	f
+32b3005d-61e7-4b06-b4e5-742b070968e3	Michael Ochieng	mikeogwe@gmail.com	t	$2b$15$ybEOxJjCeUEB126hYTHCguA8aouCp/ezzpy4dQTVMsD.0z0b.fRZ2	AGENT	25	Male	\N	f	2024-11-07 11:25:44.94497+00	\N	f
+a1b48c81-a072-4c55-ac64-b8027b889b7a	Philegonah Mitchelle Atieno	mitchellephilegonah@gmail.com	t	$2b$15$m85shm8eSIBtVHymt3rIHenMmvajGC9zNeIYlIXMtAB6iw9Bjt/KC	AGENT	24	Female	\N	f	2024-11-06 11:51:06.686585+00	\N	f
+af1e06f0-6143-4474-804a-35d8ac3cd650	Mustafa Mamadi	mustafamamadi12@gmail.com	t	$2b$15$zZ9mx8SzJLudaKL5yNTo.ekXH5xRIUCftyQbmPCiirHtTLsLWPbPm	AGENT	25	Male	\N	f	2024-11-11 11:37:57.507331+00	\N	f
+b73c1522-4204-426a-82e8-6d201d06f1eb	Daniel Muuo	mutukudaniel009@gmail.com	t	$2b$15$uvQ.qk4V948FvZ.3MirUuOo5FBC8BbE4OAmg9A1KiZIKNDlqUPtBy	AGENT	25	Male	\N	f	2024-11-08 09:08:34.200564+00	\N	f
+900b7a11-44eb-43ee-a255-a44db0c51e52	Samuel Mwangi Njoroge	mwasein99@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	35	Male	\N	f	2025-01-12 06:22:43.940373+00	\N	f
+a82b8e1e-faa2-4fce-817b-a6fd656ba4f6	Caroline Mwende kioko	mwendecaro96@gmail.com	t	$2b$15$r0or0Ex/Yzw3G0JsI0ibDOiM9PLoll9SkAdUPjLM8doUIjy.MMPwK	AGENT	34	Female	\N	f	2024-11-07 10:12:33.45006+00	\N	f
+01939367-739e-4fac-b0a6-cb01a8067a79	Genedy Tartavosky	genedy@gmail.com	t	$2b$15$RnucoFaDJfPugyr9igv7W.LeYfIt05182hJQHSQ/KVsgQvZT3QtX6	AGENT	40	Male	\N	f	2024-11-06 11:56:46.244318+00	\N	f
+42ab60ec-e810-4143-bf8a-9d336e5de4a0	Sharon Wairimu Muthoni	sharonwairimu37@gmail.com	t	$2b$15$wrbQeBr.uUAHEoG/gNZPkOdCb/Qaw/xnkXoZQF6uDJ2uTq0nOvWZW	AGENT	23	Female	\N	f	2025-01-21 14:29:37.832261+00	\N	f
+3869797e-34e2-45ff-af1e-1bb41c484c1b	Annitah kyuma	mwendekyuma22@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Female	\N	f	2025-01-12 10:53:08.752291+00	\N	f
+49c5437e-d309-4abe-96e9-23fa7398d776	emily waeni king'oo	mwendwacaleb90@gmail.com	t	$2b$15$xz9BLLo0yJTjWOzlpob8qO8HDS/8Bi7FNX4Qee5YSjP8w95fBbK5W	AGENT	26	Female	\N	f	2024-11-06 18:18:21.025249+00	\N	f
+818831a5-b451-4c20-bbf0-024669cf7577	Reginalda Nasambu	nasambureginald.nr@gmail.com	t	$2b$15$TFQ8Tk7/U7Wo4GXG4zd7e.ZXyIbJBBPcHupISaqAD6G0lTonp5IvC	AGENT	24	Female	\N	f	2024-11-08 07:14:23.331126+00	\N	f
+a429cc4f-2511-42a9-b375-07b9cd47cacb	judith malinda	ndulujudith@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	40	Female	\N	f	2025-01-10 04:22:20.074196+00	\N	f
+212a1408-70b6-4592-be49-d4ba81008add	Nellius Irungu	nelliusirungu97@gmail.com	t	$2b$15$IXqxa8440kGOpTNz4V.TF.XrdRHw8E6Tw3Jk3Jvj2eMCYqPQIRyJO	AGENT	27	Female	\N	f	2024-11-11 07:08:58.741565+00	\N	f
+75fcfe69-fa3e-4462-a4be-ea438612cb6b	Nguiyu Mutungi  Nicholas	nicholasmutungi2@gmail.com	t	$2b$15$pOINgpvUdlEbagm3c9I4t..fm51HcZ9fj9Puq2FO2nb1yHzlSAule	AGENT	49	Male	\N	f	2024-11-07 07:15:10.732544+00	\N	f
+af2caf3e-5a28-491a-bc5f-f869ccc09f38	Stella njagi	njagiwawira18@gmail.com	t	$2b$15$YwIWxSKeSpyFEBkbf3LgEeadtIBS23e6K.SVEhGYtbxGDe0o/5hm2	AGENT	25	Female	\N	f	2024-11-11 06:50:07.47159+00	\N	f
+431841a4-269e-4fa9-a265-476836e7369f	Grace Nyambura	nyamburagrace380@gmail.com	t	$2b$15$dSZlsixuT52otmhEFsfmH.QleG5MRJSEDhwgRFdiscizlJdyL382q	AGENT	23	Female	\N	f	2024-11-09 19:39:12.091415+00	\N	f
+3bca75f1-bba8-4e61-8a2c-60e9c96863cb	Maxwel Odol	ochiengmaxwel@gmail.com	t	$2b$15$QkxXOsri1MO/lR.Bk5zxFunYYmFBKnBS74pZLV8zUXVhSEJZIBFwK	AGENT	25	Male	\N	f	2024-11-06 13:23:07.97707+00	\N	f
+5f86f90d-b1a8-4ecc-a8c8-b97a6e889f13	Cecil Oduor	oduorcecil731@gmail.com	t	$2b$15$esHWl51/C/G0EZuNom4L2uASPTyvHn2ECl0JDICrKfyDUgeR6rENG	AGENT	22	Male	\N	f	2024-11-11 11:02:08.286174+00	\N	f
+fbe0dd97-1226-4e2b-9587-8ad93339c11a	CHARITY ATIENO OKEYO	okeyocharity93@gmail.com	t	$2b$15$Gm2IwwpHgku4aI6tv4LmFusp7DaSxpZFoLZ0dl3/eQoyqb3Ae4nU6	AGENT	25	Female	\N	f	2024-11-07 10:31:01.949898+00	\N	f
+739e8b3b-fb8b-41b6-97f0-f06d4a2ae9dc	Olivia Atieno Okoko	oliviaokoko01@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-10 04:03:34.74316+00	\N	f
+fe77139a-17e2-4d68-b0e5-29b401ee03cb	Trevor Omondi Onyango	omonditrevorr@gmail.com	t	$2b$15$GI.pUUbG28lFmzxCvhOzN.DaUH1oO8xxyDpPKaMWLZSgt7CarSA52	AGENT	26	Male	\N	f	2024-11-07 05:18:55.17981+00	\N	f
+44663c0d-e051-4cfc-9803-211def0c67cc	NELLY OMUTOKO KAGAI	onekaholdings@gmail.com	t	$2b$15$cXfWiZWxN4E6cRz.nseYqee0el26RevXHfdzBhb//CbF1D.5B4mk2	AGENT	39	Female	\N	f	2024-11-11 10:55:01.034436+00	\N	f
+0b29de00-c97e-444c-8640-87fee3330781	Christine Opadoh	opadohchristineawino@gmail.com	t	$2b$15$eoABmTrFQ8L1GSqyIbScJOxEYUqQYxCtN9leLn9Ct5vKowG1kO.8q	AGENT	27	Female	\N	f	2024-11-06 12:15:20.26456+00	\N	f
+2adc2ecb-d68d-4fe7-94b4-3300b7ab43bb	PATIENCE JANE KIMANZI	patiencejane1996@gmail.com	t	$2b$15$1rvMmRBnJh8CXA3Xe/u.a.eOMg/5BILR5c4AmiCl6Y40xYgTHb./2	AGENT	28	Female	\N	f	2024-11-11 11:42:12.490536+00	\N	f
+4581c5c1-996b-46bc-a4bb-c63f5a0ff232	Patricia wanjiru	patricia.ndungu@gmail.com	t	$2b$15$vGCzddgerPZPW7Ep3p6csOkPway73ZmNXGoVIgO9IwbiPxAcMKT.C	AGENT	42	Female	\N	f	2024-11-11 06:37:53.860889+00	\N	f
+199cdab2-6af3-457d-8590-4069f4b5ab27	Peter chemos kimachas	peterchemos82@gmail.com	t	$2b$15$hLjP6xrL/NffTDMKGqbjWuhejZedSUX49cd/s76mBdjpgkzQkObWq	AGENT	21	Male	\N	f	2024-11-11 08:56:08.075466+00	\N	f
+ffd9df51-64f1-42c0-a732-bd73e2fc2666	Peter Gathii Mungai	petergathii.pg@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	27	Male	\N	f	2025-01-09 17:39:20.074652+00	\N	f
+d70f8ac6-7f00-4dec-9b7c-7c3e804eecfb	peter kilimbui mutuku	peterkilimbuimutuku@gmail.com	t	$2b$15$51q6Rhooaw1aC/DBnexdE..x3pCbCNIxXMYlg3KyGQFu78QxlQjsq	AGENT	36	Male	\N	f	2024-11-11 09:09:49.398795+00	\N	f
+c5e824ad-5c95-471c-8889-a2d0faba20e4	Peter mwangi wanjiku	petermwa213@gmail.com	t	$2b$15$VUWrwkY6C8jen0OrQr.QhO2OnS/vNas4NbOk36VkwR6R0WPzKrxW.	AGENT	29	Male	\N	f	2024-12-12 10:39:16.888495+00	\N	f
+fd8a6e5d-cb3e-4a91-a04b-9c4cacb6b09a	Reginah	reginakemunto95@gmail.com	t	$2b$15$O0AhUUGH/ieuTPqlr.r/2eethilJvun.PVhXVRIa305VSSOZs3jfi	AGENT	29	Female	\N	f	2024-11-10 05:35:18.301193+00	\N	f
+5dcc831e-1718-4f56-9c44-250814c45d40	Rennice Tamara	rennicetamara@gmail.com	t	$2b$15$t/ddOUVzbrJphqk1g9cvd.saaUq6PoW/73V4KL3rmFHL4i70JZZD.	AGENT	18	Female	\N	f	2024-12-01 00:23:58.042301+00	\N	f
+aac7a99a-ddef-4493-badc-63487c667327	Rhyan Ochieng Otieno	rhyanochieng@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	26	Male	\N	f	2025-01-10 04:40:52.560929+00	\N	f
+f4cd1ed0-e7c5-4664-9d8f-179db40cb245	Ricardo Omondi Ng'ani	ricardoomondingani@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	20	Male	\N	f	2025-01-13 06:40:46.441288+00	\N	f
+a6c2e31a-9cba-485e-9944-78e15d5872c2	Rosemary muchene	rmuchene13@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-13 06:23:50.254653+00	\N	f
+84a74d7e-c01e-463b-9a0f-6b7c38531c00	Evelyn Runo	runoevelyn@gmail.com	t	$2b$15$wcawoChf9w5D7/FYQWOPfuGd0hsUn.v9yJIZ3dh0baOzirvSzcoUe	AGENT	37	Female	\N	f	2024-11-11 10:56:39.834057+00	\N	f
+1dc74f31-a53e-461a-aef1-fb2488b86736	Cess wambui	samkiki088@gmail.com	t	$2b$15$c6/52bJ4NSawRQUKZdM0ZOqP3NQF6jtVFUn5Ubi8x0YRNLP79q9Uu	AGENT	24	Female	\N	f	2024-11-06 12:36:25.194348+00	\N	f
+cd81dc40-36f1-4399-b5dd-65a0b43b0fec	Samson Odoyo Oliech	samsonodoyo1234@gmail.com	t	$2b$15$RzMvxTQeLyf1rsxFCgRxHOpFyKDAAQmTBUAiQrL/b49QnmuCzUu9K	AGENT	50	Male	\N	f	2024-11-11 10:58:32.736025+00	\N	f
+f8b3c5d2-d56a-4425-8736-53d5463ecf12	Sharon akinyi onyango	shaakionyi@gmail.com	t	$2b$15$MmlNzSsHULZFLeB0JTdve.xKHNBMIHwYkJ0Jsgk7hI3h25uwm.tYm	AGENT	35	Female	\N	f	2024-11-07 10:03:17.020052+00	\N	f
+4de64e92-dc71-4005-a0de-f46e4df56f27	Ann Onsongo	shoppzone19@gmail.com	t	$2b$15$fDttiNQGdnUu.q2TVljigO267NWSCLl4uHYg1zvNhZEBtMb66Q2AG	AGENT	29	Female	\N	f	2024-11-09 11:34:55.175186+00	\N	f
+c087535c-2607-4622-902a-51b6e1dae5f3	Salma Sika	sikasalma2017@gmail.com	t	$2b$15$s7iedBIWrtU4MFOsbrzL9ur4.dDteq3HQc2D6cosWtwESyLllaRca	AGENT	26	Female	\N	f	2024-11-06 12:22:02.685373+00	\N	f
+3ca33325-2cac-4895-a875-71e4e3a6e931	STANLEY THIONG'O	stanleythiongo32@gmail.com	t	$2b$15$ZEzKQo1uVdO2He336PPUKeIdaG1HAjaiPgN327FSQYVLL5qRYqBj6	AGENT	25	Male	\N	f	2024-11-08 06:45:59.158497+00	\N	f
+c5b2084c-de9b-4b57-9019-19374c439cc8	Stacy Stefani Njuguna	stefaninjuguna8@yahoo.com	t	$2b$15$Ugvnj4SjhdSJIEjQF2qxZ.leFM6VKwSSosoOoXnPcNQQ7VxDxLIMS	AGENT	24	Female	\N	f	2024-12-12 08:51:03.506298+00	\N	f
+3e8bcfdf-7d25-4213-8401-43f25abe93ed	Alphonce Odhiambo	odhiamboalphonce23@gmail.com	t	$2b$15$G6wAebQI2pksrQ6fWQ9ElekQ4AInZzSCwaIbTO7g7b/b7yT.gKYkC	AGENT	23	Male	\N	f	2024-11-10 15:42:42.895929+00	\N	f
+fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	Fredrick Odhiambo matete	dyfredash@gmail.com	t	$2b$15$g5B9aiYGRf1Hmdg9kFcqXea3Vud4xllpbUYiYGdit5nqWCE3w67BS	AGENT	38	Male	\N	f	2025-01-21 14:30:36.675255+00	\N	f
+97cdba61-a19b-4dd5-8a68-34fbe21d9a36	stellandanuMusembi	stellandanu57@gmail.com	t	$2b$15$35Z3W6465VHxIubJ1xX5NeZwCzkhG06YPxRQVZrwgUfE8NpyqUvlq	AGENT	19	Female	\N	f	2024-11-11 09:50:48.435472+00	\N	f
+1a749cf5-8652-4318-b1c0-a9b67b7fd4ee	Sylvia Jepkoech	sylviachepm@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Female	\N	f	2025-01-10 08:20:39.76417+00	\N	f
+220c3547-0541-45e1-b769-e4a02cee8945	Stella Syomiti	syomitistella11@gmail.com	t	$2b$15$A93MnVy0AUIF9lL9ixj7wugYAl76v7andDQWfznfnYdB/HELcIK.O	AGENT	26	Female	\N	f	2024-11-07 11:46:37.470836+00	\N	f
+8a33d66f-89ed-41d9-8d5c-95ca9f74fb9d	Richmond Taari	taaririchmond9@gmail.com	t	$2b$15$6xjTvSJ57WqqqOav./luweR5X1voI.xihkLAN9XYGU65mCCb9ixVi	AGENT	23	Male	\N	f	2024-11-11 09:44:38.871008+00	\N	f
+f1bf08a4-085f-4b82-b296-639d636fb2f0	Taati Eric Nteere	taati.nteere@gmail.com	t	$2b$15$iNEMfU3z1nIeMctlVZ8xKeJoqIt3c2IvdZiv5rD90XZ3rRcQsGxNK	AGENT	21	Male	\N	f	2024-11-08 07:05:26.015633+00	\N	f
+4b937413-4084-48a1-b6b2-8f856442f7ae	Claire Wanjiku Chege	tatecla@gmail.com	t	$2b$15$WePZD/X8dv/ALqvEBwn3t..OtguluzeJNoYjzYvpvyBBtJ9ZuO24S	AGENT	34	Female	\N	f	2024-11-07 12:05:56.515278+00	\N	f
+6d7b25aa-a203-4980-b14c-e41c92ab0c87	Taunas Otieno	taunasotieno@gmail.com	t	$2b$15$822724Hy4bK6wbrw7RXXQeGm1e4cxDz0U2hzNm6GIVXpOKpCXlwHW	AGENT	30	Male	\N	f	2024-11-07 07:26:21.899166+00	\N	f
+4b07c44e-a189-4fb7-bf08-18414c44f187	Tracie Khasiala Sakwa	tracysakwa@gmail.com	t	$2b$15$wwM6G.ET/WJ9o..LyRwJue4P1SYk92ILvH2CtyzwX66FEW.8cP4Qe	AGENT	27	Female	\N	f	2024-11-11 12:18:28.781656+00	\N	f
+9752158e-7e1f-498a-b058-d9bb38a2ce30	Vera Osodo	veranicks59@gmail.com	t	$2b$15$cruEzNbrssyxIAxh5sGDYeOtXDPaxWjn/YDruHJI5uNATDhXCActS	AGENT	37	Female	\N	f	2024-11-06 12:23:46.057162+00	\N	f
+7fab95dc-bf02-4489-b176-22388372351f	Victor Afwande Ojiambo	victorafwande@gmail.com	t	$2b$15$5NqqpIkdBNNQpczViZV4xuARLf9.hKJnnb/Va75hl1jdsOLKCgdzu	AGENT	35	Male	\N	f	2025-01-09 01:44:52.363212+00	\N	f
+e83a0142-c342-40de-aad2-835e5d614ccc	Victoria	victoriaotieno@yahoo.co.uk	t	$2b$15$MfdqkFutyO/2sK9SUY.29Oop1aj6FFyVfMXKGGk/1SHEvXYGXOF3u	AGENT	51	Female	\N	f	2024-11-11 08:48:11.898592+00	\N	f
+efa4772a-cf28-4f3c-b2af-96ca2e50f4a0	Victor Kilesi	victorkilesi99@gmail.com	t	$2b$15$iSmMDInVvI/YdQGr1sx9E.tXgMrqkX68iOmg89OLd2ZYzTma368Ry	AGENT	28	Male	\N	f	2024-11-10 13:38:34.632716+00	\N	f
+815533a5-6869-4118-9d2b-8d094faa6f90	Victor Musyoka	victormusyoka101@gmail.com	t	$2b$15$scWZytkmg/Sz.S8iwDjypu68ZFdMEPfKp2sEt6HL.BE1SderJQei.	AGENT	23	Male	\N	f	2024-11-06 12:17:26.315133+00	\N	f
+d618da68-10ac-4822-a536-ec15839c3c77	Victor Mwangi Njuguna	victornjuguna26@gmail.com	t	$2b$15$Ui1YYRygcWPgGUy7qiinEuTKEc4Ji432/T/7twAiUy.kMAc5Qpmhm	AGENT	31	Male	\N	f	2024-11-09 18:31:08.693346+00	\N	f
+779c8b25-8d69-496b-8fde-b8f1748b385e	Victor Omari Ondara	victorondara8@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	30	Male	\N	f	2025-01-10 09:28:32.085668+00	\N	f
+121f945d-4974-4a74-97e0-2bb9cdadb25b	vitalis wafula	vitaliswangila57@gmail.com	t	$2b$15$Eiko/LdY/r3E0iQw7amnSulfJ6M59ETr/p6ELCGPSpPyOTLcHtnIa	AGENT	29	Male	\N	f	2024-11-06 12:27:52.606323+00	\N	f
+72c9a021-91fb-4319-8858-789ee9f83d6f	Mayliza wanjiku	Wanjikumayliza9@gmail.com	t	$2b$15$b19QvavFmDMFMzVdMzlyz.69mSeKFSep3LtP3o4El6U2fpR3R7D8i	AGENT	27	Female	\N	f	2024-12-02 19:25:30.782928+00	\N	f
+f20f511a-1581-48b9-976a-3574c7dac6cb	Devis Wanyama	wanyamadevis077@gmail.com	t	$2b$15$nhfi3epDVcffZ0cI33SiNeHZqR0qYzgRZiVWFZ4iBcaoVVDevOg7y	AGENT	28	Male	\N	f	2024-11-06 13:23:42.315758+00	\N	f
+79e0b32b-5650-4c8c-8d73-71f3e1302ba5	Racheal Nafula	wasike.rakels.racheal1@gmail.com	t	$2b$15$68tywPMsZ.muRkb4cLucdef3GqC7sVoc56as9tOv5L9s/Cz5KF.7e	AGENT	30	Female	\N	f	2024-11-06 11:10:18.26752+00	\N	f
+eeeae060-fa85-48a8-8b91-6a952d6f158e	Don Odhiambo	webmastadon@gmail.com	t	$2b$15$Tq6KLQz9W//haYNEykbece387ZwqRp1xoV8BtXabZdkzxh9ae9rjW	AGENT	42	Male	\N	f	2024-11-07 12:55:32.124502+00	\N	f
+d5493931-5cd9-4913-a2a1-f8a96874332b	Williiam owade	willyhill384@gmail.com	t	$2b$15$P8QOOhNUX7UJQh2JJF8WZ.czMcwStTvUEWtRK/QnbBt8xgA9YhT..	AGENT	24	Male	\N	f	2024-12-12 09:44:41.05047+00	\N	f
+1423b0b1-d059-430d-9dfb-2bf7bc8b1b59	Gekonge Nyabando Wilson	wilsonnyaband73@gmail.com	t	$2b$15$p52iRpV/JmtdlSalFIzDceLoU5vvrSyIbj2EpQiQHAmGMLtC/ijRi	AGENT	26	Male	\N	f	2024-11-08 09:26:56.21665+00	\N	f
+500ca188-07bf-474d-89fc-bfadd41cd7d3	Nazarene Nyambura Njuguna	zonahnyambura@gmail.com	t	$2b$15$QTRooPC0Rl9r.8Ra5fR03.uuPhmE7zvqxl68QItcSCNSRhjcZOhfy	AGENT	26	Female	\N	f	2024-11-06 13:54:35.78191+00	\N	f
+e23b4ca0-5104-4061-ba8e-118a9f3f562d	Charity Njoroge	charitynjoroge644@gmail.com	t	$2b$15$SU26HaI9HKqUgccziI7RAum05xGWHF9jNh7mBvNQ.aGDtNvC72rKC	AGENT	54	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+12059b01-c2cd-4ec0-a640-c4f80728ab8e	WAYNE EASTER	wayneeaster95@gmail.com	t	$2b$15$d82pzyTwp0MOY/RwoXOdDuN7S2nNQGdIsi3erOGg4TbpjYG0SExuq	AGENT	22	Male	\N	f	2024-11-10 18:54:12.169293+00	\N	f
+f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	Ery	foxdrive.rycoh@gmail.com	t	$2b$15$mYRf1dS0DyRQZTOBwsdCbeAK/15bTHv3.jmuVCHeHqO22QnqqXzkO	CLIENT	\N	\N	\N	f	2025-01-21 15:53:08.650564+00	\N	f
+55c8bb46-93a8-4fa8-91f8-c9630eaac44a	Mitchel Oyugi Onyango	pharellesmith@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-11 04:06:21.600006+00	\N	f
+9c159f1c-6589-41e7-84c7-3da9eb15809c	Edith Nakabuye Joyce	edithnakabuye@gmail.com	t	$2b$15$zuti.7KDiHLbtj8sgvWu3OFwhnYQSyfc5vqGRXtsrAaLr9Lb8nP3q	AGENT	23	Female	\N	f	2025-01-18 11:51:08.908325+00	\N	f
+1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	Lewis Manyeki	lewismanyekinyambura@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+d9e28da8-ab57-415c-b304-4faafeebb8ae	Felisia imende muhonja	felisiareginald@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 10:02:08.365802+00	\N	f
+6ad97e91-3a9a-4308-b938-f98981621b1a	Richie	brianrichie745@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-18 10:34:02.556728+00	\N	f
+beb327d2-537d-45c8-8863-a8cc16ac0c89	Ruth Mariatso	mariatsoamtsama@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 11:48:28.47491+00	\N	f
+a58e726a-9f4a-4545-9634-c5ff1ec82dfc	Issah Mohaa	issahmohaa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-18 15:48:03.438686+00	\N	f
+a78b1ef4-41a7-41e6-ba09-592f465f28c6	kennedy	kenvilla607@gmil.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 17:45:29.090031+00	\N	f
+031db3cd-7c5f-4135-9cf8-5678b19b9e73	Byron Orwa	byronorwa@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-18 18:29:05.484023+00	\N	f
+45f7bb0f-9aeb-4cb4-bae2-56d8a92537d9	Florence  zawadi	florencemwaka23@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-19 09:35:49.20446+00	\N	f
+d0d0c6b8-e2ab-46dc-b28b-5dea13cf2460	Rebecca Nyamanguye	rebeccalvin411@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-19 13:41:29.154178+00	\N	f
+a3d62f48-426b-4d42-912e-0441d36f312a	CHARLES KIOKO WAMBUA	cwambua518@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-20 08:52:59.240556+00	\N	f
+de70e826-2e3e-410e-8737-a060c60b7cc3	Charles Kahuro	kahurocharles@gmail.com	t	$2b$15$GacGiRkefsu9TCRXSt.c/.zFXJoxvECetok2gndfBX2ODWuLGjmgq	AGENT	23	Male	\N	f	2025-01-18 11:23:39.743481+00	\N	f
+3ded56e2-2462-4734-8201-5e738afc7b3a	Stewa kamau	kamausteve1999@gmail.com	t	$2b$15$daTZeNVP4B00Kt.zsXMhUuQ8PnunsDzxUg235DWRWrUdomUgdRhdC	AGENT	43	Male	\N	f	2025-01-21 18:26:45.895929+00	\N	f
+6312d59a-3fa7-4b5c-9477-838a2a245445	Susan daggers	susanwanjira699@gmail.com	t	$2b$15$bHMurCT64PLIqvvjck3UdOW95pPOkEmnh0MjshNTC7QgLr0HhC5n2	AGENT	28	Female	\N	f	2025-01-21 18:41:36.567543+00	\N	f
+5de1db58-f659-4bf3-8ff1-eaf3aaf85f31	Everlyne	oukoe32@gmail.com	t	$2b$15$i10CXsvu9gZ8Lvga5NMFYeOgA9NQpnyqgFYbsPP6632yE3V/BNA4.	AGENT	47	Female	\N	f	2025-01-21 18:44:35.587073+00	\N	f
 \.
 
 
@@ -1034,57 +1033,57 @@ a2d5b801-5a09-415e-afc7-e4e16400eca2	0a7b4948-3927-4120-816c-bb57eb3d174b	AG_202
 -- Data for Name: survey_qns_optimum; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."survey_qns_optimum" ("questionid", "surveyid", "question_type", "question", "likert_key", "updated_at") FROM stdin;
-616fee8a-dad7-473b-a667-1dce09a738f6	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	Are you satisfied with the variety of products available in our supermarket?	satisfaction	2024-11-11 13:25:16.593341+00
-6f31b5d4-18fa-40a7-960c-3677066ce3d2	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Were you able to find everything you were looking for during your visit?	\N	2024-11-11 13:27:59.185755+00
-ce7dd244-f36a-42c1-8ab3-b6e8b8fbd4eb	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied are you with the quality of fresh produce (fruits and vegetables) in our store?	satisfaction	2024-11-11 13:30:57.01095+00
-00d86e5b-dba1-49a5-8909-5c38a1479ee7	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Do you feel our store offers a good range of healthy food options?	\N	2024-11-11 13:31:34.269584+00
-eedbcd75-4b20-4d4d-8482-02adaf003651	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the availability of your preferred brands in our supermarket?	\N	2024-11-11 13:32:03.673954+00
-f7a7e97e-aa10-4cad-a5d0-b6dbd1f4607a	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	Is there any product or category you would like to see more of?	\N	2024-11-11 13:32:16.840677+00
-ff5250ca-7f87-4287-9790-8439ff79d248	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	How do you feel about the prices of products in our store?	\N	2024-11-11 13:33:03.030488+00
-ef3e2e93-7f3b-42ab-bab4-d56635d9931c	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied are you with our promotions, discounts, and loyalty programs?	satisfaction	2024-11-11 13:33:11.654238+00
-1c306e71-be5e-4899-822a-3f46e526a057	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Do you feel you are getting good value for the price you pay at our supermarket?	\N	2024-11-11 13:33:40.832165+00
-5a49ad62-dac2-4855-9bb2-0cea3f522ac6	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the friendliness and helpfulness of our staff?	\N	2024-11-11 13:33:59.097845+00
-a72c44ad-6b48-4ff2-94a2-dbc727b333d7	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Did a staff member assist you during your visit, and if so, how was the experience?	\N	2024-11-11 13:34:49.551621+00
-39a13775-90a4-431a-961d-0532d7da41d7	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	How would you rate the speed of checkout at our supermarket?	\N	2024-11-11 13:35:30.023367+00
-82850eaa-cbfb-4b37-a00d-35cc4d484708	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the ease of navigating through our store?	\N	2024-11-11 13:35:43.402358+00
-4aa61947-1a09-429d-9973-43c35d78c80a	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the cleanliness and organization of our store?	\N	2024-11-11 13:35:49.479579+00
-1822aefb-aaa7-4a9c-88d2-82759f647a58	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Was the store well-stocked during your visit?	\N	2024-11-11 13:36:18.368673+00
-54bb8e25-345f-46a9-864d-58c675f75d41	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the lighting, temperature, music and overall comfort of the shopping environment?	\N	2024-11-11 13:36:31.686653+00
-dcd41437-c782-4ba1-a5a1-edb83d78ec4a	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Have you used our online shopping or delivery services?	\N	2024-11-11 13:36:52.176595+00
-76f5753d-b2df-451d-ac40-1b6f6cb772d5	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied were you with the online ordering process?	satisfaction	2024-11-11 13:37:24.98883+00
-cc3e5dec-8064-41d9-8b84-d2cb700cf898	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the delivery speed and the condition of your items upon arrival?	\N	2024-11-11 13:37:44.162519+00
-2e163b61-9cf1-452a-b384-f26704dc599e	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied are you with your overall shopping experience at our store?	satisfaction	2024-11-11 13:37:57.308458+00
-145646ce-8f1a-4d55-b284-b2c806f1d0cc	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How frequently do you shop at our store?	frequency	2024-11-11 13:38:10.006973+00
-0092186e-94a4-48c7-8b53-3382e15c71be	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How likely are you to recommend our store to a friend or family member?	likelyhood	2024-11-11 13:39:10.748906+00
-73feaaed-cd7a-4ae1-9064-884362b9b97b	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	What is your favorite aspect of shopping at our store?	\N	2024-11-11 13:40:01.566303+00
-df812cdb-5e13-4641-b1ad-737f444acc92	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	Is there anything we can do to improve your overall shopping experience?	\N	2024-11-11 13:40:07.557316+00
-2e2639e3-a4b8-4d49-bf9c-028c04596ad1	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	How can we improve our customer service to better meet your needs?	\N	2024-11-11 13:40:18.764442+00
-6f1dab70-7d1a-4438-9157-b585af2467d9	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	How did you get to know about us?	\N	2024-11-18 07:50:24.142278+00
-0becfbe6-5830-4630-b986-a8b71ec9e75c	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	How did you book with us?	\N	2024-11-18 07:55:45.973059+00
-e5dfbf0b-1e68-4abc-a914-01daf0b8f31e	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	How satisfied were you with the cleanliness of your room?	satisfaction	2024-11-18 07:56:41.951657+00
-7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Was the room size adequate for your needs?	\N	2024-11-18 07:59:54.14923+00
-78c0d15c-2db5-47f3-affe-7fe610d40123	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Did the amenities in the room meet your expectations?	\N	2024-11-18 08:03:32.797609+00
-32118821-ad59-4d5c-9213-d48a2069c3dd	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	Were you satisfied with the quality of the bedding and mattress?	satisfaction	2024-11-18 08:04:06.415965+00
-400d4591-701a-434d-a818-d48a26302a57	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	How would you rate the quality of food and beverage?	\N	2024-11-18 08:06:18.439899+00
-eb6c2812-2a76-4a33-a8ff-d5641a564090	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Did the variety of food options on the menu meet your preferences?	\N	2024-11-18 08:09:32.161706+00
-22016b7c-fea7-4c30-b90d-8a977be7a511	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were the dining areas clean and well-maintained?	\N	2024-11-18 08:28:59.263384+00
-d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Was the room service timely and accurate with your order?	\N	2024-11-18 08:30:50.758694+00
-7aa0af03-71b1-412a-8b8c-059089d9b787	c082054d-46e4-4bdf-ac24-810d17406e7c	Rating	How would you rate the quality of the hotel’s facilities?	\N	2024-11-18 08:31:44.461131+00
-17fc096c-7011-440b-be4a-31dcbfe61735	c082054d-46e4-4bdf-ac24-810d17406e7c	Multiple	Which amenities did you enjoy the most during your stay?	\N	2024-11-18 08:36:36.369959+00
-28baf7ff-c10a-4542-9eef-80d74fc15f4c	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	How satisfied were you with the internet and Wi-Fi connectivity in your room?	satisfaction	2024-11-18 08:37:18.935672+00
-4913caa6-d942-45cb-801a-1ee44063e57e	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Did you feel the hotel’s security measures were adequate?	\N	2024-11-18 08:39:29.801645+00
-eac2877d-915d-4ce4-a32d-49dee271a5c8	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were the hotel staff friendly, courteous, and professional during your stay?	\N	2024-11-18 08:46:52.159489+00
-c73beb62-6926-4658-a35a-d2842132f801	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	Did you have any complaints during your stay?	\N	2024-11-18 08:48:41.83467+00
-aaf3f226-d2ca-4d94-af5a-ac85430776bd	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were your complaints resolved to your satisfaction?	\N	2024-11-18 08:57:21.041984+00
-89ed9510-835a-4bd4-a820-005bce2562b6	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Do you think the price of the room was reasonable for the amenities offered?	\N	2024-11-18 08:58:52.067102+00
-bc9e725f-6408-4f1a-8200-c9d1362d666f	c082054d-46e4-4bdf-ac24-810d17406e7c	Rating	How would you rate your overall experience during your stay?	\N	2024-11-18 08:59:18.813644+00
-1ba11149-69ba-49e4-87c4-e042d53baf08	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	How satisfied were you with the check-in and check-out process?	satisfaction	2024-11-18 08:59:40.766896+00
-8544dd09-4d10-4dc7-84e6-7d24e26bb870	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were your requests handled promptly and efficiently?	\N	2024-11-18 09:00:59.259815+00
-3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Would you recommend our hotel to others?	\N	2024-11-18 09:02:31.099297+00
-d41f61b5-b726-4640-bd7a-8854fe06b025	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What did you like/enjoy most about our hotel during your stay?	\N	2024-11-18 09:03:06.369287+00
-a516e0b8-d38d-4b30-bded-33b39cf340c7	c082054d-46e4-4bdf-ac24-810d17406e7c	Ranking	Which cuisine did you enjoy the most?	\N	2024-11-18 09:05:46.174851+00
-f02b7365-be16-44bd-937c-a8e6549b5465	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What suggestions would you offer to improve your experience during your next visit?	\N	2024-11-18 09:06:13.513509+00
+COPY "public"."survey_qns_optimum" ("questionid", "surveyid", "question_type", "question", "likert_key", "updated_at", "created_at") FROM stdin;
+616fee8a-dad7-473b-a667-1dce09a738f6	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	Are you satisfied with the variety of products available in our supermarket?	satisfaction	2024-11-11 13:25:16.593341+00	2025-02-17 11:18:11.541299+00
+6f31b5d4-18fa-40a7-960c-3677066ce3d2	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Were you able to find everything you were looking for during your visit?	\N	2024-11-11 13:27:59.185755+00	2025-02-17 11:18:11.541299+00
+ce7dd244-f36a-42c1-8ab3-b6e8b8fbd4eb	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied are you with the quality of fresh produce (fruits and vegetables) in our store?	satisfaction	2024-11-11 13:30:57.01095+00	2025-02-17 11:18:11.541299+00
+00d86e5b-dba1-49a5-8909-5c38a1479ee7	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Do you feel our store offers a good range of healthy food options?	\N	2024-11-11 13:31:34.269584+00	2025-02-17 11:18:11.541299+00
+eedbcd75-4b20-4d4d-8482-02adaf003651	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the availability of your preferred brands in our supermarket?	\N	2024-11-11 13:32:03.673954+00	2025-02-17 11:18:11.541299+00
+f7a7e97e-aa10-4cad-a5d0-b6dbd1f4607a	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	Is there any product or category you would like to see more of?	\N	2024-11-11 13:32:16.840677+00	2025-02-17 11:18:11.541299+00
+ff5250ca-7f87-4287-9790-8439ff79d248	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	How do you feel about the prices of products in our store?	\N	2024-11-11 13:33:03.030488+00	2025-02-17 11:18:11.541299+00
+ef3e2e93-7f3b-42ab-bab4-d56635d9931c	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied are you with our promotions, discounts, and loyalty programs?	satisfaction	2024-11-11 13:33:11.654238+00	2025-02-17 11:18:11.541299+00
+1c306e71-be5e-4899-822a-3f46e526a057	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Do you feel you are getting good value for the price you pay at our supermarket?	\N	2024-11-11 13:33:40.832165+00	2025-02-17 11:18:11.541299+00
+5a49ad62-dac2-4855-9bb2-0cea3f522ac6	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the friendliness and helpfulness of our staff?	\N	2024-11-11 13:33:59.097845+00	2025-02-17 11:18:11.541299+00
+a72c44ad-6b48-4ff2-94a2-dbc727b333d7	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Did a staff member assist you during your visit, and if so, how was the experience?	\N	2024-11-11 13:34:49.551621+00	2025-02-17 11:18:11.541299+00
+39a13775-90a4-431a-961d-0532d7da41d7	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	How would you rate the speed of checkout at our supermarket?	\N	2024-11-11 13:35:30.023367+00	2025-02-17 11:18:11.541299+00
+82850eaa-cbfb-4b37-a00d-35cc4d484708	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the ease of navigating through our store?	\N	2024-11-11 13:35:43.402358+00	2025-02-17 11:18:11.541299+00
+4aa61947-1a09-429d-9973-43c35d78c80a	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the cleanliness and organization of our store?	\N	2024-11-11 13:35:49.479579+00	2025-02-17 11:18:11.541299+00
+1822aefb-aaa7-4a9c-88d2-82759f647a58	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Was the store well-stocked during your visit?	\N	2024-11-11 13:36:18.368673+00	2025-02-17 11:18:11.541299+00
+54bb8e25-345f-46a9-864d-58c675f75d41	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the lighting, temperature, music and overall comfort of the shopping environment?	\N	2024-11-11 13:36:31.686653+00	2025-02-17 11:18:11.541299+00
+dcd41437-c782-4ba1-a5a1-edb83d78ec4a	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Optional	Have you used our online shopping or delivery services?	\N	2024-11-11 13:36:52.176595+00	2025-02-17 11:18:11.541299+00
+76f5753d-b2df-451d-ac40-1b6f6cb772d5	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied were you with the online ordering process?	satisfaction	2024-11-11 13:37:24.98883+00	2025-02-17 11:18:11.541299+00
+cc3e5dec-8064-41d9-8b84-d2cb700cf898	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Rating	How would you rate the delivery speed and the condition of your items upon arrival?	\N	2024-11-11 13:37:44.162519+00	2025-02-17 11:18:11.541299+00
+2e163b61-9cf1-452a-b384-f26704dc599e	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How satisfied are you with your overall shopping experience at our store?	satisfaction	2024-11-11 13:37:57.308458+00	2025-02-17 11:18:11.541299+00
+145646ce-8f1a-4d55-b284-b2c806f1d0cc	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How frequently do you shop at our store?	frequency	2024-11-11 13:38:10.006973+00	2025-02-17 11:18:11.541299+00
+0092186e-94a4-48c7-8b53-3382e15c71be	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Likert	How likely are you to recommend our store to a friend or family member?	likelyhood	2024-11-11 13:39:10.748906+00	2025-02-17 11:18:11.541299+00
+73feaaed-cd7a-4ae1-9064-884362b9b97b	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	What is your favorite aspect of shopping at our store?	\N	2024-11-11 13:40:01.566303+00	2025-02-17 11:18:11.541299+00
+df812cdb-5e13-4641-b1ad-737f444acc92	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	Is there anything we can do to improve your overall shopping experience?	\N	2024-11-11 13:40:07.557316+00	2025-02-17 11:18:11.541299+00
+2e2639e3-a4b8-4d49-bf9c-028c04596ad1	7adba2c0-f1f2-40bd-b1b0-2ffefa755348	Single	How can we improve our customer service to better meet your needs?	\N	2024-11-11 13:40:18.764442+00	2025-02-17 11:18:11.541299+00
+6f1dab70-7d1a-4438-9157-b585af2467d9	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	How did you get to know about us?	\N	2024-11-18 07:50:24.142278+00	2025-02-17 11:18:11.541299+00
+0becfbe6-5830-4630-b986-a8b71ec9e75c	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	How did you book with us?	\N	2024-11-18 07:55:45.973059+00	2025-02-17 11:18:11.541299+00
+e5dfbf0b-1e68-4abc-a914-01daf0b8f31e	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	How satisfied were you with the cleanliness of your room?	satisfaction	2024-11-18 07:56:41.951657+00	2025-02-17 11:18:11.541299+00
+7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Was the room size adequate for your needs?	\N	2024-11-18 07:59:54.14923+00	2025-02-17 11:18:11.541299+00
+78c0d15c-2db5-47f3-affe-7fe610d40123	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Did the amenities in the room meet your expectations?	\N	2024-11-18 08:03:32.797609+00	2025-02-17 11:18:11.541299+00
+32118821-ad59-4d5c-9213-d48a2069c3dd	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	Were you satisfied with the quality of the bedding and mattress?	satisfaction	2024-11-18 08:04:06.415965+00	2025-02-17 11:18:11.541299+00
+400d4591-701a-434d-a818-d48a26302a57	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	How would you rate the quality of food and beverage?	\N	2024-11-18 08:06:18.439899+00	2025-02-17 11:18:11.541299+00
+eb6c2812-2a76-4a33-a8ff-d5641a564090	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Did the variety of food options on the menu meet your preferences?	\N	2024-11-18 08:09:32.161706+00	2025-02-17 11:18:11.541299+00
+22016b7c-fea7-4c30-b90d-8a977be7a511	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were the dining areas clean and well-maintained?	\N	2024-11-18 08:28:59.263384+00	2025-02-17 11:18:11.541299+00
+d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Was the room service timely and accurate with your order?	\N	2024-11-18 08:30:50.758694+00	2025-02-17 11:18:11.541299+00
+7aa0af03-71b1-412a-8b8c-059089d9b787	c082054d-46e4-4bdf-ac24-810d17406e7c	Rating	How would you rate the quality of the hotel’s facilities?	\N	2024-11-18 08:31:44.461131+00	2025-02-17 11:18:11.541299+00
+17fc096c-7011-440b-be4a-31dcbfe61735	c082054d-46e4-4bdf-ac24-810d17406e7c	Multiple	Which amenities did you enjoy the most during your stay?	\N	2024-11-18 08:36:36.369959+00	2025-02-17 11:18:11.541299+00
+28baf7ff-c10a-4542-9eef-80d74fc15f4c	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	How satisfied were you with the internet and Wi-Fi connectivity in your room?	satisfaction	2024-11-18 08:37:18.935672+00	2025-02-17 11:18:11.541299+00
+4913caa6-d942-45cb-801a-1ee44063e57e	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Did you feel the hotel’s security measures were adequate?	\N	2024-11-18 08:39:29.801645+00	2025-02-17 11:18:11.541299+00
+eac2877d-915d-4ce4-a32d-49dee271a5c8	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were the hotel staff friendly, courteous, and professional during your stay?	\N	2024-11-18 08:46:52.159489+00	2025-02-17 11:18:11.541299+00
+c73beb62-6926-4658-a35a-d2842132f801	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	Did you have any complaints during your stay?	\N	2024-11-18 08:48:41.83467+00	2025-02-17 11:18:11.541299+00
+aaf3f226-d2ca-4d94-af5a-ac85430776bd	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were your complaints resolved to your satisfaction?	\N	2024-11-18 08:57:21.041984+00	2025-02-17 11:18:11.541299+00
+89ed9510-835a-4bd4-a820-005bce2562b6	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Do you think the price of the room was reasonable for the amenities offered?	\N	2024-11-18 08:58:52.067102+00	2025-02-17 11:18:11.541299+00
+bc9e725f-6408-4f1a-8200-c9d1362d666f	c082054d-46e4-4bdf-ac24-810d17406e7c	Rating	How would you rate your overall experience during your stay?	\N	2024-11-18 08:59:18.813644+00	2025-02-17 11:18:11.541299+00
+1ba11149-69ba-49e4-87c4-e042d53baf08	c082054d-46e4-4bdf-ac24-810d17406e7c	Likert	How satisfied were you with the check-in and check-out process?	satisfaction	2024-11-18 08:59:40.766896+00	2025-02-17 11:18:11.541299+00
+8544dd09-4d10-4dc7-84e6-7d24e26bb870	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Were your requests handled promptly and efficiently?	\N	2024-11-18 09:00:59.259815+00	2025-02-17 11:18:11.541299+00
+3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	c082054d-46e4-4bdf-ac24-810d17406e7c	Optional	Would you recommend our hotel to others?	\N	2024-11-18 09:02:31.099297+00	2025-02-17 11:18:11.541299+00
+d41f61b5-b726-4640-bd7a-8854fe06b025	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What did you like/enjoy most about our hotel during your stay?	\N	2024-11-18 09:03:06.369287+00	2025-02-17 11:18:11.541299+00
+a516e0b8-d38d-4b30-bded-33b39cf340c7	c082054d-46e4-4bdf-ac24-810d17406e7c	Ranking	Which cuisine did you enjoy the most?	\N	2024-11-18 09:05:46.174851+00	2025-02-17 11:18:11.541299+00
+f02b7365-be16-44bd-937c-a8e6549b5465	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What suggestions would you offer to improve your experience during your next visit?	\N	2024-11-18 09:06:13.513509+00	2025-02-17 11:18:11.541299+00
 \.
 
 
@@ -6046,11 +6045,18 @@ d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	\N	\N	
 
 
 --
+-- Data for Name: branching_rules; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."branching_rules" ("rule_id", "question_id", "selected_option_id", "next_question_id", "created_at") FROM stdin;
+\.
+
+
+--
 -- Data for Name: client_data; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY "public"."client_data" ("client_id", "client_email", "company_name", "phone", "county", "sector", "packageid", "one_time", "package_type_id", "payment_status", "processed_at", "expires_at", "created_at") FROM stdin;
-002f1ef2-4eb5-43c4-87fc-e60b38a7feea	cnjoroge925@gmail.com	Aliquot	0799725093	Kiambu	Information Technology	prod_QjUMG44vCFNGXO	f	price_1Ps1ODRpYHoLk6LSMN8kgMJf	t	2024-11-22 09:37:28.386+00	2025-11-22 12:37:28.386+00	2024-11-06 08:51:31.834973+00
 f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	foxdrive.rycoh@gmail.com	Mw	+254720133519	Baringo	Information Technology	\N	f	\N	f	\N	\N	2025-01-21 15:53:08.870496+00
 01055346-f4e3-4282-a2ca-e87deedfd078	tsimanjig123@gmail.com	Intuitive insights	0742452146	Mombasa	Fashion	\N	f	\N	f	\N	\N	2025-01-22 10:18:58.286771+00
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Nairobi	Others	prod_QjUMG44vCFNGXO	f	price_1Ps1ODRpYHoLk6LSMN8kgMJf	t	2025-02-02 13:21:20.73+00	2025-03-02 13:21:20.73+00	2024-11-11 13:06:37.681435+00
@@ -6076,6 +6082,31 @@ prod_QjUMG44vCFNGXO	Basic	50	540	price_1Ps1ODRpYHoLk6LSg56V1no0	price_1Ps1ODRpYH
 COPY "public"."client_transactions" ("transaction_code", "trans_amount", "org_account_balance", "msisdn", "first_name", "middle_name", "last_name", "trans_time", "id", "bill_ref_number") FROM stdin;
 SKM6OIUYPK	54000	1779.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-22 10:22:46+00	1	0799725093
 SKQ28DJ5NY	10	1469.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-26 19:09:56+00	2	0799725093
+\.
+
+
+--
+-- Data for Name: consumer_details; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone", "county", "sub_county", "sector", "disabled", "created_at") FROM stdin;
+c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Nairobi	Kinango	Others	f	2025-02-02 13:21:20.73+00
+\.
+
+
+--
+-- Data for Name: price_table; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."price_table" ("id", "title", "one_pack", "six_pack", "ten_pack", "max_qns", "max_responses", "demographics", "api", "branding") FROM stdin;
+\.
+
+
+--
+-- Data for Name: consumer_package; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."consumer_package" ("id", "consumerid", "package_id", "package", "package_type", "invoiced", "expires") FROM stdin;
 \.
 
 
@@ -6207,90 +6238,6 @@ COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms"
 --
 
 COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
-ceff52fa0f3a751c6516f0e8f0ec97aabfef108373ff511003161d9abd20a445	0193625d-3a30-74a5-a759-1c7d5f69e14c	2025-02-20 05:08:42.192+00
-03e91b0f60201c756028780cd269ab9d55eed12ed0134f0ded83f015085ebb69	a66345f5-6cc3-402d-a7a2-0db21b9869a3	2025-01-21 06:37:42.441+00
-3862f332fcdda9e857052c9f1e3f89f781c0369a603d1c5c56f2b80c844a9a9f	c1bde176-582a-4028-888e-a70875a11f51	2025-01-21 08:05:22.886+00
-4469a5a5c174d2f2c6b0425a40c737a3103bfaec38784da193df5e798b214dd4	b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	2025-01-21 08:52:31.305+00
-06b7f06d60efb074dc287fe5ddd986e04fc79c20e5a4264b323167b4537cfb32	b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	2025-01-21 08:53:02.909+00
-451c57f7d7d62eba0809641f17c81ceff5d8ca93a21dbdd39d92b30b6052ead9	36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	2025-01-21 11:56:09.394+00
-a54bf419467c9b29115743a7cbc0baf3eb942eff0393bb221790d2a9180f9a4c	36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	2025-01-21 11:56:27.492+00
-89611a2e2f9f1270e70a857a0febc7100d4ebc37fce87496bd3b95dd9950e36d	fffd2637-1493-41f9-a140-08ba67621b10	2025-01-21 12:34:28.479+00
-7be9b966b71afa385fefa1042d3d7a57a51688af03faf47c62ae626dc0c6d5f2	fffd2637-1493-41f9-a140-08ba67621b10	2025-01-21 12:34:44.665+00
-cca6d1f20d1f28adfe7395281ed1d2b0997e7aba8d304738df66d9b728173fe6	10d805ed-704a-493f-93de-9c0bd809121b	2025-01-21 13:00:27.24+00
-a20d5fc451b3fbd925239f2ff57e2953bbb3bf41975a832fb5ffa1c72514b9a5	10d805ed-704a-493f-93de-9c0bd809121b	2025-01-21 13:01:08.971+00
-e13598e69973e9e74f36e94082b2f7365bc7a0f5b88e2aa4cf744523834211e1	10d805ed-704a-493f-93de-9c0bd809121b	2025-01-21 13:02:39.124+00
-cd8e7956a4583e575580dca5afddade39ab0e232e0afea56ca53c02ea288a205	1adae48f-088a-46f5-af29-7a551e7f2aa2	2025-01-21 14:27:54.086+00
-1a1c518a4c23fce0c41ae6499425f3ce57213be5240608089a341659bc4eda62	11f24999-5b2c-4b15-a0d0-3554121bf9ed	2025-01-21 14:45:42.079+00
-c52f209438b389b2841d7ddaa5449ddb33718d87645f9de0f132c9d10dc04209	11f24999-5b2c-4b15-a0d0-3554121bf9ed	2025-01-21 14:46:18.545+00
-a3ba37f7760385c26606c0d8f7ca56b2c340064cf7bd900174646a14e3abf18a	42ab60ec-e810-4143-bf8a-9d336e5de4a0	2025-01-21 15:29:38.223+00
-341f0769c7acf01c3126aa49e25b5e161f7e63b5ea62abb6c79bf47f9c665b06	42ab60ec-e810-4143-bf8a-9d336e5de4a0	2025-01-21 15:29:57.852+00
-bc2da8d2fc6a10cbad00b72231de17ea16d3dda401ea4143d4a96f14b1493003	fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	2025-01-21 15:30:37.05+00
-a9e9e05e55aa377db3bfdbda14cba552dab67043dc586bd781483ed445f58ffb	fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	2025-01-21 15:31:00.914+00
-fd231d266e18cb9c0c7a823d5425ee3433d372a011d3d2f99b08c2fcd4db54de	e9399ea6-19a3-4e71-872c-f965a846097f	2025-01-21 16:35:10.918+00
-1ce4637ea999740137014945211c6bde84287ed5aef6cfcd66f07e03e313600d	f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	2025-01-21 16:53:09.031+00
-eff1f1b3970954c851753cde5c63e8bfbf71bab6212002dea39517a2d89f7ab0	e9399ea6-19a3-4e71-872c-f965a846097f	2025-01-21 16:58:57.172+00
-44f6545095c2277c735595e3569ffd7cf0b3dc43a95546b36af6de23e8ca7c13	730995b6-9753-4dcf-a65d-fb0cbc0c4526	2025-01-21 18:26:45.003+00
-38cb2fde554fd3b18d6a5598c5c82d043d428507680ceef1408e3940611b0d9c	f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	2025-01-21 18:58:43.449+00
-6ea511fc4dc29386d6ef07f5b7799a4b72ec1eccea7fc17cb1e93f271a94d436	4398d0a9-933e-4efd-9906-b920e390c872	2025-01-21 06:04:16.167+00
-84e22fb178918ad65b8e45709513449d3959c801e9f9e74fa28a02ac7a0b8407	3ded56e2-2462-4734-8201-5e738afc7b3a	2025-01-21 19:26:46.278+00
-599f32afb52435321f2d7a396da767d579747fe4c5765b693274e3ddc1c86ae1	3ded56e2-2462-4734-8201-5e738afc7b3a	2025-01-21 19:27:07.721+00
-5dd24aedae4e5eaef1de8e7371d6046ed959bb10dccf76a00cc91a39260b6b2b	ed030e9b-3f7e-4988-a86b-04a8f075cee6	2025-01-21 19:30:46.631+00
-21cf384508e779de54648c2e66dd781d39219ce2f112be9d2fa0126658e2f0c3	6312d59a-3fa7-4b5c-9477-838a2a245445	2025-01-21 19:41:36.942+00
-889476cc695ac3ea10b70514af4cb0435065e691cd20b5dd73b464dbb115b793	5de1db58-f659-4bf3-8ff1-eaf3aaf85f31	2025-01-21 19:44:35.991+00
-550bc1fd8e91513c1ea4aa1e7b3f07f10757e2e9aefa578ff05cc2ef752f82a8	5de1db58-f659-4bf3-8ff1-eaf3aaf85f31	2025-01-21 19:45:03.349+00
-4fabfb438c5245a6a265e851b8fa57a57975d6bc5f4a022dadeb7c2bb153c774	d9b1d991-6de3-4149-bad3-fe8afd539f67	2025-01-21 19:50:12.875+00
-9f608b1510a0541257ba3d0d6f49972610ef111e59451eb0761f4d96b4611bf0	d9b1d991-6de3-4149-bad3-fe8afd539f67	2025-01-21 19:50:24.357+00
-8ce37f00cdfe594297bae001d5adc68ce77fc076c718b96ef7ba578a761d50d9	6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	2025-01-21 21:12:11.004+00
-dc05313130c2caa6210d8b655755ce3f2665dfd194eab7f8fde02172c7bbc970	6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	2025-01-21 21:12:19.725+00
-d6abf8b6ecc23d9c9e91a6789f74ef8e17b85a47a695d33264cfa56001461d6c	0dc55b78-1b38-4b00-972f-82db326c93b4	2025-01-21 21:39:22.145+00
-d4511113a740a540b226e96cf8a9723033affa24d797e352eb0b22a8eed88ff8	0dc55b78-1b38-4b00-972f-82db326c93b4	2025-01-21 21:39:44.356+00
-167cb6c2acda69eb55bc3c99fc6951273b47b49c15f2e25a6bda4d0c78f02bc4	2bf87d93-8904-4d8f-877e-f6db2996f760	2025-01-22 02:54:35.137+00
-9e72c90b3d48aee46c0e9c281e755efac92c673a36c0482698ae252e0a2f2e48	eeb7b38e-54f3-44d1-8e51-9dd06c90b200	2025-01-22 05:41:18.168+00
-7d6702385364f7bcc01523777423e98993629188495f2a08c1c1be5ac29c569e	eeb7b38e-54f3-44d1-8e51-9dd06c90b200	2025-01-22 05:41:38.083+00
-f7c6e117fc4937a0f0f3b797e260240c384038c8efd4dcef68986a66313de263	2865a5fb-dde2-4301-b776-cdbb955841ca	2025-01-22 06:05:31.106+00
-2ab1e13dcb474ef9488779a24d668b58120aed7ed60a6aa0a6c2e7daf0895661	2865a5fb-dde2-4301-b776-cdbb955841ca	2025-01-22 06:06:06.315+00
-effb006687474d58a35c4c0bd51e5e2e52604093b389f038541c1019ec85b844	415f0130-2e4b-4513-8b74-d21445461a79	2025-01-22 07:32:05.353+00
-8ca9edae486152340bc7b478e67fb776e45ede9f46fd9c332d02bde284c29213	415f0130-2e4b-4513-8b74-d21445461a79	2025-01-22 07:32:25.049+00
-e2325e3f00be18f20503cbbd7332a8fca5df4217ca8a31f5dd22b7af2a14ad6c	4398d0a9-933e-4efd-9906-b920e390c872	2025-01-22 09:03:50.307+00
-a16280fcd30df8837f4b83f5a60ef575e88ba3dd097c85c6496062530e52724a	1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	2025-01-22 09:19:09.196+00
-333c6b7c36c3e8a0133776a12bd4c6d0c57c7f32259d8b992cb98ca135072753	1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	2025-01-22 09:22:17.742+00
-36b86c7dfac4590a10168465f4fdbdae9c32130f61e2f07e4c09ca0e2d1d7890	c1bde176-582a-4028-888e-a70875a11f51	2025-01-22 10:10:59.726+00
-60decfe20f0ae6ad6df519c5cab87a165ad158586acd9a752aab2a54e92b070a	b4d3f648-ee61-4857-8202-98bba2e42360	2025-01-22 10:58:05.489+00
-12ff2249828de9a17b7e80b5cb57fdaac0e49ae0e30868852678c8f07704669e	01055346-f4e3-4282-a2ca-e87deedfd078	2025-01-22 11:18:58.45+00
-5f8951c8c4cf96b33d56ab22608be5eacd65543b5690cef738c2c3049d977c30	01055346-f4e3-4282-a2ca-e87deedfd078	2025-01-22 11:19:14.393+00
-90c39230a415902bf66fbc46cd0d2a0080bcf278712c602f77746f4be6f20188	158107f8-76a4-4a22-b86e-e1a3819e4513	2025-01-22 14:03:47.63+00
-eaaf88f2e1fdfe40da41be5915b483a23a62edd3bb442a1ccf2bef8d9e1b4515	2e00b4ab-d73c-4e24-aac8-1bc0095f15c6	2025-01-22 14:12:53.636+00
-a10f4ace6e9cde8f8286f9dfb638a91ec1034f79a122b0e6abcb935829f91a4e	158107f8-76a4-4a22-b86e-e1a3819e4513	2025-01-22 14:14:29.964+00
-5d123cf1713cdaba9889eeab46b1416bca1827a3877d1c64ceea7702385e445e	b4d3f648-ee61-4857-8202-98bba2e42360	2025-01-22 14:32:47.045+00
-2139f4935875d28d0a91c411a7d6183708e7672371f3aada0d90373be34bcdfe	6ed14e45-6595-4114-a6f4-aa4c623f41de	2025-01-22 14:46:49.056+00
-0051ef271b003f0dc4fbbb5e08e9af0043c48c087b27a6063f61267ff235012b	e23b4ca0-5104-4061-ba8e-118a9f3f562d	2025-01-22 14:52:03.741+00
-875f35d9fb9287382082f2572af036deed4bea7b5956ed8d6446140c50343519	fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	2025-01-22 14:39:08.779+00
-14dee96c879904adf068186a6d39e060388638c047f83dfe3f133dc75fb381b7	85536ca4-ab4f-4eff-a4cc-a81486346505	2025-01-22 14:42:56.812+00
-02fd0ebb700552e5966ef25639818eb6393cc266bb2b1b85174401c2b96baa10	85536ca4-ab4f-4eff-a4cc-a81486346505	2025-01-22 14:49:38.36+00
-6cd9923185031fcde0029d7eda867838c0ce196a0b00cea9b00d9c0442684fad	12059b01-c2cd-4ec0-a640-c4f80728ab8e	2025-01-22 18:36:59.197+00
-7e5c067bc20744eb63f3b58fba52ccdec8c3f67ad58d38a3eed6b16d1197a678	1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	2025-01-22 18:51:13.538+00
-d38ce2ff2bb0ab27b169af70007e8561f9b3c26811e3f969a11fac516f90f418	c1bde176-582a-4028-888e-a70875a11f51	2025-01-23 06:00:31.765+00
-6ce3463863ca05f4ec1d83148ed9f5e1ef5e292d85a43954a1bd9dbace660b21	c1bde176-582a-4028-888e-a70875a11f51	2025-01-23 06:01:23.41+00
-46736df7c8d8ef3f4a3294cb19b669ad02c8e8c4461169a65f4919167ab763f8	4de64e92-dc71-4005-a0de-f46e4df56f27	2025-01-23 07:10:08.799+00
-9b590766ae4bc180098d1651f36e9e17405e3049be62a9943ae64f57e9611bec	c1bde176-582a-4028-888e-a70875a11f51	2025-01-23 10:18:37.117+00
-c61c8685cf6bebea338712def514deb4ec7de40e47b9cabc9c0af684dfd70e7f	b4d3f648-ee61-4857-8202-98bba2e42360	2025-01-23 10:35:41.818+00
-b3f3f446129ce81664ed9f4016b4cdb8439051b0bd075c794576e5029061b4df	1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	2025-01-24 07:06:12.623+00
-3faa5b01cca82de4b7c052cd71ca5ca0bbf223a584272271fe40ce9c52646a22	12059b01-c2cd-4ec0-a640-c4f80728ab8e	2025-01-24 11:51:18.628+00
-d7006dd8faca255b962dd74c34a70d0aad2a757cd8964c1dfddfdb926c8222b0	912a32c1-dc82-4ce5-825a-0e0c7c2594c1	2025-01-25 12:18:01.362+00
-cee12b8cd5e1f976fdeb5a06ea9ada5c1cba72099b8aca7964c239e888d9f24e	912a32c1-dc82-4ce5-825a-0e0c7c2594c1	2025-01-25 12:20:54.873+00
-e87b73bc44fb3e1087b327f98de52817c403b831dd53ad426e858bad57eec063	12059b01-c2cd-4ec0-a640-c4f80728ab8e	2025-01-25 15:27:56.644+00
-8b98f0c08f2eca6ae1af01aacc86ad951f5c7eea2da2d2522918c75d19b35e4c	7c34897f-92ec-4166-a363-b54316d95438	2025-01-26 14:34:46.332+00
-27da53054bfafed0d118d39bbcddc5c3836fc8290e1f829f6e97716d5bff6fdb	1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	2025-01-28 12:12:03.064+00
-72ef743c6107541dbd81bf9ad5446211c0c189d23a2478c58aa7e6ab406c41bf	c1bde176-582a-4028-888e-a70875a11f51	2025-01-28 12:55:50.412+00
-a4b1adc7ccf2899a912281b798f07169a44d9c7d2130de029a2d05d9700e1b64	68427b34-46ba-40e0-b01c-6336ab006d94	2025-01-29 06:32:07.632+00
-0303a851dfd0ea12a538122ccf5f25ab7975e752686a3faaa4a03aa17391db26	fffd2637-1493-41f9-a140-08ba67621b10	2025-01-30 05:09:10.058+00
-430d6a972825116ffd39329329d6a1c07bf28b4c4157b6be35a5eb0c900b1f27	fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	2025-01-30 11:48:17.511+00
-03dfa3285c8b058568c00d563b0fcaf9c30448b9a7fe83001ab1ae298f857996	68427b34-46ba-40e0-b01c-6336ab006d94	2025-01-31 07:06:48.936+00
-d5bce804be9be5961b8b4fe2a9175fcbf9c093546151d4a5bfec3529db05062d	2bf87d93-8904-4d8f-877e-f6db2996f760	2025-01-31 08:24:11.687+00
-bf5558683b2679c98ba1859dbf60080a17a143c3f5515f2b11fb6235dcb7e575	c1bde176-582a-4028-888e-a70875a11f51	2025-02-04 09:47:42.049+00
-571c47228a03872a32c357ba748cdd1808f313bbed05ca56265e73b38a3c0938	fffd2637-1493-41f9-a140-08ba67621b10	2025-02-06 09:29:31.705+00
-d98ae4dd7c1781d1c1bd6c97f1120cdee2d508f00ec478e737fd556a4e28936b	12059b01-c2cd-4ec0-a640-c4f80728ab8e	2025-02-12 21:43:58.444+00
-ef9ff48f1e2276818012362537851bde0240d551bb1660b426afade1771a40f5	c1bde176-582a-4028-888e-a70875a11f51	2025-02-13 12:41:26.867+00
 \.
 
 
@@ -6356,10 +6303,24 @@ SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 2, true);
 
 
 --
+-- Name: consumer_package_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."consumer_package_id_seq"', 1, false);
+
+
+--
 -- Name: password_reset_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('"public"."password_reset_id_seq"', 16, true);
+
+
+--
+-- Name: price_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 
 
 --

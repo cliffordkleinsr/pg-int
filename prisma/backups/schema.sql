@@ -182,6 +182,18 @@ CREATE TABLE IF NOT EXISTS "public"."answers" (
 ALTER TABLE "public"."answers" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."branching_rules" (
+    "rule_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "question_id" "uuid" NOT NULL,
+    "selected_option_id" "uuid" NOT NULL,
+    "next_question_id" "uuid" NOT NULL,
+    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
+);
+
+
+ALTER TABLE "public"."branching_rules" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."client_data" (
     "client_id" "text" NOT NULL,
     "client_email" "text" NOT NULL,
@@ -253,6 +265,52 @@ ALTER SEQUENCE "public"."client_transactions_id_seq" OWNED BY "public"."client_t
 
 
 
+CREATE TABLE IF NOT EXISTS "public"."consumer_details" (
+    "consumerid" "text" NOT NULL,
+    "email" "text" NOT NULL,
+    "company_name" "text" NOT NULL,
+    "phone" "text" NOT NULL,
+    "county" "text" NOT NULL,
+    "sub_county" "text" NOT NULL,
+    "sector" "text" NOT NULL,
+    "disabled" boolean DEFAULT false NOT NULL,
+    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
+);
+
+
+ALTER TABLE "public"."consumer_details" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."consumer_package" (
+    "id" integer NOT NULL,
+    "consumerid" "text" NOT NULL,
+    "package_id" integer NOT NULL,
+    "package" "text" NOT NULL,
+    "package_type" "text" NOT NULL,
+    "invoiced" timestamp with time zone NOT NULL,
+    "expires" timestamp with time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."consumer_package" OWNER TO "postgres";
+
+
+CREATE SEQUENCE IF NOT EXISTS "public"."consumer_package_id_seq"
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE "public"."consumer_package_id_seq" OWNER TO "postgres";
+
+
+ALTER SEQUENCE "public"."consumer_package_id_seq" OWNED BY "public"."consumer_package"."id";
+
+
+
 CREATE TABLE IF NOT EXISTS "public"."email_verification" (
     "user_id" "text" NOT NULL,
     "email" "text" NOT NULL,
@@ -318,6 +376,39 @@ CREATE TABLE IF NOT EXISTS "public"."payout_requests" (
 ALTER TABLE "public"."payout_requests" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."price_table" (
+    "id" integer NOT NULL,
+    "title" "text" NOT NULL,
+    "one_pack" "text" NOT NULL,
+    "six_pack" "text" NOT NULL,
+    "ten_pack" "text" NOT NULL,
+    "max_qns" integer NOT NULL,
+    "max_responses" integer NOT NULL,
+    "demographics" boolean DEFAULT false NOT NULL,
+    "api" boolean DEFAULT false NOT NULL,
+    "branding" boolean DEFAULT false NOT NULL
+);
+
+
+ALTER TABLE "public"."price_table" OWNER TO "postgres";
+
+
+CREATE SEQUENCE IF NOT EXISTS "public"."price_table_id_seq"
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE "public"."price_table_id_seq" OWNER TO "postgres";
+
+
+ALTER SEQUENCE "public"."price_table_id_seq" OWNED BY "public"."price_table"."id";
+
+
+
 CREATE TABLE IF NOT EXISTS "public"."question_options" (
     "optionid" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
     "questionid" "uuid" NOT NULL,
@@ -345,7 +436,8 @@ CREATE TABLE IF NOT EXISTS "public"."survey_qns_optimum" (
     "question_type" "text" DEFAULT 'Single'::"text" NOT NULL,
     "question" "text" NOT NULL,
     "likert_key" "text",
-    "updated_at" timestamp with time zone DEFAULT "now"() NOT NULL
+    "updated_at" timestamp with time zone DEFAULT "now"() NOT NULL,
+    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
 );
 
 
@@ -386,15 +478,17 @@ ALTER TABLE "public"."user_sessions" OWNER TO "postgres";
 CREATE TABLE IF NOT EXISTS "public"."users" (
     "id" "text" NOT NULL,
     "fullname" "text" NOT NULL,
-    "email" "text" NOT NULL,
+    "email" "text",
     "is_email_verified" boolean DEFAULT false NOT NULL,
-    "password" "text" NOT NULL,
+    "password" "text",
     "userole" "public"."UserRole" DEFAULT 'AGENT'::"public"."UserRole" NOT NULL,
     "age" integer,
     "gender" "text",
     "profile_pic" "text",
     "disabled" boolean DEFAULT false NOT NULL,
-    "created_at" timestamp with time zone DEFAULT "now"()
+    "created_at" timestamp with time zone DEFAULT "now"(),
+    "google_id" "text",
+    "update_registry" boolean DEFAULT false NOT NULL
 );
 
 
@@ -405,12 +499,25 @@ ALTER TABLE ONLY "public"."client_transactions" ALTER COLUMN "id" SET DEFAULT "n
 
 
 
+ALTER TABLE ONLY "public"."consumer_package" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."consumer_package_id_seq"'::"regclass");
+
+
+
 ALTER TABLE ONLY "public"."password_reset" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."password_reset_id_seq"'::"regclass");
+
+
+
+ALTER TABLE ONLY "public"."price_table" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."price_table_id_seq"'::"regclass");
 
 
 
 ALTER TABLE ONLY "public"."agent_data"
     ADD CONSTRAINT "agent_data_agent_id_unique" PRIMARY KEY ("agent_id");
+
+
+
+ALTER TABLE ONLY "public"."branching_rules"
+    ADD CONSTRAINT "branching_rules_pkey" PRIMARY KEY ("rule_id");
 
 
 
@@ -429,6 +536,16 @@ ALTER TABLE ONLY "public"."client_transactions"
 
 
 
+ALTER TABLE ONLY "public"."consumer_details"
+    ADD CONSTRAINT "consumer_details_pkey" PRIMARY KEY ("consumerid");
+
+
+
+ALTER TABLE ONLY "public"."consumer_package"
+    ADD CONSTRAINT "consumer_package_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."password_reset"
     ADD CONSTRAINT "password_reset_pkey" PRIMARY KEY ("id");
 
@@ -436,6 +553,11 @@ ALTER TABLE ONLY "public"."password_reset"
 
 ALTER TABLE ONLY "public"."payout_requests"
     ADD CONSTRAINT "payout_requests_payout_id_unique" PRIMARY KEY ("payout_id");
+
+
+
+ALTER TABLE ONLY "public"."price_table"
+    ADD CONSTRAINT "price_table_pkey" PRIMARY KEY ("id");
 
 
 
@@ -519,6 +641,21 @@ ALTER TABLE ONLY "public"."answers"
 
 
 
+ALTER TABLE ONLY "public"."branching_rules"
+    ADD CONSTRAINT "branching_rules_next_question_id_survey_qns_optimum_questionid_" FOREIGN KEY ("next_question_id") REFERENCES "public"."survey_qns_optimum"("questionid");
+
+
+
+ALTER TABLE ONLY "public"."branching_rules"
+    ADD CONSTRAINT "branching_rules_question_id_survey_qns_optimum_questionid_fk" FOREIGN KEY ("question_id") REFERENCES "public"."survey_qns_optimum"("questionid");
+
+
+
+ALTER TABLE ONLY "public"."branching_rules"
+    ADD CONSTRAINT "branching_rules_selected_option_id_question_options_optionid_fk" FOREIGN KEY ("selected_option_id") REFERENCES "public"."question_options"("optionid");
+
+
+
 ALTER TABLE ONLY "public"."client_data"
     ADD CONSTRAINT "client_data_client_email_users_email_fk" FOREIGN KEY ("client_email") REFERENCES "public"."users"("email");
 
@@ -526,6 +663,26 @@ ALTER TABLE ONLY "public"."client_data"
 
 ALTER TABLE ONLY "public"."client_data"
     ADD CONSTRAINT "client_data_client_id_users_id_fk" FOREIGN KEY ("client_id") REFERENCES "public"."users"("id");
+
+
+
+ALTER TABLE ONLY "public"."consumer_details"
+    ADD CONSTRAINT "consumer_details_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id");
+
+
+
+ALTER TABLE ONLY "public"."consumer_details"
+    ADD CONSTRAINT "consumer_details_email_users_email_fk" FOREIGN KEY ("email") REFERENCES "public"."users"("email");
+
+
+
+ALTER TABLE ONLY "public"."consumer_package"
+    ADD CONSTRAINT "consumer_package_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id");
+
+
+
+ALTER TABLE ONLY "public"."consumer_package"
+    ADD CONSTRAINT "consumer_package_package_id_price_table_id_fk" FOREIGN KEY ("package_id") REFERENCES "public"."price_table"("id");
 
 
 
@@ -808,6 +965,12 @@ GRANT ALL ON TABLE "public"."answers" TO "service_role";
 
 
 
+GRANT ALL ON TABLE "public"."branching_rules" TO "anon";
+GRANT ALL ON TABLE "public"."branching_rules" TO "authenticated";
+GRANT ALL ON TABLE "public"."branching_rules" TO "service_role";
+
+
+
 GRANT ALL ON TABLE "public"."client_data" TO "anon";
 GRANT ALL ON TABLE "public"."client_data" TO "authenticated";
 GRANT ALL ON TABLE "public"."client_data" TO "service_role";
@@ -829,6 +992,24 @@ GRANT ALL ON TABLE "public"."client_transactions" TO "service_role";
 GRANT ALL ON SEQUENCE "public"."client_transactions_id_seq" TO "anon";
 GRANT ALL ON SEQUENCE "public"."client_transactions_id_seq" TO "authenticated";
 GRANT ALL ON SEQUENCE "public"."client_transactions_id_seq" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."consumer_details" TO "anon";
+GRANT ALL ON TABLE "public"."consumer_details" TO "authenticated";
+GRANT ALL ON TABLE "public"."consumer_details" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."consumer_package" TO "anon";
+GRANT ALL ON TABLE "public"."consumer_package" TO "authenticated";
+GRANT ALL ON TABLE "public"."consumer_package" TO "service_role";
+
+
+
+GRANT ALL ON SEQUENCE "public"."consumer_package_id_seq" TO "anon";
+GRANT ALL ON SEQUENCE "public"."consumer_package_id_seq" TO "authenticated";
+GRANT ALL ON SEQUENCE "public"."consumer_package_id_seq" TO "service_role";
 
 
 
@@ -859,6 +1040,18 @@ GRANT ALL ON SEQUENCE "public"."password_reset_id_seq" TO "service_role";
 GRANT ALL ON TABLE "public"."payout_requests" TO "anon";
 GRANT ALL ON TABLE "public"."payout_requests" TO "authenticated";
 GRANT ALL ON TABLE "public"."payout_requests" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."price_table" TO "anon";
+GRANT ALL ON TABLE "public"."price_table" TO "authenticated";
+GRANT ALL ON TABLE "public"."price_table" TO "service_role";
+
+
+
+GRANT ALL ON SEQUENCE "public"."price_table_id_seq" TO "anon";
+GRANT ALL ON SEQUENCE "public"."price_table_id_seq" TO "authenticated";
+GRANT ALL ON SEQUENCE "public"."price_table_id_seq" TO "service_role";
 
 
 
