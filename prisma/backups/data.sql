@@ -226,6 +226,7 @@ dc4e4f16-92e6-4200-8f02-2bb00ffd6ee2	Joan Anne Wanjiku Karima	karimajoan08@gmail
 7e544bfc-cbad-4bf4-b59a-7b24e7519474	Jonner Kithinji	jonnerkits@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-17 07:25:42.915051+00	\N	f
 7c34897f-92ec-4166-a363-b54316d95438	Eugene Gadson	eugenegadson788@gmail.com	t	$2b$15$lWQjZ3ggIetMz3jHCzkW6OviXCEykm0iFUNqatOjEYXu0qm9hDKUS	AGENT	21	Male	\N	f	2025-01-17 02:58:53.088397+00	\N	f
 c70c4444-cd96-445d-ac7d-78488334faf5	Juliet daliza	julietdaliza333@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 12:45:58.443125+00	\N	f
+c893fe46-c3d7-40c0-8035-b20c940b9d90	Darius Masenge	darius.masenge@gmail.com	t	$2b$15$12UsJKwlRsW6Q9eDqu14jePjftbJwqwai/8cR.oANYcN020ROfSra	AGENT	36	Male	\N	f	2025-02-24 10:26:12.525569+00	\N	f
 195701c9-eed6-453f-9bf9-fa54dab68d57	Martha kwamboka Biginga	kwambokabiginga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:35:06.872359+00	\N	f
 fa91e9e8-c7cb-42da-a152-a99df912a383	Rophine akoth opwapo	rophineopwapo4@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:42:12.457214+00	\N	f
 98c15a99-b1f9-4853-b497-9b80663fe60e	Sarah njeri	njerisarah904@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:43:22.692631+00	\N	f
@@ -528,6 +529,7 @@ d5493931-5cd9-4913-a2a1-f8a96874332b	willyhill384@gmail.com	0758060057	3/19/2000
 1423b0b1-d059-430d-9dfb-2bf7bc8b1b59	wilsonnyaband73@gmail.com	0795152509	6/29/1998	Nairobi	Embakasi East	100000 - 500000	Employed	Under-Graduate	Finance	50	50	0	f	t	\N
 500ca188-07bf-474d-89fc-bfadd41cd7d3	zonahnyambura@gmail.com	0797524938	3/22/1998	Nairobi	Kasarani	20000 - 50000	Self-Employed	Post-Graduate	Entertainment	50	50	0	f	t	\N
 12059b01-c2cd-4ec0-a640-c4f80728ab8e	wayneeaster95@gmail.com	0715574227	2002-04-11	Nairobi	Kasarani	00000 - 10000	Student	Under-Graduate	IT expert and computer maintanance	50	50	0	f	f	\N
+c893fe46-c3d7-40c0-8035-b20c940b9d90	darius.masenge@gmail.com	+254722401791	1988-04-12	Nairobi	Roysambu	500000 +	Employed	Post-Graduate	Media	0	0	0	f	f	\N
 fffd2637-1493-41f9-a140-08ba67621b10	dennismuchangi46@gmail.com	0717323580	1990-06-01	Nairobi	Kenya	20000 - 50000	Employed	Post-Graduate	Food & Beverage	0	0	0	f	f	\N
 eeb7b38e-54f3-44d1-8e51-9dd06c90b200	eddyochango93@gmail.com	0706398955	1993-03-03	Nairobi	Dagoretti North	00000 - 10000	Unemployed	Under-Graduate	Others	0	0	0	f	f	\N
 10d805ed-704a-493f-93de-9c0bd809121b	b7162796@gmail.com	0768820286	1999-07-13	Machakos	Mwala	10000 - 20000	Employed	Post-Graduate	Retail	0	0	0	f	f	\N
@@ -6238,6 +6240,8 @@ COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms"
 --
 
 COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
+3d80520ea09436c90d84118f4a1676b8afd2e05be0fc566a073ca96f3b40700c	c893fe46-c3d7-40c0-8035-b20c940b9d90	2025-02-25 16:26:12.911+00
+348c5f6c90dfb9e34f5a72a1c5813a459140cfe58de2dea2a1bc013f69f901bd	c893fe46-c3d7-40c0-8035-b20c940b9d90	2025-02-25 16:26:35.317+00
 \.
 
 
