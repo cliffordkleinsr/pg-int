@@ -6084,6 +6084,7 @@ prod_QjUMG44vCFNGXO	Basic	50	540	price_1Ps1ODRpYHoLk6LSg56V1no0	price_1Ps1ODRpYH
 COPY "public"."client_transactions" ("transaction_code", "trans_amount", "org_account_balance", "msisdn", "first_name", "middle_name", "last_name", "trans_time", "id", "bill_ref_number") FROM stdin;
 SKM6OIUYPK	54000	1779.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-22 10:22:46+00	1	0799725093
 SKQ28DJ5NY	10	1469.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-26 19:09:56+00	2	0799725093
+TBP4F3JRGY	10	1379.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2025-02-25 16:22:38+00	3	0799725093
 \.
 
 
@@ -6303,7 +6304,7 @@ SELECT pg_catalog.setval('"pgsodium"."key_key_id_seq"', 1, false);
 -- Name: client_transactions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 2, true);
+SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 3, true);
 
 
 --
