@@ -450,15 +450,8 @@ CREATE TABLE IF NOT EXISTS "public"."surveys" (
     "survey_title" "text" NOT NULL,
     "survey_desc" "text" NOT NULL,
     "status" "public"."status" DEFAULT 'Draft'::"public"."status" NOT NULL,
-    "survey_points" integer,
     "target" integer,
-    "target_age" "text",
-    "target_gender" "text",
-    "from" timestamp without time zone,
-    "to" timestamp without time zone,
-    "extern" boolean DEFAULT false,
-    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL,
-    "updated_at" timestamp with time zone DEFAULT "now"() NOT NULL
+    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
 );
 
 
