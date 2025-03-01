@@ -352,6 +352,7 @@ c087535c-2607-4622-902a-51b6e1dae5f3	Salma Sika	sikasalma2017@gmail.com	t	$2b$15
 3ca33325-2cac-4895-a875-71e4e3a6e931	STANLEY THIONG'O	stanleythiongo32@gmail.com	t	$2b$15$ZEzKQo1uVdO2He336PPUKeIdaG1HAjaiPgN327FSQYVLL5qRYqBj6	AGENT	25	Male	\N	f	2024-11-08 06:45:59.158497+00	\N	f
 c5b2084c-de9b-4b57-9019-19374c439cc8	Stacy Stefani Njuguna	stefaninjuguna8@yahoo.com	t	$2b$15$Ugvnj4SjhdSJIEjQF2qxZ.leFM6VKwSSosoOoXnPcNQQ7VxDxLIMS	AGENT	24	Female	\N	f	2024-12-12 08:51:03.506298+00	\N	f
 3e8bcfdf-7d25-4213-8401-43f25abe93ed	Alphonce Odhiambo	odhiamboalphonce23@gmail.com	t	$2b$15$G6wAebQI2pksrQ6fWQ9ElekQ4AInZzSCwaIbTO7g7b/b7yT.gKYkC	AGENT	23	Male	\N	f	2024-11-10 15:42:42.895929+00	\N	f
+75b87d71-3545-4032-adcb-64700e7456f7	UnbedeKt DT	ubermatchvlaad212@gmail.com	f	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocKwcBbs4yppXjp2NQxGnPfHXIonKyrNfK5yGzq1YzLcm-yhAVKC=s96-c	f	2025-02-28 17:35:39.480371+00	116706907497027608100	f
 fdb9f1a0-35c2-49e0-8667-42afcd5d91cf	Fredrick Odhiambo matete	dyfredash@gmail.com	t	$2b$15$g5B9aiYGRf1Hmdg9kFcqXea3Vud4xllpbUYiYGdit5nqWCE3w67BS	AGENT	38	Male	\N	f	2025-01-21 14:30:36.675255+00	\N	f
 97cdba61-a19b-4dd5-8a68-34fbe21d9a36	stellandanuMusembi	stellandanu57@gmail.com	t	$2b$15$35Z3W6465VHxIubJ1xX5NeZwCzkhG06YPxRQVZrwgUfE8NpyqUvlq	AGENT	19	Female	\N	f	2024-11-11 09:50:48.435472+00	\N	f
 1a749cf5-8652-4318-b1c0-a9b67b7fd4ee	Sylvia Jepkoech	sylviachepm@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Female	\N	f	2025-01-10 08:20:39.76417+00	\N	f
@@ -643,16 +644,6 @@ f9bd0d46-0c09-4694-91fb-f83e900af5e2	dianahnaliaka046@gmail.com	0711909976	5/18/
 96b9d28c-4d4c-452f-a3e7-9f7580cc4322	elizagakuru54@gmail.com	0720388283	4/10/1970	Machakos	Mavoko	20000 - 50000	Employed	High-School	Education	50	50	0	f	t	\N
 5624a568-b393-4e62-a56c-1673b0482c1c	elsieannembithe@gmail.com	0710160756	1/18/1995	Machakos	Mavoko	20000 - 50000	Self-Employed	Post-Graduate	Retail	50	50	0	f	t	\N
 23a17622-a50f-47b2-8d10-6769e4acf30a	emuute@gmail.com	+254113215955	3/29/1986	Machakos	Mavoko	50000 - 100000	Employed	Under-Graduate	Manufacturing	50	50	0	f	t	\N
-\.
-
-
---
--- Data for Name: surveys; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."surveys" ("surveyid", "client_id", "survey_title", "survey_desc", "status", "target", "created_at") FROM stdin;
-7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00
-c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00
 \.
 
 
@@ -6055,45 +6046,12 @@ COPY "public"."branching_rules" ("rule_id", "question_id", "selected_option_id",
 
 
 --
--- Data for Name: client_data; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."client_data" ("client_id", "client_email", "company_name", "phone", "county", "sector", "packageid", "one_time", "package_type_id", "payment_status", "processed_at", "expires_at", "created_at") FROM stdin;
-f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	foxdrive.rycoh@gmail.com	Mw	+254720133519	Baringo	Information Technology	\N	f	\N	f	\N	\N	2025-01-21 15:53:08.870496+00
-01055346-f4e3-4282-a2ca-e87deedfd078	tsimanjig123@gmail.com	Intuitive insights	0742452146	Mombasa	Fashion	\N	f	\N	f	\N	\N	2025-01-22 10:18:58.286771+00
-c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Nairobi	Others	prod_QjUMG44vCFNGXO	f	price_1Ps1ODRpYHoLk6LSMN8kgMJf	t	2025-02-02 13:21:20.73+00	2025-03-02 13:21:20.73+00	2024-11-11 13:06:37.681435+00
-\.
-
-
---
--- Data for Name: client_packages; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."client_packages" ("packageid", "package_description", "package_price_mn", "package_price_yr", "price_id_monthly", "price_id_annual", "max_qns", "max_surveys", "max_agents", "demographics", "ages") FROM stdin;
-prod_QTg6aK5zM7RlUw	Standard Business	200	2160	price_1PcikKRpYHoLk6LSwn6RloI0	price_1PcikKRpYHoLk6LSiWl3cO16	15	4	250	t	t
-prod_QTgA9EH6qo3dRu	Premium Business	1200	12960	price_1Ps1UARpYHoLk6LSTei2ionx	price_1Ps1UARpYHoLk6LSOaIVGyUe	30	6	500	t	t
-prod_QjUCV2u3waC96D	One-time	30	30	price_1Ps1ELRpYHoLk6LSjizQbL8q	price_1Ps1ELRpYHoLk6LSjizQbL8q	5	1	100	f	f
-prod_QjUMG44vCFNGXO	Basic	50	540	price_1Ps1ODRpYHoLk6LSg56V1no0	price_1Ps1ODRpYHoLk6LSMN8kgMJf	5	2	100	t	t
-\.
-
-
---
--- Data for Name: client_transactions; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."client_transactions" ("transaction_code", "trans_amount", "org_account_balance", "msisdn", "first_name", "middle_name", "last_name", "trans_time", "id", "bill_ref_number") FROM stdin;
-SKM6OIUYPK	54000	1779.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-22 10:22:46+00	1	0799725093
-SKQ28DJ5NY	10	1469.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-26 19:09:56+00	2	0799725093
-TBP4F3JRGY	10	1379.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2025-02-25 16:22:38+00	3	0799725093
-\.
-
-
---
 -- Data for Name: consumer_details; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone", "county", "sub_county", "sector", "disabled", "created_at") FROM stdin;
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Nairobi	Kinango	Others	f	2025-02-02 13:21:20.73+00
+75b87d71-3545-4032-adcb-64700e7456f7	ubermatchvlaad212@gmail.com	CSNRU	+254743962943	Taita-Taveta	Taveta	Education	f	2025-02-28 17:38:15.884534+00
 \.
 
 
@@ -6109,7 +6067,18 @@ COPY "public"."price_table" ("id", "title", "one_pack", "six_pack", "ten_pack", 
 -- Data for Name: consumer_package; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."consumer_package" ("id", "consumerid", "package_id", "package", "package_type", "invoiced", "expires") FROM stdin;
+COPY "public"."consumer_package" ("id", "consumerid", "package_id", "package", "package_type", "invoiced", "expires", "transaction_code") FROM stdin;
+\.
+
+
+--
+-- Data for Name: consumer_transactions; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."consumer_transactions" ("transaction_code", "trans_amount", "org_account_balance", "msisdn", "first_name", "middle_name", "last_name", "trans_time", "id", "bill_ref_number") FROM stdin;
+SKM6OIUYPK	54000	1779.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-22 10:22:46+00	1	0799725093
+SKQ28DJ5NY	10	1469.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-26 19:09:56+00	2	0799725093
+TBP4F3JRGY	10	1379.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2025-02-25 16:22:38+00	3	0799725093
 \.
 
 
@@ -6126,6 +6095,16 @@ COPY "public"."email_verification" ("user_id", "email", "token", "verified", "re
 --
 
 COPY "public"."ext_answers" ("questionid", "surveyid", "option_id", "rankid", "answer", "updated_at") FROM stdin;
+\.
+
+
+--
+-- Data for Name: old_surveys; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."old_surveys" ("surveyid", "client_id", "survey_title", "survey_desc", "status", "target", "created_at") FROM stdin;
+7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00
+c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00
 \.
 
 
@@ -6237,6 +6216,16 @@ COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms"
 
 
 --
+-- Data for Name: survey; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires") FROM stdin;
+7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00
+c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00
+\.
+
+
+--
 -- Data for Name: user_sessions; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -6245,6 +6234,8 @@ COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
 348c5f6c90dfb9e34f5a72a1c5813a459140cfe58de2dea2a1bc013f69f901bd	c893fe46-c3d7-40c0-8035-b20c940b9d90	2025-02-25 16:26:35.317+00
 f84f0a00ab262299ff019b31c7a61b82eec543b4436817b2f1812498268326e1	c1bde176-582a-4028-888e-a70875a11f51	2025-02-28 13:30:47.693+00
 53be4cbabd187a4f121337353a2255b9784cb9a44a041132bd957e228250b526	c1bde176-582a-4028-888e-a70875a11f51	2025-02-28 18:46:45.743+00
+417707b4891ee411cf2338953c64f1fcf528cf209a79cbd5fb8eddfd87b0dc97	c1bde176-582a-4028-888e-a70875a11f51	2025-03-01 16:41:09.309+00
+16ad76ccec57173d6f7d9720c69aff31d9b77d153fe3ba417daf47e997f678f9	c1bde176-582a-4028-888e-a70875a11f51	2025-03-01 23:17:40.814+00
 \.
 
 

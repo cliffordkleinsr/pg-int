@@ -194,45 +194,7 @@ CREATE TABLE IF NOT EXISTS "public"."branching_rules" (
 ALTER TABLE "public"."branching_rules" OWNER TO "postgres";
 
 
-CREATE TABLE IF NOT EXISTS "public"."client_data" (
-    "client_id" "text" NOT NULL,
-    "client_email" "text" NOT NULL,
-    "company_name" "text" NOT NULL,
-    "phone" "text" NOT NULL,
-    "county" "text" NOT NULL,
-    "sector" "text" NOT NULL,
-    "packageid" "text",
-    "one_time" boolean DEFAULT false NOT NULL,
-    "package_type_id" "text",
-    "payment_status" boolean DEFAULT false NOT NULL,
-    "processed_at" timestamp with time zone,
-    "expires_at" timestamp with time zone,
-    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
-);
-
-
-ALTER TABLE "public"."client_data" OWNER TO "postgres";
-
-
-CREATE TABLE IF NOT EXISTS "public"."client_packages" (
-    "packageid" "text" NOT NULL,
-    "package_description" "text" NOT NULL,
-    "package_price_mn" "text" NOT NULL,
-    "package_price_yr" "text" NOT NULL,
-    "price_id_monthly" "text",
-    "price_id_annual" "text",
-    "max_qns" integer DEFAULT 1 NOT NULL,
-    "max_surveys" integer DEFAULT 1 NOT NULL,
-    "max_agents" integer DEFAULT 0 NOT NULL,
-    "demographics" boolean DEFAULT false NOT NULL,
-    "ages" boolean DEFAULT false NOT NULL
-);
-
-
-ALTER TABLE "public"."client_packages" OWNER TO "postgres";
-
-
-CREATE TABLE IF NOT EXISTS "public"."client_transactions" (
+CREATE TABLE IF NOT EXISTS "public"."consumer_transactions" (
     "transaction_code" "text" NOT NULL,
     "trans_amount" integer NOT NULL,
     "org_account_balance" "text" NOT NULL,
@@ -246,7 +208,7 @@ CREATE TABLE IF NOT EXISTS "public"."client_transactions" (
 );
 
 
-ALTER TABLE "public"."client_transactions" OWNER TO "postgres";
+ALTER TABLE "public"."consumer_transactions" OWNER TO "postgres";
 
 
 CREATE SEQUENCE IF NOT EXISTS "public"."client_transactions_id_seq"
@@ -261,7 +223,7 @@ CREATE SEQUENCE IF NOT EXISTS "public"."client_transactions_id_seq"
 ALTER TABLE "public"."client_transactions_id_seq" OWNER TO "postgres";
 
 
-ALTER SEQUENCE "public"."client_transactions_id_seq" OWNED BY "public"."client_transactions"."id";
+ALTER SEQUENCE "public"."client_transactions_id_seq" OWNED BY "public"."consumer_transactions"."id";
 
 
 
@@ -288,7 +250,8 @@ CREATE TABLE IF NOT EXISTS "public"."consumer_package" (
     "package" "text" NOT NULL,
     "package_type" "text" NOT NULL,
     "invoiced" timestamp with time zone NOT NULL,
-    "expires" timestamp with time zone NOT NULL
+    "expires" timestamp with time zone NOT NULL,
+    "transaction_code" "text" NOT NULL
 );
 
 
@@ -334,6 +297,20 @@ CREATE TABLE IF NOT EXISTS "public"."ext_answers" (
 
 
 ALTER TABLE "public"."ext_answers" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."old_surveys" (
+    "surveyid" "text" NOT NULL,
+    "client_id" "text" NOT NULL,
+    "survey_title" "text" NOT NULL,
+    "survey_desc" "text" NOT NULL,
+    "status" "public"."status" DEFAULT 'Draft'::"public"."status" NOT NULL,
+    "target" integer,
+    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
+);
+
+
+ALTER TABLE "public"."old_surveys" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."password_reset" (
@@ -382,8 +359,8 @@ CREATE TABLE IF NOT EXISTS "public"."price_table" (
     "one_pack" "text" NOT NULL,
     "six_pack" "text" NOT NULL,
     "ten_pack" "text" NOT NULL,
-    "max_qns" integer NOT NULL,
-    "max_responses" integer NOT NULL,
+    "max_qns" double precision NOT NULL,
+    "max_responses" double precision NOT NULL,
     "demographics" boolean DEFAULT false NOT NULL,
     "api" boolean DEFAULT false NOT NULL,
     "branding" boolean DEFAULT false NOT NULL
@@ -430,6 +407,20 @@ CREATE TABLE IF NOT EXISTS "public"."sms_verification" (
 ALTER TABLE "public"."sms_verification" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."survey" (
+    "surveyid" "text" NOT NULL,
+    "consumer_id" "text" NOT NULL,
+    "title" "text" NOT NULL,
+    "description" "text",
+    "status" "public"."status" DEFAULT 'Draft'::"public"."status" NOT NULL,
+    "max_responses" double precision NOT NULL,
+    "survey_expires" timestamp with time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."survey" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."survey_qns_optimum" (
     "questionid" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
     "surveyid" "text",
@@ -442,20 +433,6 @@ CREATE TABLE IF NOT EXISTS "public"."survey_qns_optimum" (
 
 
 ALTER TABLE "public"."survey_qns_optimum" OWNER TO "postgres";
-
-
-CREATE TABLE IF NOT EXISTS "public"."surveys" (
-    "surveyid" "text" NOT NULL,
-    "client_id" "text" NOT NULL,
-    "survey_title" "text" NOT NULL,
-    "survey_desc" "text" NOT NULL,
-    "status" "public"."status" DEFAULT 'Draft'::"public"."status" NOT NULL,
-    "target" integer,
-    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
-);
-
-
-ALTER TABLE "public"."surveys" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."user_sessions" (
@@ -488,11 +465,11 @@ CREATE TABLE IF NOT EXISTS "public"."users" (
 ALTER TABLE "public"."users" OWNER TO "postgres";
 
 
-ALTER TABLE ONLY "public"."client_transactions" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."client_transactions_id_seq"'::"regclass");
-
-
-
 ALTER TABLE ONLY "public"."consumer_package" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."consumer_package_id_seq"'::"regclass");
+
+
+
+ALTER TABLE ONLY "public"."consumer_transactions" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."client_transactions_id_seq"'::"regclass");
 
 
 
@@ -514,17 +491,7 @@ ALTER TABLE ONLY "public"."branching_rules"
 
 
 
-ALTER TABLE ONLY "public"."client_data"
-    ADD CONSTRAINT "client_data_pkey" PRIMARY KEY ("client_id");
-
-
-
-ALTER TABLE ONLY "public"."client_packages"
-    ADD CONSTRAINT "client_packages_pkey" PRIMARY KEY ("packageid");
-
-
-
-ALTER TABLE ONLY "public"."client_transactions"
+ALTER TABLE ONLY "public"."consumer_transactions"
     ADD CONSTRAINT "client_transactions_pkey" PRIMARY KEY ("id");
 
 
@@ -559,12 +526,17 @@ ALTER TABLE ONLY "public"."question_options"
 
 
 
+ALTER TABLE ONLY "public"."survey"
+    ADD CONSTRAINT "survey_pkey" PRIMARY KEY ("surveyid");
+
+
+
 ALTER TABLE ONLY "public"."survey_qns_optimum"
     ADD CONSTRAINT "survey_qns_optimum_pkey" PRIMARY KEY ("questionid");
 
 
 
-ALTER TABLE ONLY "public"."surveys"
+ALTER TABLE ONLY "public"."old_surveys"
     ADD CONSTRAINT "surveys_pkey" PRIMARY KEY ("surveyid");
 
 
@@ -599,16 +571,6 @@ ALTER TABLE ONLY "public"."agent_progress_table"
 
 
 
-ALTER TABLE ONLY "public"."agent_progress_table"
-    ADD CONSTRAINT "agent_progress_table_surveyid_surveys_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."surveys"("surveyid");
-
-
-
-ALTER TABLE ONLY "public"."agent_surv_table"
-    ADD CONSTRAINT "agent_surv_table_surveyid_surveys_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."surveys"("surveyid");
-
-
-
 ALTER TABLE ONLY "public"."agent_transactions"
     ADD CONSTRAINT "agent_transactions_agentid_users_id_fk" FOREIGN KEY ("agentid") REFERENCES "public"."users"("id");
 
@@ -629,11 +591,6 @@ ALTER TABLE ONLY "public"."answers"
 
 
 
-ALTER TABLE ONLY "public"."answers"
-    ADD CONSTRAINT "answers_surveyid_surveys_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."surveys"("surveyid");
-
-
-
 ALTER TABLE ONLY "public"."branching_rules"
     ADD CONSTRAINT "branching_rules_next_question_id_survey_qns_optimum_questionid_" FOREIGN KEY ("next_question_id") REFERENCES "public"."survey_qns_optimum"("questionid");
 
@@ -646,16 +603,6 @@ ALTER TABLE ONLY "public"."branching_rules"
 
 ALTER TABLE ONLY "public"."branching_rules"
     ADD CONSTRAINT "branching_rules_selected_option_id_question_options_optionid_fk" FOREIGN KEY ("selected_option_id") REFERENCES "public"."question_options"("optionid");
-
-
-
-ALTER TABLE ONLY "public"."client_data"
-    ADD CONSTRAINT "client_data_client_email_users_email_fk" FOREIGN KEY ("client_email") REFERENCES "public"."users"("email");
-
-
-
-ALTER TABLE ONLY "public"."client_data"
-    ADD CONSTRAINT "client_data_client_id_users_id_fk" FOREIGN KEY ("client_id") REFERENCES "public"."users"("id");
 
 
 
@@ -694,11 +641,6 @@ ALTER TABLE ONLY "public"."ext_answers"
 
 
 
-ALTER TABLE ONLY "public"."ext_answers"
-    ADD CONSTRAINT "ext_answers_surveyid_surveys_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."surveys"("surveyid");
-
-
-
 ALTER TABLE ONLY "public"."payout_requests"
     ADD CONSTRAINT "payout_requests_agent_id_users_id_fk" FOREIGN KEY ("agent_id") REFERENCES "public"."users"("id");
 
@@ -711,11 +653,6 @@ ALTER TABLE ONLY "public"."question_options"
 
 ALTER TABLE ONLY "public"."sms_verification"
     ADD CONSTRAINT "sms_verification_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id");
-
-
-
-ALTER TABLE ONLY "public"."survey_qns_optimum"
-    ADD CONSTRAINT "survey_qns_optimum_surveyid_surveys_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."surveys"("surveyid");
 
 
 
@@ -964,21 +901,9 @@ GRANT ALL ON TABLE "public"."branching_rules" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."client_data" TO "anon";
-GRANT ALL ON TABLE "public"."client_data" TO "authenticated";
-GRANT ALL ON TABLE "public"."client_data" TO "service_role";
-
-
-
-GRANT ALL ON TABLE "public"."client_packages" TO "anon";
-GRANT ALL ON TABLE "public"."client_packages" TO "authenticated";
-GRANT ALL ON TABLE "public"."client_packages" TO "service_role";
-
-
-
-GRANT ALL ON TABLE "public"."client_transactions" TO "anon";
-GRANT ALL ON TABLE "public"."client_transactions" TO "authenticated";
-GRANT ALL ON TABLE "public"."client_transactions" TO "service_role";
+GRANT ALL ON TABLE "public"."consumer_transactions" TO "anon";
+GRANT ALL ON TABLE "public"."consumer_transactions" TO "authenticated";
+GRANT ALL ON TABLE "public"."consumer_transactions" TO "service_role";
 
 
 
@@ -1015,6 +940,12 @@ GRANT ALL ON TABLE "public"."email_verification" TO "service_role";
 GRANT ALL ON TABLE "public"."ext_answers" TO "anon";
 GRANT ALL ON TABLE "public"."ext_answers" TO "authenticated";
 GRANT ALL ON TABLE "public"."ext_answers" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."old_surveys" TO "anon";
+GRANT ALL ON TABLE "public"."old_surveys" TO "authenticated";
+GRANT ALL ON TABLE "public"."old_surveys" TO "service_role";
 
 
 
@@ -1060,15 +991,15 @@ GRANT ALL ON TABLE "public"."sms_verification" TO "service_role";
 
 
 
+GRANT ALL ON TABLE "public"."survey" TO "anon";
+GRANT ALL ON TABLE "public"."survey" TO "authenticated";
+GRANT ALL ON TABLE "public"."survey" TO "service_role";
+
+
+
 GRANT ALL ON TABLE "public"."survey_qns_optimum" TO "anon";
 GRANT ALL ON TABLE "public"."survey_qns_optimum" TO "authenticated";
 GRANT ALL ON TABLE "public"."survey_qns_optimum" TO "service_role";
-
-
-
-GRANT ALL ON TABLE "public"."surveys" TO "anon";
-GRANT ALL ON TABLE "public"."surveys" TO "authenticated";
-GRANT ALL ON TABLE "public"."surveys" TO "service_role";
 
 
 
