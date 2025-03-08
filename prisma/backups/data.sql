@@ -648,6 +648,16 @@ f9bd0d46-0c09-4694-91fb-f83e900af5e2	dianahnaliaka046@gmail.com	0711909976	5/18/
 
 
 --
+-- Data for Name: survey; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires") FROM stdin;
+7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00
+c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00
+\.
+
+
+--
 -- Data for Name: agent_progress_table; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -1084,124 +1094,124 @@ f02b7365-be16-44bd-937c-a8e6549b5465	c082054d-46e4-4bdf-ac24-810d17406e7c	Single
 -- Data for Name: question_options; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."question_options" ("optionid", "questionid", "option") FROM stdin;
-d8ae7261-3907-482d-95ec-15e4dd5584c3	6f31b5d4-18fa-40a7-960c-3677066ce3d2	Yes, everything
-9af65669-084c-46cb-b171-d2a11ac80045	6f31b5d4-18fa-40a7-960c-3677066ce3d2	Most of the items
-245cbda9-6e8b-49b2-bd69-7eb302e5cb76	6f31b5d4-18fa-40a7-960c-3677066ce3d2	Some items
-fca75d4a-abb2-4d72-b387-581c80cbae52	6f31b5d4-18fa-40a7-960c-3677066ce3d2	No, I couldn’t find what I needed
-dcabf2f0-316f-4bf6-978f-c9d59ecc767b	00d86e5b-dba1-49a5-8909-5c38a1479ee7	Yes, definitely
-1582d784-0e29-446e-88bd-ffd40e98b974	00d86e5b-dba1-49a5-8909-5c38a1479ee7	Yes, but could improve
-a4a12725-ed0a-40c9-8c91-07b85fef765b	00d86e5b-dba1-49a5-8909-5c38a1479ee7	Neutral
-c5c211b7-2f7d-4664-b72e-dd014d4995c1	00d86e5b-dba1-49a5-8909-5c38a1479ee7	No, limited options
-c324e2c7-d812-4ec4-8de3-fa0580973100	00d86e5b-dba1-49a5-8909-5c38a1479ee7	No, not at all
-741e7606-8fc4-4971-9731-688d288052af	ff5250ca-7f87-4287-9790-8439ff79d248	Very Reasonable
-4bdc5c0b-f2e2-4104-b74b-9f950b4195a5	ff5250ca-7f87-4287-9790-8439ff79d248	Reasonable
-7dd6dd7d-0ff9-4c01-a208-f6880f5e21a8	ff5250ca-7f87-4287-9790-8439ff79d248	Neutral
-db762779-3248-4605-ac4f-fbf8cc4d55d9	ff5250ca-7f87-4287-9790-8439ff79d248	Expensive
-80443ab1-0f1e-42d0-a849-2c88844a0037	ff5250ca-7f87-4287-9790-8439ff79d248	Very Expensive
-a6528d0d-e5c0-44b9-a16a-27caf81980a6	1c306e71-be5e-4899-822a-3f46e526a057	Yes, excellent value
-bb4c7044-0017-474e-8545-b8b0337f3b25	1c306e71-be5e-4899-822a-3f46e526a057	Yes, good value
-9902a478-2312-4de9-9648-a5d4dc10663e	1c306e71-be5e-4899-822a-3f46e526a057	Neutral
-e78abfb6-a1da-4fbb-bf25-d834390972ea	1c306e71-be5e-4899-822a-3f46e526a057	No, poor value
-f7895b87-f2d6-41a4-967d-db1b598df608	1c306e71-be5e-4899-822a-3f46e526a057	No, very poor value
-40ff75d3-0092-446c-b768-8bea6c0a436d	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, and it was excellent
-710d6883-7bc4-4292-9607-cc5826a86c4f	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, and it was good
-99466905-698e-4cb9-af1f-82792349dd31	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, but it was average
-1bf5fb3c-d4f4-44fe-99e4-6b7ece8c52c6	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, but it was poor
-54fc2529-d618-40b2-935a-739ff3cc95c2	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	No, I was not assisted
-86c8bc40-c339-4d4c-baf4-bb1cc4084920	39a13775-90a4-431a-961d-0532d7da41d7	Very Efficient
-0e6ae3f9-48fb-4222-bb7f-a6136b5eea5b	39a13775-90a4-431a-961d-0532d7da41d7	Efficient
-9f422c87-4a5f-4b82-8997-8a79f4d2233a	39a13775-90a4-431a-961d-0532d7da41d7	Average
-21144470-769c-4bed-8719-424ffd5d7a76	39a13775-90a4-431a-961d-0532d7da41d7	Inefficient
-5ef22c30-3d7a-41ce-afdd-4e987d556792	39a13775-90a4-431a-961d-0532d7da41d7	Very Inefficient
-cdbfd8ff-a0cd-4d10-8d3c-5cdcaec96edd	1822aefb-aaa7-4a9c-88d2-82759f647a58	Yes, fully stocked
-8c3f1022-9f99-4349-bb77-d2bf29afb849	1822aefb-aaa7-4a9c-88d2-82759f647a58	Mostly stocked
-cd1e3533-79d1-401e-819a-c225d2478f01	1822aefb-aaa7-4a9c-88d2-82759f647a58	Somewhat stocked
-8a83ba04-01a9-4a2b-b6ad-3535dbb67423	1822aefb-aaa7-4a9c-88d2-82759f647a58	Poorly stocked
-dac3e9a5-18e0-41a3-9300-8da8b5034db9	1822aefb-aaa7-4a9c-88d2-82759f647a58	Not stocked at all
-f331538d-ecdf-44da-998a-b3d17f3a8c1d	dcd41437-c782-4ba1-a5a1-edb83d78ec4a	Yes
-6fb2defb-c4d3-4a73-9880-ce21dc8bd7ce	dcd41437-c782-4ba1-a5a1-edb83d78ec4a	No
-d326c5fc-ef7f-4201-b7cf-844650135375	dcd41437-c782-4ba1-a5a1-edb83d78ec4a	Not Applicable
-46b9a56d-6843-4164-a716-fd02486b122b	6f1dab70-7d1a-4438-9157-b585af2467d9	Search Engine
-235ec480-22f5-4e68-9acb-86257642fdf4	6f1dab70-7d1a-4438-9157-b585af2467d9	Facebook
-315b117f-77b5-4567-93ff-380f1b4b646a	6f1dab70-7d1a-4438-9157-b585af2467d9	Instagram
-a40da535-fd07-4cc1-a618-3461798fded9	6f1dab70-7d1a-4438-9157-b585af2467d9	Referral
-ddf72f72-1eff-426b-b8b8-34a6a73d2ecd	6f1dab70-7d1a-4438-9157-b585af2467d9	Other
-fa573a2c-5922-442b-b2cc-18631daa5bb5	0becfbe6-5830-4630-b986-a8b71ec9e75c	Online - Website
-8e43e402-4c98-45d2-9469-1802a7512c5c	0becfbe6-5830-4630-b986-a8b71ec9e75c	Travel Agency
-fb4c9488-8da9-42f2-a0bb-32499e60c665	0becfbe6-5830-4630-b986-a8b71ec9e75c	Phone call / Message
-428ba150-244d-45b4-9642-3bfa932ddfe1	0becfbe6-5830-4630-b986-a8b71ec9e75c	Email Booking
-ae04dc6b-c84e-45e3-b4b1-1909dfb3fae4	0becfbe6-5830-4630-b986-a8b71ec9e75c	Other
-4b5c6b28-4410-420b-8160-a8f8eee5b5b5	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Yes, completely
-8bd46c71-99d4-4dfd-97fa-cb28bc186f4c	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Mostly
-caef13e6-3d9f-4182-baa6-a5db6381902d	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Neutral
-fe7f2bec-d1fc-4878-b36e-a35b14853b7d	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Not really
-c3d6e5d0-27e6-49f3-9c7a-a3a96a1ff7fd	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	No, it was too small
-07772c94-459c-4958-913b-e14b39a4bf6d	78c0d15c-2db5-47f3-affe-7fe610d40123	Exceeded Expectations
-a5905a5d-9545-4126-be0c-74a791c29a17	78c0d15c-2db5-47f3-affe-7fe610d40123	Met Expectations
-0db681e9-06ad-4ba3-aca2-7e6dd023e7d4	78c0d15c-2db5-47f3-affe-7fe610d40123	Neutral
-d82b193a-3a0e-4b97-a264-d238c781bcb4	78c0d15c-2db5-47f3-affe-7fe610d40123	Below Expectations
-2f35b799-5c0a-47bb-8876-8107af0bff28	78c0d15c-2db5-47f3-affe-7fe610d40123	Did Not Meet Expectations
-086bdd46-b5f4-417a-b6b5-c3172a7076b1	400d4591-701a-434d-a818-d48a26302a57	Excellent
-6192b857-4157-4044-ab67-9946aa194e9b	400d4591-701a-434d-a818-d48a26302a57	Good
-8a1d0554-7f51-4f54-8670-e3a38e4b1f49	400d4591-701a-434d-a818-d48a26302a57	Average
-6872eadc-8ec9-4c5e-9237-2e76c61d100d	400d4591-701a-434d-a818-d48a26302a57	Below average
-10c32977-0dd6-4fc1-a74d-21d1300add23	400d4591-701a-434d-a818-d48a26302a57	Poor
-2af931b4-ec60-4736-b343-bcc34175ccf9	eb6c2812-2a76-4a33-a8ff-d5641a564090	Yes, completely
-0e3cc980-d8e1-4686-b63e-01e1fee709e4	eb6c2812-2a76-4a33-a8ff-d5641a564090	Mostly
-a9b57799-a44f-41a7-be67-caf2f2add68f	eb6c2812-2a76-4a33-a8ff-d5641a564090	Neutral
-0437a345-ee40-4242-a1fe-f4a02c5c25d7	eb6c2812-2a76-4a33-a8ff-d5641a564090	Somewhat
-09541ba0-dbe1-498c-b7c5-a92e7d6686cd	eb6c2812-2a76-4a33-a8ff-d5641a564090	No, not at all
-8572ed56-93a4-463c-962b-522f3c623d8f	22016b7c-fea7-4c30-b90d-8a977be7a511	Always
-6cdaf266-2c29-4a61-a78c-69c33ed33cb3	22016b7c-fea7-4c30-b90d-8a977be7a511	Most of the time
-c2b1755a-3a50-4c17-bae7-0f5867e82dab	22016b7c-fea7-4c30-b90d-8a977be7a511	Sometimes
-5f9a216b-905c-4266-8430-9f3bfbdd7031	22016b7c-fea7-4c30-b90d-8a977be7a511	Rarely
-7dc8f7f3-892b-44b3-938e-22ee28c15994	22016b7c-fea7-4c30-b90d-8a977be7a511	Never
-eaec758d-11f0-4fcf-b388-e78fde8b4949	d6c4a584-d1fb-4511-81e6-b608b5de6914	Always
-bf52bf43-4bce-4c21-aac4-30b14df9ec13	d6c4a584-d1fb-4511-81e6-b608b5de6914	Most of the time
-85051605-1e9d-42bd-883b-abb9070fd336	d6c4a584-d1fb-4511-81e6-b608b5de6914	Sometimes
-4b3724de-00f8-4ea9-a538-742652b93037	d6c4a584-d1fb-4511-81e6-b608b5de6914	Rarely
-77e13863-d52a-4757-857f-e8013bbf6cea	d6c4a584-d1fb-4511-81e6-b608b5de6914	Never
-3684ed4d-2a2a-4925-ac27-6246b9380c5d	17fc096c-7011-440b-be4a-31dcbfe61735	Swimming pool
-af686cfe-a18a-436e-bb8d-fc7b540dd9f9	17fc096c-7011-440b-be4a-31dcbfe61735	Club 
-b45a9231-30c7-42c5-b5cb-ca9d7a57b471	17fc096c-7011-440b-be4a-31dcbfe61735	Cafeteria
-3ef8cff7-4235-4207-907c-df275d0adbf8	17fc096c-7011-440b-be4a-31dcbfe61735	Beach
-4092e30f-d282-4a9a-b1cd-9ea1ea908082	17fc096c-7011-440b-be4a-31dcbfe61735	Game Park
-86cd5c95-394c-4fe5-92db-7038e334182c	4913caa6-d942-45cb-801a-1ee44063e57e	Yes, Completely
-8f3c0b3a-47a6-4e4c-8b3c-40fad40b4fcf	4913caa6-d942-45cb-801a-1ee44063e57e	Mostly
-572f397b-277b-46a2-acba-4fbf0a7b96b5	4913caa6-d942-45cb-801a-1ee44063e57e	Neutral
-100fd186-0359-4333-a2b5-0af42d4bfa56	4913caa6-d942-45cb-801a-1ee44063e57e	Not really
-6a1a8dd6-90c4-4466-ad59-c91c10446088	4913caa6-d942-45cb-801a-1ee44063e57e	No, not at all
-d916776d-98cb-49eb-b570-a0a61d9ffb69	eac2877d-915d-4ce4-a32d-49dee271a5c8	Always
-a0c8b7a0-4505-4e46-b62d-99e42eecf88d	eac2877d-915d-4ce4-a32d-49dee271a5c8	Most of the time
-26a73ca9-bc0e-4924-adcd-6f5b070f9700	eac2877d-915d-4ce4-a32d-49dee271a5c8	Sometimes
-8738013d-0ec3-4130-a1cb-285cc72d7b5d	eac2877d-915d-4ce4-a32d-49dee271a5c8	Rarely
-8d1321b7-fac9-42d6-9011-c2a0051c9ad3	eac2877d-915d-4ce4-a32d-49dee271a5c8	Never
-64184192-20b5-4737-9628-64681219c06f	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Yes, completely
-f3277a98-16d4-4b6d-ae31-869cb89abbc8	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Mostly
-5415397a-2541-4662-abf5-da0c72284117	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Neutral
-cfb92370-8e72-4f07-956a-14b614124ff8	aaf3f226-d2ca-4d94-af5a-ac85430776bd	No, not at all
-f30c8df1-dc60-4cb4-8a06-e1366f73182c	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Not Applicable
-0bf79d29-66a1-4e12-8cca-6678b902e0e4	89ed9510-835a-4bd4-a820-005bce2562b6	Yes, completely
-735114e0-1e15-49f9-8e91-e06a083d43ad	89ed9510-835a-4bd4-a820-005bce2562b6	Mostly
-ae199bba-e2a5-49c8-bac8-0dcf7c8c51ee	89ed9510-835a-4bd4-a820-005bce2562b6	Neutral
-4872ee5d-e63b-4d81-adae-d7a2530b2e0f	89ed9510-835a-4bd4-a820-005bce2562b6	Not really
-70e021a8-5c4c-4c1c-8202-07d662f49c82	89ed9510-835a-4bd4-a820-005bce2562b6	No not at all
-985bbd91-4a60-4be7-af4d-0efe6dc13089	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Always
-ff50545e-cfda-4a97-9f23-f580a8c527af	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Most of the time
-97296867-9d6a-4e5e-ba4c-63e2010c9133	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Sometimes
-6e099b89-cc32-4591-bf04-0fd8a07ccaca	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Rarely
-1b01c468-69aa-4289-ae63-4be373cedd90	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Never
-8495be20-7158-42f8-8f0c-72b76875b544	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Definitely
-07a3f564-0bc4-4199-8522-55eaf1223c75	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Probably
-28ef7e3b-c966-44ac-8622-d380f3b4d6eb	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Not sure
-b671c7ad-c968-4224-9bd6-a72233471abb	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Probably not
-4f894499-18ca-4f5c-a4db-f0fe99f3e17c	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Definitely not 
-a7ba9e22-daf5-44a5-9606-53e4c690a55f	a516e0b8-d38d-4b30-bded-33b39cf340c7	African
-1ca9098a-a9e5-4b0c-9d42-ac66395d2238	a516e0b8-d38d-4b30-bded-33b39cf340c7	Chinese
-e3e3b9bf-8736-406b-92d2-47c4bdbb9cce	a516e0b8-d38d-4b30-bded-33b39cf340c7	Indian
-8b0f28c2-d848-44e9-a509-0cded9363ed0	a516e0b8-d38d-4b30-bded-33b39cf340c7	Spanish
-b12c63db-a490-40e1-9c72-4fb68bc0195e	a516e0b8-d38d-4b30-bded-33b39cf340c7	West African
+COPY "public"."question_options" ("optionid", "questionid", "option", "order_index") FROM stdin;
+d8ae7261-3907-482d-95ec-15e4dd5584c3	6f31b5d4-18fa-40a7-960c-3677066ce3d2	Yes, everything	0
+9af65669-084c-46cb-b171-d2a11ac80045	6f31b5d4-18fa-40a7-960c-3677066ce3d2	Most of the items	0
+245cbda9-6e8b-49b2-bd69-7eb302e5cb76	6f31b5d4-18fa-40a7-960c-3677066ce3d2	Some items	0
+fca75d4a-abb2-4d72-b387-581c80cbae52	6f31b5d4-18fa-40a7-960c-3677066ce3d2	No, I couldn’t find what I needed	0
+dcabf2f0-316f-4bf6-978f-c9d59ecc767b	00d86e5b-dba1-49a5-8909-5c38a1479ee7	Yes, definitely	0
+1582d784-0e29-446e-88bd-ffd40e98b974	00d86e5b-dba1-49a5-8909-5c38a1479ee7	Yes, but could improve	0
+a4a12725-ed0a-40c9-8c91-07b85fef765b	00d86e5b-dba1-49a5-8909-5c38a1479ee7	Neutral	0
+c5c211b7-2f7d-4664-b72e-dd014d4995c1	00d86e5b-dba1-49a5-8909-5c38a1479ee7	No, limited options	0
+c324e2c7-d812-4ec4-8de3-fa0580973100	00d86e5b-dba1-49a5-8909-5c38a1479ee7	No, not at all	0
+741e7606-8fc4-4971-9731-688d288052af	ff5250ca-7f87-4287-9790-8439ff79d248	Very Reasonable	0
+4bdc5c0b-f2e2-4104-b74b-9f950b4195a5	ff5250ca-7f87-4287-9790-8439ff79d248	Reasonable	0
+7dd6dd7d-0ff9-4c01-a208-f6880f5e21a8	ff5250ca-7f87-4287-9790-8439ff79d248	Neutral	0
+db762779-3248-4605-ac4f-fbf8cc4d55d9	ff5250ca-7f87-4287-9790-8439ff79d248	Expensive	0
+80443ab1-0f1e-42d0-a849-2c88844a0037	ff5250ca-7f87-4287-9790-8439ff79d248	Very Expensive	0
+a6528d0d-e5c0-44b9-a16a-27caf81980a6	1c306e71-be5e-4899-822a-3f46e526a057	Yes, excellent value	0
+bb4c7044-0017-474e-8545-b8b0337f3b25	1c306e71-be5e-4899-822a-3f46e526a057	Yes, good value	0
+9902a478-2312-4de9-9648-a5d4dc10663e	1c306e71-be5e-4899-822a-3f46e526a057	Neutral	0
+e78abfb6-a1da-4fbb-bf25-d834390972ea	1c306e71-be5e-4899-822a-3f46e526a057	No, poor value	0
+f7895b87-f2d6-41a4-967d-db1b598df608	1c306e71-be5e-4899-822a-3f46e526a057	No, very poor value	0
+40ff75d3-0092-446c-b768-8bea6c0a436d	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, and it was excellent	0
+710d6883-7bc4-4292-9607-cc5826a86c4f	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, and it was good	0
+99466905-698e-4cb9-af1f-82792349dd31	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, but it was average	0
+1bf5fb3c-d4f4-44fe-99e4-6b7ece8c52c6	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	Yes, but it was poor	0
+54fc2529-d618-40b2-935a-739ff3cc95c2	a72c44ad-6b48-4ff2-94a2-dbc727b333d7	No, I was not assisted	0
+86c8bc40-c339-4d4c-baf4-bb1cc4084920	39a13775-90a4-431a-961d-0532d7da41d7	Very Efficient	0
+0e6ae3f9-48fb-4222-bb7f-a6136b5eea5b	39a13775-90a4-431a-961d-0532d7da41d7	Efficient	0
+9f422c87-4a5f-4b82-8997-8a79f4d2233a	39a13775-90a4-431a-961d-0532d7da41d7	Average	0
+21144470-769c-4bed-8719-424ffd5d7a76	39a13775-90a4-431a-961d-0532d7da41d7	Inefficient	0
+5ef22c30-3d7a-41ce-afdd-4e987d556792	39a13775-90a4-431a-961d-0532d7da41d7	Very Inefficient	0
+cdbfd8ff-a0cd-4d10-8d3c-5cdcaec96edd	1822aefb-aaa7-4a9c-88d2-82759f647a58	Yes, fully stocked	0
+8c3f1022-9f99-4349-bb77-d2bf29afb849	1822aefb-aaa7-4a9c-88d2-82759f647a58	Mostly stocked	0
+cd1e3533-79d1-401e-819a-c225d2478f01	1822aefb-aaa7-4a9c-88d2-82759f647a58	Somewhat stocked	0
+8a83ba04-01a9-4a2b-b6ad-3535dbb67423	1822aefb-aaa7-4a9c-88d2-82759f647a58	Poorly stocked	0
+dac3e9a5-18e0-41a3-9300-8da8b5034db9	1822aefb-aaa7-4a9c-88d2-82759f647a58	Not stocked at all	0
+f331538d-ecdf-44da-998a-b3d17f3a8c1d	dcd41437-c782-4ba1-a5a1-edb83d78ec4a	Yes	0
+6fb2defb-c4d3-4a73-9880-ce21dc8bd7ce	dcd41437-c782-4ba1-a5a1-edb83d78ec4a	No	0
+d326c5fc-ef7f-4201-b7cf-844650135375	dcd41437-c782-4ba1-a5a1-edb83d78ec4a	Not Applicable	0
+46b9a56d-6843-4164-a716-fd02486b122b	6f1dab70-7d1a-4438-9157-b585af2467d9	Search Engine	0
+235ec480-22f5-4e68-9acb-86257642fdf4	6f1dab70-7d1a-4438-9157-b585af2467d9	Facebook	0
+315b117f-77b5-4567-93ff-380f1b4b646a	6f1dab70-7d1a-4438-9157-b585af2467d9	Instagram	0
+a40da535-fd07-4cc1-a618-3461798fded9	6f1dab70-7d1a-4438-9157-b585af2467d9	Referral	0
+ddf72f72-1eff-426b-b8b8-34a6a73d2ecd	6f1dab70-7d1a-4438-9157-b585af2467d9	Other	0
+fa573a2c-5922-442b-b2cc-18631daa5bb5	0becfbe6-5830-4630-b986-a8b71ec9e75c	Online - Website	0
+8e43e402-4c98-45d2-9469-1802a7512c5c	0becfbe6-5830-4630-b986-a8b71ec9e75c	Travel Agency	0
+fb4c9488-8da9-42f2-a0bb-32499e60c665	0becfbe6-5830-4630-b986-a8b71ec9e75c	Phone call / Message	0
+428ba150-244d-45b4-9642-3bfa932ddfe1	0becfbe6-5830-4630-b986-a8b71ec9e75c	Email Booking	0
+ae04dc6b-c84e-45e3-b4b1-1909dfb3fae4	0becfbe6-5830-4630-b986-a8b71ec9e75c	Other	0
+4b5c6b28-4410-420b-8160-a8f8eee5b5b5	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Yes, completely	0
+8bd46c71-99d4-4dfd-97fa-cb28bc186f4c	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Mostly	0
+caef13e6-3d9f-4182-baa6-a5db6381902d	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Neutral	0
+fe7f2bec-d1fc-4878-b36e-a35b14853b7d	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	Not really	0
+c3d6e5d0-27e6-49f3-9c7a-a3a96a1ff7fd	7ba4fc9c-8ad6-4f17-b993-8a8ad1598697	No, it was too small	0
+07772c94-459c-4958-913b-e14b39a4bf6d	78c0d15c-2db5-47f3-affe-7fe610d40123	Exceeded Expectations	0
+a5905a5d-9545-4126-be0c-74a791c29a17	78c0d15c-2db5-47f3-affe-7fe610d40123	Met Expectations	0
+0db681e9-06ad-4ba3-aca2-7e6dd023e7d4	78c0d15c-2db5-47f3-affe-7fe610d40123	Neutral	0
+d82b193a-3a0e-4b97-a264-d238c781bcb4	78c0d15c-2db5-47f3-affe-7fe610d40123	Below Expectations	0
+2f35b799-5c0a-47bb-8876-8107af0bff28	78c0d15c-2db5-47f3-affe-7fe610d40123	Did Not Meet Expectations	0
+086bdd46-b5f4-417a-b6b5-c3172a7076b1	400d4591-701a-434d-a818-d48a26302a57	Excellent	0
+6192b857-4157-4044-ab67-9946aa194e9b	400d4591-701a-434d-a818-d48a26302a57	Good	0
+8a1d0554-7f51-4f54-8670-e3a38e4b1f49	400d4591-701a-434d-a818-d48a26302a57	Average	0
+6872eadc-8ec9-4c5e-9237-2e76c61d100d	400d4591-701a-434d-a818-d48a26302a57	Below average	0
+10c32977-0dd6-4fc1-a74d-21d1300add23	400d4591-701a-434d-a818-d48a26302a57	Poor	0
+2af931b4-ec60-4736-b343-bcc34175ccf9	eb6c2812-2a76-4a33-a8ff-d5641a564090	Yes, completely	0
+0e3cc980-d8e1-4686-b63e-01e1fee709e4	eb6c2812-2a76-4a33-a8ff-d5641a564090	Mostly	0
+a9b57799-a44f-41a7-be67-caf2f2add68f	eb6c2812-2a76-4a33-a8ff-d5641a564090	Neutral	0
+0437a345-ee40-4242-a1fe-f4a02c5c25d7	eb6c2812-2a76-4a33-a8ff-d5641a564090	Somewhat	0
+09541ba0-dbe1-498c-b7c5-a92e7d6686cd	eb6c2812-2a76-4a33-a8ff-d5641a564090	No, not at all	0
+8572ed56-93a4-463c-962b-522f3c623d8f	22016b7c-fea7-4c30-b90d-8a977be7a511	Always	0
+6cdaf266-2c29-4a61-a78c-69c33ed33cb3	22016b7c-fea7-4c30-b90d-8a977be7a511	Most of the time	0
+c2b1755a-3a50-4c17-bae7-0f5867e82dab	22016b7c-fea7-4c30-b90d-8a977be7a511	Sometimes	0
+5f9a216b-905c-4266-8430-9f3bfbdd7031	22016b7c-fea7-4c30-b90d-8a977be7a511	Rarely	0
+7dc8f7f3-892b-44b3-938e-22ee28c15994	22016b7c-fea7-4c30-b90d-8a977be7a511	Never	0
+eaec758d-11f0-4fcf-b388-e78fde8b4949	d6c4a584-d1fb-4511-81e6-b608b5de6914	Always	0
+bf52bf43-4bce-4c21-aac4-30b14df9ec13	d6c4a584-d1fb-4511-81e6-b608b5de6914	Most of the time	0
+85051605-1e9d-42bd-883b-abb9070fd336	d6c4a584-d1fb-4511-81e6-b608b5de6914	Sometimes	0
+4b3724de-00f8-4ea9-a538-742652b93037	d6c4a584-d1fb-4511-81e6-b608b5de6914	Rarely	0
+77e13863-d52a-4757-857f-e8013bbf6cea	d6c4a584-d1fb-4511-81e6-b608b5de6914	Never	0
+3684ed4d-2a2a-4925-ac27-6246b9380c5d	17fc096c-7011-440b-be4a-31dcbfe61735	Swimming pool	0
+af686cfe-a18a-436e-bb8d-fc7b540dd9f9	17fc096c-7011-440b-be4a-31dcbfe61735	Club 	0
+b45a9231-30c7-42c5-b5cb-ca9d7a57b471	17fc096c-7011-440b-be4a-31dcbfe61735	Cafeteria	0
+3ef8cff7-4235-4207-907c-df275d0adbf8	17fc096c-7011-440b-be4a-31dcbfe61735	Beach	0
+4092e30f-d282-4a9a-b1cd-9ea1ea908082	17fc096c-7011-440b-be4a-31dcbfe61735	Game Park	0
+86cd5c95-394c-4fe5-92db-7038e334182c	4913caa6-d942-45cb-801a-1ee44063e57e	Yes, Completely	0
+8f3c0b3a-47a6-4e4c-8b3c-40fad40b4fcf	4913caa6-d942-45cb-801a-1ee44063e57e	Mostly	0
+572f397b-277b-46a2-acba-4fbf0a7b96b5	4913caa6-d942-45cb-801a-1ee44063e57e	Neutral	0
+100fd186-0359-4333-a2b5-0af42d4bfa56	4913caa6-d942-45cb-801a-1ee44063e57e	Not really	0
+6a1a8dd6-90c4-4466-ad59-c91c10446088	4913caa6-d942-45cb-801a-1ee44063e57e	No, not at all	0
+d916776d-98cb-49eb-b570-a0a61d9ffb69	eac2877d-915d-4ce4-a32d-49dee271a5c8	Always	0
+a0c8b7a0-4505-4e46-b62d-99e42eecf88d	eac2877d-915d-4ce4-a32d-49dee271a5c8	Most of the time	0
+26a73ca9-bc0e-4924-adcd-6f5b070f9700	eac2877d-915d-4ce4-a32d-49dee271a5c8	Sometimes	0
+8738013d-0ec3-4130-a1cb-285cc72d7b5d	eac2877d-915d-4ce4-a32d-49dee271a5c8	Rarely	0
+8d1321b7-fac9-42d6-9011-c2a0051c9ad3	eac2877d-915d-4ce4-a32d-49dee271a5c8	Never	0
+64184192-20b5-4737-9628-64681219c06f	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Yes, completely	0
+f3277a98-16d4-4b6d-ae31-869cb89abbc8	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Mostly	0
+5415397a-2541-4662-abf5-da0c72284117	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Neutral	0
+cfb92370-8e72-4f07-956a-14b614124ff8	aaf3f226-d2ca-4d94-af5a-ac85430776bd	No, not at all	0
+f30c8df1-dc60-4cb4-8a06-e1366f73182c	aaf3f226-d2ca-4d94-af5a-ac85430776bd	Not Applicable	0
+0bf79d29-66a1-4e12-8cca-6678b902e0e4	89ed9510-835a-4bd4-a820-005bce2562b6	Yes, completely	0
+735114e0-1e15-49f9-8e91-e06a083d43ad	89ed9510-835a-4bd4-a820-005bce2562b6	Mostly	0
+ae199bba-e2a5-49c8-bac8-0dcf7c8c51ee	89ed9510-835a-4bd4-a820-005bce2562b6	Neutral	0
+4872ee5d-e63b-4d81-adae-d7a2530b2e0f	89ed9510-835a-4bd4-a820-005bce2562b6	Not really	0
+70e021a8-5c4c-4c1c-8202-07d662f49c82	89ed9510-835a-4bd4-a820-005bce2562b6	No not at all	0
+985bbd91-4a60-4be7-af4d-0efe6dc13089	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Always	0
+ff50545e-cfda-4a97-9f23-f580a8c527af	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Most of the time	0
+97296867-9d6a-4e5e-ba4c-63e2010c9133	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Sometimes	0
+6e099b89-cc32-4591-bf04-0fd8a07ccaca	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Rarely	0
+1b01c468-69aa-4289-ae63-4be373cedd90	8544dd09-4d10-4dc7-84e6-7d24e26bb870	Never	0
+8495be20-7158-42f8-8f0c-72b76875b544	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Definitely	0
+07a3f564-0bc4-4199-8522-55eaf1223c75	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Probably	0
+28ef7e3b-c966-44ac-8622-d380f3b4d6eb	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Not sure	0
+b671c7ad-c968-4224-9bd6-a72233471abb	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Probably not	0
+4f894499-18ca-4f5c-a4db-f0fe99f3e17c	3ba2ad30-cfe4-4170-a84f-5bed2fbdcba0	Definitely not 	0
+a7ba9e22-daf5-44a5-9606-53e4c690a55f	a516e0b8-d38d-4b30-bded-33b39cf340c7	African	0
+1ca9098a-a9e5-4b0c-9d42-ac66395d2238	a516e0b8-d38d-4b30-bded-33b39cf340c7	Chinese	0
+e3e3b9bf-8736-406b-92d2-47c4bdbb9cce	a516e0b8-d38d-4b30-bded-33b39cf340c7	Indian	0
+8b0f28c2-d848-44e9-a509-0cded9363ed0	a516e0b8-d38d-4b30-bded-33b39cf340c7	Spanish	0
+b12c63db-a490-40e1-9c72-4fb68bc0195e	a516e0b8-d38d-4b30-bded-33b39cf340c7	West African	0
 \.
 
 
@@ -6038,20 +6048,12 @@ d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	\N	\N	
 
 
 --
--- Data for Name: branching_rules; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."branching_rules" ("rule_id", "question_id", "selected_option_id", "next_question_id", "created_at") FROM stdin;
-\.
-
-
---
 -- Data for Name: consumer_details; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone", "county", "sub_county", "sector", "disabled", "created_at") FROM stdin;
-c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Nairobi	Kinango	Others	f	2025-02-02 13:21:20.73+00
-75b87d71-3545-4032-adcb-64700e7456f7	ubermatchvlaad212@gmail.com	CSNRU	+254743962943	Taita-Taveta	Taveta	Education	f	2025-02-28 17:38:15.884534+00
+COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone", "country", "state", "sector", "disabled", "created_at") FROM stdin;
+75b87d71-3545-4032-adcb-64700e7456f7	ubermatchvlaad212@gmail.com	CSNRU	+254743962943	Kenya	Taveta	Education	f	2025-02-28 17:38:15.884534+00
+c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Kenya	Nairobi City	Others	f	2025-02-02 13:21:20.73+00
 \.
 
 
@@ -6208,20 +6210,18 @@ f34a8547-c606-453d-87da-3777a8c5aef5	a2d5b801-5a09-415e-afc7-e4e16400eca2	50	com
 
 
 --
--- Data for Name: sms_verification; Type: TABLE DATA; Schema: public; Owner: postgres
+-- Data for Name: question_branching; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms") FROM stdin;
+COPY "public"."question_branching" ("branchid", "surveyid", "questionid", "optionid", "next_questionid") FROM stdin;
 \.
 
 
 --
--- Data for Name: survey; Type: TABLE DATA; Schema: public; Owner: postgres
+-- Data for Name: sms_verification; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires") FROM stdin;
-7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00
-c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00
+COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms") FROM stdin;
 \.
 
 

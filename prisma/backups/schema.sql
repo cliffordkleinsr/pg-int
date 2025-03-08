@@ -182,18 +182,6 @@ CREATE TABLE IF NOT EXISTS "public"."answers" (
 ALTER TABLE "public"."answers" OWNER TO "postgres";
 
 
-CREATE TABLE IF NOT EXISTS "public"."branching_rules" (
-    "rule_id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
-    "question_id" "uuid" NOT NULL,
-    "selected_option_id" "uuid" NOT NULL,
-    "next_question_id" "uuid" NOT NULL,
-    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
-);
-
-
-ALTER TABLE "public"."branching_rules" OWNER TO "postgres";
-
-
 CREATE TABLE IF NOT EXISTS "public"."consumer_transactions" (
     "transaction_code" "text" NOT NULL,
     "trans_amount" integer NOT NULL,
@@ -232,8 +220,8 @@ CREATE TABLE IF NOT EXISTS "public"."consumer_details" (
     "email" "text" NOT NULL,
     "company_name" "text" NOT NULL,
     "phone" "text" NOT NULL,
-    "county" "text" NOT NULL,
-    "sub_county" "text" NOT NULL,
+    "country" "text" NOT NULL,
+    "state" "text" NOT NULL,
     "sector" "text" NOT NULL,
     "disabled" boolean DEFAULT false NOT NULL,
     "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
@@ -386,10 +374,23 @@ ALTER SEQUENCE "public"."price_table_id_seq" OWNED BY "public"."price_table"."id
 
 
 
+CREATE TABLE IF NOT EXISTS "public"."question_branching" (
+    "branchid" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "surveyid" "text" NOT NULL,
+    "questionid" "uuid" NOT NULL,
+    "optionid" "uuid" NOT NULL,
+    "next_questionid" "uuid" NOT NULL
+);
+
+
+ALTER TABLE "public"."question_branching" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."question_options" (
     "optionid" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
     "questionid" "uuid" NOT NULL,
-    "option" "text" NOT NULL
+    "option" "text" NOT NULL,
+    "order_index" integer DEFAULT 0 NOT NULL
 );
 
 
@@ -486,11 +487,6 @@ ALTER TABLE ONLY "public"."agent_data"
 
 
 
-ALTER TABLE ONLY "public"."branching_rules"
-    ADD CONSTRAINT "branching_rules_pkey" PRIMARY KEY ("rule_id");
-
-
-
 ALTER TABLE ONLY "public"."consumer_transactions"
     ADD CONSTRAINT "client_transactions_pkey" PRIMARY KEY ("id");
 
@@ -518,6 +514,11 @@ ALTER TABLE ONLY "public"."payout_requests"
 
 ALTER TABLE ONLY "public"."price_table"
     ADD CONSTRAINT "price_table_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."question_branching"
+    ADD CONSTRAINT "question_branching_pkey" PRIMARY KEY ("branchid");
 
 
 
@@ -571,6 +572,16 @@ ALTER TABLE ONLY "public"."agent_progress_table"
 
 
 
+ALTER TABLE ONLY "public"."agent_progress_table"
+    ADD CONSTRAINT "agent_progress_table_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+
+
+
+ALTER TABLE ONLY "public"."agent_surv_table"
+    ADD CONSTRAINT "agent_surv_table_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+
+
+
 ALTER TABLE ONLY "public"."agent_transactions"
     ADD CONSTRAINT "agent_transactions_agentid_users_id_fk" FOREIGN KEY ("agentid") REFERENCES "public"."users"("id");
 
@@ -591,18 +602,8 @@ ALTER TABLE ONLY "public"."answers"
 
 
 
-ALTER TABLE ONLY "public"."branching_rules"
-    ADD CONSTRAINT "branching_rules_next_question_id_survey_qns_optimum_questionid_" FOREIGN KEY ("next_question_id") REFERENCES "public"."survey_qns_optimum"("questionid");
-
-
-
-ALTER TABLE ONLY "public"."branching_rules"
-    ADD CONSTRAINT "branching_rules_question_id_survey_qns_optimum_questionid_fk" FOREIGN KEY ("question_id") REFERENCES "public"."survey_qns_optimum"("questionid");
-
-
-
-ALTER TABLE ONLY "public"."branching_rules"
-    ADD CONSTRAINT "branching_rules_selected_option_id_question_options_optionid_fk" FOREIGN KEY ("selected_option_id") REFERENCES "public"."question_options"("optionid");
+ALTER TABLE ONLY "public"."answers"
+    ADD CONSTRAINT "answers_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
 
 
 
@@ -641,8 +642,33 @@ ALTER TABLE ONLY "public"."ext_answers"
 
 
 
+ALTER TABLE ONLY "public"."ext_answers"
+    ADD CONSTRAINT "ext_answers_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+
+
+
 ALTER TABLE ONLY "public"."payout_requests"
     ADD CONSTRAINT "payout_requests_agent_id_users_id_fk" FOREIGN KEY ("agent_id") REFERENCES "public"."users"("id");
+
+
+
+ALTER TABLE ONLY "public"."question_branching"
+    ADD CONSTRAINT "question_branching_next_questionid_survey_qns_optimum_questioni" FOREIGN KEY ("next_questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
+
+
+
+ALTER TABLE ONLY "public"."question_branching"
+    ADD CONSTRAINT "question_branching_optionid_question_options_optionid_fk" FOREIGN KEY ("optionid") REFERENCES "public"."question_options"("optionid");
+
+
+
+ALTER TABLE ONLY "public"."question_branching"
+    ADD CONSTRAINT "question_branching_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
+
+
+
+ALTER TABLE ONLY "public"."question_branching"
+    ADD CONSTRAINT "question_branching_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
 
 
 
@@ -653,6 +679,11 @@ ALTER TABLE ONLY "public"."question_options"
 
 ALTER TABLE ONLY "public"."sms_verification"
     ADD CONSTRAINT "sms_verification_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id");
+
+
+
+ALTER TABLE ONLY "public"."survey_qns_optimum"
+    ADD CONSTRAINT "survey_qns_optimum_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
 
 
 
@@ -895,12 +926,6 @@ GRANT ALL ON TABLE "public"."answers" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."branching_rules" TO "anon";
-GRANT ALL ON TABLE "public"."branching_rules" TO "authenticated";
-GRANT ALL ON TABLE "public"."branching_rules" TO "service_role";
-
-
-
 GRANT ALL ON TABLE "public"."consumer_transactions" TO "anon";
 GRANT ALL ON TABLE "public"."consumer_transactions" TO "authenticated";
 GRANT ALL ON TABLE "public"."consumer_transactions" TO "service_role";
@@ -976,6 +1001,12 @@ GRANT ALL ON TABLE "public"."price_table" TO "service_role";
 GRANT ALL ON SEQUENCE "public"."price_table_id_seq" TO "anon";
 GRANT ALL ON SEQUENCE "public"."price_table_id_seq" TO "authenticated";
 GRANT ALL ON SEQUENCE "public"."price_table_id_seq" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."question_branching" TO "anon";
+GRANT ALL ON TABLE "public"."question_branching" TO "authenticated";
+GRANT ALL ON TABLE "public"."question_branching" TO "service_role";
 
 
 
