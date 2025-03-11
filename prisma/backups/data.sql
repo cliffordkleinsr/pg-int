@@ -651,9 +651,9 @@ f9bd0d46-0c09-4694-91fb-f83e900af5e2	dianahnaliaka046@gmail.com	0711909976	5/18/
 -- Data for Name: survey; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires") FROM stdin;
-7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00
-c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00
+COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires", "created_at") FROM stdin;
+7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00	2025-03-10 05:42:08.808096+00
+c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00	2025-03-10 05:42:08.808096+00
 \.
 
 
@@ -6240,6 +6240,7 @@ e22a7cfeee54695cf0f1fee9e00619332ab57deaa020e79d991c83c47d34804a	12059b01-c2cd-4
 087af35e2ee1fd47c1245eb1e45f110644095d64f899b0696c751e0c7ef1f86e	c1bde176-582a-4028-888e-a70875a11f51	2025-03-07 13:14:43.459+00
 294cfadb19eaadb18e4328e57ad97cbd482dfb473e69bc027c8e084b0693a42a	1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	2025-03-07 16:28:44.19+00
 8de9a7e4d0a137cba265cd78c9cf6062a9ae7db32254b6e00bd22a70578613f4	c1bde176-582a-4028-888e-a70875a11f51	2025-03-10 12:34:00.27+00
+f2d6bb46d59791f3ec02aa98695273e0f79d0be18c91748d613f3a34d36a35a8	fffd2637-1493-41f9-a140-08ba67621b10	2025-03-11 10:24:44.499+00
 \.
 
 

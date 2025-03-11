@@ -415,7 +415,8 @@ CREATE TABLE IF NOT EXISTS "public"."survey" (
     "description" "text",
     "status" "public"."status" DEFAULT 'Draft'::"public"."status" NOT NULL,
     "max_responses" double precision NOT NULL,
-    "survey_expires" timestamp with time zone NOT NULL
+    "survey_expires" timestamp with time zone NOT NULL,
+    "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
 );
 
 
