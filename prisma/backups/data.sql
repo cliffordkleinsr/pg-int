@@ -6062,6 +6062,9 @@ c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	
 --
 
 COPY "public"."price_table" ("id", "title", "one_pack", "six_pack", "ten_pack", "max_qns", "max_responses", "demographics", "api", "branding") FROM stdin;
+2	Basic	29	165	261	50	100	f	f	f
+3	Premium	99	564	891	Infinity	Infinity	t	f	f
+4	Enterprise	299	299	3229	Infinity	Infinity	t	t	t
 \.
 
 
@@ -6070,6 +6073,7 @@ COPY "public"."price_table" ("id", "title", "one_pack", "six_pack", "ten_pack", 
 --
 
 COPY "public"."consumer_package" ("id", "consumerid", "package_id", "package", "package_type", "invoiced", "expires", "transaction_code") FROM stdin;
+1	75b87d71-3545-4032-adcb-64700e7456f7	2	Basic	one_pack	2025-03-26 07:27:56.675+00	2025-04-25 07:27:56.675+00	TBP4F3JRGY
 \.
 
 
@@ -6081,6 +6085,7 @@ COPY "public"."consumer_transactions" ("transaction_code", "trans_amount", "org_
 SKM6OIUYPK	54000	1779.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-22 10:22:46+00	1	0799725093
 SKQ28DJ5NY	10	1469.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-26 19:09:56+00	2	0799725093
 TBP4F3JRGY	10	1379.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2025-02-25 16:22:38+00	3	0799725093
+TBP4F3JRGY	2900	1379	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2025-03-26 07:23:10+00	4	0743962943
 \.
 
 
@@ -6089,14 +6094,6 @@ TBP4F3JRGY	10	1379.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a
 --
 
 COPY "public"."email_verification" ("user_id", "email", "token", "verified", "recieved_email") FROM stdin;
-\.
-
-
---
--- Data for Name: ext_answers; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY "public"."ext_answers" ("questionid", "surveyid", "option_id", "rankid", "answer", "updated_at") FROM stdin;
 \.
 
 
@@ -6218,6 +6215,14 @@ COPY "public"."question_branching" ("branchid", "surveyid", "questionid", "optio
 
 
 --
+-- Data for Name: response_table; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."response_table" ("questionid", "surveyid", "option_id", "rankid", "answer", "updated_at", "id") FROM stdin;
+\.
+
+
+--
 -- Data for Name: sms_verification; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -6226,22 +6231,18 @@ COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms"
 
 
 --
+-- Data for Name: user_analytics; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector", "country", "state", "client_address", "has_completed") FROM stdin;
+\.
+
+
+--
 -- Data for Name: user_sessions; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
-3d80520ea09436c90d84118f4a1676b8afd2e05be0fc566a073ca96f3b40700c	c893fe46-c3d7-40c0-8035-b20c940b9d90	2025-02-25 16:26:12.911+00
-348c5f6c90dfb9e34f5a72a1c5813a459140cfe58de2dea2a1bc013f69f901bd	c893fe46-c3d7-40c0-8035-b20c940b9d90	2025-02-25 16:26:35.317+00
-f84f0a00ab262299ff019b31c7a61b82eec543b4436817b2f1812498268326e1	c1bde176-582a-4028-888e-a70875a11f51	2025-02-28 13:30:47.693+00
-53be4cbabd187a4f121337353a2255b9784cb9a44a041132bd957e228250b526	c1bde176-582a-4028-888e-a70875a11f51	2025-02-28 18:46:45.743+00
-417707b4891ee411cf2338953c64f1fcf528cf209a79cbd5fb8eddfd87b0dc97	c1bde176-582a-4028-888e-a70875a11f51	2025-03-01 16:41:09.309+00
-16ad76ccec57173d6f7d9720c69aff31d9b77d153fe3ba417daf47e997f678f9	c1bde176-582a-4028-888e-a70875a11f51	2025-03-01 23:17:40.814+00
-e22a7cfeee54695cf0f1fee9e00619332ab57deaa020e79d991c83c47d34804a	12059b01-c2cd-4ec0-a640-c4f80728ab8e	2025-03-06 01:35:56.155+00
-087af35e2ee1fd47c1245eb1e45f110644095d64f899b0696c751e0c7ef1f86e	c1bde176-582a-4028-888e-a70875a11f51	2025-03-07 13:14:43.459+00
-294cfadb19eaadb18e4328e57ad97cbd482dfb473e69bc027c8e084b0693a42a	1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	2025-03-07 16:28:44.19+00
-8de9a7e4d0a137cba265cd78c9cf6062a9ae7db32254b6e00bd22a70578613f4	c1bde176-582a-4028-888e-a70875a11f51	2025-03-10 12:34:00.27+00
-f2d6bb46d59791f3ec02aa98695273e0f79d0be18c91748d613f3a34d36a35a8	fffd2637-1493-41f9-a140-08ba67621b10	2025-03-11 10:24:44.499+00
-9fe3911220bb6b01786c278b7e1f72ba1809584134a6ced548fc65a74baddef2	c1bde176-582a-4028-888e-a70875a11f51	2025-03-14 16:04:08.742+00
 \.
 
 
@@ -6310,7 +6311,7 @@ SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 3, true);
 -- Name: consumer_package_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."consumer_package_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."consumer_package_id_seq"', 1, true);
 
 
 --
@@ -6325,6 +6326,20 @@ SELECT pg_catalog.setval('"public"."password_reset_id_seq"', 16, true);
 --
 
 SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
+
+
+--
+-- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 1, false);
+
+
+--
+-- Name: user_analytics_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 1, false);
 
 
 --

@@ -274,19 +274,6 @@ CREATE TABLE IF NOT EXISTS "public"."email_verification" (
 ALTER TABLE "public"."email_verification" OWNER TO "postgres";
 
 
-CREATE TABLE IF NOT EXISTS "public"."ext_answers" (
-    "questionid" "uuid" NOT NULL,
-    "surveyid" "text" NOT NULL,
-    "option_id" "uuid",
-    "rankid" "text",
-    "answer" "text" NOT NULL,
-    "updated_at" timestamp with time zone DEFAULT "now"() NOT NULL
-);
-
-
-ALTER TABLE "public"."ext_answers" OWNER TO "postgres";
-
-
 CREATE TABLE IF NOT EXISTS "public"."old_surveys" (
     "surveyid" "text" NOT NULL,
     "client_id" "text" NOT NULL,
@@ -397,6 +384,36 @@ CREATE TABLE IF NOT EXISTS "public"."question_options" (
 ALTER TABLE "public"."question_options" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."response_table" (
+    "questionid" "uuid" NOT NULL,
+    "surveyid" "text" NOT NULL,
+    "option_id" "uuid",
+    "rankid" "text",
+    "answer" "text" NOT NULL,
+    "updated_at" timestamp with time zone DEFAULT "now"() NOT NULL,
+    "id" integer NOT NULL
+);
+
+
+ALTER TABLE "public"."response_table" OWNER TO "postgres";
+
+
+CREATE SEQUENCE IF NOT EXISTS "public"."response_table_id_seq"
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE "public"."response_table_id_seq" OWNER TO "postgres";
+
+
+ALTER SEQUENCE "public"."response_table_id_seq" OWNED BY "public"."response_table"."id";
+
+
+
 CREATE TABLE IF NOT EXISTS "public"."sms_verification" (
     "user_id" "text" NOT NULL,
     "phone" "text" NOT NULL,
@@ -435,6 +452,37 @@ CREATE TABLE IF NOT EXISTS "public"."survey_qns_optimum" (
 
 
 ALTER TABLE "public"."survey_qns_optimum" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."user_analytics" (
+    "id" integer NOT NULL,
+    "surveyid" "text" NOT NULL,
+    "level_of_education" "text" NOT NULL,
+    "sector" "text" NOT NULL,
+    "country" "text" NOT NULL,
+    "state" "text",
+    "client_address" "text" NOT NULL,
+    "has_completed" boolean DEFAULT false NOT NULL
+);
+
+
+ALTER TABLE "public"."user_analytics" OWNER TO "postgres";
+
+
+CREATE SEQUENCE IF NOT EXISTS "public"."user_analytics_id_seq"
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE "public"."user_analytics_id_seq" OWNER TO "postgres";
+
+
+ALTER SEQUENCE "public"."user_analytics_id_seq" OWNED BY "public"."user_analytics"."id";
+
 
 
 CREATE TABLE IF NOT EXISTS "public"."user_sessions" (
@@ -483,6 +531,14 @@ ALTER TABLE ONLY "public"."price_table" ALTER COLUMN "id" SET DEFAULT "nextval"(
 
 
 
+ALTER TABLE ONLY "public"."response_table" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."response_table_id_seq"'::"regclass");
+
+
+
+ALTER TABLE ONLY "public"."user_analytics" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."user_analytics_id_seq"'::"regclass");
+
+
+
 ALTER TABLE ONLY "public"."agent_data"
     ADD CONSTRAINT "agent_data_agent_id_unique" PRIMARY KEY ("agent_id");
 
@@ -528,6 +584,11 @@ ALTER TABLE ONLY "public"."question_options"
 
 
 
+ALTER TABLE ONLY "public"."response_table"
+    ADD CONSTRAINT "response_table_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."survey"
     ADD CONSTRAINT "survey_pkey" PRIMARY KEY ("surveyid");
 
@@ -540,6 +601,11 @@ ALTER TABLE ONLY "public"."survey_qns_optimum"
 
 ALTER TABLE ONLY "public"."old_surveys"
     ADD CONSTRAINT "surveys_pkey" PRIMARY KEY ("surveyid");
+
+
+
+ALTER TABLE ONLY "public"."user_analytics"
+    ADD CONSTRAINT "user_analytics_pkey" PRIMARY KEY ("id");
 
 
 
@@ -633,21 +699,6 @@ ALTER TABLE ONLY "public"."email_verification"
 
 
 
-ALTER TABLE ONLY "public"."ext_answers"
-    ADD CONSTRAINT "ext_answers_option_id_question_options_optionid_fk" FOREIGN KEY ("option_id") REFERENCES "public"."question_options"("optionid");
-
-
-
-ALTER TABLE ONLY "public"."ext_answers"
-    ADD CONSTRAINT "ext_answers_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
-
-
-
-ALTER TABLE ONLY "public"."ext_answers"
-    ADD CONSTRAINT "ext_answers_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
-
-
-
 ALTER TABLE ONLY "public"."payout_requests"
     ADD CONSTRAINT "payout_requests_agent_id_users_id_fk" FOREIGN KEY ("agent_id") REFERENCES "public"."users"("id");
 
@@ -678,6 +729,21 @@ ALTER TABLE ONLY "public"."question_options"
 
 
 
+ALTER TABLE ONLY "public"."response_table"
+    ADD CONSTRAINT "response_table_option_id_question_options_optionid_fk" FOREIGN KEY ("option_id") REFERENCES "public"."question_options"("optionid");
+
+
+
+ALTER TABLE ONLY "public"."response_table"
+    ADD CONSTRAINT "response_table_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
+
+
+
+ALTER TABLE ONLY "public"."response_table"
+    ADD CONSTRAINT "response_table_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+
+
+
 ALTER TABLE ONLY "public"."sms_verification"
     ADD CONSTRAINT "sms_verification_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id");
 
@@ -685,6 +751,11 @@ ALTER TABLE ONLY "public"."sms_verification"
 
 ALTER TABLE ONLY "public"."survey_qns_optimum"
     ADD CONSTRAINT "survey_qns_optimum_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+
+
+
+ALTER TABLE ONLY "public"."user_analytics"
+    ADD CONSTRAINT "user_analytics_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
 
 
 
@@ -963,12 +1034,6 @@ GRANT ALL ON TABLE "public"."email_verification" TO "service_role";
 
 
 
-GRANT ALL ON TABLE "public"."ext_answers" TO "anon";
-GRANT ALL ON TABLE "public"."ext_answers" TO "authenticated";
-GRANT ALL ON TABLE "public"."ext_answers" TO "service_role";
-
-
-
 GRANT ALL ON TABLE "public"."old_surveys" TO "anon";
 GRANT ALL ON TABLE "public"."old_surveys" TO "authenticated";
 GRANT ALL ON TABLE "public"."old_surveys" TO "service_role";
@@ -1017,6 +1082,18 @@ GRANT ALL ON TABLE "public"."question_options" TO "service_role";
 
 
 
+GRANT ALL ON TABLE "public"."response_table" TO "anon";
+GRANT ALL ON TABLE "public"."response_table" TO "authenticated";
+GRANT ALL ON TABLE "public"."response_table" TO "service_role";
+
+
+
+GRANT ALL ON SEQUENCE "public"."response_table_id_seq" TO "anon";
+GRANT ALL ON SEQUENCE "public"."response_table_id_seq" TO "authenticated";
+GRANT ALL ON SEQUENCE "public"."response_table_id_seq" TO "service_role";
+
+
+
 GRANT ALL ON TABLE "public"."sms_verification" TO "anon";
 GRANT ALL ON TABLE "public"."sms_verification" TO "authenticated";
 GRANT ALL ON TABLE "public"."sms_verification" TO "service_role";
@@ -1032,6 +1109,18 @@ GRANT ALL ON TABLE "public"."survey" TO "service_role";
 GRANT ALL ON TABLE "public"."survey_qns_optimum" TO "anon";
 GRANT ALL ON TABLE "public"."survey_qns_optimum" TO "authenticated";
 GRANT ALL ON TABLE "public"."survey_qns_optimum" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."user_analytics" TO "anon";
+GRANT ALL ON TABLE "public"."user_analytics" TO "authenticated";
+GRANT ALL ON TABLE "public"."user_analytics" TO "service_role";
+
+
+
+GRANT ALL ON SEQUENCE "public"."user_analytics_id_seq" TO "anon";
+GRANT ALL ON SEQUENCE "public"."user_analytics_id_seq" TO "authenticated";
+GRANT ALL ON SEQUENCE "public"."user_analytics_id_seq" TO "service_role";
 
 
 
