@@ -654,6 +654,7 @@ f9bd0d46-0c09-4694-91fb-f83e900af5e2	dianahnaliaka046@gmail.com	0711909976	5/18/
 COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires", "created_at") FROM stdin;
 7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00	2025-03-10 05:42:08.808096+00
 c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00	2025-03-10 05:42:08.808096+00
+9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Live	100	2025-04-26 12:02:55.348+00	2025-03-27 12:02:55.401985+00
 \.
 
 
@@ -1087,6 +1088,15 @@ bc9e725f-6408-4f1a-8200-c9d1362d666f	c082054d-46e4-4bdf-ac24-810d17406e7c	Rating
 d41f61b5-b726-4640-bd7a-8854fe06b025	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What did you like/enjoy most about our hotel during your stay?	\N	2024-11-18 09:03:06.369287+00	2025-02-17 11:18:11.541299+00
 a516e0b8-d38d-4b30-bded-33b39cf340c7	c082054d-46e4-4bdf-ac24-810d17406e7c	Ranking	Which cuisine did you enjoy the most?	\N	2024-11-18 09:05:46.174851+00	2025-02-17 11:18:11.541299+00
 f02b7365-be16-44bd-937c-a8e6549b5465	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What suggestions would you offer to improve your experience during your next visit?	\N	2024-11-18 09:06:13.513509+00	2025-02-17 11:18:11.541299+00
+f13a754d-c532-43ff-b4da-be10d6636470	9587799c-55f3-4098-9e9c-ef0359acc6b2	Optional	Have you been to oilepo before	\N	2025-03-27 12:04:37.092814+00	2025-03-27 12:04:37.092814+00
+65370307-4a68-4ac7-afb5-a5e5e9828fd7	9587799c-55f3-4098-9e9c-ef0359acc6b2	Optional	When were you last at oilepo	\N	2025-03-27 12:06:08.737708+00	2025-03-27 12:06:08.737708+00
+10b2887d-c419-41e7-b827-f2d0a942f554	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multiple	Have you heard of oilepo from any of these sources	\N	2025-03-27 12:07:53.88764+00	2025-03-27 12:07:53.88764+00
+d07cf3a5-7935-41be-8cdc-99d6427edd09	9587799c-55f3-4098-9e9c-ef0359acc6b2	Rating	How would you rate your overall experience during your visit	\N	2025-03-27 12:11:11.976685+00	2025-03-27 12:11:11.976685+00
+aec57808-878c-4b8f-9338-723b265cf432	9587799c-55f3-4098-9e9c-ef0359acc6b2	Rating	how would you rate the quality of food?	\N	2025-03-27 12:12:39.879148+00	2025-03-27 12:12:39.879148+00
+cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multiple	What types of cuisine do you enjoy	\N	2025-03-27 12:14:41.681691+00	2025-03-27 12:14:41.681691+00
+359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	Optional	Would you visit oilepo again	\N	2025-03-27 12:16:16.921982+00	2025-03-27 12:16:16.921982+00
+4c5ad118-e09f-42a3-b4cb-a1f662001047	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multiple	What qualities of oilepo do you rank highly	\N	2025-03-27 12:18:03.153703+00	2025-03-27 12:18:03.153703+00
+2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	Single	What did you not like about your experience	\N	2025-03-27 12:18:50.174311+00	2025-03-27 12:18:50.174311+00
 \.
 
 
@@ -1212,6 +1222,25 @@ a7ba9e22-daf5-44a5-9606-53e4c690a55f	a516e0b8-d38d-4b30-bded-33b39cf340c7	Africa
 e3e3b9bf-8736-406b-92d2-47c4bdbb9cce	a516e0b8-d38d-4b30-bded-33b39cf340c7	Indian	0
 8b0f28c2-d848-44e9-a509-0cded9363ed0	a516e0b8-d38d-4b30-bded-33b39cf340c7	Spanish	0
 b12c63db-a490-40e1-9c72-4fb68bc0195e	a516e0b8-d38d-4b30-bded-33b39cf340c7	West African	0
+b10c2d7e-d2cf-415d-a804-2ef384d4e606	f13a754d-c532-43ff-b4da-be10d6636470	Yes	0
+9a5e4662-b106-4171-ae70-9883a27bcefe	f13a754d-c532-43ff-b4da-be10d6636470	No	1
+b34ee699-ad33-49d7-9604-e3c4aa062b11	65370307-4a68-4ac7-afb5-a5e5e9828fd7	1 month ago	0
+34ab080e-b36b-42d4-8816-4616295d586d	65370307-4a68-4ac7-afb5-a5e5e9828fd7	1 year ago	1
+5e775761-2b83-49ee-b23f-278d49f3ae64	65370307-4a68-4ac7-afb5-a5e5e9828fd7	5 years ago	2
+46411424-70fc-4617-bc9c-ced07bb3f8a7	10b2887d-c419-41e7-b827-f2d0a942f554	News Paper	0
+4bbd08ec-497a-414c-ac52-678a26c10081	10b2887d-c419-41e7-b827-f2d0a942f554	Social Media	0
+2d9208b9-8b92-4ace-b96c-d747f0445c60	10b2887d-c419-41e7-b827-f2d0a942f554	Search Engine	0
+311d5c1b-9761-4e62-81a9-b257344839b9	10b2887d-c419-41e7-b827-f2d0a942f554	Referral	0
+d453b8f1-a051-40c9-8196-ad093cdc5c23	cc516cd2-aafb-466a-93ec-4419cfc2eb07	Italian	0
+b0245f94-0311-46a9-8279-6805762e64b4	cc516cd2-aafb-466a-93ec-4419cfc2eb07	Chinese	0
+36db0607-770a-4320-9762-e19205a24ffc	cc516cd2-aafb-466a-93ec-4419cfc2eb07	Japanese	0
+fcb66664-2fa5-453c-8593-c6d03712206d	cc516cd2-aafb-466a-93ec-4419cfc2eb07	Indian	0
+4db7c9d1-5e2f-4d25-b92b-2d29c2e2f351	359b832f-cd18-4791-9da4-bf9e5be927bf	Yes	0
+192934cb-5df6-4dc1-bf3d-c97683033a9b	359b832f-cd18-4791-9da4-bf9e5be927bf	No	1
+1d45b862-c4c7-47ae-8d74-a0823f544a67	4c5ad118-e09f-42a3-b4cb-a1f662001047	Customer service	0
+3a8976f0-dfed-4d27-9f61-5d3671eabba0	4c5ad118-e09f-42a3-b4cb-a1f662001047	Cleanliness	0
+92e45a7e-44c8-4502-a199-4228c734d184	4c5ad118-e09f-42a3-b4cb-a1f662001047	Quality of food	0
+1d8744c2-6290-4426-bec7-2f88098247c7	4c5ad118-e09f-42a3-b4cb-a1f662001047	Pricing	0
 \.
 
 
@@ -6211,6 +6240,10 @@ f34a8547-c606-453d-87da-3777a8c5aef5	a2d5b801-5a09-415e-afc7-e4e16400eca2	50	com
 --
 
 COPY "public"."question_branching" ("branchid", "surveyid", "questionid", "optionid", "next_questionid") FROM stdin;
+28066f76-7901-411b-8cfe-8f07f34a70b0	9587799c-55f3-4098-9e9c-ef0359acc6b2	f13a754d-c532-43ff-b4da-be10d6636470	b10c2d7e-d2cf-415d-a804-2ef384d4e606	65370307-4a68-4ac7-afb5-a5e5e9828fd7
+716d8793-c0df-466e-87d7-3c2b95b5544f	9587799c-55f3-4098-9e9c-ef0359acc6b2	f13a754d-c532-43ff-b4da-be10d6636470	9a5e4662-b106-4171-ae70-9883a27bcefe	10b2887d-c419-41e7-b827-f2d0a942f554
+121172a1-8c3e-4d14-b3ee-17371e1d050a	9587799c-55f3-4098-9e9c-ef0359acc6b2	359b832f-cd18-4791-9da4-bf9e5be927bf	4db7c9d1-5e2f-4d25-b92b-2d29c2e2f351	4c5ad118-e09f-42a3-b4cb-a1f662001047
+bc013f3a-9188-4b2c-ab42-af8ef0229166	9587799c-55f3-4098-9e9c-ef0359acc6b2	359b832f-cd18-4791-9da4-bf9e5be927bf	192934cb-5df6-4dc1-bf3d-c97683033a9b	2350522b-1215-4d9e-8548-b17055702781
 \.
 
 
@@ -6219,6 +6252,16 @@ COPY "public"."question_branching" ("branchid", "surveyid", "questionid", "optio
 --
 
 COPY "public"."response_table" ("questionid", "surveyid", "option_id", "rankid", "answer", "updated_at", "id") FROM stdin;
+f13a754d-c532-43ff-b4da-be10d6636470	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	Yes	2025-03-27 12:30:03.129877+00	1
+65370307-4a68-4ac7-afb5-a5e5e9828fd7	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	1 year ago	2025-03-27 12:30:15.013889+00	2
+10b2887d-c419-41e7-b827-f2d0a942f554	9587799c-55f3-4098-9e9c-ef0359acc6b2	4bbd08ec-497a-414c-ac52-678a26c10081	\N	Social Media	2025-03-27 12:32:21.585771+00	3
+10b2887d-c419-41e7-b827-f2d0a942f554	9587799c-55f3-4098-9e9c-ef0359acc6b2	2d9208b9-8b92-4ace-b96c-d747f0445c60	\N	Search Engine	2025-03-27 12:32:21.801491+00	4
+d07cf3a5-7935-41be-8cdc-99d6427edd09	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	4	2025-03-27 12:32:37.715718+00	5
+aec57808-878c-4b8f-9338-723b265cf432	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	5	2025-03-27 12:32:46.444709+00	6
+cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	36db0607-770a-4320-9762-e19205a24ffc	\N	Japanese	2025-03-27 12:32:59.723466+00	7
+cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	d453b8f1-a051-40c9-8196-ad093cdc5c23	\N	Italian	2025-03-27 12:32:59.938304+00	8
+359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-03-27 12:33:09.655956+00	9
+2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	It was too hot	2025-03-27 12:33:24.842586+00	10
 \.
 
 
@@ -6235,6 +6278,7 @@ COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms"
 --
 
 COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector", "country", "state", "client_address", "has_completed") FROM stdin;
+1	9587799c-55f3-4098-9e9c-ef0359acc6b2	Primary	Education	Germany	Nuremberg	188.245.45.171	t
 \.
 
 
@@ -6243,6 +6287,8 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 --
 
 COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
+2f07408a7363cb1298813241f9de23442f91d39de92a922ea823d62bbacdde27	c1bde176-582a-4028-888e-a70875a11f51	2025-03-28 11:28:07.109+00
+b9ec34d1bd17d37eeaaea853fa196d0b9a2e8b7cb6c4441dad86ce37953cad92	c1bde176-582a-4028-888e-a70875a11f51	2025-03-28 18:04:32.274+00
 \.
 
 
@@ -6332,14 +6378,14 @@ SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 -- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."response_table_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 10, true);
 
 
 --
 -- Name: user_analytics_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 1, false);
+SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 1, true);
 
 
 --
