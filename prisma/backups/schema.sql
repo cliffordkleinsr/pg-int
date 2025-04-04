@@ -462,7 +462,8 @@ CREATE TABLE IF NOT EXISTS "public"."user_analytics" (
     "country" "text" NOT NULL,
     "state" "text",
     "client_address" "text" NOT NULL,
-    "has_completed" boolean DEFAULT false NOT NULL
+    "has_completed" boolean DEFAULT false NOT NULL,
+    "sub" "text"
 );
 
 

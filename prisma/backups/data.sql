@@ -379,6 +379,7 @@ d5493931-5cd9-4913-a2a1-f8a96874332b	Williiam owade	willyhill384@gmail.com	t	$2b
 500ca188-07bf-474d-89fc-bfadd41cd7d3	Nazarene Nyambura Njuguna	zonahnyambura@gmail.com	t	$2b$15$QTRooPC0Rl9r.8Ra5fR03.uuPhmE7zvqxl68QItcSCNSRhjcZOhfy	AGENT	26	Female	\N	f	2024-11-06 13:54:35.78191+00	\N	f
 e23b4ca0-5104-4061-ba8e-118a9f3f562d	Charity Njoroge	charitynjoroge644@gmail.com	t	$2b$15$SU26HaI9HKqUgccziI7RAum05xGWHF9jNh7mBvNQ.aGDtNvC72rKC	AGENT	54	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 12059b01-c2cd-4ec0-a640-c4f80728ab8e	WAYNE EASTER	wayneeaster95@gmail.com	t	$2b$15$d82pzyTwp0MOY/RwoXOdDuN7S2nNQGdIsi3erOGg4TbpjYG0SExuq	AGENT	22	Male	\N	f	2024-11-10 18:54:12.169293+00	\N	f
+d81da3fb-09c2-435b-92a9-c1b284a2f4e4	Cliff Njoroge	\N	f	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocLkFpqRBwu76why0AODDo-5radBLDAMZVaJvLENegP7RhoRAjkN=s96-c	f	2025-04-03 08:08:31.863228+00	104862171460962961871	t
 f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	Ery	foxdrive.rycoh@gmail.com	t	$2b$15$mYRf1dS0DyRQZTOBwsdCbeAK/15bTHv3.jmuVCHeHqO22QnqqXzkO	CLIENT	\N	\N	\N	f	2025-01-21 15:53:08.650564+00	\N	f
 55c8bb46-93a8-4fa8-91f8-c9630eaac44a	Mitchel Oyugi Onyango	pharellesmith@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-11 04:06:21.600006+00	\N	f
 9c159f1c-6589-41e7-84c7-3da9eb15809c	Edith Nakabuye Joyce	edithnakabuye@gmail.com	t	$2b$15$zuti.7KDiHLbtj8sgvWu3OFwhnYQSyfc5vqGRXtsrAaLr9Lb8nP3q	AGENT	23	Female	\N	f	2025-01-18 11:51:08.908325+00	\N	f
@@ -6262,6 +6263,15 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	36db06
 cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	d453b8f1-a051-40c9-8196-ad093cdc5c23	\N	Italian	2025-03-27 12:32:59.938304+00	8
 359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-03-27 12:33:09.655956+00	9
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	It was too hot	2025-03-27 12:33:24.842586+00	10
+f13a754d-c532-43ff-b4da-be10d6636470	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-04-03 07:58:31.081911+00	11
+10b2887d-c419-41e7-b827-f2d0a942f554	9587799c-55f3-4098-9e9c-ef0359acc6b2	2d9208b9-8b92-4ace-b96c-d747f0445c60	\N	Search Engine	2025-04-03 08:05:29.082535+00	12
+65370307-4a68-4ac7-afb5-a5e5e9828fd7	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	5 years ago	2025-04-03 08:05:38.565928+00	13
+d07cf3a5-7935-41be-8cdc-99d6427edd09	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	5	2025-04-03 08:05:44.583896+00	14
+aec57808-878c-4b8f-9338-723b265cf432	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	5	2025-04-03 08:05:50.025745+00	15
+cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	36db0607-770a-4320-9762-e19205a24ffc	\N	Japanese	2025-04-03 08:05:55.385668+00	16
+cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	fcb66664-2fa5-453c-8593-c6d03712206d	\N	Indian	2025-04-03 08:05:55.869098+00	17
+359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-04-03 08:06:06.448456+00	18
+2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	eggs	2025-04-03 08:06:16.314107+00	19
 \.
 
 
@@ -6277,8 +6287,9 @@ COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms"
 -- Data for Name: user_analytics; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector", "country", "state", "client_address", "has_completed") FROM stdin;
-1	9587799c-55f3-4098-9e9c-ef0359acc6b2	Primary	Education	Germany	Nuremberg	188.245.45.171	t
+COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector", "country", "state", "client_address", "has_completed", "sub") FROM stdin;
+2	9587799c-55f3-4098-9e9c-ef0359acc6b2	Under-Graduate	Electrical	Kenya	Nairobi	::1	t	Dagoretti North
+1	9587799c-55f3-4098-9e9c-ef0359acc6b2	Primary	Education	Germany	Bavaria	188.245.45.171	t	\N
 \.
 
 
@@ -6287,7 +6298,8 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 --
 
 COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
-a247377f01b1233449ee94af6a347110278ece8bc567375f94868d9d0b9e0e00	c1bde176-582a-4028-888e-a70875a11f51	2025-04-03 18:03:32.684+00
+31465396e08d4339ce223fa22bf8b1cb5ce7831b6e4b64e98c905ba7470db373	d81da3fb-09c2-435b-92a9-c1b284a2f4e4	2025-04-04 14:08:32.823+00
+f387c7857181c0364de901ebcf35ad012a12256e4186d982b908139d2c154142	75b87d71-3545-4032-adcb-64700e7456f7	2025-04-04 19:06:17.562+00
 b9ec34d1bd17d37eeaaea853fa196d0b9a2e8b7cb6c4441dad86ce37953cad92	c1bde176-582a-4028-888e-a70875a11f51	2025-03-28 18:04:32.274+00
 dbbc969ae5f6f00ebee6388d5c11cc6638df2d93a1968b8f8538e1e2f4a0b153	c1bde176-582a-4028-888e-a70875a11f51	2025-03-29 10:54:40.389+00
 30b4654ce66931fe82d9a655d87f05ca7dbf5fb2ba7fbe50e58d8c5fd621e92a	c1bde176-582a-4028-888e-a70875a11f51	2025-03-29 19:15:02.563+00
@@ -6383,14 +6395,14 @@ SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 -- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."response_table_id_seq"', 10, true);
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 19, true);
 
 
 --
 -- Name: user_analytics_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 1, true);
+SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 2, true);
 
 
 --
