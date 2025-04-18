@@ -210,7 +210,6 @@ d218da17-6eb3-481f-907b-9c3046a5fb6f	Moses Sikuku Akola	Mosesakola22@gmail.com	t
 4815e34c-6994-4384-9277-c23f124eedd7	Lucy M	mumolucy3@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-16 20:16:07.809855+00	\N	f
 a0f9e01c-f3cf-44cf-916b-7bde7e115adb	Elijah Nzomo	mutuanzomoeli@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-16 21:57:35.945886+00	\N	f
 a66345f5-6cc3-402d-a7a2-0db21b9869a3	Ibrahim Hamadi	ibralito39@gmail.com	t	$2b$15$WiqHxOMKMyFmIoZq8Am6/uXDKkWiit2WRf7y/oh0aoyJiW7.8xs0C	AGENT	22	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
-fb293319-b39f-4132-8284-22f66da56937	Andrew Ombaka	andrewelly787@gmail.com	t	$2b$15$UpGpSz2rw/rij2dTlyiLcupuPmRCJ03C/F.KpP.6JyxzDjAv3YbuO	AGENT	24	Male	\N	f	2024-11-07 06:21:45.227945+00	\N	f
 ffce55fe-67cf-479b-93cc-a7eae65375c5	Anne Odhiambo	annaodhiambo703@gmail.com	t	$2b$15$mBepPQiuEg0LxzjZgccNtOx.ZTEZnxEW3tWbuBZoizIY9WWzN/iOK	AGENT	26	Female	\N	f	2024-11-06 11:33:43.638691+00	\N	f
 ee3323cf-3e6b-4fb8-a02d-e57e2680d38e	Annastacia mbula kiio	annastaciambula43@gmail.com	t	$2b$15$ek4mWkK.o/HA.TxIWDQubeBzjtPyzSQuWkXwV/8tx33uy87w5Zkhm	AGENT	26	Female	\N	f	2024-11-07 05:12:59.854167+00	\N	f
 823b3f7f-83da-4cdc-a94e-92979e443bb5	Harriet mmboga	harrietmmboga456@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 11:46:29.210233+00	\N	f
@@ -227,6 +226,7 @@ dc4e4f16-92e6-4200-8f02-2bb00ffd6ee2	Joan Anne Wanjiku Karima	karimajoan08@gmail
 7c34897f-92ec-4166-a363-b54316d95438	Eugene Gadson	eugenegadson788@gmail.com	t	$2b$15$lWQjZ3ggIetMz3jHCzkW6OviXCEykm0iFUNqatOjEYXu0qm9hDKUS	AGENT	21	Male	\N	f	2025-01-17 02:58:53.088397+00	\N	f
 c70c4444-cd96-445d-ac7d-78488334faf5	Juliet daliza	julietdaliza333@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-17 12:45:58.443125+00	\N	f
 c893fe46-c3d7-40c0-8035-b20c940b9d90	Darius Masenge	darius.masenge@gmail.com	t	$2b$15$12UsJKwlRsW6Q9eDqu14jePjftbJwqwai/8cR.oANYcN020ROfSra	AGENT	36	Male	\N	f	2025-02-24 10:26:12.525569+00	\N	f
+fb293319-b39f-4132-8284-22f66da56937	Andrew Ombaka	andrewelly787@gmail.com	t	$2b$15$OXolGWLlf50vJfPsRpzcB.mQUjSR3QXXPmBaVte5G9wMnLKHuVgJi	AGENT	24	Male	\N	f	2024-11-07 06:21:45.227945+00	\N	f
 195701c9-eed6-453f-9bf9-fa54dab68d57	Martha kwamboka Biginga	kwambokabiginga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:35:06.872359+00	\N	f
 fa91e9e8-c7cb-42da-a152-a99df912a383	Rophine akoth opwapo	rophineopwapo4@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:42:12.457214+00	\N	f
 98c15a99-b1f9-4853-b497-9b80663fe60e	Sarah njeri	njerisarah904@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:43:22.692631+00	\N	f
@@ -6302,6 +6302,7 @@ COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
 f387c7857181c0364de901ebcf35ad012a12256e4186d982b908139d2c154142	75b87d71-3545-4032-adcb-64700e7456f7	2025-04-04 19:06:17.562+00
 d95a55fca62f3767442b5b1d39e3b475c8e1dee16094c7fad527743ce28da60a	75b87d71-3545-4032-adcb-64700e7456f7	2025-04-08 13:00:06.225+00
 1a481487df5563ada9f7f0918ae3d230c0f73454412ab047bf340af76c10e97a	c1bde176-582a-4028-888e-a70875a11f51	2025-04-15 12:46:44.165+00
+24ca9418ced3a6ddae4996a09559271dd175b24f4bea61b8d46cc488c2238d94	fb293319-b39f-4132-8284-22f66da56937	2025-04-18 16:44:50.21+00
 b9ec34d1bd17d37eeaaea853fa196d0b9a2e8b7cb6c4441dad86ce37953cad92	c1bde176-582a-4028-888e-a70875a11f51	2025-03-28 18:04:32.274+00
 dbbc969ae5f6f00ebee6388d5c11cc6638df2d93a1968b8f8538e1e2f4a0b153	c1bde176-582a-4028-888e-a70875a11f51	2025-03-29 10:54:40.389+00
 30b4654ce66931fe82d9a655d87f05ca7dbf5fb2ba7fbe50e58d8c5fd621e92a	c1bde176-582a-4028-888e-a70875a11f51	2025-03-29 19:15:02.563+00
@@ -6383,7 +6384,7 @@ SELECT pg_catalog.setval('"public"."consumer_package_id_seq"', 1, true);
 -- Name: password_reset_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."password_reset_id_seq"', 16, true);
+SELECT pg_catalog.setval('"public"."password_reset_id_seq"', 17, true);
 
 
 --
