@@ -649,7 +649,7 @@ f9bd0d46-0c09-4694-91fb-f83e900af5e2	dianahnaliaka046@gmail.com	0711909976	5/18/
 COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires", "created_at") FROM stdin;
 7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00	2025-03-10 05:42:08.808096+00
 c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00	2025-03-10 05:42:08.808096+00
-9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Live	100	2025-04-26 12:02:55.348+00	2025-03-27 12:02:55.401985+00
+9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-26 12:02:55.348+00	2025-03-27 12:02:55.401985+00
 \.
 
 
@@ -6303,6 +6303,7 @@ d95a55fca62f3767442b5b1d39e3b475c8e1dee16094c7fad527743ce28da60a	75b87d71-3545-4
 911f14a132734609405808c5594fdf05df8967da8c6eb190e516ce8facb834f6	c1bde176-582a-4028-888e-a70875a11f51	2025-05-22 11:06:27.051+00
 1b986b0c2a7f3e1af76043e4d3c13255c7290ab2b2b23e2a5cdb4c5bd1b74a23	c1bde176-582a-4028-888e-a70875a11f51	2025-05-23 13:56:15.017+00
 66c9a7cb3705ee077d4bbd3436779030604c7e5803a3a499b8012a3e7ff7e8fa	c1bde176-582a-4028-888e-a70875a11f51	2025-06-25 19:00:23.43+00
+a0b03eb65ab028de71905089698050630f5aba17bc7dc0db58e69653a7a763d0	0193625d-3a30-74a5-a759-1c7d5f69e14c	2025-07-27 06:45:16.673+00
 b9ec34d1bd17d37eeaaea853fa196d0b9a2e8b7cb6c4441dad86ce37953cad92	c1bde176-582a-4028-888e-a70875a11f51	2025-03-28 18:04:32.274+00
 dbbc969ae5f6f00ebee6388d5c11cc6638df2d93a1968b8f8538e1e2f4a0b153	c1bde176-582a-4028-888e-a70875a11f51	2025-03-29 10:54:40.389+00
 30b4654ce66931fe82d9a655d87f05ca7dbf5fb2ba7fbe50e58d8c5fd621e92a	c1bde176-582a-4028-888e-a70875a11f51	2025-03-29 19:15:02.563+00

@@ -766,6 +766,9 @@ ALTER TABLE ONLY "public"."user_sessions"
 
 
 
+ALTER TABLE "public"."users" ENABLE ROW LEVEL SECURITY;
+
+
 
 
 ALTER PUBLICATION "supabase_realtime" OWNER TO "postgres";
