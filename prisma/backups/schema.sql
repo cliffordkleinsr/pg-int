@@ -13,6 +13,13 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 
+CREATE EXTENSION IF NOT EXISTS "pg_cron" WITH SCHEMA "pg_catalog";
+
+
+
+
+
+
 CREATE EXTENSION IF NOT EXISTS "pgsodium";
 
 
@@ -766,6 +773,69 @@ ALTER TABLE ONLY "public"."user_sessions"
 
 
 
+ALTER TABLE "public"."agent_data" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."agent_progress_table" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."agent_surv_table" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."agent_transactions" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."answers" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."consumer_details" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."consumer_package" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."consumer_transactions" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."email_verification" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."old_surveys" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."password_reset" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."payout_requests" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."price_table" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."question_branching" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."question_options" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."response_table" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."sms_verification" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."survey" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."survey_qns_optimum" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."user_analytics" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."user_sessions" ENABLE ROW LEVEL SECURITY;
+
+
 ALTER TABLE "public"."users" ENABLE ROW LEVEL SECURITY;
 
 
@@ -774,10 +844,40 @@ ALTER TABLE "public"."users" ENABLE ROW LEVEL SECURITY;
 ALTER PUBLICATION "supabase_realtime" OWNER TO "postgres";
 
 
+
+
+
 GRANT USAGE ON SCHEMA "public" TO "postgres";
 GRANT USAGE ON SCHEMA "public" TO "anon";
 GRANT USAGE ON SCHEMA "public" TO "authenticated";
 GRANT USAGE ON SCHEMA "public" TO "service_role";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
