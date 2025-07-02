@@ -160,8 +160,8 @@ b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	Hannah wambui kamau	hannahkamau9137@gmail.c
 d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$15$n6EzEe005jIqjKhabB/RUuhcLJmiIszECy2KwGv2dTki84lzqrhJe	AGENT	29	Male	\N	f	2025-01-21 18:50:12.494244+00	\N	f
 93325eb3-6c9e-4bd0-854a-88abf48f9887	Alicia Mwisangwe	aliciamwisangwe@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 09:03:53.553715+00	\N	f
 85536ca4-ab4f-4eff-a4cc-a81486346505	Thomas wambua Kamau	Twambua2030@gmail.com	t	$2b$15$NKUYlE0x0lkt0qFgydyrj.P8FybRqonI/HZRUibDqcS4GOcAtcQu2	AGENT	25	Male	\N	f	2025-01-22 13:42:56.435374+00	\N	f
-0193625d-3a30-74a5-a759-1c7d5f69e14c	Super User	info@int-insights.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	ADMIN	23	\N	\N	f	2024-11-25 08:12:03+00	\N	f
 c1bde176-582a-4028-888e-a70875a11f51	Christine Staicy	christinestaicy@gmail.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	CLIENT	23	\N	\N	f	2024-11-11 13:06:37.486145+00	\N	f
+0193625d-3a30-74a5-a759-1c7d5f69e14c	Super User	info@int-insights.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	ADMIN	23	\N	\N	f	2024-11-25 08:12:03+00	\N	f
 36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	Kentrell Williams	kentrellnamaswa@yahoo.com	t	$2b$15$EPae5dM3N8WjayuJ6Rh1lObIVgOTRTJeeT4l15xuRNPdc0YZ.8Tne	AGENT	35	Female	\N	f	2025-01-21 10:56:09.017717+00	\N	f
 6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	JOSEPH THANGARANI	thangaranijoseph@gmail.com	t	$2b$15$g4fbYTq2c6DEVmRnUJOnhOaEGMCB0fprs5N6ebWDKBlTJANia2CXm	AGENT	30	Male	\N	f	2025-01-21 20:12:10.625092+00	\N	f
 0dc55b78-1b38-4b00-972f-82db326c93b4	Darvin Omuse	darvinkilui@gmail.com	t	$2b$15$RlBZSKiahleSjIYJHfAnbOi9cAUdmhCmo.UJK63ejnbFugjD2ZCja	AGENT	25	Male	\N	f	2025-01-21 20:39:21.750203+00	\N	f
@@ -6294,9 +6294,8 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 
 COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
 b7daee0f7f7aa15a43530c215642325de24cd83daea0bb061ff71d5afb82e4e6	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 12:43:20.363+00
-bda601b71bb6a4c1f13da6cd108fa87827dc1b43f6e7423b8f412e672316d6e2	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 12:43:47.018+00
-0fc93deb9f51f5d3735b1759e57be6635a170dea45fac4b748360ae6f5056cce	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 12:45:13.699+00
 d66426e57c629c9f31dfd148c3d27231610f270b9e235c83ad4e5e36ed680315	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 14:36:07.761+00
+59e95eca53d20b11512d14d8fbec2fbaa266d766bcdc7d3e70f4f19438cc3af8	0193625d-3a30-74a5-a759-1c7d5f69e14c	2025-07-31 05:04:23.792+00
 \.
 
 
