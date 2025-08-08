@@ -650,6 +650,7 @@ COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "stat
 7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00	2025-03-10 05:42:08.808096+00
 c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00	2025-03-10 05:42:08.808096+00
 9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-26 12:02:55.348+00	2025-03-27 12:02:55.401985+00
+87b12e28-e576-4126-a218-566de1313caf	c1bde176-582a-4028-888e-a70875a11f51	Trial x	my time is now	Draft	100	2025-09-06 07:18:49.7+00	2025-08-07 07:18:49.757772+00
 \.
 
 
@@ -1092,6 +1093,7 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multip
 359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	Optional	Would you visit oilepo again	\N	2025-03-27 12:16:16.921982+00	2025-03-27 12:16:16.921982+00
 4c5ad118-e09f-42a3-b4cb-a1f662001047	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multiple	What qualities of oilepo do you rank highly	\N	2025-03-27 12:18:03.153703+00	2025-03-27 12:18:03.153703+00
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	Single	What did you not like about your experience	\N	2025-03-27 12:18:50.174311+00	2025-03-27 12:18:50.174311+00
+29819d2b-a9f0-4414-a356-30eddf542d43	87b12e28-e576-4126-a218-566de1313caf	Single	Why is this life terrible	\N	2025-08-07 07:19:06.708083+00	2025-08-07 07:19:06.708083+00
 \.
 
 
@@ -6296,6 +6298,7 @@ COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
 b7daee0f7f7aa15a43530c215642325de24cd83daea0bb061ff71d5afb82e4e6	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 12:43:20.363+00
 d66426e57c629c9f31dfd148c3d27231610f270b9e235c83ad4e5e36ed680315	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 14:36:07.761+00
 59e95eca53d20b11512d14d8fbec2fbaa266d766bcdc7d3e70f4f19438cc3af8	0193625d-3a30-74a5-a759-1c7d5f69e14c	2025-07-31 05:04:23.792+00
+19018d5f888a849e9261937d26ccb1d098e00a7536f2baae4ce6a6a545b3a4e1	c1bde176-582a-4028-888e-a70875a11f51	2025-08-08 13:17:55.783+00
 \.
 
 
