@@ -154,8 +154,10 @@ b4f75ba7-7b1e-45b7-bcc6-cbbbdbf9c268	Rebecca kinuthia	beckykinuthia4@gmail.com	t
 8fb2b20c-5971-4f87-97f6-ae839c4d7804	Benson	bensonkiplagat98@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	22	Male	\N	f	2025-01-09 19:11:07.672642+00	\N	f
 70080823-9509-4792-b3d3-767df62de09a	Seline Adhiambo	Adhiamboseline97@97gmail.com	t	$2b$15$ziDBJPmBceZFpYPzIMi7lerGYGXBuvCdKi6PHeuZU2uEvZrokijuG	AGENT	22	Female	\N	f	2024-11-07 11:53:02.867665+00	\N	f
 58d3c3cb-0914-4516-bf95-ceef24429241	Seline Ochieng	Adhiamboseline97@gmail.com	t	$2b$15$8.juD88T0MgElvV.2U18Q.CLQF67O0YG8U5KX68Zm4WVNmI.1UVM2	AGENT	22	Female	\N	f	2024-11-07 12:12:49.859487+00	\N	f
+6fc353c4-adee-4d2d-b84d-7915880ff698	Timothy	jumatimothymwangi@gmail.com	t	$2b$15$PGwcji3/Nk6rt4..8HtwAe4AN1GI5K49QzOBgTwne5OyaAju5LcCy	CLIENT	\N	\N	\N	f	2025-08-08 05:14:51.680644+00	\N	f
 ed030e9b-3f7e-4988-a86b-04a8f075cee6	Grace Mbuti	neemambuti@gmail.com	t	$2b$15$tOkuhRktSz6hkORoMniWxuJLXG8p8OGfoMM57CBgwo2ZQI1UpfQzi	AGENT	35	Female	\N	f	2025-01-21 18:30:46.170476+00	\N	f
 01055346-f4e3-4282-a2ca-e87deedfd078	Gaudencia tsimanji	tsimanjig123@gmail.com	t	$2b$15$Jegvzu.Lmeohn7DopGDJeev0gk9r9uVHvyMh2y0938DERIdUmHecy	CLIENT	\N	\N	\N	f	2025-01-22 10:18:58.073015+00	\N	f
+96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech	info@pantech-ke.com	t	$2b$15$BPe7tzRvc3pCVxNcQG0SBeDTuQStNHhAvwckLNn9EYDCbs5OXARV.	CLIENT	\N	\N	\N	f	2025-08-08 08:15:30.818466+00	\N	f
 b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	Hannah wambui kamau	hannahkamau9137@gmail.com	t	$2b$15$Z7o2vWZKXhx3/NonHKdgvurlWfuyM6UFcmpBRtRGZhUZuu.uYsEmK	AGENT	24	Female	\N	f	2025-01-21 07:52:30.9226+00	\N	f
 d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$15$n6EzEe005jIqjKhabB/RUuhcLJmiIszECy2KwGv2dTki84lzqrhJe	AGENT	29	Male	\N	f	2025-01-21 18:50:12.494244+00	\N	f
 93325eb3-6c9e-4bd0-854a-88abf48f9887	Alicia Mwisangwe	aliciamwisangwe@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 09:03:53.553715+00	\N	f
@@ -651,6 +653,7 @@ COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "stat
 c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00	2025-03-10 05:42:08.808096+00
 9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-26 12:02:55.348+00	2025-03-27 12:02:55.401985+00
 87b12e28-e576-4126-a218-566de1313caf	c1bde176-582a-4028-888e-a70875a11f51	Trial x	my time is now	Draft	100	2025-09-06 07:18:49.7+00	2025-08-07 07:18:49.757772+00
+5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech Kenya Limited Customer Feedback Survey	Please take a moment to share your experience with our products and services. Your input will help us improve and serve you better. The survey is short and confidential.\n\nWE VALUE YOUR FEEDBACK. 	Draft	100	2025-09-07 11:39:01.296+00	2025-08-08 11:39:01.346925+00
 \.
 
 
@@ -1094,6 +1097,18 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multip
 4c5ad118-e09f-42a3-b4cb-a1f662001047	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multiple	What qualities of oilepo do you rank highly	\N	2025-03-27 12:18:03.153703+00	2025-03-27 12:18:03.153703+00
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	Single	What did you not like about your experience	\N	2025-03-27 12:18:50.174311+00	2025-03-27 12:18:50.174311+00
 29819d2b-a9f0-4414-a356-30eddf542d43	87b12e28-e576-4126-a218-566de1313caf	Single	Why is this life terrible	\N	2025-08-07 07:19:06.708083+00	2025-08-07 07:19:06.708083+00
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How frequent do you purchase TopTek filters	\N	2025-08-08 11:46:30.177777+00	2025-08-08 11:46:30.177777+00
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How frequent do you purchase other filter brands?	\N	2025-08-08 11:53:04.855745+00	2025-08-08 11:53:04.855745+00
+9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the overall quality of TopTek filters?	\N	2025-08-08 11:59:40.682499+00	2025-08-08 11:59:40.682499+00
+a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Single	As per your rating in (4) how does the quality of TopTek filters need to be improved	\N	2025-08-08 12:01:58.590468+00	2025-08-08 12:01:58.590468+00
+9ad9d723-6975-4d0e-8093-0060e14555db	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the quality of TopTek filter paper relative to other brands	\N	2025-08-08 12:02:51.688903+00	2025-08-08 12:02:51.688903+00
+d20f249b-d302-439b-b6e7-0072e1ded58b	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the finishing of Toptek filters?	\N	2025-08-08 12:03:37.529332+00	2025-08-08 12:03:37.529332+00
+153a6665-d77d-4655-bdea-86670ceb5897	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the packaging of TopTek filters	\N	2025-08-08 12:06:11.722716+00	2025-08-08 12:06:11.722716+00
+a5ea956b-4b88-46cc-9a16-78233de2c1de	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the quality of customer service?	\N	2025-08-08 13:14:43.07965+00	2025-08-08 13:14:43.07965+00
+14c3ae0a-d9ac-4fe3-babc-e2ac4b76fd2a	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the timeliness between placing an order and delivery	\N	2025-08-08 13:15:55.071185+00	2025-08-08 13:15:55.071185+00
+328861c0-8b33-4641-a218-970b56b87069	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Ranking	Rank from the highest to lowest, How do this factors influence your purchase of filters	\N	2025-08-08 13:20:39.113442+00	2025-08-08 13:20:39.113442+00
+1f50748f-ab26-46ed-9448-699522ad4c5f	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Single	Is there any other facter you consider apart from the ones listed above while purchasing filters?	\N	2025-08-08 13:25:59.835043+00	2025-08-08 13:25:59.835043+00
+ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How would you rate the price of Toptek filters 	\N	2025-08-08 13:37:52.022563+00	2025-08-08 13:37:52.022563+00
 \.
 
 
@@ -1238,6 +1253,24 @@ fcb66664-2fa5-453c-8593-c6d03712206d	cc516cd2-aafb-466a-93ec-4419cfc2eb07	Indian
 3a8976f0-dfed-4d27-9f61-5d3671eabba0	4c5ad118-e09f-42a3-b4cb-a1f662001047	Cleanliness	0
 92e45a7e-44c8-4502-a199-4228c734d184	4c5ad118-e09f-42a3-b4cb-a1f662001047	Quality of food	0
 1d8744c2-6290-4426-bec7-2f88098247c7	4c5ad118-e09f-42a3-b4cb-a1f662001047	Pricing	0
+b96ab590-c66b-4d31-a697-e5fc25b55b43	62638fd5-5825-4e5f-ba49-27d6364a9554	Weekly	0
+88c91e11-392b-4732-bd4a-6c1e150442a6	62638fd5-5825-4e5f-ba49-27d6364a9554	Monthly	1
+1199ca52-51ad-4b7c-832d-998b313d2956	62638fd5-5825-4e5f-ba49-27d6364a9554	Every 6 months	2
+9bd85cca-ba8e-4816-bbbc-e4576ab91edd	62638fd5-5825-4e5f-ba49-27d6364a9554	Once a year (or more)	3
+13f25ba4-7599-421d-afbd-4fba170c356f	62638fd5-5825-4e5f-ba49-27d6364a9554	Daily	4
+53e10edd-a000-45cc-8e11-1c90372f17aa	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Daily	0
+14ceccc8-d9d4-415d-8e41-43855a751a20	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Weekly	1
+00e80764-f196-4474-9b57-d616d3a09cf2	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Monthly	2
+c13c89f2-ae6b-430d-92d5-4aabce5c2169	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Every 6 months	3
+c7d1e81a-fe76-48a2-9148-45a2da987481	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Once a year (or more)	4
+e8d30ea0-f7ea-475d-ad4c-dba02a9787b8	328861c0-8b33-4641-a218-970b56b87069	Price	0
+fa6cc26e-7d7c-42bd-87c0-51de4ac4cd05	328861c0-8b33-4641-a218-970b56b87069	Quality	0
+0a0af70f-c4ca-4719-9292-d327b68b6372	328861c0-8b33-4641-a218-970b56b87069	Stock Managment	0
+5f10acc3-ac88-4c76-adf3-455c088d4448	328861c0-8b33-4641-a218-970b56b87069	Customer Service	0
+322e4afd-3d26-44eb-aa79-e5c2f4640246	328861c0-8b33-4641-a218-970b56b87069	Brand Name	0
+cd1a6e6e-2c09-453a-b17a-358a679bf44e	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Affordable	0
+b26aa397-2f41-4a8e-8965-a3a314646221	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Market Competitive	1
+759b0010-741d-485a-af9f-fdb8220890e9	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Expensive	2
 \.
 
 
@@ -6080,6 +6113,8 @@ d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	\N	\N	
 COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone", "country", "state", "sector", "disabled", "created_at") FROM stdin;
 75b87d71-3545-4032-adcb-64700e7456f7	ubermatchvlaad212@gmail.com	CSNRU	+254743962943	Kenya	Taveta	Education	f	2025-02-28 17:38:15.884534+00
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Kenya	Nairobi City	Others	f	2025-02-02 13:21:20.73+00
+6fc353c4-adee-4d2d-b84d-7915880ff698	jumatimothymwangi@gmail.com	Timothy	+254707956457	Kenya	Nairobi	jumatimothymwangi@gmail.com	f	2025-08-08 05:14:51.680644+00
+96a46c1a-027a-477a-8d9e-4c301fa443d9	info@pantech-ke.com	Pantech Kenya Limited	+254715674636	Kenya	Nairobi	Manufacturing	f	2025-08-08 08:15:30.818466+00
 \.
 
 
@@ -6101,6 +6136,7 @@ COPY "public"."price_table" ("id", "title", "one_pack", "six_pack", "ten_pack", 
 COPY "public"."consumer_package" ("id", "consumerid", "package_id", "package", "package_type", "invoiced", "expires", "transaction_code") FROM stdin;
 1	75b87d71-3545-4032-adcb-64700e7456f7	2	Basic	one_pack	2025-03-26 07:27:56.675+00	2025-04-25 07:27:56.675+00	TBP4F3JRGY
 3	c1bde176-582a-4028-888e-a70875a11f51	2	Basic	one_pack	2025-06-30 06:59:48.669+00	2025-07-30 06:59:48.669+00	TBP4F3JRGG
+4	96a46c1a-027a-477a-8d9e-4c301fa443d9	2	Basic	one_pack	2025-08-08 10:14:57.207+00	2025-09-07 10:14:57.207+00	TBP4F3JRPG
 \.
 
 
@@ -6113,6 +6149,7 @@ SKM6OIUYPK	54000	1779.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f
 SKQ28DJ5NY	10	1469.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2024-11-26 19:09:56+00	2	0799725093
 TBP4F3JRGY	10	1379.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2025-02-25 16:22:38+00	3	0799725093
 TBP4F3JRGG	2900	1379	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	STAICY	\N	\N	2025-06-30 06:59:41+00	4	0795057553
+TBP4F3JRPG	2900	1379	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	PANTECH	\N	\N	2025-08-08 13:10:41+00	5	0715674636
 \.
 
 
@@ -6295,10 +6332,14 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 --
 
 COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
+42dfaf84d43d0931030f6e6b59d151127e622ce901a110e1d99658665b664925	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-08-09 16:38:14.345+00
+99a5433c6730766454020193979cbca30a93d55498de3ae7e2a7cd8dcdcd1fcf	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-08-09 17:34:33.35+00
 b7daee0f7f7aa15a43530c215642325de24cd83daea0bb061ff71d5afb82e4e6	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 12:43:20.363+00
 d66426e57c629c9f31dfd148c3d27231610f270b9e235c83ad4e5e36ed680315	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 14:36:07.761+00
+283a4ee20abb998b49185258f8ec21b78962d8f5586c1f3196b1c1fdaac5378a	6fc353c4-adee-4d2d-b84d-7915880ff698	2025-08-09 11:14:52.258+00
 59e95eca53d20b11512d14d8fbec2fbaa266d766bcdc7d3e70f4f19438cc3af8	0193625d-3a30-74a5-a759-1c7d5f69e14c	2025-07-31 05:04:23.792+00
-19018d5f888a849e9261937d26ccb1d098e00a7536f2baae4ce6a6a545b3a4e1	c1bde176-582a-4028-888e-a70875a11f51	2025-08-08 13:17:55.783+00
+8061a4dadb741e14f2e539f5828738b7fdfc408215f4fd72b4471deb8a7a09f3	6fc353c4-adee-4d2d-b84d-7915880ff698	2025-08-09 11:14:59.72+00
+ec4f39a7fd48a1686061f93f645d9df6142b5572f35dceb71dae3d2bb643d2c9	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-08-09 14:15:31.375+00
 \.
 
 
@@ -6352,7 +6393,7 @@ SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 3, true);
 -- Name: consumer_package_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."consumer_package_id_seq"', 3, true);
+SELECT pg_catalog.setval('"public"."consumer_package_id_seq"', 4, true);
 
 
 --
