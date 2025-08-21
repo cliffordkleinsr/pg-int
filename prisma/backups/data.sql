@@ -1097,18 +1097,16 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multip
 4c5ad118-e09f-42a3-b4cb-a1f662001047	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multiple	What qualities of oilepo do you rank highly	\N	2025-03-27 12:18:03.153703+00	2025-03-27 12:18:03.153703+00
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	Single	What did you not like about your experience	\N	2025-03-27 12:18:50.174311+00	2025-03-27 12:18:50.174311+00
 29819d2b-a9f0-4414-a356-30eddf542d43	87b12e28-e576-4126-a218-566de1313caf	Single	Why is this life terrible	\N	2025-08-07 07:19:06.708083+00	2025-08-07 07:19:06.708083+00
-d20f249b-d302-439b-b6e7-0072e1ded58b	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the finishing of Toptek filters?	\N	2025-08-08 12:03:37.529332+00	2025-08-08 12:03:37.529332+00
-153a6665-d77d-4655-bdea-86670ceb5897	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the packaging of TopTek filters	\N	2025-08-08 12:06:11.722716+00	2025-08-08 12:06:11.722716+00
-a5ea956b-4b88-46cc-9a16-78233de2c1de	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the quality of customer service?	\N	2025-08-08 13:14:43.07965+00	2025-08-08 13:14:43.07965+00
 14c3ae0a-d9ac-4fe3-babc-e2ac4b76fd2a	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the timeliness between placing an order and delivery	\N	2025-08-08 13:15:55.071185+00	2025-08-08 13:15:55.071185+00
 b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How frequently do you purchase other filter brands?	\N	2025-08-08 11:53:04.855745+00	2025-08-08 11:53:04.855745+00
-ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How would you rate the price of Toptek filters 	\N	2025-08-08 13:37:52.022563+00	2025-08-08 13:37:52.022563+00
+1f50748f-ab26-46ed-9448-699522ad4c5f	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Single	Is there any other factor(s) you consider while purchasing filters apart from the ones listed above? ?	\N	2025-08-08 13:25:59.835043+00	2025-08-08 13:25:59.835043+00
 62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How frequently do you purchase TopTek filters?	\N	2025-08-08 11:46:30.177777+00	2025-08-08 11:46:30.177777+00
+328861c0-8b33-4641-a218-970b56b87069	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Ranking	Rank from the highest to lowest. How do these factors influence your purchase of filters?	\N	2025-08-08 13:20:39.113442+00	2025-08-08 13:20:39.113442+00
+9ad9d723-6975-4d0e-8093-0060e14555db	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How likely are you to recommend our filters to others?	\N	2025-08-08 12:02:51.688903+00	2025-08-08 12:02:51.688903+00
 9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the overall quality of TopTek filters ?	\N	2025-08-08 11:59:40.682499+00	2025-08-08 11:59:40.682499+00
 a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Single	As per your rating in (3), how does the quality of TopTek filters need to be improved?	\N	2025-08-08 12:01:58.590468+00	2025-08-08 12:01:58.590468+00
-9ad9d723-6975-4d0e-8093-0060e14555db	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the quality of TopTek filter paper relative to other brands?	\N	2025-08-08 12:02:51.688903+00	2025-08-08 12:02:51.688903+00
-1f50748f-ab26-46ed-9448-699522ad4c5f	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Single	Is there any other factor(s) you consider apart from the ones listed above while purchasing filters?	\N	2025-08-08 13:25:59.835043+00	2025-08-08 13:25:59.835043+00
-328861c0-8b33-4641-a218-970b56b87069	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Ranking	Rank from the highest to lowest, How do this factors influence your purchase of filters	\N	2025-08-08 13:20:39.113442+00	2025-08-08 13:20:39.113442+00
+a5ea956b-4b88-46cc-9a16-78233de2c1de	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the overall quality of our customer service?	\N	2025-08-08 13:14:43.07965+00	2025-08-08 13:14:43.07965+00
+ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How would you rate the price of Toptek filters ?	\N	2025-08-08 13:37:52.022563+00	2025-08-08 13:37:52.022563+00
 \.
 
 
@@ -1258,9 +1256,6 @@ fa6cc26e-7d7c-42bd-87c0-51de4ac4cd05	328861c0-8b33-4641-a218-970b56b87069	Qualit
 0a0af70f-c4ca-4719-9292-d327b68b6372	328861c0-8b33-4641-a218-970b56b87069	Stock Managment	0
 5f10acc3-ac88-4c76-adf3-455c088d4448	328861c0-8b33-4641-a218-970b56b87069	Customer Service	0
 322e4afd-3d26-44eb-aa79-e5c2f4640246	328861c0-8b33-4641-a218-970b56b87069	Brand Name	0
-cd1a6e6e-2c09-453a-b17a-358a679bf44e	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Affordable	0
-b26aa397-2f41-4a8e-8965-a3a314646221	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Market Competitive	1
-759b0010-741d-485a-af9f-fdb8220890e9	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Expensive	2
 53e10edd-a000-45cc-8e11-1c90372f17aa	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Weekly	0
 14ceccc8-d9d4-415d-8e41-43855a751a20	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Monthly	1
 c13c89f2-ae6b-430d-92d5-4aabce5c2169	b2900b11-ef90-4601-a8ee-08c2b8adebcd	Every 6 Months	3
@@ -1269,6 +1264,9 @@ b96ab590-c66b-4d31-a697-e5fc25b55b43	62638fd5-5825-4e5f-ba49-27d6364a9554	Weekly
 88c91e11-392b-4732-bd4a-6c1e150442a6	62638fd5-5825-4e5f-ba49-27d6364a9554	Monthly	1
 1199ca52-51ad-4b7c-832d-998b313d2956	62638fd5-5825-4e5f-ba49-27d6364a9554	Every 6 Months 	2
 9bd85cca-ba8e-4816-bbbc-e4576ab91edd	62638fd5-5825-4e5f-ba49-27d6364a9554	Once a year ( or more)	3
+cd1a6e6e-2c09-453a-b17a-358a679bf44e	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Affordable	0
+b26aa397-2f41-4a8e-8965-a3a314646221	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Market Competitive	1
+759b0010-741d-485a-af9f-fdb8220890e9	ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	Expensive	2
 \.
 
 
@@ -6338,6 +6336,7 @@ COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
 77ea5c23c1726ed0923cf7846c26691c3ce6e5bf381ce13f26e8ac62b77af9b7	c1bde176-582a-4028-888e-a70875a11f51	2025-08-12 19:13:19.816+00
 e9d72aefdf589e5bb729d1e05b25ed7666faf768027872f6c7a89a36dfb87abf	c1bde176-582a-4028-888e-a70875a11f51	2025-08-13 17:22:00.188+00
 17c291227b8540fdad8ba6bf024f84cc3336a3500ac8afdab9b2df796770b505	c1bde176-582a-4028-888e-a70875a11f51	2025-08-14 18:23:36.303+00
+016467d9004c1e54fc8357fe3a2dab379c871a71895b7df1eccc895d792a64db	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-08-21 14:06:09.712+00
 b7daee0f7f7aa15a43530c215642325de24cd83daea0bb061ff71d5afb82e4e6	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 12:43:20.363+00
 d66426e57c629c9f31dfd148c3d27231610f270b9e235c83ad4e5e36ed680315	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 14:36:07.761+00
 283a4ee20abb998b49185258f8ec21b78962d8f5586c1f3196b1c1fdaac5378a	6fc353c4-adee-4d2d-b84d-7915880ff698	2025-08-09 11:14:52.258+00
