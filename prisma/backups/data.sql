@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict XW2cbPnyF6crSwmBhrqbNeqkUUowdnfhpCuPbCE0slKPZeTd7cVl5ZEItFFX5wr
+-- \restrict aMdlei90970mohRwE4vmwNUa7gAbKjcejl1PaiUYEjM7MAU5yzWwj4qoAKE6g64
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -661,9 +661,9 @@ f9bd0d46-0c09-4694-91fb-f83e900af5e2	dianahnaliaka046@gmail.com	0711909976	5/18/
 COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires", "created_at") FROM stdin;
 7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00	2025-03-10 05:42:08.808096+00
 c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00	2025-03-10 05:42:08.808096+00
-9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-26 12:02:55.348+00	2025-03-27 12:02:55.401985+00
 87b12e28-e576-4126-a218-566de1313caf	c1bde176-582a-4028-888e-a70875a11f51	Trial x	my time is now	Draft	100	2025-09-06 07:18:49.7+00	2025-08-07 07:18:49.757772+00
-5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech Kenya Limited Customer Feedback Survey	Please take a moment to share your experience with our products and services. Your input will help us improve and serve you better. The survey is short and confidential.\n\nWE VALUE YOUR FEEDBACK. 	Draft	100	2025-09-07 11:39:01.296+00	2025-08-08 11:39:01.346925+00
+5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech Kenya Limited Customer Feedback Survey	Please take a moment to share your experience with our products and services. Your input will help us improve and serve you better. The survey is short and confidential.\n\nWE VALUE YOUR FEEDBACK. 	Live	100	2025-11-07 11:39:01+00	2025-08-08 11:39:01.346925+00
+9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-04 12:02:55+00	2025-03-27 12:02:55.401985+00
 \.
 
 
@@ -1107,9 +1107,8 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multip
 359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	Optional	Would you visit oilepo again	\N	2025-03-27 12:16:16.921982+00	2025-03-27 12:16:16.921982+00
 4c5ad118-e09f-42a3-b4cb-a1f662001047	9587799c-55f3-4098-9e9c-ef0359acc6b2	Multiple	What qualities of oilepo do you rank highly	\N	2025-03-27 12:18:03.153703+00	2025-03-27 12:18:03.153703+00
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	Single	What did you not like about your experience	\N	2025-03-27 12:18:50.174311+00	2025-03-27 12:18:50.174311+00
-f606ded5-1b13-482d-8660-bcf6ae6c930a	87b12e28-e576-4126-a218-566de1313caf	Single	Are you happy?	\N	2025-09-29 11:29:17.476566+00	2025-09-29 11:29:17.476566+00
-3cf1d7ee-a85f-42a3-a567-cadd9f99b437	87b12e28-e576-4126-a218-566de1313caf	Single	What do yo do to stay happy	\N	2025-09-29 11:29:17.476566+00	2025-09-29 11:29:17.476566+00
-653184ab-c6e1-487f-94e9-a574c584933a	87b12e28-e576-4126-a218-566de1313caf	Single	How are you?	\N	2025-09-29 11:29:17.476566+00	2025-09-29 11:29:17.476566+00
+7b98947c-dbe4-44ad-81e3-99137d26a73c	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the timeliness between placing an order and delivery?	\N	2025-09-30 07:57:57.086465+00	2025-09-30 07:57:57.086465+00
+12beb9f5-04e9-4d3e-9ea9-741cab9df7e5	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Rating	How would you rate the quality of our customer service?	\N	2025-09-30 07:54:46.831673+00	2025-09-30 07:54:46.831673+00
 c7082f6d-9f6b-4e3b-82d4-460a3244f0b0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Single	What would motivate you to purchase our products again?	\N	2025-08-25 05:57:11.064804+00	2025-08-25 05:57:11.064804+00
 b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How frequently do you purchase other filter brands?	\N	2025-08-08 11:53:04.855745+00	2025-08-08 11:53:04.855745+00
 58aed9e5-010a-474d-9aa4-a8c97e8f63c0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	Would you be intrested in other filtration solutions that we provide?	\N	2025-08-25 06:00:47.031468+00	2025-08-25 06:00:47.031468+00
@@ -6326,6 +6325,14 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	36db06
 cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	fcb66664-2fa5-453c-8593-c6d03712206d	\N	Indian	2025-04-03 08:05:55.869098+00	17
 359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-04-03 08:06:06.448456+00	18
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	eggs	2025-04-03 08:06:16.314107+00	19
+f13a754d-c532-43ff-b4da-be10d6636470	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-09-30 17:25:15.074292+00	36
+10b2887d-c419-41e7-b827-f2d0a942f554	9587799c-55f3-4098-9e9c-ef0359acc6b2	2d9208b9-8b92-4ace-b96c-d747f0445c60	\N	Search Engine	2025-09-30 17:25:34.429832+00	37
+d07cf3a5-7935-41be-8cdc-99d6427edd09	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	4	2025-09-30 17:25:45.687624+00	38
+aec57808-878c-4b8f-9338-723b265cf432	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	4	2025-09-30 17:25:52.142261+00	39
+cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	b0245f94-0311-46a9-8279-6805762e64b4	\N	Chinese	2025-09-30 17:25:59.139911+00	40
+359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	Yes	2025-09-30 17:26:05.190196+00	41
+4c5ad118-e09f-42a3-b4cb-a1f662001047	9587799c-55f3-4098-9e9c-ef0359acc6b2	3a8976f0-dfed-4d27-9f61-5d3671eabba0	\N	Cleanliness	2025-09-30 17:26:13.568847+00	42
+2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	hyqaersgzvb	2025-09-30 17:26:20.470569+00	43
 \.
 
 
@@ -6342,8 +6349,9 @@ COPY "public"."sms_verification" ("user_id", "phone", "verified", "recieved_sms"
 --
 
 COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector", "country", "state", "client_address", "has_completed", "sub") FROM stdin;
-2	9587799c-55f3-4098-9e9c-ef0359acc6b2	Under-Graduate	Electrical	Kenya	Nairobi	::1	t	Dagoretti North
 1	9587799c-55f3-4098-9e9c-ef0359acc6b2	Primary	Education	Germany	Bavaria	188.245.45.171	t	\N
+2	9587799c-55f3-4098-9e9c-ef0359acc6b2	Under-Graduate	Electrical	Kenya	Nairobi	::1	t	Dagoretti North
+4	9587799c-55f3-4098-9e9c-ef0359acc6b2	High-School	Entertainment	Kenya	Nakuru	::1	t	Gilgil
 \.
 
 
@@ -6372,10 +6380,17 @@ d5b2e2e5bd72281a6598ee585fbb09d285b9474d13e299e32c09241f6c54d0a0	c1bde176-582a-4
 b92e5f3e357e4ac4d75555f54da27983465b9519d9eaac5f8a136ea38fb5c779	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-09-24 18:58:22.134+00
 25b94b8f8e0b917a469dd7bcfd561ef2d7a9349b6941ac2bdc4be98d663966bd	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-09-27 19:08:54.59+00
 cca09d86b24b1303310169870f949ffe986390568c631ac476ff631268369473	c1bde176-582a-4028-888e-a70875a11f51	2025-09-30 11:33:41.872+00
-52094c093126133fe81c62d6c5db715e1429626fa133b603e28c322187b2d693	c1bde176-582a-4028-888e-a70875a11f51	2025-09-30 17:28:45.807+00
+772aeae24a871c5ff8737243045d101ac04bfe08335f17467d8b427bce1dae30	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-01 10:59:57.481+00
+9c982d8255e1f92e98c018ef74d160e044174d3f530ab5235752821fe3952e2d	c1bde176-582a-4028-888e-a70875a11f51	2025-10-01 11:07:38.414+00
+b52daf23d10dbd73744fa95b09e3f6124ac26aeb7a9fbfc4dccbb46c2fe88d1e	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-01 13:51:24.737+00
+02e6e44af3a06112d459e908942eca7a3d38ab89715cf2c79d150075c194b3dc	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-01 14:14:59.3+00
+8c5e7de42cc96f6a608e76af07e2f271be34606363222820574afdb75d9e9b34	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-01 16:19:15.357+00
 b7daee0f7f7aa15a43530c215642325de24cd83daea0bb061ff71d5afb82e4e6	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 12:43:20.363+00
+5e6c0d673647282862f5d530517c146d1f244e71e269d69e49a1d6b0729d3e29	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-01 19:11:41.688+00
+0a1e12307f2474b8ef90804af36967b8e17158bfde26bfbeabea721a3fd768d8	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-01 19:31:03.15+00
 d66426e57c629c9f31dfd148c3d27231610f270b9e235c83ad4e5e36ed680315	c1bde176-582a-4028-888e-a70875a11f51	2025-07-01 14:36:07.761+00
 283a4ee20abb998b49185258f8ec21b78962d8f5586c1f3196b1c1fdaac5378a	6fc353c4-adee-4d2d-b84d-7915880ff698	2025-08-09 11:14:52.258+00
+358fdb830a57110423e0f5506e93b00abf8e065bd7b1c8083e80c4a67bc663e4	75b87d71-3545-4032-adcb-64700e7456f7	2025-10-01 23:15:28.536+00
 59e95eca53d20b11512d14d8fbec2fbaa266d766bcdc7d3e70f4f19438cc3af8	0193625d-3a30-74a5-a759-1c7d5f69e14c	2025-07-31 05:04:23.792+00
 8061a4dadb741e14f2e539f5828738b7fdfc408215f4fd72b4471deb8a7a09f3	6fc353c4-adee-4d2d-b84d-7915880ff698	2025-08-09 11:14:59.72+00
 ec4f39a7fd48a1686061f93f645d9df6142b5572f35dceb71dae3d2bb643d2c9	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-08-09 14:15:31.375+00
@@ -6453,20 +6468,20 @@ SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 -- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."response_table_id_seq"', 19, true);
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 43, true);
 
 
 --
 -- Name: user_analytics_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 2, true);
+SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 4, true);
 
 
 --
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict XW2cbPnyF6crSwmBhrqbNeqkUUowdnfhpCuPbCE0slKPZeTd7cVl5ZEItFFX5wr
+-- \unrestrict aMdlei90970mohRwE4vmwNUa7gAbKjcejl1PaiUYEjM7MAU5yzWwj4qoAKE6g64
 
 RESET ALL;
