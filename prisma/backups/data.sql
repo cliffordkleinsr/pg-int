@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict RfFRvboS4oN304qe7QQJwkVmyWAeEtcBGL9knNP4wNGCzUnECjWY479rDeRZxgz
+-- \restrict joxE7dT4rQc2stY6O1oz1MaGFfRR9TONaRMU5dwWlRQ0A2mYhKXLA33r8HEaiTn
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -6333,22 +6333,6 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	b0245f
 359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	Yes	2025-09-30 17:26:05.190196+00	41
 4c5ad118-e09f-42a3-b4cb-a1f662001047	9587799c-55f3-4098-9e9c-ef0359acc6b2	3a8976f0-dfed-4d27-9f61-5d3671eabba0	\N	Cleanliness	2025-09-30 17:26:13.568847+00	42
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	hyqaersgzvb	2025-09-30 17:26:20.470569+00	43
-62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Monthly	2025-10-01 08:21:27.366422+00	44
-b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Monthly	2025-10-01 08:28:16.387993+00	45
-9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	4	2025-10-01 08:28:28.583362+00	46
-a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	By using the right materials	2025-10-01 08:28:53.099619+00	47
-ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Expensive	2025-10-01 08:29:01.985674+00	48
-c7082f6d-9f6b-4e3b-82d4-460a3244f0b0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Discounts	2025-10-01 08:29:12.361792+00	49
-58aed9e5-010a-474d-9aa4-a8c97e8f63c0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	yes	2025-10-01 08:29:20.070576+00	50
-aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	5	Stock Availability	2025-10-01 08:36:05.516675+00	51
-aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	3	Customer Service	2025-10-01 08:36:06.012815+00	52
-aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	4	Brand Name	2025-10-01 08:36:06.505348+00	53
-aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	2	Price	2025-10-01 08:36:06.99557+00	54
-aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	1	Quality	2025-10-01 08:36:07.471641+00	55
-124b944d-a416-491b-a1d5-0fc2c7269b40	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Neutral	2025-10-01 08:36:15.310658+00	56
-e2062ec6-bed0-474f-8440-4f2be87994fb	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Neutral	2025-10-01 08:36:26.608398+00	57
-12beb9f5-04e9-4d3e-9ea9-741cab9df7e5	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	2	2025-10-01 08:36:34.696748+00	58
-7b98947c-dbe4-44ad-81e3-99137d26a73c	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	3	2025-10-01 08:36:42.601688+00	59
 \.
 
 
@@ -6368,7 +6352,6 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 1	9587799c-55f3-4098-9e9c-ef0359acc6b2	Primary	Education	Germany	Bavaria	188.245.45.171	t	\N
 2	9587799c-55f3-4098-9e9c-ef0359acc6b2	Under-Graduate	Electrical	Kenya	Nairobi	::1	t	Dagoretti North
 4	9587799c-55f3-4098-9e9c-ef0359acc6b2	High-School	Entertainment	Kenya	Nakuru	::1	t	Gilgil
-5	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	High-School	Agriculture	Kenya	Nakuru	::1	t	Naivasha
 \.
 
 
@@ -6411,7 +6394,10 @@ d66426e57c629c9f31dfd148c3d27231610f270b9e235c83ad4e5e36ed680315	c1bde176-582a-4
 59e95eca53d20b11512d14d8fbec2fbaa266d766bcdc7d3e70f4f19438cc3af8	0193625d-3a30-74a5-a759-1c7d5f69e14c	2025-07-31 05:04:23.792+00
 515ce03c4459bc7aeca232610800fe2ac684dad39879ad9836e345034bd3a563	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-02 15:25:09.687+00
 8061a4dadb741e14f2e539f5828738b7fdfc408215f4fd72b4471deb8a7a09f3	6fc353c4-adee-4d2d-b84d-7915880ff698	2025-08-09 11:14:59.72+00
+d2afefcc932502e04ae3ed1dd6b08d15a9ec893cd0c8b278c00422e6a5c1e68c	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-03 13:16:43.166+00
 ec4f39a7fd48a1686061f93f645d9df6142b5572f35dceb71dae3d2bb643d2c9	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-08-09 14:15:31.375+00
+d63f08d26e303ccb5a56bae429dcfe1920cdbee1f3d2e938c46c5e1f2e82f109	c1bde176-582a-4028-888e-a70875a11f51	2025-10-03 15:53:11.419+00
+20c684852e3088316fe8f5b49200009295f4018eb3fc8754e3591278e53f132a	c1bde176-582a-4028-888e-a70875a11f51	2025-10-03 16:06:39.2+00
 \.
 
 
@@ -6419,7 +6405,15 @@ ec4f39a7fd48a1686061f93f645d9df6142b5572f35dceb71dae3d2bb643d2c9	96a46c1a-027a-4
 -- Data for Name: buckets; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
 --
 
-COPY "storage"."buckets" ("id", "name", "owner", "created_at", "updated_at", "public", "avif_autodetection", "file_size_limit", "allowed_mime_types", "owner_id") FROM stdin;
+COPY "storage"."buckets" ("id", "name", "owner", "created_at", "updated_at", "public", "avif_autodetection", "file_size_limit", "allowed_mime_types", "owner_id", "type") FROM stdin;
+\.
+
+
+--
+-- Data for Name: buckets_analytics; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+COPY "storage"."buckets_analytics" ("id", "type", "format", "created_at", "updated_at") FROM stdin;
 \.
 
 
@@ -6427,7 +6421,15 @@ COPY "storage"."buckets" ("id", "name", "owner", "created_at", "updated_at", "pu
 -- Data for Name: objects; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
 --
 
-COPY "storage"."objects" ("id", "bucket_id", "name", "owner", "created_at", "updated_at", "last_accessed_at", "metadata", "version", "owner_id", "user_metadata") FROM stdin;
+COPY "storage"."objects" ("id", "bucket_id", "name", "owner", "created_at", "updated_at", "last_accessed_at", "metadata", "version", "owner_id", "user_metadata", "level") FROM stdin;
+\.
+
+
+--
+-- Data for Name: prefixes; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+COPY "storage"."prefixes" ("bucket_id", "name", "created_at", "updated_at") FROM stdin;
 \.
 
 
@@ -6486,20 +6488,20 @@ SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 -- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."response_table_id_seq"', 59, true);
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 123, true);
 
 
 --
 -- Name: user_analytics_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 5, true);
+SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 9, true);
 
 
 --
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict RfFRvboS4oN304qe7QQJwkVmyWAeEtcBGL9knNP4wNGCzUnECjWY479rDeRZxgz
+-- \unrestrict joxE7dT4rQc2stY6O1oz1MaGFfRR9TONaRMU5dwWlRQ0A2mYhKXLA33r8HEaiTn
 
 RESET ALL;
