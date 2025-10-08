@@ -714,27 +714,27 @@ ALTER TABLE ONLY "public"."payout_requests"
 
 
 ALTER TABLE ONLY "public"."question_branching"
-    ADD CONSTRAINT "question_branching_next_questionid_survey_qns_optimum_questioni" FOREIGN KEY ("next_questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
+    ADD CONSTRAINT "question_branching_next_questionid_survey_qns_optimum_questioni" FOREIGN KEY ("next_questionid") REFERENCES "public"."survey_qns_optimum"("questionid") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."question_branching"
-    ADD CONSTRAINT "question_branching_optionid_question_options_optionid_fk" FOREIGN KEY ("optionid") REFERENCES "public"."question_options"("optionid");
+    ADD CONSTRAINT "question_branching_optionid_question_options_optionid_fk" FOREIGN KEY ("optionid") REFERENCES "public"."question_options"("optionid") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."question_branching"
-    ADD CONSTRAINT "question_branching_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
+    ADD CONSTRAINT "question_branching_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."question_branching"
-    ADD CONSTRAINT "question_branching_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+    ADD CONSTRAINT "question_branching_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."question_options"
-    ADD CONSTRAINT "question_options_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
+    ADD CONSTRAINT "question_options_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid") ON DELETE CASCADE;
 
 
 
@@ -759,7 +759,7 @@ ALTER TABLE ONLY "public"."sms_verification"
 
 
 ALTER TABLE ONLY "public"."survey_qns_optimum"
-    ADD CONSTRAINT "survey_qns_optimum_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+    ADD CONSTRAINT "survey_qns_optimum_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid") ON DELETE CASCADE;
 
 
 
