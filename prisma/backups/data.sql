@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict MM8SqduCj0nDVeGAaQ4jonlKtd24FJ0XX4M0ptCLeYtxirzu19GsQy8fs36thtV
+-- \restrict L38r4hZddf5KkvqeZ01dKS0yIN0M8CT3Y8z5zodjLgdQ5te6u6NkUMNFKStgbvy
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -173,6 +173,7 @@ d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$1
 93325eb3-6c9e-4bd0-854a-88abf48f9887	Alicia Mwisangwe	aliciamwisangwe@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 09:03:53.553715+00	\N	f
 85536ca4-ab4f-4eff-a4cc-a81486346505	Thomas wambua Kamau	Twambua2030@gmail.com	t	$2b$15$NKUYlE0x0lkt0qFgydyrj.P8FybRqonI/HZRUibDqcS4GOcAtcQu2	AGENT	25	Male	\N	f	2025-01-22 13:42:56.435374+00	\N	f
 c1bde176-582a-4028-888e-a70875a11f51	Christine Staicy	christinestaicy@gmail.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	CLIENT	23	\N	\N	f	2024-11-11 13:06:37.486145+00	\N	f
+40baf87e-8ced-4289-b4b3-37920ba505dc	Timothy	timothy@carboncube-ke.com	t	$2b$15$Hv2bDH8F2uUy22tAIGdyieT5NPdvmvHkvcBUTRr5OqcHbl.1FrqNi	CLIENT	\N	\N	\N	f	2025-10-08 06:50:43.917496+00	\N	f
 0193625d-3a30-74a5-a759-1c7d5f69e14c	Super User	info@int-insights.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	ADMIN	23	\N	\N	f	2024-11-25 08:12:03+00	\N	f
 36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	Kentrell Williams	kentrellnamaswa@yahoo.com	t	$2b$15$EPae5dM3N8WjayuJ6Rh1lObIVgOTRTJeeT4l15xuRNPdc0YZ.8Tne	AGENT	35	Female	\N	f	2025-01-21 10:56:09.017717+00	\N	f
 6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	JOSEPH THANGARANI	thangaranijoseph@gmail.com	t	$2b$15$g4fbYTq2c6DEVmRnUJOnhOaEGMCB0fprs5N6ebWDKBlTJANia2CXm	AGENT	30	Male	\N	f	2025-01-21 20:12:10.625092+00	\N	f
@@ -661,6 +662,7 @@ f9bd0d46-0c09-4694-91fb-f83e900af5e2	dianahnaliaka046@gmail.com	0711909976	5/18/
 COPY "public"."survey" ("surveyid", "consumer_id", "title", "description", "status", "max_responses", "survey_expires", "created_at") FROM stdin;
 7adba2c0-f1f2-40bd-b1b0-2ffefa755348	c1bde176-582a-4028-888e-a70875a11f51	ALIQUANT RETAIL SUPERMARKET	Aliquant Limited is a retail supermarket dedicated to providing a wide selection of groceries, fresh produce, and household essentials to meet the daily needs of its community. To enhance customer satisfaction and continue improving the shopping experience, Aliquant Limited is conducting a survey to gather valuable feedback. This survey aims to understand customer preferences, assess service quality, and identify opportunities for growth. Your input will help Aliquant Limited better serve you by refining product offerings, optimizing store layout, and enhancing overall service.	Closed	408	2024-11-11 13:23:24.447124+00	2025-03-10 05:42:08.808096+00
 c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber Peak Lodge	The main of the survey is to help me understand what people think about my hotel and what recommendations they can give to ensure Amber Peak Lodge delivers the best services to her guests	Closed	417	2024-11-18 07:46:56.906996+00	2025-03-10 05:42:08.808096+00
+ee495115-ee1a-4ac1-a37f-9b4fd3d666a9	40baf87e-8ced-4289-b4b3-37920ba505dc	Customer Engagement	\N	Draft	800	2025-11-07 06:52:10.723+00	2025-10-08 06:52:10.771522+00
 87b12e28-e576-4126-a218-566de1313caf	c1bde176-582a-4028-888e-a70875a11f51	Trial x	my time is now	Draft	100	2025-09-06 07:18:49.7+00	2025-08-07 07:18:49.757772+00
 5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech Kenya Limited Customer Feedback Survey	Please take a moment to share your experience with our products and services. Your input will help us improve and serve you better. The survey is short and confidential.\n\nWE VALUE YOUR FEEDBACK. 	Live	100	2025-11-07 11:39:01+00	2025-08-08 11:39:01.346925+00
 9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-04 12:02:55+00	2025-03-27 12:02:55.401985+00
@@ -1119,6 +1121,11 @@ a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Single
 124b944d-a416-491b-a1d5-0fc2c7269b40	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How likely are you to recommend our filters to others?	\N	2025-09-10 11:54:35.107785+00	2025-09-10 11:54:35.107785+00
 e2062ec6-bed0-474f-8440-4f2be87994fb	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How likely are you to continue using our products?	\N	2025-09-10 12:02:07.547838+00	2025-09-10 12:02:07.547838+00
 ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Optional	How would you rate the price of Toptek filters ?	\N	2025-08-08 13:37:52.022563+00	2025-08-08 13:37:52.022563+00
+e2c5b875-758b-4ea5-9704-d19fc9b98fc2	ee495115-ee1a-4ac1-a37f-9b4fd3d666a9	Single	What motivated you to choose our product/service?	\N	2025-10-08 06:52:10.771522+00	2025-10-08 06:52:10.771522+00
+78dbb982-2efa-4bf3-a3f5-3348ef9d6b22	ee495115-ee1a-4ac1-a37f-9b4fd3d666a9	Single	How would you describe your overall experience with us?	\N	2025-10-08 06:52:10.771522+00	2025-10-08 06:52:10.771522+00
+e28105be-fb4b-4eb0-9fa3-db80d1238d63	ee495115-ee1a-4ac1-a37f-9b4fd3d666a9	Single	What aspects of our product/service did you find most valuable or enjoyable?	\N	2025-10-08 06:52:10.771522+00	2025-10-08 06:52:10.771522+00
+bdb62c70-dfb3-450a-9ebe-e10eab3d79ec	ee495115-ee1a-4ac1-a37f-9b4fd3d666a9	Single	Were there any challenges or frustrations you encountered? Please explain.	\N	2025-10-08 06:52:10.771522+00	2025-10-08 06:52:10.771522+00
+4ff6ddc1-9e5a-4ffb-b92a-c2cca20b45d8	ee495115-ee1a-4ac1-a37f-9b4fd3d666a9	Single	How can we improve our products or services to better meet your needs?	\N	2025-10-08 06:52:10.771522+00	2025-10-08 06:52:10.771522+00
 3abea4c2-e0c9-416d-bbad-d976aef8bbe7	87b12e28-e576-4126-a218-566de1313caf	Single	Why are you here?	\N	2025-09-11 07:47:07.082671+00	2025-09-11 07:47:07.082671+00
 \.
 
@@ -6134,6 +6141,7 @@ COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone"
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Kenya	Nairobi City	Others	f	2025-02-02 13:21:20.73+00
 6fc353c4-adee-4d2d-b84d-7915880ff698	jumatimothymwangi@gmail.com	Timothy	+254707956457	Kenya	Nairobi	jumatimothymwangi@gmail.com	f	2025-08-08 05:14:51.680644+00
 96a46c1a-027a-477a-8d9e-4c301fa443d9	info@pantech-ke.com	Pantech Kenya Limited	+254715674636	Kenya	Nairobi	Manufacturing	f	2025-08-08 08:15:30.818466+00
+40baf87e-8ced-4289-b4b3-37920ba505dc	timothy@carboncube-ke.com	Carbon Cube Kenya	+254707956457	Kenya	Nairobi	Others	f	2025-10-08 06:50:43.917496+00
 \.
 
 
@@ -6169,6 +6177,18 @@ SKQ28DJ5NY	10	1469.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a
 TBP4F3JRGY	10	1379.00	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	CLIFF	\N	\N	2025-02-25 16:22:38+00	3	0799725093
 TBP4F3JRGG	2900	1379	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	STAICY	\N	\N	2025-06-30 06:59:41+00	4	0795057553
 TBP4F3JRPG	2900	1379	402245c9753c24c46690c36a90e845733a5ceb0cde9a057720f3d4f01a611add	PANTECH	\N	\N	2025-08-08 13:10:41+00	5	0715674636
+\.
+
+
+--
+-- Data for Name: cost_table; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."cost_table" ("id", "title", "cost", "max_responses", "demographics", "branding") FROM stdin;
+1	Free	0	800	f	f
+2	Basic	29	1200	t	f
+3	Premium	75	2000	t	f
+4	Enterprise	250	3000	t	t
 \.
 
 
@@ -6356,6 +6376,14 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 
 
 --
+-- Data for Name: user_package; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."user_package" ("id", "consumerid", "package_id", "transaction_code", "invoiced", "expires") FROM stdin;
+\.
+
+
+--
 -- Data for Name: user_sessions; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -6400,6 +6428,10 @@ d63f08d26e303ccb5a56bae429dcfe1920cdbee1f3d2e938c46c5e1f2e82f109	c1bde176-582a-4
 20c684852e3088316fe8f5b49200009295f4018eb3fc8754e3591278e53f132a	c1bde176-582a-4028-888e-a70875a11f51	2025-10-03 16:06:39.2+00
 fbbced9226a9112f06ad19368e82399e6ae992b4e2e3b828540622253c16128a	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-07 11:19:01.444+00
 c21500f8894cbf076c5a1fb4e84de41b9cc4fa896a2c3bd11918487b41d5cfe6	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-08 19:02:44.081+00
+6561c052ec43ad40a5ffccd0a3595aa4ccd52d13cf8db48b9afa016b1cb3458e	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-09 12:32:16.73+00
+3c41d028e88afbd1d0b71e05a651078ed9e19d963b9a109d35a4905477d28dbd	40baf87e-8ced-4289-b4b3-37920ba505dc	2025-10-09 12:50:44.537+00
+42104483e7f5d3ecc2134747642639ac9b34f0d04e824b10368714ee25ae2731	40baf87e-8ced-4289-b4b3-37920ba505dc	2025-10-09 12:51:40.227+00
+ea3437e69542cf9ac9d2761d36197c72466a1dbeb6db3fa81c567c0661a1a5cf	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-10 00:18:37.769+00
 \.
 
 
@@ -6473,6 +6505,13 @@ SELECT pg_catalog.setval('"public"."consumer_package_id_seq"', 4, true);
 
 
 --
+-- Name: cost_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."cost_table_id_seq"', 1, false);
+
+
+--
 -- Name: password_reset_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
@@ -6501,9 +6540,16 @@ SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 9, true);
 
 
 --
+-- Name: user_package_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
+
+
+--
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict MM8SqduCj0nDVeGAaQ4jonlKtd24FJ0XX4M0ptCLeYtxirzu19GsQy8fs36thtV
+-- \unrestrict L38r4hZddf5KkvqeZ01dKS0yIN0M8CT3Y8z5zodjLgdQ5te6u6NkUMNFKStgbvy
 
 RESET ALL;

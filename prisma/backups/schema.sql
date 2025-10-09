@@ -270,6 +270,35 @@ ALTER SEQUENCE "public"."consumer_package_id_seq" OWNED BY "public"."consumer_pa
 
 
 
+CREATE TABLE IF NOT EXISTS "public"."cost_table" (
+    "id" integer NOT NULL,
+    "title" "text" NOT NULL,
+    "cost" "text" NOT NULL,
+    "max_responses" integer NOT NULL,
+    "demographics" boolean DEFAULT false NOT NULL,
+    "branding" boolean DEFAULT false NOT NULL
+);
+
+
+ALTER TABLE "public"."cost_table" OWNER TO "postgres";
+
+
+CREATE SEQUENCE IF NOT EXISTS "public"."cost_table_id_seq"
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE "public"."cost_table_id_seq" OWNER TO "postgres";
+
+
+ALTER SEQUENCE "public"."cost_table_id_seq" OWNED BY "public"."cost_table"."id";
+
+
+
 CREATE TABLE IF NOT EXISTS "public"."email_verification" (
     "user_id" "text" NOT NULL,
     "email" "text" NOT NULL,
@@ -494,6 +523,35 @@ ALTER SEQUENCE "public"."user_analytics_id_seq" OWNED BY "public"."user_analytic
 
 
 
+CREATE TABLE IF NOT EXISTS "public"."user_package" (
+    "id" integer NOT NULL,
+    "consumerid" "text" NOT NULL,
+    "package_id" integer NOT NULL,
+    "transaction_code" "text" NOT NULL,
+    "invoiced" timestamp with time zone NOT NULL,
+    "expires" timestamp with time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."user_package" OWNER TO "postgres";
+
+
+CREATE SEQUENCE IF NOT EXISTS "public"."user_package_id_seq"
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE "public"."user_package_id_seq" OWNER TO "postgres";
+
+
+ALTER SEQUENCE "public"."user_package_id_seq" OWNED BY "public"."user_package"."id";
+
+
+
 CREATE TABLE IF NOT EXISTS "public"."user_sessions" (
     "id" "text" NOT NULL,
     "user_id" "text" NOT NULL,
@@ -532,6 +590,10 @@ ALTER TABLE ONLY "public"."consumer_transactions" ALTER COLUMN "id" SET DEFAULT 
 
 
 
+ALTER TABLE ONLY "public"."cost_table" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."cost_table_id_seq"'::"regclass");
+
+
+
 ALTER TABLE ONLY "public"."password_reset" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."password_reset_id_seq"'::"regclass");
 
 
@@ -545,6 +607,10 @@ ALTER TABLE ONLY "public"."response_table" ALTER COLUMN "id" SET DEFAULT "nextva
 
 
 ALTER TABLE ONLY "public"."user_analytics" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."user_analytics_id_seq"'::"regclass");
+
+
+
+ALTER TABLE ONLY "public"."user_package" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."user_package_id_seq"'::"regclass");
 
 
 
@@ -565,6 +631,11 @@ ALTER TABLE ONLY "public"."consumer_details"
 
 ALTER TABLE ONLY "public"."consumer_package"
     ADD CONSTRAINT "consumer_package_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."cost_table"
+    ADD CONSTRAINT "cost_table_pkey" PRIMARY KEY ("id");
 
 
 
@@ -615,6 +686,11 @@ ALTER TABLE ONLY "public"."old_surveys"
 
 ALTER TABLE ONLY "public"."user_analytics"
     ADD CONSTRAINT "user_analytics_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."user_package"
+    ADD CONSTRAINT "user_package_pkey" PRIMARY KEY ("id");
 
 
 
@@ -744,12 +820,12 @@ ALTER TABLE ONLY "public"."response_table"
 
 
 ALTER TABLE ONLY "public"."response_table"
-    ADD CONSTRAINT "response_table_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid");
+    ADD CONSTRAINT "response_table_questionid_survey_qns_optimum_questionid_fk" FOREIGN KEY ("questionid") REFERENCES "public"."survey_qns_optimum"("questionid") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."response_table"
-    ADD CONSTRAINT "response_table_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+    ADD CONSTRAINT "response_table_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid") ON DELETE CASCADE;
 
 
 
@@ -764,7 +840,17 @@ ALTER TABLE ONLY "public"."survey_qns_optimum"
 
 
 ALTER TABLE ONLY "public"."user_analytics"
-    ADD CONSTRAINT "user_analytics_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid");
+    ADD CONSTRAINT "user_analytics_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid") ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."user_package"
+    ADD CONSTRAINT "user_package_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id");
+
+
+
+ALTER TABLE ONLY "public"."user_package"
+    ADD CONSTRAINT "user_package_package_id_cost_table_id_fk" FOREIGN KEY ("package_id") REFERENCES "public"."cost_table"("id");
 
 
 
@@ -795,6 +881,9 @@ ALTER TABLE "public"."consumer_package" ENABLE ROW LEVEL SECURITY;
 
 
 ALTER TABLE "public"."consumer_transactions" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."cost_table" ENABLE ROW LEVEL SECURITY;
 
 
 ALTER TABLE "public"."email_verification" ENABLE ROW LEVEL SECURITY;
@@ -831,6 +920,9 @@ ALTER TABLE "public"."survey_qns_optimum" ENABLE ROW LEVEL SECURITY;
 
 
 ALTER TABLE "public"."user_analytics" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."user_package" ENABLE ROW LEVEL SECURITY;
 
 
 ALTER TABLE "public"."user_sessions" ENABLE ROW LEVEL SECURITY;
@@ -1133,6 +1225,18 @@ GRANT ALL ON SEQUENCE "public"."consumer_package_id_seq" TO "service_role";
 
 
 
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."cost_table" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."cost_table" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."cost_table" TO "service_role";
+
+
+
+GRANT ALL ON SEQUENCE "public"."cost_table_id_seq" TO "anon";
+GRANT ALL ON SEQUENCE "public"."cost_table_id_seq" TO "authenticated";
+GRANT ALL ON SEQUENCE "public"."cost_table_id_seq" TO "service_role";
+
+
+
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."email_verification" TO "anon";
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."email_verification" TO "authenticated";
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."email_verification" TO "service_role";
@@ -1226,6 +1330,18 @@ GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public".
 GRANT ALL ON SEQUENCE "public"."user_analytics_id_seq" TO "anon";
 GRANT ALL ON SEQUENCE "public"."user_analytics_id_seq" TO "authenticated";
 GRANT ALL ON SEQUENCE "public"."user_analytics_id_seq" TO "service_role";
+
+
+
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_package" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_package" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."user_package" TO "service_role";
+
+
+
+GRANT ALL ON SEQUENCE "public"."user_package_id_seq" TO "anon";
+GRANT ALL ON SEQUENCE "public"."user_package_id_seq" TO "authenticated";
+GRANT ALL ON SEQUENCE "public"."user_package_id_seq" TO "service_role";
 
 
 
