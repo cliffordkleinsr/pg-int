@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict nhpcSuN8F9x1aDFlUdW9qiQWkAX0Sntyw8JfINgR3zL2ThSG8Nlu5pPp4WudeVK
+-- \restrict osOS3kviNqWWF5IPs9i9KrIEMvU4cnMMhPfVVXJSgIwl9s9E7UnWmD3kUBrpGvh
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -666,7 +666,6 @@ c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber 
 5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech Kenya Limited Customer Feedback Survey	Please take a moment to share your experience with our products and services. Your input will help us improve and serve you better. The survey is short and confidential.\n\nWE VALUE YOUR FEEDBACK. 	Live	100	2025-11-07 11:39:01+00	2025-08-08 11:39:01.346925+00
 2c9db8f1-9a72-46d1-84c6-796f929c935d	40baf87e-8ced-4289-b4b3-37920ba505dc	Customer Engagement	\N	Live	800	2025-11-08 07:07:16.065+00	2025-10-09 07:07:16.113116+00
 41bf49e5-b370-48ea-93cc-ae1ab684c5b4	40baf87e-8ced-4289-b4b3-37920ba505dc	Customer Feedback	\N	Live	800	2025-11-08 07:01:30.421+00	2025-10-09 07:01:30.468788+00
-24ee0ca4-b114-4ecd-8686-3bab824ba0c1	96a46c1a-027a-477a-8d9e-4c301fa443d9	Sample Customer Engagement Survey	\N	Live	800	2025-11-08 08:31:33.889+00	2025-10-09 08:31:33.938936+00
 9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-04 12:02:55+00	2025-03-27 12:02:55.401985+00
 \.
 
@@ -1101,11 +1100,6 @@ bc9e725f-6408-4f1a-8200-c9d1362d666f	c082054d-46e4-4bdf-ac24-810d17406e7c	Rating
 d41f61b5-b726-4640-bd7a-8854fe06b025	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What did you like/enjoy most about our hotel during your stay?	\N	2024-11-18 09:03:06.369287+00	2025-02-17 11:18:11.541299+00
 a516e0b8-d38d-4b30-bded-33b39cf340c7	c082054d-46e4-4bdf-ac24-810d17406e7c	Ranking	Which cuisine did you enjoy the most?	\N	2024-11-18 09:05:46.174851+00	2025-02-17 11:18:11.541299+00
 f02b7365-be16-44bd-937c-a8e6549b5465	c082054d-46e4-4bdf-ac24-810d17406e7c	Single	What suggestions would you offer to improve your experience during your next visit?	\N	2024-11-18 09:06:13.513509+00	2025-02-17 11:18:11.541299+00
-d9b99587-c5b0-4073-8a36-48db9636a62d	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	Single	What motivated you to choose our product/service?	\N	2025-10-09 08:31:33.938936+00	2025-10-09 08:31:33.938936+00
-b0cf7610-3d4f-4479-89dc-157af2017600	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	Single	How would you describe your overall experience with us?	\N	2025-10-09 08:31:33.938936+00	2025-10-09 08:31:33.938936+00
-b48b8aff-47fa-4919-8629-290cec09d880	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	Single	What aspects of our product/service did you find most valuable or enjoyable?	\N	2025-10-09 08:31:33.938936+00	2025-10-09 08:31:33.938936+00
-19ef4f2e-0c5a-47b1-a63c-dc9effc99978	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	Single	Were there any challenges or frustrations you encountered? Please explain.	\N	2025-10-09 08:31:33.938936+00	2025-10-09 08:31:33.938936+00
-b7d2a096-8c8e-4fec-9c44-a853b749ad8d	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	Single	How can we improve our products or services to better meet your needs?	\N	2025-10-09 08:31:33.938936+00	2025-10-09 08:31:33.938936+00
 99603a7f-6e02-4251-8ac6-97ba43eeec73	87b12e28-e576-4126-a218-566de1313caf	Single	Why are politicians bird brains	\N	2025-09-11 06:14:44.270917+00	2025-09-11 06:14:44.270917+00
 f13a754d-c532-43ff-b4da-be10d6636470	9587799c-55f3-4098-9e9c-ef0359acc6b2	Optional	Have you been to oilepo before	\N	2025-03-27 12:04:37.092814+00	2025-03-27 12:04:37.092814+00
 65370307-4a68-4ac7-afb5-a5e5e9828fd7	9587799c-55f3-4098-9e9c-ef0359acc6b2	Optional	When were you last at oilepo	\N	2025-03-27 12:06:08.737708+00	2025-03-27 12:06:08.737708+00
@@ -6358,13 +6352,6 @@ cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	36db06
 cc516cd2-aafb-466a-93ec-4419cfc2eb07	9587799c-55f3-4098-9e9c-ef0359acc6b2	fcb66664-2fa5-453c-8593-c6d03712206d	\N	Indian	2025-04-03 08:05:55.869098+00	17
 359b832f-cd18-4791-9da4-bf9e5be927bf	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-04-03 08:06:06.448456+00	18
 2350522b-1215-4d9e-8548-b17055702781	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	eggs	2025-04-03 08:06:16.314107+00	19
-d9b99587-c5b0-4073-8a36-48db9636a62d	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	\N	\N	I like to buy stuff	2025-10-09 08:37:04.124664+00	124
-b0cf7610-3d4f-4479-89dc-157af2017600	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	\N	\N	Meh	2025-10-09 08:37:10.819509+00	125
-b48b8aff-47fa-4919-8629-290cec09d880	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	\N	\N	The features were radical but the visuals sucked	2025-10-09 08:37:52.885466+00	126
-19ef4f2e-0c5a-47b1-a63c-dc9effc99978	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	\N	\N	Up your game on customer service	2025-10-09 08:38:08.446116+00	127
-d9b99587-c5b0-4073-8a36-48db9636a62d	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	\N	\N	The customer service is top notch	2025-10-09 08:38:09.90654+00	128
-b7d2a096-8c8e-4fec-9c44-a853b749ad8d	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	\N	\N	Hire a complete new team	2025-10-09 08:38:24.209734+00	129
-b0cf7610-3d4f-4479-89dc-157af2017600	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	\N	\N	Very nice	2025-10-09 08:38:27.170979+00	130
 f13a754d-c532-43ff-b4da-be10d6636470	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	No	2025-09-30 17:25:15.074292+00	36
 10b2887d-c419-41e7-b827-f2d0a942f554	9587799c-55f3-4098-9e9c-ef0359acc6b2	2d9208b9-8b92-4ace-b96c-d747f0445c60	\N	Search Engine	2025-09-30 17:25:34.429832+00	37
 d07cf3a5-7935-41be-8cdc-99d6427edd09	9587799c-55f3-4098-9e9c-ef0359acc6b2	\N	\N	4	2025-09-30 17:25:45.687624+00	38
@@ -6392,8 +6379,6 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 1	9587799c-55f3-4098-9e9c-ef0359acc6b2	Primary	Education	Germany	Bavaria	188.245.45.171	t	\N
 2	9587799c-55f3-4098-9e9c-ef0359acc6b2	Under-Graduate	Electrical	Kenya	Nairobi	::1	t	Dagoretti North
 4	9587799c-55f3-4098-9e9c-ef0359acc6b2	High-School	Entertainment	Kenya	Nakuru	::1	t	Gilgil
-10	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	High-School	Fashion	American Samoa		10.0.1.7	t	\N
-11	24ee0ca4-b114-4ecd-8686-3bab824ba0c1	High-School	Energy	Kenya	Garissa	10.0.1.7	t	Ijara
 \.
 
 
@@ -6573,6 +6558,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict nhpcSuN8F9x1aDFlUdW9qiQWkAX0Sntyw8JfINgR3zL2ThSG8Nlu5pPp4WudeVK
+-- \unrestrict osOS3kviNqWWF5IPs9i9KrIEMvU4cnMMhPfVVXJSgIwl9s9E7UnWmD3kUBrpGvh
 
 RESET ALL;
