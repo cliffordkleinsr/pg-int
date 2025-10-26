@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict dgISmEiQbaSO6FV7aBGsLBC1evzNLm8LocvTzVwy9TQbltUIJdZwmPaMwi7bcxd
+-- \restrict RoaGGIp90UERQ5fzlvVSnpjdAuSX8KugAkIFhqhGT6bi11GCfU8qc55jH7xzZ5t
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -199,6 +199,7 @@ c03f041d-a78a-4b3c-9153-b5a02448bd77	Inuitive Insights	info@int-insights.com	t	$
 ec4b09e2-a645-425c-b43b-b59f19525056	Belinda Amondi	amondibelinda0@gmail.com	t	$2b$15$ezsfEnpvRUAqOqbqUVO6XubU86szxoAL4TdbTENiUeVOIoCJZZcwe	AGENT	26	Female	\N	f	2024-11-07 06:21:09.391527+00	\N	f
 b4d3f648-ee61-4857-8202-98bba2e42360	Ganet Mwaura	mwauraganet6@gmail.com	t	$2b$15$0SYcNPZulwRs/SRBE74JS.sdNxamZx6kH0cboT3CsbsrzCdMxRt6y	AGENT	20	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 2e00b4ab-d73c-4e24-aac8-1bc0095f15c6	Christine Ndolo	christinembithendolo@gmail.com	t	$2b$15$M8YEe4.xw0etC35fm0Lrpe0cGx4fGvupt7Q8vkR7qdtEHFGe/9tdq	AGENT	28	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+d107e676-abe3-4223-83f5-2d964067262e	James Maina	jkmainag268@gmail.com	t	$2b$15$pzMMxwjRzbG4NanEJL.9Su.MxBq5QboykDvyX.qjAS.7gtB6C7ACO	CLIENT	\N	\N	\N	f	2025-10-25 14:13:01.87659+00	\N	f
 1adae48f-088a-46f5-af29-7a551e7f2aa2	Hussein Sadick	sadickhussein24@gmail.com	t	$2b$15$bH.XM80f6lJjJb0uuMC3XOqkH3zqRKLSgeCZN6cR8b4.3liOMAxkS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 39671909-2af2-4edf-b653-166689c525a1	Gabriel Njeru	mjmurithi@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 08:43:25.899503+00	\N	f
 365ae29d-cbaf-442f-8005-c81db0d5f52c	Faith ñduku mulei	fayyfayy20@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-13 10:08:16.26229+00	\N	f
@@ -684,6 +685,9 @@ c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber 
 41bf49e5-b370-48ea-93cc-ae1ab684c5b4	40baf87e-8ced-4289-b4b3-37920ba505dc	Customer Feedback	\N	Live	800	2025-11-08 07:01:30.421+00	2025-10-09 07:01:30.468788+00
 9587799c-55f3-4098-9e9c-ef0359acc6b2	75b87d71-3545-4032-adcb-64700e7456f7	Oilepo Hospitality Survey	To understand our brand image and customer experience	Closed	100	2025-04-04 12:02:55+00	2025-03-27 12:02:55.401985+00
 1ea33d10-54ce-42ca-a8ff-a2b1b820345e	c03f041d-a78a-4b3c-9153-b5a02448bd77	Intuitive Insights Customer Satisfaction Survey	\N	Live	800	2026-04-23 08:14:34.061+00	2025-10-23 08:14:34.110286+00
+e3d43bf5-57ab-46d6-b480-53a3e4aaa6ac	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure	Live	800	2026-04-25 14:15:12.196+00	2025-10-25 14:15:12.227867+00
+36fcdad1-f2a0-4ae1-a9f0-3b3d1b542053	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure	Draft	800	2026-04-25 14:17:22.881+00	2025-10-25 14:17:22.91403+00
+8b2766cb-7e28-486b-8114-e9253337bdfa	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure phone	Live	800	2026-04-25 14:22:15.991+00	2025-10-25 14:22:16.021598+00
 \.
 
 
@@ -1156,6 +1160,7 @@ e9215202-d3c8-4a07-8d77-c8f2a1422fd1	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	Rating
 07767ffb-10ff-4fd1-9e4e-4fb2542bb880	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	Optional	How would you rate the timeliness of our service delivery?	\N	2025-10-23 08:14:38.061+00	2025-10-23 08:14:38.061+00
 47b4e72c-9b13-455a-b52a-6b65c14a16fe	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	Rating	How likely are you to recommend us to others?	\N	2025-10-23 08:14:40.061+00	2025-10-23 08:14:40.061+00
 5f2fa13a-4e3d-4475-8abb-04c61a3df1f4	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	Rating	How would you rate your overall satisfaction with our (product/service)?	\N	2025-10-23 08:14:42.061+00	2025-10-23 08:14:42.061+00
+fcccf905-54af-48c6-b504-b522a0378611	8b2766cb-7e28-486b-8114-e9253337bdfa	Single	How to use this app	\N	2025-10-25 14:23:35.668044+00	2025-10-25 14:23:35.668044+00
 \.
 
 
@@ -6178,6 +6183,7 @@ c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	
 96a46c1a-027a-477a-8d9e-4c301fa443d9	info@pantech-ke.com	Pantech Kenya Limited	+254715674636	Kenya	Nairobi	Manufacturing	f	2025-08-08 08:15:30.818466+00
 40baf87e-8ced-4289-b4b3-37920ba505dc	timothy@carboncube-ke.com	Carbon Cube Kenya	+254707956457	Kenya	Nairobi	Others	f	2025-10-08 06:50:43.917496+00
 c03f041d-a78a-4b3c-9153-b5a02448bd77	info@int-insights.com	Intuitive Insights	+254795057553	Kenya		Information Technology	f	2025-10-23 08:11:17.224912+00
+d107e676-abe3-4223-83f5-2d964067262e	jkmainag268@gmail.com	None	+254792092468	Kenya		Agriculture	f	2025-10-25 14:13:01.87659+00
 \.
 
 
@@ -6441,6 +6447,8 @@ COPY "public"."user_sessions" ("id", "user_id", "expires_at") FROM stdin;
 d53f4ed438a48795f360ab5a7a5df94c23ee7f5417b53133f20eaa70780ec92f	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-10-24 15:12:29.601+00
 8bc9da87ee9e06e77d2204817478a072f820f9b68c5c3c51ec3c333efe058547	c1bde176-582a-4028-888e-a70875a11f51	2025-10-24 15:36:31.697+00
 8a8ff6d66917fc5bb6c0c94ccfa61d826ca3745f1c0b257a9c0e3a469fed2103	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-11-22 11:36:00.053+00
+6d21e97c2741c383585720ae7aa21c7858acc171c4afda34d06c905f1666d0d0	d107e676-abe3-4223-83f5-2d964067262e	2025-10-26 20:13:02.991+00
+fedbe7fbab0705d038a160b7c56707da1c55f18de005e511a17bfc2d9bb76785	d107e676-abe3-4223-83f5-2d964067262e	2025-10-26 20:13:33.788+00
 \.
 
 
@@ -6559,6 +6567,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict dgISmEiQbaSO6FV7aBGsLBC1evzNLm8LocvTzVwy9TQbltUIJdZwmPaMwi7bcxd
+-- \unrestrict RoaGGIp90UERQ5fzlvVSnpjdAuSX8KugAkIFhqhGT6bi11GCfU8qc55jH7xzZ5t
 
 RESET ALL;
