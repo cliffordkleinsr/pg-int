@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Q6rxwJXW1A6d9CGtQRcFLQMtTM9EJxUzIZYeFss3vAL7C8hVD5CoUVbXwwGgVC7
+-- \restrict XRAr5fN3mcDcdsbYO0YtjxjoR8SmZPQq6zjwTKdnQCMqnUtrXx4mO2SF1BAmuqr
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -6449,6 +6449,16 @@ d53f4ed438a48795f360ab5a7a5df94c23ee7f5417b53133f20eaa70780ec92f	c03f041d-a78a-4
 8a8ff6d66917fc5bb6c0c94ccfa61d826ca3745f1c0b257a9c0e3a469fed2103	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-11-22 11:36:00.053+00
 6d21e97c2741c383585720ae7aa21c7858acc171c4afda34d06c905f1666d0d0	d107e676-abe3-4223-83f5-2d964067262e	2025-10-26 20:13:02.991+00
 fedbe7fbab0705d038a160b7c56707da1c55f18de005e511a17bfc2d9bb76785	d107e676-abe3-4223-83f5-2d964067262e	2025-10-26 20:13:33.788+00
+57d73dfd0ab1c196bfa8eb773cd9dd4c9b28583155c5c649c351c8add32492f4	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-11-26 05:44:49.451+00
+d4c0f203c1182c962c41a105123d10ac664debef1b4782cc2322589ee327ba5b	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-28 11:48:46.954+00
+\.
+
+
+--
+-- Data for Name: utm_source_tracking; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."utm_source_tracking" ("id", "persona_id", "user_id", "utm_source", "utm_medium", "utm_campaign", "recorded_at") FROM stdin;
 \.
 
 
@@ -6567,6 +6577,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Q6rxwJXW1A6d9CGtQRcFLQMtTM9EJxUzIZYeFss3vAL7C8hVD5CoUVbXwwGgVC7
+-- \unrestrict XRAr5fN3mcDcdsbYO0YtjxjoR8SmZPQq6zjwTKdnQCMqnUtrXx4mO2SF1BAmuqr
 
 RESET ALL;

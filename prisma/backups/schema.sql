@@ -582,6 +582,20 @@ CREATE TABLE IF NOT EXISTS "public"."users" (
 ALTER TABLE "public"."users" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."utm_source_tracking" (
+    "id" "uuid" NOT NULL,
+    "persona_id" "uuid" NOT NULL,
+    "user_id" "text",
+    "utm_source" "text",
+    "utm_medium" "text",
+    "utm_campaign" "text",
+    "recorded_at" timestamp without time zone DEFAULT "now"() NOT NULL
+);
+
+
+ALTER TABLE "public"."utm_source_tracking" OWNER TO "postgres";
+
+
 ALTER TABLE ONLY "public"."consumer_package" ALTER COLUMN "id" SET DEFAULT "nextval"('"public"."consumer_package_id_seq"'::"regclass");
 
 
@@ -706,6 +720,11 @@ ALTER TABLE ONLY "public"."users"
 
 ALTER TABLE ONLY "public"."users"
     ADD CONSTRAINT "users_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."utm_source_tracking"
+    ADD CONSTRAINT "utm_source_tracking_pkey" PRIMARY KEY ("id");
 
 
 
@@ -859,6 +878,11 @@ ALTER TABLE ONLY "public"."user_sessions"
 
 
 
+ALTER TABLE ONLY "public"."utm_source_tracking"
+    ADD CONSTRAINT "utm_source_tracking_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON DELETE CASCADE;
+
+
+
 ALTER TABLE "public"."agent_data" ENABLE ROW LEVEL SECURITY;
 
 
@@ -929,6 +953,9 @@ ALTER TABLE "public"."user_sessions" ENABLE ROW LEVEL SECURITY;
 
 
 ALTER TABLE "public"."users" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."utm_source_tracking" ENABLE ROW LEVEL SECURITY;
 
 
 
@@ -1354,6 +1381,12 @@ GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public".
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."users" TO "anon";
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."users" TO "authenticated";
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."users" TO "service_role";
+
+
+
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."utm_source_tracking" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."utm_source_tracking" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."utm_source_tracking" TO "service_role";
 
 
 
