@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Kn5GJa5vu2E1XUnu203YJ5yhbXoh4Dg8FQrlu24ckzW4IK70xVNiWywtEAzQZiu
+-- \restrict RD1etFgS3zpeh2DDgyZFNAgERpX7bb799WPJr3YP2fPghaFdmevNqkkkg590NuN
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -258,6 +258,7 @@ fa91e9e8-c7cb-42da-a152-a99df912a383	Rophine akoth opwapo	rophineopwapo4@gmail.c
 a8327a88-6261-4dc5-a9aa-e066d3abfc14	Joyce Wahinya wambui	jas981611@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 08:58:52.281341+00	\N	f
 2bf87d93-8904-4d8f-877e-f6db2996f760	Elvin kamau	elvinkim16@gmail.com	t	$2b$15$q8GI/Wzzz41Qw8wEQs709e339/tnLFmVRsTQqROvcpiF6DXqAVAbC	AGENT	27	Male	\N	f	2025-01-18 07:53:39.224629+00	\N	f
 eeb7b38e-54f3-44d1-8e51-9dd06c90b200	Eddy Ochango	eddyochango93@gmail.com	t	$2b$15$9snUi90Qnya4hOE2H2Yuoef2Aix9jY1RoHbhTh1masLK8X1J5.INW	AGENT	31	Male	\N	f	2025-01-22 04:41:17.789151+00	\N	f
+1d7ab65e-fefc-44bc-86d5-ddf6e9a8d6c9	Maurice Otunga Odera	mauriceotunga92@gmail.com	t	$2b$15$m82uweSZI3iu/AE975KEh.7tW5dZfeBSNSaZ5tkAXgqNwp/Ph.pYe	CLIENT	\N	\N	\N	f	2025-10-29 08:24:45.786259+00	\N	f
 06e63731-8535-4949-8386-e1f531cc7538	bradon kiiza ngo'ng'olo	brandonkiiza18@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Male	\N	f	2025-01-11 06:01:30.828026+00	\N	f
 139cdc9b-82b0-4db2-ae12-9da4c3dbb18f	Brenda Atieno	brendahzam@gmail.com	t	$2b$15$AiFuut3tL1JEtdRBOsxQkOi/Jg6gjhkpiCCVnYIfQULED6pRVEIGW	AGENT	33	Female	\N	f	2024-11-06 12:18:54.075553+00	\N	f
 10d805ed-704a-493f-93de-9c0bd809121b	Benny mumbua	b7162796@gmail.com	t	$2b$15$Kc77tZ1xNDZppcJyU2Vij.503Ja6kaiUjuFxh476V39ktlkAj4CDK	AGENT	25	Female	\N	f	2025-01-21 12:00:26.861249+00	\N	f
@@ -299,6 +300,7 @@ e3fc0be9-1068-4a67-a933-b13d4e13daa9	Jack Alaii	jackdavid69558@gmail.com	t	$2b$1
 edcf5863-e044-48b3-a6b7-69ffa7f265c2	Jamal Said Tendwa	jamaltendwa18@gmail.com	t	$2b$15$LiGgBfEbciWdX6jS/8RkZO.n73pN.wPufwy8OKfksvHqbs2Og5tvq	AGENT	23	Male	\N	f	2024-11-09 17:25:47.995181+00	\N	f
 3e9c4be0-d7fc-4d75-8fdc-bfefe3b7b66d	Mary wamaitha	jaymohhazi@gmail.com	t	$2b$15$sqkF1dq4b2OintRvxxz3VOO7vy8FZUuOSnI3/tM4OL3vMJwganjrG	AGENT	32	Female	\N	f	2024-11-10 17:24:31.457546+00	\N	f
 d0b05df9-2e8f-43ab-a16e-247efb7b6fa0	Neema akinyi	jennifermaaga@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-10 06:15:32.809806+00	\N	f
+7409b504-9251-49f2-905f-a538bddab2b1	ALEX MWENDA	alex.mwenda1997@gmail.com	t	$2b$15$O5r0vp6P3W.E19RsnIwvaO.GlguCnmYmaUdhPgIdSAWLk1x6N3dGi	CLIENT	\N	\N	\N	f	2025-10-29 17:52:46.767666+00	\N	f
 11f24999-5b2c-4b15-a0d0-3554121bf9ed	Christine Gesare	christinegrsare@gmail.com	t	$2b$15$WCqZAczDIZkDwVg0bqD/3O1qFnpEyCM1xZpdaLV4rLhGtPW7G2wfW	AGENT	23	Female	\N	f	2025-01-21 13:45:41.702548+00	\N	f
 415f0130-2e4b-4513-8b74-d21445461a79	Donald Misati	donaldosoro96@gmail.com	t	$2b$15$aA/Ei/xZvm9nXYsSuFSnJOPlv2ioQMhPuM5tBNoJXYCryeLu2R86.	AGENT	21	Male	\N	f	2025-01-22 06:32:04.965742+00	\N	f
 4dcd4071-5314-4bea-874c-e4c072f25f3c	Jotham	jothamwekesa9@gmail.com	t	$2b$15$W7ZPanXwqqdpMOBV3o3KqOdJ0bvGQQtjOArUulxGe/2aFAvu9tWle	AGENT	30	Male	\N	f	2024-11-11 07:21:53.770501+00	\N	f
@@ -688,6 +690,7 @@ c082054d-46e4-4bdf-ac24-810d17406e7c	c1bde176-582a-4028-888e-a70875a11f51	Amber 
 e3d43bf5-57ab-46d6-b480-53a3e4aaa6ac	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure	Live	800	2026-04-25 14:15:12.196+00	2025-10-25 14:15:12.227867+00
 36fcdad1-f2a0-4ae1-a9f0-3b3d1b542053	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure	Draft	800	2026-04-25 14:17:22.881+00	2025-10-25 14:17:22.91403+00
 8b2766cb-7e28-486b-8114-e9253337bdfa	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure phone	Live	800	2026-04-25 14:22:15.991+00	2025-10-25 14:22:16.021598+00
+d5e18884-dd88-4118-b653-94bca7613428	1d7ab65e-fefc-44bc-86d5-ddf6e9a8d6c9	Business	Business entities	Draft	800	2026-04-29 08:27:22.553+00	2025-10-29 08:27:22.590912+00
 \.
 
 
@@ -6184,6 +6187,8 @@ c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	
 40baf87e-8ced-4289-b4b3-37920ba505dc	timothy@carboncube-ke.com	Carbon Cube Kenya	+254707956457	Kenya	Nairobi	Others	f	2025-10-08 06:50:43.917496+00
 c03f041d-a78a-4b3c-9153-b5a02448bd77	info@int-insights.com	Intuitive Insights	+254795057553	Kenya		Information Technology	f	2025-10-23 08:11:17.224912+00
 d107e676-abe3-4223-83f5-2d964067262e	jkmainag268@gmail.com	None	+254792092468	Kenya		Agriculture	f	2025-10-25 14:13:01.87659+00
+1d7ab65e-fefc-44bc-86d5-ddf6e9a8d6c9	mauriceotunga92@gmail.com	Odera	+254795630321	Kenya	Migori	Agriculture	f	2025-10-29 08:24:45.786259+00
+7409b504-9251-49f2-905f-a538bddab2b1	alex.mwenda1997@gmail.com	Dalex	+254797594571	Kenya		Telecommunications	f	2025-10-29 17:52:46.767666+00
 \.
 
 
@@ -6451,6 +6456,11 @@ d53f4ed438a48795f360ab5a7a5df94c23ee7f5417b53133f20eaa70780ec92f	c03f041d-a78a-4
 fedbe7fbab0705d038a160b7c56707da1c55f18de005e511a17bfc2d9bb76785	d107e676-abe3-4223-83f5-2d964067262e	2025-10-26 20:13:33.788+00
 57d73dfd0ab1c196bfa8eb773cd9dd4c9b28583155c5c649c351c8add32492f4	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-11-26 05:44:49.451+00
 d4c0f203c1182c962c41a105123d10ac664debef1b4782cc2322589ee327ba5b	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-10-28 11:48:46.954+00
+9a749b4ba462704b386470259ffc7741a512ee6c21b33a14a3ab3dcb16b8b315	1d7ab65e-fefc-44bc-86d5-ddf6e9a8d6c9	2025-10-30 14:24:46.404+00
+7738dc3e2e04ab36348f93f9ceba8309e233ee249266b0c5876c6d950a1c315a	1d7ab65e-fefc-44bc-86d5-ddf6e9a8d6c9	2025-10-30 14:25:17.166+00
+7ce026d9712187ba153471e39903e368cef9a840b1e81fe3cf634ef6612d99a1	c1bde176-582a-4028-888e-a70875a11f51	2025-10-30 15:40:16.856+00
+8f6f306a33ed02134e0a7866c4edc00b347676773745033b61bb1b9d5b650960	7409b504-9251-49f2-905f-a538bddab2b1	2025-10-30 23:52:47.377+00
+a557221f3f07a73f7f0e3ef749aa04188b7ff4a4d101d45483940e8ec4420a77	7409b504-9251-49f2-905f-a538bddab2b1	2025-10-30 23:53:46.389+00
 \.
 
 
@@ -6577,6 +6587,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Kn5GJa5vu2E1XUnu203YJ5yhbXoh4Dg8FQrlu24ckzW4IK70xVNiWywtEAzQZiu
+-- \unrestrict RD1etFgS3zpeh2DDgyZFNAgERpX7bb799WPJr3YP2fPghaFdmevNqkkkg590NuN
 
 RESET ALL;
