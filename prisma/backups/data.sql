@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict HtZQxQtL3cyRTX0SXksBONaTBdMtCmS2LQBAB0emBgdY3HcSkdNviWmOHlsUVdw
+-- \restrict SKoGRWQHZ9lQb0B2hz8X6Ya96ufDMwz85tYhDkcIPr2Oeen6YkimoX3clu0LEyh
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -411,6 +411,7 @@ f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	Ery	foxdrive.rycoh@gmail.com	t	$2b$15$mYRf1
 55c8bb46-93a8-4fa8-91f8-c9630eaac44a	Mitchel Oyugi Onyango	pharellesmith@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-11 04:06:21.600006+00	\N	f
 ce9a89cb-3995-468b-ad03-46a82f57f87c	Joseph Wairimu	gitahijoseph734@gmail.com	t	$2b$15$nNK0JppbRZxT/hfp2J8dsumP1zH2.MhgwBb5Syye4nYBEgtWr7zEC	CLIENT	\N	\N	\N	f	2025-10-30 18:12:41.910315+00	\N	f
 2598fac5-c1e3-425d-85c2-b04d5d9e3338	Andrew	\N	f	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocLmor-_Kjykq9GaXwKBRO_1SLeSndWwX50b3TDYTpt19UphDw=s96-c	f	2025-04-28 15:45:44.891211+00	104841372852436235549	t
+26f20ca8-ba48-4eb8-87bf-c6f3d8f45013	Caroline Wambui	wambuicarol698@gmail.com	t	$2b$15$dPwjtAe0Gzxl9ND5xxsAfuIbwPZfAzDBgZ2UHY7iP/RaixKbqWERS	CLIENT	\N	\N	\N	f	2025-11-01 14:10:11.992397+00	\N	f
 9c159f1c-6589-41e7-84c7-3da9eb15809c	Edith Nakabuye Joyce	edithnakabuye@gmail.com	t	$2b$15$zuti.7KDiHLbtj8sgvWu3OFwhnYQSyfc5vqGRXtsrAaLr9Lb8nP3q	AGENT	23	Female	\N	f	2025-01-18 11:51:08.908325+00	\N	f
 1b9357a0-e19f-4bcc-b9ac-7f04d17f869c	Lewis Manyeki	lewismanyekinyambura@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 d9e28da8-ab57-415c-b304-4faafeebb8ae	Felisia imende muhonja	felisiareginald@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-18 10:02:08.365802+00	\N	f
@@ -6183,6 +6184,7 @@ d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	\N	\N	
 --
 
 COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone", "country", "state", "sector", "disabled", "created_at") FROM stdin;
+26f20ca8-ba48-4eb8-87bf-c6f3d8f45013	wambuicarol698@gmail.com	Summer 	+254768971481	Kenya		Fashion	f	2025-11-01 14:10:11.992397+00
 75b87d71-3545-4032-adcb-64700e7456f7	ubermatchvlaad212@gmail.com	CSNRU	+254743962943	Kenya	Taveta	Education	f	2025-02-28 17:38:15.884534+00
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Kenya	Nairobi City	Others	f	2025-02-02 13:21:20.73+00
 6fc353c4-adee-4d2d-b84d-7915880ff698	jumatimothymwangi@gmail.com	Timothy	+254707956457	Kenya	Nairobi	jumatimothymwangi@gmail.com	f	2025-08-08 05:14:51.680644+00
@@ -6473,6 +6475,8 @@ a665bbffea762ae494b892aabe4f31fc787b0785a633c587d53d7eca789b3036	64ec16af-33b9-4
 2846dfcb4811f5c80d584c1f38a7d680a8a8cebd40cc8cbd3a38cadc974068c5	64ec16af-33b9-4a23-8949-eff37e6a1bd9	2025-10-31 18:53:35.22+00
 f9ef80eadaecc3b1a623def36f48f33b3718c0cef03e67649583a4f3d0dabac7	ce9a89cb-3995-468b-ad03-46a82f57f87c	2025-11-01 00:12:42.52+00
 6f1e3be0d622943ddad10dba7bb3582bf701019455735a7bc24f7bc6cfb7df7f	ce9a89cb-3995-468b-ad03-46a82f57f87c	2025-11-01 00:13:06.229+00
+bdfb17d2986be895e26a282f45e7565a5f145cbf54deaba7cfec0b626eef1023	26f20ca8-ba48-4eb8-87bf-c6f3d8f45013	2025-11-02 20:10:12.726+00
+776e70cb5d2dc64237aa91f51977ef6ea825c40ce39b5a219c3d2ae2cb0c2f18	26f20ca8-ba48-4eb8-87bf-c6f3d8f45013	2025-11-02 20:10:37.945+00
 \.
 
 
@@ -6599,6 +6603,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict HtZQxQtL3cyRTX0SXksBONaTBdMtCmS2LQBAB0emBgdY3HcSkdNviWmOHlsUVdw
+-- \unrestrict SKoGRWQHZ9lQb0B2hz8X6Ya96ufDMwz85tYhDkcIPr2Oeen6YkimoX3clu0LEyh
 
 RESET ALL;
