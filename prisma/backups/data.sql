@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict SKoGRWQHZ9lQb0B2hz8X6Ya96ufDMwz85tYhDkcIPr2Oeen6YkimoX3clu0LEyh
+-- \restrict bMvvsj4bR95VmRw5n5pl8qEhyYREjGTVG8P3BTQqAh4jwgim1AQaN5XjXWcIc2m
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -181,15 +181,18 @@ b4f75ba7-7b1e-45b7-bcc6-cbbbdbf9c268	Rebecca kinuthia	beckykinuthia4@gmail.com	t
 70080823-9509-4792-b3d3-767df62de09a	Seline Adhiambo	Adhiamboseline97@97gmail.com	t	$2b$15$ziDBJPmBceZFpYPzIMi7lerGYGXBuvCdKi6PHeuZU2uEvZrokijuG	AGENT	22	Female	\N	f	2024-11-07 11:53:02.867665+00	\N	f
 58d3c3cb-0914-4516-bf95-ceef24429241	Seline Ochieng	Adhiamboseline97@gmail.com	t	$2b$15$8.juD88T0MgElvV.2U18Q.CLQF67O0YG8U5KX68Zm4WVNmI.1UVM2	AGENT	22	Female	\N	f	2024-11-07 12:12:49.859487+00	\N	f
 6fc353c4-adee-4d2d-b84d-7915880ff698	Timothy	jumatimothymwangi@gmail.com	t	$2b$15$PGwcji3/Nk6rt4..8HtwAe4AN1GI5K49QzOBgTwne5OyaAju5LcCy	CLIENT	\N	\N	\N	f	2025-08-08 05:14:51.680644+00	\N	f
+a151f037-4b9e-4af8-ab0d-810d4b3c4371	Ruth njeri wanyoike	rwanyoike55@gmail.com	t	$2b$15$/4DmILQi2phzJ2Nlh4fdk.ZV.0Po1molcGsVc.o/rb3Nc/vk1ctsi	CLIENT	\N	\N	\N	f	2025-11-02 05:20:46.517324+00	\N	f
 ed030e9b-3f7e-4988-a86b-04a8f075cee6	Grace Mbuti	neemambuti@gmail.com	t	$2b$15$tOkuhRktSz6hkORoMniWxuJLXG8p8OGfoMM57CBgwo2ZQI1UpfQzi	AGENT	35	Female	\N	f	2025-01-21 18:30:46.170476+00	\N	f
 01055346-f4e3-4282-a2ca-e87deedfd078	Gaudencia tsimanji	tsimanjig123@gmail.com	t	$2b$15$Jegvzu.Lmeohn7DopGDJeev0gk9r9uVHvyMh2y0938DERIdUmHecy	CLIENT	\N	\N	\N	f	2025-01-22 10:18:58.073015+00	\N	f
 96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech	info@pantech-ke.com	t	$2b$15$BPe7tzRvc3pCVxNcQG0SBeDTuQStNHhAvwckLNn9EYDCbs5OXARV.	CLIENT	\N	\N	\N	f	2025-08-08 08:15:30.818466+00	\N	f
+ee647a62-e2e3-4cb8-8a3c-a7e08682b480	Alex Msanii	alexmusanii88@gmail.com	t	$2b$15$ebOEdPEVxA4hq93o1thusedAhEzZMDztRJqpLnmqDu0XDOoI5gynG	CLIENT	\N	\N	\N	f	2025-11-02 08:32:15.641386+00	\N	f
 b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	Hannah wambui kamau	hannahkamau9137@gmail.com	t	$2b$15$Z7o2vWZKXhx3/NonHKdgvurlWfuyM6UFcmpBRtRGZhUZuu.uYsEmK	AGENT	24	Female	\N	f	2025-01-21 07:52:30.9226+00	\N	f
 d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$15$n6EzEe005jIqjKhabB/RUuhcLJmiIszECy2KwGv2dTki84lzqrhJe	AGENT	29	Male	\N	f	2025-01-21 18:50:12.494244+00	\N	f
 93325eb3-6c9e-4bd0-854a-88abf48f9887	Alicia Mwisangwe	aliciamwisangwe@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 09:03:53.553715+00	\N	f
 85536ca4-ab4f-4eff-a4cc-a81486346505	Thomas wambua Kamau	Twambua2030@gmail.com	t	$2b$15$NKUYlE0x0lkt0qFgydyrj.P8FybRqonI/HZRUibDqcS4GOcAtcQu2	AGENT	25	Male	\N	f	2025-01-22 13:42:56.435374+00	\N	f
 c1bde176-582a-4028-888e-a70875a11f51	Christine Staicy	christinestaicy@gmail.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	CLIENT	23	\N	\N	f	2024-11-11 13:06:37.486145+00	\N	f
 40baf87e-8ced-4289-b4b3-37920ba505dc	Timothy	timothy@carboncube-ke.com	t	$2b$15$Hv2bDH8F2uUy22tAIGdyieT5NPdvmvHkvcBUTRr5OqcHbl.1FrqNi	CLIENT	\N	\N	\N	f	2025-10-08 06:50:43.917496+00	\N	f
+078897a7-3a7f-4cfa-aa89-40b641d93d1d	Peace Joy	peacejoy01@gmail.com	t	$2b$15$MjHAQAeu17fFDwjY.MexpOQNRF11rNUqmB7rDI4PJfmqQmaL4T09i	CLIENT	\N	\N	\N	f	2025-11-02 12:46:45.912054+00	\N	f
 36bdfd9c-73b6-448d-9a4b-5ffff35a8b43	Kentrell Williams	kentrellnamaswa@yahoo.com	t	$2b$15$EPae5dM3N8WjayuJ6Rh1lObIVgOTRTJeeT4l15xuRNPdc0YZ.8Tne	AGENT	35	Female	\N	f	2025-01-21 10:56:09.017717+00	\N	f
 6ea5e5a3-d51b-41ad-8f60-806f7a4cbcbd	JOSEPH THANGARANI	thangaranijoseph@gmail.com	t	$2b$15$g4fbYTq2c6DEVmRnUJOnhOaEGMCB0fprs5N6ebWDKBlTJANia2CXm	AGENT	30	Male	\N	f	2025-01-21 20:12:10.625092+00	\N	f
 0dc55b78-1b38-4b00-972f-82db326c93b4	Darvin Omuse	darvinkilui@gmail.com	t	$2b$15$RlBZSKiahleSjIYJHfAnbOi9cAUdmhCmo.UJK63ejnbFugjD2ZCja	AGENT	25	Male	\N	f	2025-01-21 20:39:21.750203+00	\N	f
@@ -695,6 +698,7 @@ e3d43bf5-57ab-46d6-b480-53a3e4aaa6ac	d107e676-abe3-4223-83f5-2d964067262e	Aka	To
 36fcdad1-f2a0-4ae1-a9f0-3b3d1b542053	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure	Draft	800	2026-04-25 14:17:22.881+00	2025-10-25 14:17:22.91403+00
 8b2766cb-7e28-486b-8114-e9253337bdfa	d107e676-abe3-4223-83f5-2d964067262e	Aka	To secure phone	Live	800	2026-04-25 14:22:15.991+00	2025-10-25 14:22:16.021598+00
 d5e18884-dd88-4118-b653-94bca7613428	1d7ab65e-fefc-44bc-86d5-ddf6e9a8d6c9	Business	Business entities	Draft	800	2026-04-29 08:27:22.553+00	2025-10-29 08:27:22.590912+00
+3bc469fd-5de2-4929-a235-3a1b08603126	078897a7-3a7f-4cfa-aa89-40b641d93d1d	BP	Would want to know my blood pressure and if I'm pregnant 	Draft	800	2026-05-02 12:48:00.544+00	2025-11-02 12:48:00.580885+00
 \.
 
 
@@ -6185,6 +6189,9 @@ d6c4a584-d1fb-4511-81e6-b608b5de6914	c082054d-46e4-4bdf-ac24-810d17406e7c	\N	\N	
 
 COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone", "country", "state", "sector", "disabled", "created_at") FROM stdin;
 26f20ca8-ba48-4eb8-87bf-c6f3d8f45013	wambuicarol698@gmail.com	Summer 	+254768971481	Kenya		Fashion	f	2025-11-01 14:10:11.992397+00
+a151f037-4b9e-4af8-ab0d-810d4b3c4371	rwanyoike55@gmail.com	Sana industry 	+254742556787	Kenya		Retail	f	2025-11-02 05:20:46.517324+00
+ee647a62-e2e3-4cb8-8a3c-a7e08682b480	alexmusanii88@gmail.com	Spark Electrical	+254727760489	Kenya		Energy	f	2025-11-02 08:32:15.641386+00
+078897a7-3a7f-4cfa-aa89-40b641d93d1d	peacejoy01@gmail.com	Mechandise	+254103448184	Kenya	Kilifi	Construction	f	2025-11-02 12:46:45.912054+00
 75b87d71-3545-4032-adcb-64700e7456f7	ubermatchvlaad212@gmail.com	CSNRU	+254743962943	Kenya	Taveta	Education	f	2025-02-28 17:38:15.884534+00
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Kenya	Nairobi City	Others	f	2025-02-02 13:21:20.73+00
 6fc353c4-adee-4d2d-b84d-7915880ff698	jumatimothymwangi@gmail.com	Timothy	+254707956457	Kenya	Nairobi	jumatimothymwangi@gmail.com	f	2025-08-08 05:14:51.680644+00
@@ -6477,6 +6484,11 @@ f9ef80eadaecc3b1a623def36f48f33b3718c0cef03e67649583a4f3d0dabac7	ce9a89cb-3995-4
 6f1e3be0d622943ddad10dba7bb3582bf701019455735a7bc24f7bc6cfb7df7f	ce9a89cb-3995-468b-ad03-46a82f57f87c	2025-11-01 00:13:06.229+00
 bdfb17d2986be895e26a282f45e7565a5f145cbf54deaba7cfec0b626eef1023	26f20ca8-ba48-4eb8-87bf-c6f3d8f45013	2025-11-02 20:10:12.726+00
 776e70cb5d2dc64237aa91f51977ef6ea825c40ce39b5a219c3d2ae2cb0c2f18	26f20ca8-ba48-4eb8-87bf-c6f3d8f45013	2025-11-02 20:10:37.945+00
+a6f96ab3f951034154de6756d00aa37140864d7d4915142a83563e5e3a542f43	a151f037-4b9e-4af8-ab0d-810d4b3c4371	2025-11-03 11:20:47.19+00
+8fe8eebbf7a17baa50018ddb7a8abb2446ef7a1bf9bb68c93ebc6c2016935ed3	a151f037-4b9e-4af8-ab0d-810d4b3c4371	2025-11-03 11:21:07.487+00
+dc2b6c105a0ca61a6ea13935dc4efb3fd6a70b50ffeaad7c722a46016c967a15	ee647a62-e2e3-4cb8-8a3c-a7e08682b480	2025-11-03 14:32:16.243+00
+6b538516aeceeb7075997377a048a5394bbeab909128af4b1a419a696f6ed007	078897a7-3a7f-4cfa-aa89-40b641d93d1d	2025-11-03 18:46:46.571+00
+62fdc2ccc3774508f357743c82eebda4de7c58ee7bb6050e7a2c7325f2c44150	078897a7-3a7f-4cfa-aa89-40b641d93d1d	2025-11-03 18:47:15.6+00
 \.
 
 
@@ -6603,6 +6615,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict SKoGRWQHZ9lQb0B2hz8X6Ya96ufDMwz85tYhDkcIPr2Oeen6YkimoX3clu0LEyh
+-- \unrestrict bMvvsj4bR95VmRw5n5pl8qEhyYREjGTVG8P3BTQqAh4jwgim1AQaN5XjXWcIc2m
 
 RESET ALL;
