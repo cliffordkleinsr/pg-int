@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict bMvvsj4bR95VmRw5n5pl8qEhyYREjGTVG8P3BTQqAh4jwgim1AQaN5XjXWcIc2m
+-- \restrict MnZ7XBJDDJ2Sm8QkwiFOgbfTRGIePxrxwVeMLf1iB5AaqTXiul7wUlJVqDbx30p
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -199,11 +199,13 @@ c1bde176-582a-4028-888e-a70875a11f51	Christine Staicy	christinestaicy@gmail.com	
 edfb1b6c-3230-4a79-a6e0-004ded923356	Josephine K	alinamutua4@gmail.com	t	$2b$15$gdPOKrjqgI7ifyPXyS6HBeiGpxHno.5jVTXR6pHPeMftvhcToNJdK	AGENT	46	Female	\N	f	2024-11-07 06:59:10.840789+00	\N	f
 fd8cf7cc-32cb-4b2c-b8c7-25f648edbf16	Rebecca Amakobe	amakobebecky@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	32	Female	\N	f	2025-01-10 03:56:36.340381+00	\N	f
 c03f041d-a78a-4b3c-9153-b5a02448bd77	Inuitive Insights	info@int-insights.com	t	$2b$15$TJTdx0652yYZggBGJDOn1.s4QBFyFMYbT5gMR4TUaszU36yE2fWMO	ADMIN	\N	\N	\N	f	2025-10-23 08:11:17.224912+00	\N	f
+18dd8c7f-d48f-4b9c-8741-11fb8840027f	Halima	mimapaps@gmail.com	t	$2b$15$Tx1SaUsGWl1kP6IQwOihg.8mX2UOYaAPjTVhKkExwVCkPwk00OGMe	CLIENT	\N	\N	\N	f	2025-11-03 04:57:06.178654+00	\N	f
 ec4b09e2-a645-425c-b43b-b59f19525056	Belinda Amondi	amondibelinda0@gmail.com	t	$2b$15$ezsfEnpvRUAqOqbqUVO6XubU86szxoAL4TdbTENiUeVOIoCJZZcwe	AGENT	26	Female	\N	f	2024-11-07 06:21:09.391527+00	\N	f
 b4d3f648-ee61-4857-8202-98bba2e42360	Ganet Mwaura	mwauraganet6@gmail.com	t	$2b$15$0SYcNPZulwRs/SRBE74JS.sdNxamZx6kH0cboT3CsbsrzCdMxRt6y	AGENT	20	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 2e00b4ab-d73c-4e24-aac8-1bc0095f15c6	Christine Ndolo	christinembithendolo@gmail.com	t	$2b$15$M8YEe4.xw0etC35fm0Lrpe0cGx4fGvupt7Q8vkR7qdtEHFGe/9tdq	AGENT	28	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 d107e676-abe3-4223-83f5-2d964067262e	James Maina	jkmainag268@gmail.com	t	$2b$15$pzMMxwjRzbG4NanEJL.9Su.MxBq5QboykDvyX.qjAS.7gtB6C7ACO	CLIENT	\N	\N	\N	f	2025-10-25 14:13:01.87659+00	\N	f
 1adae48f-088a-46f5-af29-7a551e7f2aa2	Hussein Sadick	sadickhussein24@gmail.com	t	$2b$15$bH.XM80f6lJjJb0uuMC3XOqkH3zqRKLSgeCZN6cR8b4.3liOMAxkS	AGENT	23	Male	\N	f	2025-01-15 11:56:46.244318+00	\N	f
+596e8550-31ba-4d02-bc29-a5709daebea5	Kelvin Makolo	makolokelvin35@gmail.com	t	$2b$15$QtI4nJiNsMgSTByU4aMiVONv.IvwHY7kDBBr177Y795Ye9Lu9JxkC	CLIENT	\N	\N	\N	f	2025-11-03 05:43:31.150272+00	\N	f
 39671909-2af2-4edf-b653-166689c525a1	Gabriel Njeru	mjmurithi@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 08:43:25.899503+00	\N	f
 365ae29d-cbaf-442f-8005-c81db0d5f52c	Faith ñduku mulei	fayyfayy20@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Female	\N	f	2025-01-13 10:08:16.26229+00	\N	f
 c5a7fdce-2475-49d5-a93c-cc788fb2fa58	Kofi Anan ogaga	kofiananogaga67@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	23	Male	\N	f	2025-01-13 10:16:15.412893+00	\N	f
@@ -6192,6 +6194,8 @@ COPY "public"."consumer_details" ("consumerid", "email", "company_name", "phone"
 a151f037-4b9e-4af8-ab0d-810d4b3c4371	rwanyoike55@gmail.com	Sana industry 	+254742556787	Kenya		Retail	f	2025-11-02 05:20:46.517324+00
 ee647a62-e2e3-4cb8-8a3c-a7e08682b480	alexmusanii88@gmail.com	Spark Electrical	+254727760489	Kenya		Energy	f	2025-11-02 08:32:15.641386+00
 078897a7-3a7f-4cfa-aa89-40b641d93d1d	peacejoy01@gmail.com	Mechandise	+254103448184	Kenya	Kilifi	Construction	f	2025-11-02 12:46:45.912054+00
+18dd8c7f-d48f-4b9c-8741-11fb8840027f	mimapaps@gmail.com	Hifuture	+254796918816	Kenya		Media	f	2025-11-03 04:57:06.178654+00
+596e8550-31ba-4d02-bc29-a5709daebea5	makolokelvin35@gmail.com	Kelmak	+254717495630	Kenya		Media	f	2025-11-03 05:43:31.150272+00
 75b87d71-3545-4032-adcb-64700e7456f7	ubermatchvlaad212@gmail.com	CSNRU	+254743962943	Kenya	Taveta	Education	f	2025-02-28 17:38:15.884534+00
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Kenya	Nairobi City	Others	f	2025-02-02 13:21:20.73+00
 6fc353c4-adee-4d2d-b84d-7915880ff698	jumatimothymwangi@gmail.com	Timothy	+254707956457	Kenya	Nairobi	jumatimothymwangi@gmail.com	f	2025-08-08 05:14:51.680644+00
@@ -6489,6 +6493,9 @@ a6f96ab3f951034154de6756d00aa37140864d7d4915142a83563e5e3a542f43	a151f037-4b9e-4
 dc2b6c105a0ca61a6ea13935dc4efb3fd6a70b50ffeaad7c722a46016c967a15	ee647a62-e2e3-4cb8-8a3c-a7e08682b480	2025-11-03 14:32:16.243+00
 6b538516aeceeb7075997377a048a5394bbeab909128af4b1a419a696f6ed007	078897a7-3a7f-4cfa-aa89-40b641d93d1d	2025-11-03 18:46:46.571+00
 62fdc2ccc3774508f357743c82eebda4de7c58ee7bb6050e7a2c7325f2c44150	078897a7-3a7f-4cfa-aa89-40b641d93d1d	2025-11-03 18:47:15.6+00
+ef71f6f1b17e5749891edf1787e8c5501a3e198f7c562ec928d25b2a2642a7f4	18dd8c7f-d48f-4b9c-8741-11fb8840027f	2025-11-04 10:57:06.809+00
+7a813ff74ae82dd0ab025c5d8c5113f86f117b4175b761f106b2e24057adc421	596e8550-31ba-4d02-bc29-a5709daebea5	2025-11-04 11:43:31.782+00
+12ab2a4c52c462bbe8b342d91456f1cc94cbfdd1337c116b1cf31b3f466a3935	596e8550-31ba-4d02-bc29-a5709daebea5	2025-11-04 11:44:04.533+00
 \.
 
 
@@ -6615,6 +6622,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict bMvvsj4bR95VmRw5n5pl8qEhyYREjGTVG8P3BTQqAh4jwgim1AQaN5XjXWcIc2m
+-- \unrestrict MnZ7XBJDDJ2Sm8QkwiFOgbfTRGIePxrxwVeMLf1iB5AaqTXiul7wUlJVqDbx30p
 
 RESET ALL;
