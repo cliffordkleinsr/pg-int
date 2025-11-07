@@ -583,12 +583,16 @@ ALTER TABLE "public"."users" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."utm_source_tracking" (
-    "id" "uuid" NOT NULL,
+    "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
     "persona_id" "uuid" NOT NULL,
     "user_id" "text",
     "utm_source" "text",
     "utm_medium" "text",
     "utm_campaign" "text",
+    "un_tracked" boolean DEFAULT false NOT NULL,
+    "user_agent" "text",
+    "ip_address" "text",
+    "referrer" "text",
     "recorded_at" timestamp without time zone DEFAULT "now"() NOT NULL
 );
 

@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict VXmMeXphvwJYbkXbPOMAOWIjRmTxseymdE6LLzCh1jHbB76gCwBMYftQdfDkHRP
+-- \restrict 9aEtaYEmDJpmUax4PnEe3eAadYSjArjdmyblIkiZTi1KMRaR3iKj5wQwkkJw44S
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -272,6 +272,7 @@ eeb7b38e-54f3-44d1-8e51-9dd06c90b200	Eddy Ochango	eddyochango93@gmail.com	t	$2b$
 06e63731-8535-4949-8386-e1f531cc7538	bradon kiiza ngo'ng'olo	brandonkiiza18@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	24	Male	\N	f	2025-01-11 06:01:30.828026+00	\N	f
 139cdc9b-82b0-4db2-ae12-9da4c3dbb18f	Brenda Atieno	brendahzam@gmail.com	t	$2b$15$AiFuut3tL1JEtdRBOsxQkOi/Jg6gjhkpiCCVnYIfQULED6pRVEIGW	AGENT	33	Female	\N	f	2024-11-06 12:18:54.075553+00	\N	f
 a31552a4-924e-438e-90af-5ba91b778b76	ombui mogunde Kennedy	ombuimogundekenn@gmail.com	t	$2b$15$chyLBlIl6w6X/tg6rnaqLum8Wc39Ip1PFGFQTm/FoFQB4VYnbb0GS	CLIENT	\N	\N	\N	f	2025-11-04 09:29:19.317278+00	\N	f
+c0c1dc60-fc59-4457-8ede-cee75c1f070e	daniel miencha	danielmiencha08@gmail.com	t	$2b$15$dfBDEg/f4H9It/tQ8j3pNOyYi72bRXjXSc2m2Jz5m5nt6St1EmcSi	CLIENT	\N	\N	\N	f	2025-11-06 04:49:29.691177+00	\N	f
 10d805ed-704a-493f-93de-9c0bd809121b	Benny mumbua	b7162796@gmail.com	t	$2b$15$Kc77tZ1xNDZppcJyU2Vij.503Ja6kaiUjuFxh476V39ktlkAj4CDK	AGENT	25	Female	\N	f	2025-01-21 12:00:26.861249+00	\N	f
 2865a5fb-dde2-4301-b776-cdbb955841ca	Lorine Amakobe Sakwa	sakwalorine98@gmail.com	t	$2b$15$QYo/gFXZ03DpYYsGdIe.G.HSDhMOiv5wXmMzp9H7vgvg3fL0/WNXS	AGENT	26	Female	\N	f	2025-01-22 05:05:30.720876+00	\N	f
 4f1afdc2-ad42-48f2-9031-3e9de92d1b3f	BRIAN MUTINDA MAKETI	brianmutinda407@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	18	Male	\N	f	2025-01-10 05:25:57.610369+00	\N	f
@@ -417,6 +418,7 @@ d5493931-5cd9-4913-a2a1-f8a96874332b	Williiam owade	willyhill384@gmail.com	t	$2b
 e23b4ca0-5104-4061-ba8e-118a9f3f562d	Charity Njoroge	charitynjoroge644@gmail.com	t	$2b$15$SU26HaI9HKqUgccziI7RAum05xGWHF9jNh7mBvNQ.aGDtNvC72rKC	AGENT	54	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 12059b01-c2cd-4ec0-a640-c4f80728ab8e	WAYNE EASTER	wayneeaster95@gmail.com	t	$2b$15$d82pzyTwp0MOY/RwoXOdDuN7S2nNQGdIsi3erOGg4TbpjYG0SExuq	AGENT	22	Male	\N	f	2024-11-10 18:54:12.169293+00	\N	f
 64ec16af-33b9-4a23-8949-eff37e6a1bd9	Naftali Oletipia	oletipia987@gmail.com	t	$2b$15$5G6RqLsbeQ/kfKS4KdaG2.QuR5EtBDLBAAVH0/2VvymbxXSDuYw8q	CLIENT	\N	\N	\N	f	2025-10-30 12:52:56.754787+00	\N	f
+0608986e-2955-48c6-be0f-617c2523a332	Nancy wamalwa	nancywamalwa@gmail.com	t	$2b$15$co5c1iYqzo0azqhNIMZPR.I0JVyLlKslKH//nsUh/smqJSNsu/V3a	CLIENT	\N	\N	\N	f	2025-11-06 18:19:48.963675+00	\N	f
 d81da3fb-09c2-435b-92a9-c1b284a2f4e4	Cliff Njoroge	\N	f	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocLkFpqRBwu76why0AODDo-5radBLDAMZVaJvLENegP7RhoRAjkN=s96-c	f	2025-04-03 08:08:31.863228+00	104862171460962961871	t
 f2821b0b-96e9-4b5c-92e8-8a9c0fba3116	Ery	foxdrive.rycoh@gmail.com	t	$2b$15$mYRf1dS0DyRQZTOBwsdCbeAK/15bTHv3.jmuVCHeHqO22QnqqXzkO	CLIENT	\N	\N	\N	f	2025-01-21 15:53:08.650564+00	\N	f
 55c8bb46-93a8-4fa8-91f8-c9630eaac44a	Mitchel Oyugi Onyango	pharellesmith@gmail.com	t	$2a$15$9u0L6bnksH3F/qyITjIXUep/WBpD5uyvN4nXQyAOq2nPu9st13vWS	AGENT	28	Male	\N	f	2025-01-11 04:06:21.600006+00	\N	f
@@ -6214,6 +6216,8 @@ c6642943-25fa-4774-a504-381823babab6	Trizzahkimani2020@gmail.com	Jolydar	+254711
 d291bf90-050c-448c-96a5-bedd065f0437	douglasobai15@gmail.com	Ktrh 	+254741954087	Kenya	Kisii	Healthcare	f	2025-11-05 14:52:49.702822+00
 dbdd7070-fd69-450a-b9b9-a754329faff6	kiyalomable@gmail.com	TSC	+254724872362	Kenya		Education	f	2025-11-05 17:48:47.342529+00
 4243e826-791a-46d8-a8c6-1d18a0459c40	bkibet2002@gmail.com	Dipnurs	+254768905125	Kenya	Busia	Others	f	2025-11-05 21:02:10.384499+00
+c0c1dc60-fc59-4457-8ede-cee75c1f070e	danielmiencha08@gmail.com	Morego 	+254736873732	Kenya		Agriculture	f	2025-11-06 04:49:29.691177+00
+0608986e-2955-48c6-be0f-617c2523a332	nancywamalwa@gmail.com	TSC	+254724738210	Kenya	Bungoma	Education	f	2025-11-06 18:19:48.963675+00
 c1bde176-582a-4028-888e-a70875a11f51	christinestaicy@gmail.com	Aliquant Limited	0795057553	Kenya	Nairobi City	Others	f	2025-02-02 13:21:20.73+00
 6fc353c4-adee-4d2d-b84d-7915880ff698	jumatimothymwangi@gmail.com	Timothy	+254707956457	Kenya	Nairobi	jumatimothymwangi@gmail.com	f	2025-08-08 05:14:51.680644+00
 96a46c1a-027a-477a-8d9e-4c301fa443d9	info@pantech-ke.com	Pantech Kenya Limited	+254715674636	Kenya	Nairobi	Manufacturing	f	2025-08-08 08:15:30.818466+00
@@ -6451,6 +6455,74 @@ e9215202-d3c8-4a07-8d77-c8f2a1422fd1	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	\N	\N	
 07767ffb-10ff-4fd1-9e4e-4fb2542bb880	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	\N	\N	Excellent	2025-11-05 08:12:44.533484+00	143
 47b4e72c-9b13-455a-b52a-6b65c14a16fe	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	\N	\N	4	2025-11-05 08:12:53.916097+00	144
 5f2fa13a-4e3d-4475-8abb-04c61a3df1f4	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	\N	\N	5	2025-11-05 08:13:01.259093+00	145
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Monthly	2025-11-06 06:19:14.410077+00	146
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 06:20:16.132376+00	147
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 06:20:30.436761+00	148
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 06:20:31.349429+00	149
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 06:20:41.317827+00	150
+9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	4	2025-11-06 06:20:59.189846+00	151
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 06:21:20.134702+00	152
+9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	5	2025-11-06 06:22:13.831776+00	153
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 06:23:09.873163+00	154
+a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Improve on material being used	2025-11-06 06:23:23.344884+00	155
+a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Quality 	2025-11-06 06:23:31.330538+00	156
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 06:23:37.899858+00	157
+ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Affordable	2025-11-06 06:23:40.839171+00	158
+ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Affordable	2025-11-06 06:23:43.07767+00	159
+c7082f6d-9f6b-4e3b-82d4-460a3244f0b0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Pricing and quality	2025-11-06 06:24:28.428835+00	160
+58aed9e5-010a-474d-9aa4-a8c97e8f63c0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	yes	2025-11-06 06:24:49.757152+00	161
+9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	2	2025-11-06 06:30:21.885977+00	162
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	5	Stock Availability	2025-11-06 06:41:15.602437+00	163
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	1	Customer Service	2025-11-06 06:41:15.826542+00	164
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	3	Brand Name	2025-11-06 06:41:16.170599+00	165
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	4	Price	2025-11-06 06:41:16.375974+00	166
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	2	Quality	2025-11-06 06:41:16.580818+00	167
+124b944d-a416-491b-a1d5-0fc2c7269b40	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Likely 	2025-11-06 06:43:19.666573+00	168
+e2062ec6-bed0-474f-8440-4f2be87994fb	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Likely	2025-11-06 06:43:38.651129+00	169
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Monthly	2025-11-06 06:43:45.777241+00	170
+12beb9f5-04e9-4d3e-9ea9-741cab9df7e5	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	5	2025-11-06 06:43:54.054788+00	171
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Once a year (or more)	2025-11-06 06:43:59.439858+00	172
+9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	3	2025-11-06 06:44:06.50805+00	173
+a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	It could be better 	2025-11-06 06:44:18.959138+00	174
+ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Market Competitive	2025-11-06 06:44:26.178362+00	175
+7b98947c-dbe4-44ad-81e3-99137d26a73c	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	3	2025-11-06 06:44:40.549887+00	176
+c7082f6d-9f6b-4e3b-82d4-460a3244f0b0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Discounted prices for high quantities 	2025-11-06 06:44:49.424234+00	177
+58aed9e5-010a-474d-9aa4-a8c97e8f63c0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	yes	2025-11-06 06:44:56.975422+00	178
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Every 6 Months 	2025-11-06 07:49:14.032868+00	179
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Weekly	2025-11-06 08:27:11.647256+00	180
+58aed9e5-010a-474d-9aa4-a8c97e8f63c0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	No	2025-11-06 08:27:32.331871+00	181
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Once a year ( or more)	2025-11-06 11:28:00.066745+00	182
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Every 6 Months	2025-11-06 11:28:16.39022+00	183
+9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	5	2025-11-06 11:28:28.701393+00	184
+a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	So far they are the best	2025-11-06 11:28:58.166881+00	185
+ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Market Competitive	2025-11-06 11:29:12.958463+00	186
+c7082f6d-9f6b-4e3b-82d4-460a3244f0b0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Quality 	2025-11-06 11:29:30.203075+00	187
+58aed9e5-010a-474d-9aa4-a8c97e8f63c0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	yes	2025-11-06 11:29:37.91002+00	188
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	1	Stock Availability	2025-11-06 11:30:48.000256+00	189
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	4	Customer Service	2025-11-06 11:30:48.303583+00	190
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	3	Brand Name	2025-11-06 11:30:48.902697+00	191
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	2	Price	2025-11-06 11:30:49.301925+00	192
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	5	Quality	2025-11-06 11:30:49.522852+00	193
+124b944d-a416-491b-a1d5-0fc2c7269b40	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Very Likely	2025-11-06 11:31:05.57964+00	194
+e2062ec6-bed0-474f-8440-4f2be87994fb	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Very Likely	2025-11-06 11:31:23.296126+00	195
+12beb9f5-04e9-4d3e-9ea9-741cab9df7e5	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	5	2025-11-06 11:39:00.214546+00	196
+7b98947c-dbe4-44ad-81e3-99137d26a73c	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	3	2025-11-06 11:39:06.888844+00	197
+62638fd5-5825-4e5f-ba49-27d6364a9554	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Monthly	2025-11-06 17:31:53.858192+00	198
+b2900b11-ef90-4601-a8ee-08c2b8adebcd	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Monthly	2025-11-06 17:32:07.224783+00	199
+9f53816a-167b-4702-ad4e-9bf1b64922f4	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	2	2025-11-06 17:32:23.280278+00	200
+a9d29f12-95d0-4d14-93e7-752474acb7ba	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Quality 	2025-11-06 17:33:02.046513+00	201
+ca2ce455-1630-4e47-ad0a-ffa5c0ba6103	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Affordable	2025-11-06 17:33:10.892127+00	202
+c7082f6d-9f6b-4e3b-82d4-460a3244f0b0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Prices , availability, good mount	2025-11-06 17:33:52.802153+00	203
+58aed9e5-010a-474d-9aa4-a8c97e8f63c0	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	yes	2025-11-06 17:34:03.222711+00	204
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	2	Stock Availability	2025-11-06 17:35:48.995753+00	205
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	1	Customer Service	2025-11-06 17:35:49.223064+00	206
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	4	Brand Name	2025-11-06 17:35:49.440003+00	207
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	5	Price	2025-11-06 17:35:49.946779+00	208
+aed612ac-c6c5-4405-bbde-7e69c1510867	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	3	Quality	2025-11-06 17:35:50.152142+00	209
+124b944d-a416-491b-a1d5-0fc2c7269b40	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Very Likely	2025-11-06 17:36:01.264382+00	210
+e2062ec6-bed0-474f-8440-4f2be87994fb	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	Neutral	2025-11-06 17:36:13.95161+00	211
+12beb9f5-04e9-4d3e-9ea9-741cab9df7e5	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	3	2025-11-06 17:36:24.509775+00	212
+7b98947c-dbe4-44ad-81e3-99137d26a73c	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	\N	\N	4	2025-11-06 17:36:37.264108+00	213
 \.
 
 
@@ -6473,6 +6545,12 @@ COPY "public"."user_analytics" ("id", "surveyid", "level_of_education", "sector"
 12	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	High-School	Construction	Kenya	Kiambu	10.0.1.10	t	Kabete
 13	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	Under-Graduate	Finance	Kenya	Nairobi	10.0.1.10	t	Starehe
 14	1ea33d10-54ce-42ca-a8ff-a2b1b820345e	Post-Graduate	Automotive	Kenya	Nairobi	10.0.1.10	t	Starehe
+15	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	High-School	Manufacturing		\N	10.0.1.10	t	\N
+16	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Under-Graduate	Automotive	Kenya		10.0.1.10	t	
+17	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Under-Graduate	Automotive	Kenya	Nairobi	10.0.1.10	t	Kamukunji
+18	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Post-Graduate	Automotive	Kenya		10.0.1.10	t	
+19	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Under-Graduate	Media	Kenya	Nairobi	10.0.1.10	t	Makadara
+20	5b16a8fd-85b3-43ff-9180-1a97a53f7bc5	Post-Graduate	Automotive	Kenya	Nairobi	10.0.1.10	t	Embakasi West
 \.
 
 
@@ -6531,7 +6609,6 @@ fd5cd8dc99323e42cc81ae7a9d44a6c51dde945561e0121b44aa7d52d0a7ff1f	efae756c-6ca2-4
 1810af38dc7de7d7dcb0c20aafc27c173c6f8fb68928f2395a2a617aa3a2640b	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-11-06 16:25:55.661+00
 f7737a5f1ef5f1b0f6139532d7f4a05fe2a1caf8e80cea0bd981e4b4a3b1799e	4243e826-791a-46d8-a8c6-1d18a0459c40	2025-11-07 03:02:10.998+00
 f83ae9b41cf3eccfb5a2239c7a1e342e923fb852c78b84c6bd90a2e4e70ecbe1	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-12-05 11:18:55.432+00
-628af75a899d5e9f078064b998faa4d34fce070d2aaac3d4a102c65548d06918	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-11-06 17:24:12.962+00
 5b922c815e0486938c6fd6cab434c309216180131c5ad4ce53a11f68c1cce3b3	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-11-06 17:27:30.419+00
 8ac8a4a47cbeab85cd4fbc8c587aafa92b80e5f6d41dbcbc60a4caa450ff3547	60b780a3-860b-4fc3-8498-4fec80df5713	2025-11-06 19:56:14.015+00
 8a0a54e3fb72221c98c0e51618bf4734af88d0fcd1e216d592f07410b6e5203a	d291bf90-050c-448c-96a5-bedd065f0437	2025-11-06 20:52:50.332+00
@@ -6539,6 +6616,12 @@ f83ae9b41cf3eccfb5a2239c7a1e342e923fb852c78b84c6bd90a2e4e70ecbe1	c03f041d-a78a-4
 b8d3fbabfa8ca2a9c1bea18aa5229da3db2bb7dd23c32a5b6caff1304c62f379	dbdd7070-fd69-450a-b9b9-a754329faff6	2025-11-06 23:48:47.972+00
 d459abee5f836c0b07a6923bc8436076cc16e6b38332c943302070488cfab0d8	dbdd7070-fd69-450a-b9b9-a754329faff6	2025-11-06 23:49:14.604+00
 2253baffea60622d61db9e74447f73c59744732a069040b31daa1d7f6861e249	4243e826-791a-46d8-a8c6-1d18a0459c40	2025-11-07 03:02:45.613+00
+de80a3ba92d4376ea955fda8f7aa9413810148fb34960553304072901d7ea1ba	c0c1dc60-fc59-4457-8ede-cee75c1f070e	2025-11-07 10:49:30.356+00
+4e76b5a8a290e5d2f44419e75b2ec66d5ebdd94e8e3dc3a3685aae325cae9299	c0c1dc60-fc59-4457-8ede-cee75c1f070e	2025-11-07 10:50:38.606+00
+12f032d368e03144690881b007e860b3d8a9b123c12bd5473df92f57d2707b99	96a46c1a-027a-477a-8d9e-4c301fa443d9	2025-11-07 12:13:04.951+00
+26d69c1decd792732c643ac429acadb22ae5744229366949728628a6ae34d04b	c03f041d-a78a-4b3c-9153-b5a02448bd77	2025-12-06 08:56:14.57+00
+9685346f4a648785ec0a495e56950d46ff55c67e6e562657484db27e49d4f521	0608986e-2955-48c6-be0f-617c2523a332	2025-11-08 00:19:49.567+00
+784b5504fa1ada96a9f6509d834bff2df587cd5e6cb8d7217f7437510e0423a5	0608986e-2955-48c6-be0f-617c2523a332	2025-11-08 00:20:04.994+00
 \.
 
 
@@ -6546,7 +6629,17 @@ d459abee5f836c0b07a6923bc8436076cc16e6b38332c943302070488cfab0d8	dbdd7070-fd69-4
 -- Data for Name: utm_source_tracking; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."utm_source_tracking" ("id", "persona_id", "user_id", "utm_source", "utm_medium", "utm_campaign", "recorded_at") FROM stdin;
+COPY "public"."utm_source_tracking" ("id", "persona_id", "user_id", "utm_source", "utm_medium", "utm_campaign", "un_tracked", "user_agent", "ip_address", "referrer", "recorded_at") FROM stdin;
+b8a45b5b-5bf6-4d14-ae75-58e6db3820ee	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	linkedin	cpc	pot	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 11:47:27.280253
+0004a964-2a3c-439c-aae7-4543c171c3a6	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	faceBook	paid_social	test	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 11:48:23.431618
+1a9fd249-4a71-41dd-be97-773158dc8347	57ffe9de-ee01-461c-b3c3-e64c26f2986a	\N	faceBook	paid_social	test	f	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36	41.57.108.219	\N	2025-11-06 11:50:26.717977
+316baf99-f07a-40a5-b01f-f9ba5af311a3	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	instagram	cpc	egg	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 11:56:26.155982
+f39b71d4-c590-464b-8944-7a31e8fa7c27	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	instagram	cpc	egg	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 11:56:52.600351
+1bcc34b7-3d58-4511-b883-1f85c17f6bb8	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	instagram	cpc	egg	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 11:57:08.332925
+b3e592b0-9d5f-4ad9-ad41-145a98561cd5	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 12:43:29.973696
+1a98bd37-c8e8-4d32-a4ff-cdacd20f3f7c	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 12:44:09.058356
+31f5a7d1-4887-4150-9a22-f8f4b46295d4	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 12:44:42.258455
+6bc6b25f-6467-4f7a-a748-0e9922f5b243	0f0aaaa8-73f1-40fe-bf24-aedc13548e55	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0	41.57.108.219	\N	2025-11-06 12:45:51.30683
 \.
 
 
@@ -6644,14 +6737,14 @@ SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 -- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."response_table_id_seq"', 145, true);
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 213, true);
 
 
 --
 -- Name: user_analytics_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 14, true);
+SELECT pg_catalog.setval('"public"."user_analytics_id_seq"', 20, true);
 
 
 --
@@ -6665,6 +6758,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict VXmMeXphvwJYbkXbPOMAOWIjRmTxseymdE6LLzCh1jHbB76gCwBMYftQdfDkHRP
+-- \unrestrict 9aEtaYEmDJpmUax4PnEe3eAadYSjArjdmyblIkiZTi1KMRaR3iKj5wQwkkJw44S
 
 RESET ALL;
