@@ -226,11 +226,11 @@ ALTER SEQUENCE "public"."client_transactions_id_seq" OWNED BY "public"."consumer
 CREATE TABLE IF NOT EXISTS "public"."consumer_details" (
     "consumerid" "text" NOT NULL,
     "email" "text" NOT NULL,
-    "company_name" "text" NOT NULL,
-    "phone" "text" NOT NULL,
-    "country" "text" NOT NULL,
-    "state" "text" NOT NULL,
-    "sector" "text" NOT NULL,
+    "company_name" "text",
+    "phone" "text",
+    "country" "text",
+    "state" "text",
+    "sector" "text",
     "disabled" boolean DEFAULT false NOT NULL,
     "created_at" timestamp with time zone DEFAULT "now"() NOT NULL
 );
@@ -566,9 +566,9 @@ CREATE TABLE IF NOT EXISTS "public"."users" (
     "id" "text" NOT NULL,
     "fullname" "text" NOT NULL,
     "email" "text",
-    "is_email_verified" boolean DEFAULT false NOT NULL,
+    "is_email_verified" boolean DEFAULT true NOT NULL,
     "password" "text",
-    "userole" "public"."UserRole" DEFAULT 'AGENT'::"public"."UserRole" NOT NULL,
+    "userole" "public"."UserRole" DEFAULT 'CLIENT'::"public"."UserRole" NOT NULL,
     "age" integer,
     "gender" "text",
     "profile_pic" "text",
@@ -783,17 +783,17 @@ ALTER TABLE ONLY "public"."answers"
 
 
 ALTER TABLE ONLY "public"."consumer_details"
-    ADD CONSTRAINT "consumer_details_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id");
+    ADD CONSTRAINT "consumer_details_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."consumer_details"
-    ADD CONSTRAINT "consumer_details_email_users_email_fk" FOREIGN KEY ("email") REFERENCES "public"."users"("email");
+    ADD CONSTRAINT "consumer_details_email_users_email_fk" FOREIGN KEY ("email") REFERENCES "public"."users"("email") ON DELETE CASCADE;
 
 
 
 ALTER TABLE ONLY "public"."consumer_package"
-    ADD CONSTRAINT "consumer_package_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id");
+    ADD CONSTRAINT "consumer_package_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id") ON DELETE CASCADE;
 
 
 
@@ -853,7 +853,7 @@ ALTER TABLE ONLY "public"."response_table"
 
 
 ALTER TABLE ONLY "public"."sms_verification"
-    ADD CONSTRAINT "sms_verification_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id");
+    ADD CONSTRAINT "sms_verification_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON DELETE CASCADE;
 
 
 
@@ -868,7 +868,7 @@ ALTER TABLE ONLY "public"."user_analytics"
 
 
 ALTER TABLE ONLY "public"."user_package"
-    ADD CONSTRAINT "user_package_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id");
+    ADD CONSTRAINT "user_package_consumerid_users_id_fk" FOREIGN KEY ("consumerid") REFERENCES "public"."users"("id") ON DELETE CASCADE;
 
 
 
@@ -878,7 +878,7 @@ ALTER TABLE ONLY "public"."user_package"
 
 
 ALTER TABLE ONLY "public"."user_sessions"
-    ADD CONSTRAINT "user_sessions_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id");
+    ADD CONSTRAINT "user_sessions_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON DELETE CASCADE;
 
 
 
