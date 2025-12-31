@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ygb6XHf1fxhKMoFJEp44xu1vNAJXdYBshSnPXRJ8QqXxmJ5QaynPE1PVb6rH0dN
+-- \restrict 7nAr4KNHWCobqKeq3GXcUS4mGQ2a4tcN07G7BFpkSTbaCfIm3UbxodKlkNSYeMh
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -280,6 +280,7 @@ d01bca27-0a1f-4675-8a85-c8720453d08b	Momodu Patricia	patriciamomodu3@gmail.com	t
 078d29f0-190b-4ad4-94fc-aae2ef19b656	Anaba Blessing C	blessingchidima35@gmail.com	t	$2b$15$NEcCwhe7/ueVWz0im4aUmeY.cA.uiJn7X5oJ6/Ne.Ljpwyoz9mp96	CLIENT	\N	\N	\N	f	2025-12-22 08:11:47.840582+00	\N	f
 7696631e-0c9a-4c70-bacb-1e37b9896bcd	ZUBAIDA ALI	alizubaida22@gmail.com	t	$2b$15$y0hYQ83i5ZBvWfgflp1lt.yKT6S2u1c8.d77EMQR9oeMPDtmJJpaW	CLIENT	\N	\N	\N	f	2025-12-22 21:40:50.239438+00	\N	f
 70ad3cfd-751e-4adb-ab45-b42109a6ab2c	Moreen mumbi	moreenmwangi475@gmail.com	t	$2b$15$uQbxuVAwBtEs3tEes27JXeuPGZdMJDzZms7YxeXXyXaPOPt5iTRWq	CLIENT	\N	\N	\N	f	2025-12-28 02:47:27.47341+00	\N	f
+ebf230ae-3357-492b-bdc7-1124b4eb0416	سيف الدين حسن زكي	sefhsan98@gmail.com	t	$2b$15$EfGMqzVK4Yq6NRtm9JEftuMN.uNT6xrY2rEhrgNVGbM6MT2LjLuFS	CLIENT	\N	\N	\N	f	2025-12-30 03:30:19.158979+00	\N	f
 ec4b09e2-a645-425c-b43b-b59f19525056	Belinda Amondi	amondibelinda0@gmail.com	t	$2b$15$ezsfEnpvRUAqOqbqUVO6XubU86szxoAL4TdbTENiUeVOIoCJZZcwe	AGENT	26	Female	\N	f	2024-11-07 06:21:09.391527+00	\N	f
 b4d3f648-ee61-4857-8202-98bba2e42360	Ganet Mwaura	mwauraganet6@gmail.com	t	$2b$15$0SYcNPZulwRs/SRBE74JS.sdNxamZx6kH0cboT3CsbsrzCdMxRt6y	AGENT	20	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 2e00b4ab-d73c-4e24-aac8-1bc0095f15c6	Christine Ndolo	christinembithendolo@gmail.com	t	$2b$15$M8YEe4.xw0etC35fm0Lrpe0cGx4fGvupt7Q8vkR7qdtEHFGe/9tdq	AGENT	28	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
@@ -6803,6 +6804,7 @@ f4a7987d-86c8-4832-8ec1-d8c1f4e48bfd	chidi666@gmail.com	\N	\N	\N	\N	\N	f	2025-12
 4485cfc7-f1b5-4b2e-bfe6-d155b66d28be	javanbob02@gmail.com	\N	+254794647232	\N	\N	\N	f	2025-12-28 23:14:39.295476+00
 173c90d4-673f-4c21-8405-4a0999640c7c	wanjiruedith39@gmail.com	\N	+254791586056	\N	\N	\N	f	2025-12-29 04:13:01.325984+00
 9aaac370-1902-451b-88eb-259f2e38326e	domieson2007@gmail.com	\N	\N	\N	\N	\N	f	2025-12-29 08:44:54.544781+00
+ebf230ae-3357-492b-bdc7-1124b4eb0416	sefhsan98@gmail.com	\N	+201154885284	\N	\N	\N	f	2025-12-30 03:30:19.158979+00
 \.
 
 
@@ -7533,6 +7535,8 @@ f486c82a4865f994e4f17add6a27f55d0c665dd19d20f46925f7c864a126754e	4485cfc7-f1b5-4
 d3f197567da63642e5bba28e6e7108ee4ef910de437dac5f4198d49238949dd3	173c90d4-673f-4c21-8405-4a0999640c7c	2025-12-30 10:13:16.561+00
 5eb12554422d9eeff6a9f1de185a6088dcacf8318c4520934154a4d46ab89018	9aaac370-1902-451b-88eb-259f2e38326e	2025-12-30 14:44:55.235+00
 9062ee5fe6cb457dc0f01f33079452d9b5ebb0e609d2869455d8443297a99218	c03f041d-a78a-4b3c-9153-b5a02448bd77	2026-01-28 09:48:18.445+00
+56e4f874baa6238f6ebffe8627cd6fd173890382072ca26e40a09bf9aa7171d2	ebf230ae-3357-492b-bdc7-1124b4eb0416	2025-12-31 09:30:19.822+00
+439a5662c6a5dcfad27f7109fd072a6b3564413e47bd07f09458ceadf974be6b	ebf230ae-3357-492b-bdc7-1124b4eb0416	2025-12-31 09:31:32.299+00
 \.
 
 
@@ -16751,6 +16755,36 @@ d56a2f95-78a9-4084-aaa3-ff7328622dde	33896d03-4f87-4625-b0d4-eba84dbd8735	\N	\N	
 55a0945f-68ca-4c9d-a1c1-0c8a0eaa5701	fdc95ccc-74d2-4688-a3bf-0a67bdfd670d	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2025-12-29 18:54:40.246603
 14830b83-b7e5-4879-b0c3-e8e44953a974	a039605a-61a1-4358-8b7b-916a6975bc12	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 14; SM-A065F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.143 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/543.0.0.55.73;IABMV/1;]	188.245.45.171	https://ca.hidupcu.com/	2025-12-29 21:21:39.134504
 9ec0db77-31fb-428b-9d41-4717a7c20adf	dcec8cb9-753d-4d85-98aa-929a813ce918	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2025-12-29 21:24:40.255953
+ba745204-3778-48d9-868e-f03de2f6b8a3	6d0ed833-ee42-4df6-a1a5-df4c88d8de93	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2025-12-30 01:05:10.67899
+8a78463f-f851-4936-8eb9-45088d0d0202	2e581b8b-dae9-49dd-9044-f37e2273625f	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2025-12-30 01:05:10.926528
+756d30c4-abed-49a2-9365-34709b5a1d0b	a01bdf3b-3e7e-4df6-9242-b5688d3e2c6c	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; HubSpot Crawler; HubSpot Domain check; +https://www.hubspot.com)	188.245.45.171	\N	2025-12-30 03:01:26.804234
+3bf15655-ac12-44bc-b24f-dea74ebe9ad9	58157e4e-8e25-4e98-9559-5ce6886e4bac	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2025-12-30 03:21:37.051607
+cf77ceb0-6775-4448-a6c5-45c573b629ea	a89185e1-ca1b-45ca-b964-b926b0f85d38	\N	\N	\N	\N	f	Googlebot-Image/1.0	188.245.45.171	\N	2025-12-30 03:24:25.737488
+a8de03f9-09ec-4e8c-8c49-dc1fadad4bc0	863a0582-7593-408a-a904-e47b762bfc96	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2025-12-30 03:28:29.8098
+3a508f32-fd62-4b3b-8d53-3e569095a2ac	403e7018-42a5-41c5-887a-06cf745ec3aa	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2025-12-30 04:50:24.497232
+7a1b5d19-0f4d-4a4b-ad36-4ced5c6b2272	e104065e-2c45-4f8c-ae60-d0ba1f26620c	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2025-12-30 05:28:45.330452
+678fa9d7-8496-4576-a4fd-7e69f61a7512	a4b0267a-3766-4119-bca4-ca657803e4d3	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2025-12-30 06:02:18.009879
+244872f7-a88a-40c8-9b9f-d364fc9b7bfc	0c8ea72d-c2a6-4847-9565-e187a71e052b	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2025-12-30 06:53:11.75502
+4cf7a983-acf3-47ff-8b09-641476fa2a1e	14198a97-5b5c-4791-88fd-a1d976dbfdb7	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.3; +https://openai.com/gptbot)	188.245.45.171	\N	2025-12-30 11:06:42.531402
+49f171cc-8565-475a-a32d-5a332ecbbc8f	fd8ecbba-4c91-49e3-a402-396f9f56b216	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2025-12-30 13:49:45.245842
+98d7cc70-2a02-4a5d-8a85-b14d3074ab7a	b1b4b706-825e-4c7e-a0a9-ecabf0bf0082	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2025-12-30 13:55:46.254218
+270a4f5c-7ee6-4a96-9c05-2b76d97facd2	b9196a20-69e3-4794-b828-50403f4573fa	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2025-12-30 14:05:11.094496
+be20779c-675c-4770-8547-8c1d4f5b76d2	1be04833-20a1-4385-8fd3-884fc49f6d23	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2025-12-30 14:05:11.976446
+fa36079a-2c8b-4baa-bb86-82b8d0910c69	95538d0c-690e-49f5-b026-811f6237a80e	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2025-12-30 15:48:32.705531
+50400777-3535-44df-b8a0-bdb76bc84374	c69488c4-c419-400f-9e2e-9a94ecc9aa40	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2025-12-30 16:11:04.562093
+cfb8d3a8-8c12-4dcd-a157-f4dbded20eeb	9a4d6857-04ee-4724-8079-049bff15738c	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2025-12-30 18:47:39.518319
+fdb27f95-8c7b-47db-b5c6-93b85ce941cf	c19baeda-e7a4-4c91-ab5b-70b6d582ed0f	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2025-12-30 19:15:41.383007
+00f4854e-5974-4e5d-a151-f0729c961db2	7869da38-6645-482e-aa56-5153b5c70b84	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2025-12-30 19:31:59.591596
+8b6f7e0c-f30d-4f8c-ae1d-1983367de612	32f564f5-194c-4568-9602-ff2fc8f788cb	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2025-12-30 19:37:48.281628
+9e788c1d-8359-4a31-a00c-35c89c6579d9	e5a3c503-9dd2-4240-a01e-2eceebb4faf8	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2025-12-30 19:39:57.279254
+3fd744b8-4097-46aa-8648-ec5b07a1e0a5	9aa4fb10-bb00-4f74-b7ce-d563c59c9754	\N	\N	\N	\N	f	Googlebot-Image/1.0	188.245.45.171	\N	2025-12-30 20:04:17.750444
+ec5243d9-5b6a-4e30-a842-d246d9d3c663	906db999-8a48-4abe-8d95-fc74ec7fa402	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 11; Infinix X689C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/486.0.0.13.109;FBCX/modulariab;]	188.245.45.171	https://ecfe8750c439e12a38ee992a8e927add.safeframe.googlesyndication.com/	2025-12-30 20:23:36.425414
+0b2d4ad0-1f3d-4909-8cf5-aaae00a27e89	312d809e-5956-456f-9cc7-0a78f1f63856	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2025-12-30 20:48:38.047034
+46ef498b-f0bc-493b-a999-ecc82f9f0a01	e116a4fa-5a46-4b2e-9c12-645df6e0b19d	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2025-12-30 21:16:29.299744
+ecc8b2e3-c081-4d3e-88d0-fba7edb036cb	6245e178-88d6-42ff-ac59-4cab444b1b5d	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2025-12-30 21:18:28.597814
+767b7731-63b7-40fd-ae70-4bab1a12a7e5	7d369af1-ef94-489e-b630-32f886902e85	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2025-12-30 21:36:12.79064
+3cab445c-6b50-4aea-8984-2a81aa5c1d6b	00e9799f-ec37-4a7d-a984-cabcef20fa52	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2025-12-30 23:10:29.333509
+c42ed323-6c2c-4797-9856-2f5cd7744583	dcf5f0af-6ff6-4c62-81eb-7d53f0c5e889	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2025-12-30 23:27:16.370497
 \.
 
 
@@ -16885,6 +16919,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ygb6XHf1fxhKMoFJEp44xu1vNAJXdYBshSnPXRJ8QqXxmJ5QaynPE1PVb6rH0dN
+-- \unrestrict 7nAr4KNHWCobqKeq3GXcUS4mGQ2a4tcN07G7BFpkSTbaCfIm3UbxodKlkNSYeMh
 
 RESET ALL;
