@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict O6EV7XCvjbagelC2rIp2C3tbYmc6pEssEs1LUofB6WmVjxdGGZZVkt8NklOOiIo
+-- \restrict g8j5Jpf9fByi0TcDUJpkkz3dxtRXRZyGNvGkZ3d4VOZfKKj2JXWT37K1M6R5FCK
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -13021,6 +13021,7 @@ e5bc6567-102a-4223-9077-32d96519ba40	865cf90e-15d7-469c-811f-06a67936d5a8	\N	fac
 95162570-6cf0-4487-a30d-c22d7b154f78	0edcbb87-5467-4f97-91cd-4b8e1327c73d	\N	faceBook	paid_social	Social Media Campaign	f	Mozilla/5.0 (Linux; Android 14; TECNO KL5 Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/140.0.7339.119 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/530.0.0.48.74;IABMV/1;]	188.245.45.171	http://m.facebook.com/	2025-12-09 23:18:59.542605
 bc26abaf-51a8-47e0-9796-315e127849e1	a94b7d60-0a20-43f3-b3a4-2a27aa968d2a	\N	faceBook	paid_social	Social Media Campaign	f	Mozilla/5.0 (Linux; Android 11; SM-A505N Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/134.0.6998.135 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/502.0.0.66.79;]	188.245.45.171	http://m.facebook.com/	2025-12-09 23:25:46.795689
 a41f20d6-639f-46bb-9a25-c6d766144fc8	e90ad395-fe0f-4ebc-a2a6-efd77d8ea31b	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2025-12-10 05:50:03.824252
+91a62d62-a395-4e58-bb38-4cefb83e677f	91966155-039d-4b9a-be40-f6e0de45001d	\N	\N	\N	\N	f	Googlebot-Image/1.0	188.245.45.171	\N	2026-01-04 09:39:19.039187
 07fa2781-0454-4ecd-b849-596a17a39071	2aa93ae2-4918-4aef-9568-5c6bca6ed86b	\N	faceBook	paid_social	Social Media Campaign	f	Mozilla/5.0 (Linux; Android 11; TECNO BD4h Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.171 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/474.0.0.52.74;]	188.245.45.171	http://m.facebook.com/	2025-12-09 23:37:28.44178
 d28edbf9-f786-4732-844d-96bd4ba92384	c1cc3536-41f5-471f-8cff-962194595bef	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2025-12-09 23:38:28.725508
 6c660e56-6983-4c5e-a7df-57ecbe2925a3	ec16ed6d-795e-4d8a-94d1-f9dae8e2eabe	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2025-12-09 23:45:52.771915
@@ -13719,6 +13720,7 @@ f546257c-f6d9-43dd-a1c5-c590e014f8e9	c093a670-d262-41dc-89e3-a3769777df7c	\N	\N	
 1529579c-5e71-4ceb-8c1d-967f084a0ce2	eb6fcbd3-d19d-44d6-88d2-60ef6dc52d95	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2025-12-12 02:29:18.501064
 cffb15eb-217f-4b7e-8b6c-c148f1ee76ed	fd2f463d-f54d-418b-952a-7e2e9c9f2e94	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 15; CPH2481 Build/AP3A.240617.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.171 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/536.0.0.46.216;]	188.245.45.171	https://f11df40729460524b3a14fae8c66ce43.safeframe.googlesyndication.com/	2025-12-12 03:29:18.597739
 e7b4d86f-3e22-4e30-af1c-a4e00e5bbf6c	09a8e160-efe6-4bd5-9182-9e51f2dd9be3	\N	faceBook	paid_social	Social Media Campaign	f	Mozilla/5.0 (Linux; Android 15; SM-A566B Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.171 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/541.0.0.85.79;IABMV/1;]	188.245.45.171	http://m.facebook.com/	2025-12-12 03:34:00.697548
+c6b0da5a-f66d-4b68-ad8f-77431b2e63eb	c1819527-a0a5-4d23-97ee-7adf5f84c09b	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)	188.245.45.171	\N	2026-01-04 19:16:25.401018
 b8cae2fc-d764-4878-a3ca-a1cc30a0d7f0	972ec236-f864-4596-b47d-2f83e21a800e	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2025-12-12 04:30:56.511807
 822eceb3-9bf0-476d-8bd0-39d8a007ef68	cef3a8ee-957d-4a6c-86d5-b3fb5bd7c78a	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2025-12-12 04:34:35.196472
 ebe1d455-1087-4c27-9c1c-336787028a37	ade9a292-960e-4387-a4d5-95c200110d51	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2025-12-12 04:51:23.70635
@@ -16980,6 +16982,27 @@ b2648cb6-23fd-4edb-b829-99970dd94565	9b47731a-d08a-464d-ba7b-13289e13d57c	\N	\N	
 9cd781cf-60b1-4a86-a46d-89e1339bd710	1cecd8ae-c432-473a-9fb5-501fc9f6b290	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-01-03 23:48:58.064787
 c6cd8a58-d4d8-410d-8ead-29399710b66c	e325f62d-2eb4-4ce7-9eab-da993391d971	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; HubSpot Crawler; +https://www.hubspot.com) Chrome/131.0.0.0 Safari/537.36	188.245.45.171	\N	2026-01-04 01:01:26.447227
 ee763b1f-32e8-40ad-aa6b-9e73c753ca2a	3d783f94-b3b8-4bb7-b0d2-29da68531fd6	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; HubSpot Crawler; +https://www.hubspot.com)	188.245.45.171	\N	2026-01-04 01:01:27.051834
+2b363747-fbc8-45d0-a5a8-20a89cd85952	3faf75a2-59fb-43df-9094-57cb9d8200e2	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-04 04:00:02.57693
+accab24a-3128-43f0-a123-9dbd324936e8	294d94d3-fce1-40ba-b4c2-42e36fa47943	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-04 04:00:02.657085
+cac15489-06d1-46bc-894f-828f2aeeb37c	617e73f6-7854-4bb9-a856-205c6dbfdff4	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-04 04:01:32.651921
+7b2a4c03-0c84-4d33-8417-d73126ca6605	329fd115-c596-4f71-8099-dcf31b0bbe4e	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-04 04:09:47.350902
+bd5731d9-76d5-45db-a2d6-a66f215ba547	46607df2-7d56-4fc4-be8c-dc06dea61d62	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2026-01-04 06:45:42.012689
+492ef820-e102-45d8-bc98-f05de34eb5a8	a84fa1b2-24a9-457a-928c-39c5f3d7d74d	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 14; Neon Smarta 2 Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.116 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/485.0.0.19.109;FBCX/modulariab;]	188.245.45.171	https://bs.cahaya-ilmu.com/	2026-01-04 13:18:12.79229
+36fe7ced-5353-4fe3-9ec7-6329063a0910	d3dd5327-5377-4c43-b9ae-963ea98f4928	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-04 14:10:21.4679
+2552bd30-6526-4048-a44f-7bf6fd0ec1d4	0546cf82-8a33-4bc3-bfa4-d64a26529380	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_12 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/399.2.845414227 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-01-04 14:24:08.234457
+05d46e3d-7869-4b73-b3d2-a92a533448d6	c80d2435-a232-48f5-b554-5489a80dbf27	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-04 14:24:23.427619
+9c6705f9-7c0b-409b-94a5-431c87ea96b1	675656ef-6014-41c8-bd38-c7c1bb281c1d	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-04 14:24:24.270592
+9d1878d3-ff9a-4ae2-8faf-f4892e913957	897ab8ca-34f0-48c8-ae9f-29eca40288d4	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-04 17:01:22.660894
+e844a330-1ec4-4595-bfd6-caf041d77df6	f2b9f3d6-30e3-439e-87f1-6e55c0807ce2	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0	188.245.45.171	\N	2026-01-04 20:39:18.682663
+93db03bb-9424-409b-95e8-8b036bb27837	70023a69-029e-43a9-bb4b-3f1d2b1f8a33	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-04 21:15:53.436951
+4df9036a-c2ab-4f94-ad97-cf600deb2034	4217e0cf-1004-4473-83fe-082440428d68	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-04 21:49:24.795539
+092f1cfb-93ec-46f9-b6aa-1cbc71e31d6f	19b320dc-ce81-46b9-a4f7-69eb7ab0f609	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-04 21:54:35.665122
+e4a46e3c-f507-4565-bb95-4a62691c114d	0e72c1dc-bfb5-467f-9707-795b06e1f505	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-04 22:08:27.483792
+620a89cc-e5dd-4785-ad2b-20e939b47800	cfbe18a0-26fd-4e97-8064-e840372edabb	\N	\N	\N	\N	f	GoogleOther	188.245.45.171	\N	2026-01-04 22:22:53.574073
+02de6ca4-033b-46a8-aa55-9bcb7670a356	582df928-0e49-476f-9541-273709e665e1	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 12; TECNO KI5k Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.146 Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/491.0.0.7.112;FBCX/modulariab;]	188.245.45.171	https://bs.cahaya-ilmu.com/	2026-01-04 22:44:31.333934
+bde754f7-8c25-44f8-a34c-d315a044a3eb	6203d37f-7e7a-470c-bcdd-3996d3f5ec07	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-04 23:08:15.431128
+b0fbb53e-521a-4fa2-b463-fd2ceeb09f51	ac14f390-0357-4778-b963-ae65c1acab9e	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-04 23:11:32.078919
+e9f7d577-80aa-4239-8655-a0d633fa408f	1bce4373-af90-4dfa-ad30-a4d282508bce	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-04 23:15:04.019834
 \.
 
 
@@ -17114,6 +17137,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict O6EV7XCvjbagelC2rIp2C3tbYmc6pEssEs1LUofB6WmVjxdGGZZVkt8NklOOiIo
+-- \unrestrict g8j5Jpf9fByi0TcDUJpkkz3dxtRXRZyGNvGkZ3d4VOZfKKj2JXWT37K1M6R5FCK
 
 RESET ALL;
