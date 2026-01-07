@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict X4k8VXTyyMbyqsL2HvHil1leFLCVCXABsgFptLsWsKJrdKZbHNdoGwgOpPqMHDq
+-- \restrict MUIam9i1bkxAJZzLByL5kuH1NjEHotbbLNEhK7cUkchhyhGYHx4WSLpIsPxwEee
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -207,6 +207,7 @@ c4264a55-cb94-46e7-9ac9-f6b159a9355b	Olabimitan Idowu Bankole	olabanky3127@gmail
 f4a7987d-86c8-4832-8ec1-d8c1f4e48bfd	SOLOMON CHIDIEBERE (ALEJANDRO)	chidi666@gmail.com	t	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocIaybzWF_9yajHTy8pxHEEHEnVZygZBG0Dp9711pKbvW-r9-JrY=s96-c	f	2025-12-26 04:33:58.822609+00	110491069774047798340	f
 4485cfc7-f1b5-4b2e-bfe6-d155b66d28be	Bob Javan	javanbob02@gmail.com	t	$2b$15$46lmucjmnScRS4YMmuyXxum0kb0FGNWSnrOWsB37d0kc6THgelpoS	CLIENT	\N	\N	\N	f	2025-12-28 23:14:39.295476+00	\N	f
 54113ef4-dd72-482e-83d6-ab7a78353a8d	shila oside	shilaoside98@gmail.com	t	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocLgR_Sd8tPyt-yrnzs6V2hcqtp4uSI38vfJtkY-8sP24wdkp6ol=s96-c	f	2026-01-03 09:07:09.353595+00	117949374380088814521	f
+f4bf878b-d2d5-48a6-89ec-46e917ca1221	Maureen wangechi	maureenwangechi411@gmail.com	t	$2b$15$tvuS42yFFkGowlqaIy4eSemhFmSoc/ghzJcApXlPOX3GuEXrx00Aa	CLIENT	\N	\N	\N	f	2026-01-07 00:17:15.77325+00	\N	f
 ed030e9b-3f7e-4988-a86b-04a8f075cee6	Grace Mbuti	neemambuti@gmail.com	t	$2b$15$tOkuhRktSz6hkORoMniWxuJLXG8p8OGfoMM57CBgwo2ZQI1UpfQzi	AGENT	35	Female	\N	f	2025-01-21 18:30:46.170476+00	\N	f
 96a46c1a-027a-477a-8d9e-4c301fa443d9	Pantech	info@pantech-ke.com	t	$2b$15$BPe7tzRvc3pCVxNcQG0SBeDTuQStNHhAvwckLNn9EYDCbs5OXARV.	CLIENT	\N	\N	\N	f	2025-08-08 08:15:30.818466+00	\N	f
 ee647a62-e2e3-4cb8-8a3c-a7e08682b480	Alex Msanii	alexmusanii88@gmail.com	t	$2b$15$ebOEdPEVxA4hq93o1thusedAhEzZMDztRJqpLnmqDu0XDOoI5gynG	CLIENT	\N	\N	\N	f	2025-11-02 08:32:15.641386+00	\N	f
@@ -231,6 +232,7 @@ d5bbd67d-2c7d-4a41-9911-70d408791633	Victor kimwetich	victorkimwetich08@gmail.co
 ee54af7f-a33d-4a64-ab2e-211324729680	Rahila isah	rabraheel2020@gmail.com	t	$2b$15$5dVbM5K5yYsbdNFSNH7vye8el.i4nHJdkwyUNschFvvX2teZylvxm	CLIENT	\N	\N	\N	f	2025-12-24 08:41:35.605886+00	\N	f
 87f09750-d864-477c-9fd9-a7698b2422dc	Fashoro Taiwo	fashorotaiwo74@gmail.com	t	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocKTy2gZhEnJk-ZcJ79w7HbLx2xW1kFZrljnKDTiycgIFo-XEg=s96-c	f	2025-12-26 23:56:28.675266+00	114930356427090860938	f
 173c90d4-673f-4c21-8405-4a0999640c7c	Edith Wanjiru Mwaura	wanjiruedith39@gmail.com	t	$2b$15$VEVWm3GZWY5iWGWLZvmVG.u0bsf9ZyQSfjlxF1CYs1j7VVOZxwO46	CLIENT	\N	\N	\N	f	2025-12-29 04:13:01.325984+00	\N	f
+c3e290ca-809c-4ea1-8424-335d27565ad1	GAMI SAIDU	gamisaidu@gmail.com	t	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocLcxKn-L26Lt2oN6iOOmD3HSEEuy-9v0APya_IeKWPhFIAQ6z3gQg=s96-c	f	2026-01-06 05:07:47.549871+00	107100500406855460360	f
 b07bc8aa-8ffc-4f57-9c69-1d66e54b663f	Hannah wambui kamau	hannahkamau9137@gmail.com	t	$2b$15$Z7o2vWZKXhx3/NonHKdgvurlWfuyM6UFcmpBRtRGZhUZuu.uYsEmK	AGENT	24	Female	\N	f	2025-01-21 07:52:30.9226+00	\N	f
 d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$15$n6EzEe005jIqjKhabB/RUuhcLJmiIszECy2KwGv2dTki84lzqrhJe	AGENT	29	Male	\N	f	2025-01-21 18:50:12.494244+00	\N	f
 93325eb3-6c9e-4bd0-854a-88abf48f9887	Alicia Mwisangwe	aliciamwisangwe@gmail.com	t	$2b$15$yVn4mpkdrYAFZ8aB.cmtkuBaOnvvumBubB6ZDUwl0IyOL4xZwMK.W	AGENT	24	Female	\N	f	2024-11-11 09:03:53.553715+00	\N	f
@@ -239,6 +241,7 @@ d9b1d991-6de3-4149-bad3-fe8afd539f67	BONIFACE WAMBUA	bkilisa25@gmail.com	t	$2b$1
 8c7f387a-575b-47e3-8e12-34479d5c60bc	Favour Okorie	favourokorie850@gmail.com	t	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocJvFr3chSN6SNW3AEWT9SRWAc5VArZQsXiVzz0dcwjGWg3AFA=s96-c	f	2025-12-24 09:11:00.236763+00	109221386447542738387	f
 00f2a11e-52df-45ab-b9e4-71d09ee0c751	Shadrack Migere	miggyshaddy@gmail.com	t	$2b$15$.ADETBSoRZ.1.IL6Mc1s4.KGe1FgWHtlxO5DBXDnw7cPRFcOepkd6	CLIENT	\N	\N	\N	f	2025-12-27 19:38:31.092898+00	\N	f
 9aaac370-1902-451b-88eb-259f2e38326e	kipleting dominic	domieson2007@gmail.com	t	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocK7GmJ-pac6k01SHURQD-qwYukJDU3UIIgwPchvqDLj5o4x0N4b=s96-c	f	2025-12-29 08:44:54.544781+00	108458039006956834191	f
+e8b06ff1-0262-4185-abd4-f042c568f816	Loise	loiseamos806@gmail.com	t	$2b$15$sTbj/OsUGqIycAe6.rCtoeTRGtiGo0kX5LEXWmIhlbG2Se0kgMcvi	CLIENT	\N	\N	\N	f	2026-01-06 07:56:04.817296+00	\N	f
 c1bde176-582a-4028-888e-a70875a11f51	Christine Staicy	christinestaicy@gmail.com	t	$2a$15$2MhzJvJZ5MA1kGGXddicveVCH6D8mXBiP3G4gphh/8hbLZHmLvO.i	CLIENT	23	\N	\N	f	2024-11-11 13:06:37.486145+00	\N	f
 078897a7-3a7f-4cfa-aa89-40b641d93d1d	Peace Joy	peacejoy01@gmail.com	t	$2b$15$MjHAQAeu17fFDwjY.MexpOQNRF11rNUqmB7rDI4PJfmqQmaL4T09i	CLIENT	\N	\N	\N	f	2025-11-02 12:46:45.912054+00	\N	f
 d291bf90-050c-448c-96a5-bedd065f0437	Douglas oketch Obai	douglasobai15@gmail.com	t	$2b$15$YLGJXtk80PEoDWzptreOg.uQaELM77sHj1zzX8h4.IauMiBaSS6BS	CLIENT	\N	\N	\N	f	2025-11-05 14:52:49.702822+00	\N	f
@@ -282,6 +285,7 @@ d01bca27-0a1f-4675-8a85-c8720453d08b	Momodu Patricia	patriciamomodu3@gmail.com	t
 7696631e-0c9a-4c70-bacb-1e37b9896bcd	ZUBAIDA ALI	alizubaida22@gmail.com	t	$2b$15$y0hYQ83i5ZBvWfgflp1lt.yKT6S2u1c8.d77EMQR9oeMPDtmJJpaW	CLIENT	\N	\N	\N	f	2025-12-22 21:40:50.239438+00	\N	f
 70ad3cfd-751e-4adb-ab45-b42109a6ab2c	Moreen mumbi	moreenmwangi475@gmail.com	t	$2b$15$uQbxuVAwBtEs3tEes27JXeuPGZdMJDzZms7YxeXXyXaPOPt5iTRWq	CLIENT	\N	\N	\N	f	2025-12-28 02:47:27.47341+00	\N	f
 ebf230ae-3357-492b-bdc7-1124b4eb0416	سيف الدين حسن زكي	sefhsan98@gmail.com	t	$2b$15$EfGMqzVK4Yq6NRtm9JEftuMN.uNT6xrY2rEhrgNVGbM6MT2LjLuFS	CLIENT	\N	\N	\N	f	2025-12-30 03:30:19.158979+00	\N	f
+3e0d4de6-c653-463d-bc86-90f4648d0eb6	Joakim Kimathi	joakimkimathi03@gmail.com	t	\N	CLIENT	\N	\N	https://lh3.googleusercontent.com/a/ACg8ocJEQoun5st9457_M1rVKlUv0hbT5CuBSLQSDSwUDWKTYvOqKyGA=s96-c	f	2026-01-06 10:33:10.437059+00	114421796900355950288	f
 ec4b09e2-a645-425c-b43b-b59f19525056	Belinda Amondi	amondibelinda0@gmail.com	t	$2b$15$ezsfEnpvRUAqOqbqUVO6XubU86szxoAL4TdbTENiUeVOIoCJZZcwe	AGENT	26	Female	\N	f	2024-11-07 06:21:09.391527+00	\N	f
 b4d3f648-ee61-4857-8202-98bba2e42360	Ganet Mwaura	mwauraganet6@gmail.com	t	$2b$15$0SYcNPZulwRs/SRBE74JS.sdNxamZx6kH0cboT3CsbsrzCdMxRt6y	AGENT	20	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
 2e00b4ab-d73c-4e24-aac8-1bc0095f15c6	Christine Ndolo	christinembithendolo@gmail.com	t	$2b$15$M8YEe4.xw0etC35fm0Lrpe0cGx4fGvupt7Q8vkR7qdtEHFGe/9tdq	AGENT	28	Female	\N	f	2025-01-15 11:56:46.244318+00	\N	f
@@ -534,6 +538,7 @@ ce1474a7-c00f-4963-bfe1-b0090ace7d88	JoshuaMuuoKyalo	joshmukyalo@gmail.com	t	$2b
 dad3f652-cd0d-4b7e-9301-b4c50057c254	RONNY KIPKIRUI RONOH	ronnyronoh412@gmail.com	t	$2b$15$WGrp.w0znVjAE60WaMUTEeaOIAdn/A2LpNlTPiZuaYIzIIA99fEc2	CLIENT	\N	\N	\N	f	2025-12-24 12:02:01.116326+00	\N	f
 5bea4fdc-29b4-4937-8380-a7a34eff65f0	Kafayatu Olayinka durojaye	durojayeolayinka52@gmail.com	t	$2b$15$LMOqRlIr2j8sSqsRwCgmHuWZ2xC1NEJMjAhq1IVur4R7..eqVV4MK	CLIENT	\N	\N	\N	f	2025-12-28 21:50:13.582546+00	\N	f
 0f595b6e-bcae-4fa2-84ab-a125bb7403d5	COLLINS KIPKOECH	Kipkoechcollins505@gmail.com	t	$2b$15$bA3prlWGDcAD/rS1c1W3jOUeL1oJd5bqDFZPHpQpLAopPJlIblP3G	CLIENT	\N	\N	\N	f	2025-12-31 06:06:42.635626+00	\N	f
+74269236-0a5f-42a6-b6df-5f6044f1788f	Loi wabu	loise@gmail.com	t	$2b$15$opcewFRh4AJZZzXa7aE5SOZPNlX6SF7Fv6T7DTfQehX9XRSI9wBqG	CLIENT	\N	\N	\N	f	2026-01-06 17:53:56.600262+00	\N	f
 1ffcb236-86de-4293-946f-a494fa2f7479	Harriet Davies	harriet@candlesbydesign.co.za	t	$2b$15$LSuYSuC17sftgXGIXodohuZ326zUkdTRGXCig.0t0CvSg2XipNxu.	CLIENT	\N	\N	\N	f	2025-12-01 09:12:30.868464+00	\N	f
 f69efe5e-897c-45b4-82bb-04b597f34f50	Vanessa Ras	vanessaras738@gmail.com	t	$2b$15$eO8r6k76hjS9ifHw4/pwauLov9osknBZW642itklYH5/Nuy8ImCUO	CLIENT	\N	\N	\N	f	2025-12-02 21:19:20.956521+00	\N	f
 9e8fa12d-974b-4d21-92d6-9607f6ecebea	Ibrahim Abubakar Alilu	greatib17@gmail.com	t	$2b$15$zlgle0LSsRb5cbvY6AHG9e/wf/aszBGsTNOTTgp8617l4bI9OoOlW	CLIENT	\N	\N	\N	f	2025-12-02 21:39:58.358616+00	\N	f
@@ -600,7 +605,6 @@ b2715e1a-0cc2-4e7a-9128-045c0c688611	gloadira@gmail.com	0720073452	5/3/1984	Nair
 51d92d75-a817-476c-9477-7327d748bb91	gregoryisaa005@gmail.com	0759537545	11/27/2001	Nairobi	Dagoretti North	10000 - 20000	Self-Employed	Post-Graduate	Telecommunications	50	50	0	f	t	\N
 e27db88b-2061-4cfb-91b5-d83904320202	hacinomceerah@gmail.com	0703735226	7/22/1997	Kiambu	Starehe	10000 - 20000	Self-Employed	Under-Graduate	Fashion	0	0	0	f	t	\N
 cde22970-f53d-47fa-97ed-db016c009f98	haronkencie@gmail.com	0722511948	6/22/1986	Machakos	Mavoko	50000 - 100000	Self-Employed	Post-Graduate	Automotive	0	0	0	f	t	\N
-4615f82c-0260-4aa4-ae6b-999dcce70f3d	herlymah099@gmail.com	0743962943	5/9/1999	Taita-Taveta	Taveta	00000 - 10000	Unemployed	Under-Graduate	Others	50	50	0	f	f	Clifford
 4398d0a9-933e-4efd-9906-b920e390c872	hgichuhi646@gmail.com	0721348667	3/10/1993	Machakos	Mavoko	20000 - 50000	Self-Employed	Under-Graduate	Food & Beverage	50	50	0	f	f	\N
 41dc1b6b-00f4-48d1-b083-d1d6ad62bd1f	Igantomi@gmail.com	0712354625	8/18/1992	Mombasa	Kisauni	10000 - 20000	Employed	Under-Graduate	Education	0	0	0	f	t	\N
 1280a7c8-3af8-4fa7-bb97-5bb989dccf56	Irenechanzu@gmail.com	0701991938	12/25/1997	Nairobi	Starehe	20000 - 50000	Self-Employed	Under-Graduate	Media	50	50	0	f	t	\N
@@ -716,6 +720,7 @@ d5493931-5cd9-4913-a2a1-f8a96874332b	willyhill384@gmail.com	0758060057	3/19/2000
 c893fe46-c3d7-40c0-8035-b20c940b9d90	darius.masenge@gmail.com	+254722401791	1988-04-12	Nairobi	Roysambu	500000 +	Employed	Post-Graduate	Media	0	0	0	f	f	\N
 fffd2637-1493-41f9-a140-08ba67621b10	dennismuchangi46@gmail.com	0717323580	1990-06-01	Nairobi	Kenya	20000 - 50000	Employed	Post-Graduate	Food & Beverage	0	0	0	f	f	\N
 eeb7b38e-54f3-44d1-8e51-9dd06c90b200	eddyochango93@gmail.com	0706398955	1993-03-03	Nairobi	Dagoretti North	00000 - 10000	Unemployed	Under-Graduate	Others	0	0	0	f	f	\N
+4615f82c-0260-4aa4-ae6b-999dcce70f3d	herlymah099@gmail.com	0743962943	5/9/1999	Taita-Taveta	Taveta	00000 - 10000	Unemployed	Under-Graduate	Others	50	50	0	f	f	Clifford
 10d805ed-704a-493f-93de-9c0bd809121b	b7162796@gmail.com	0768820286	1999-07-13	Machakos	Mwala	10000 - 20000	Employed	Post-Graduate	Retail	0	0	0	f	f	\N
 e9399ea6-19a3-4e71-872c-f965a846097f	kiriganjeri@gmail.com	794484195	1990-09-20	Kiambu	Kikuyu	10000 - 20000	Self-Employed	Under-Graduate	I.T	0	0	0	t	f	 Cliff
 2865a5fb-dde2-4301-b776-cdbb955841ca	sakwalorine98@gmail.com	0743627099	1998-08-08	Kakamega	Butere	100000 - 500000	Employed	Post-Graduate	Agriculture	0	0	0	f	f	\N
@@ -924,6 +929,7 @@ c3578b3f-893b-422e-b164-85b6574d28c7	5bea4fdc-29b4-4937-8380-a7a34eff65f0	My dar
 cadb4c74-7945-4ca5-873f-cacfa11d222a	5bea4fdc-29b4-4937-8380-a7a34eff65f0	Olayinka store 	Kaffy	Draft	800	2026-06-28 21:57:00.048+00	2025-12-28 21:57:00.100393+00
 772f4470-fd38-4b87-b3af-e8f2ae4829d8	9aaac370-1902-451b-88eb-259f2e38326e	18 DAYS GROUND – INASEMA NANI? KUPPET Opinion Poll	This opinion poll captures members’ preferences for various leadership positions.\n✔ One vote per position\n🔒 Responses are confidential\n🗓 Results will guide ground strategy	Draft	800	2026-06-29 08:45:58.679+00	2025-12-29 08:45:58.734205+00
 5e6b04d0-438f-4f1e-ac4b-ae99c401e63a	9aaac370-1902-451b-88eb-259f2e38326e	Ground inasemaje	The objective is to get a feeling of members before January 17th	Draft	800	2026-06-29 09:43:24.808+00	2025-12-29 09:43:24.858926+00
+3b802020-9e47-4e50-a5c4-95e190efa9be	c3e290ca-809c-4ea1-8424-335d27565ad1	Mixed-Methods Study on HPV Health Literacy, Vaccine Decision-Making, and Structural Barriers to Cervical Cancer Screening among Young Adults in Abuja, Nigeria	Mixed-Methods Study on HPV Health Literacy, Vaccine Decision-Making, and Structural Barriers to Cervical Cancer Screening among Young Adults in Abuja, Nigeria	Draft	800	2026-07-06 05:15:07.068+00	2026-01-06 05:15:07.120652+00
 \.
 
 
@@ -6809,6 +6815,11 @@ f4a7987d-86c8-4832-8ec1-d8c1f4e48bfd	chidi666@gmail.com	\N	\N	\N	\N	\N	f	2025-12
 ebf230ae-3357-492b-bdc7-1124b4eb0416	sefhsan98@gmail.com	\N	+201154885284	\N	\N	\N	f	2025-12-30 03:30:19.158979+00
 0f595b6e-bcae-4fa2-84ab-a125bb7403d5	Kipkoechcollins505@gmail.com	\N	+254722351534	\N	\N	\N	f	2025-12-31 06:06:42.635626+00
 54113ef4-dd72-482e-83d6-ab7a78353a8d	shilaoside98@gmail.com	\N	\N	\N	\N	\N	f	2026-01-03 09:07:09.353595+00
+c3e290ca-809c-4ea1-8424-335d27565ad1	gamisaidu@gmail.com	\N	\N	\N	\N	\N	f	2026-01-06 05:07:47.549871+00
+e8b06ff1-0262-4185-abd4-f042c568f816	loiseamos806@gmail.com	\N	+254757054549	\N	\N	\N	f	2026-01-06 07:56:04.817296+00
+3e0d4de6-c653-463d-bc86-90f4648d0eb6	joakimkimathi03@gmail.com	\N	\N	\N	\N	\N	f	2026-01-06 10:33:10.437059+00
+74269236-0a5f-42a6-b6df-5f6044f1788f	loise@gmail.com	\N	+254706201854	\N	\N	\N	f	2026-01-06 17:53:56.600262+00
+f4bf878b-d2d5-48a6-89ec-46e917ca1221	maureenwangechi411@gmail.com	\N	+254714695161	\N	\N	\N	f	2026-01-07 00:17:15.77325+00
 \.
 
 
@@ -7375,13 +7386,12 @@ e8d259949a3d46c31630fe203a77da1d305670acee49275c0c912524435adfa0	1e1bfdea-6a4a-4
 b7868f7c90371b51ed94888c14206a6a00767106da6ea2690c6a92f39ec33de8	1e1bfdea-6a4a-4e9e-938c-695abca2cece	2025-12-11 11:48:31.621+00
 1a7a4e3f329958bb9640d116f354d960e4f3a434a2bdf35e7aa7313683b6f69e	9a8ef75f-9c6b-4a6f-ab81-d8f0005236c0	2025-12-11 12:38:48.915+00
 d3a209b100bc7c4c26db1a51f92555876bebf188e4fa7a2363cbddaa4be936ef	7364ef47-dbee-450f-9c05-2d1f0240bf64	2025-12-11 12:51:02.326+00
-957635187540115f89028f072a9dd3acbfa9202c4dc458a3c20f4b1a2a00267d	c03f041d-a78a-4b3c-9153-b5a02448bd77	2026-01-09 06:56:17.906+00
+dacaa1316c49e78dab9646e09f7005db3b48f7f166cbd722f6e5a976c67c1e23	c03f041d-a78a-4b3c-9153-b5a02448bd77	2026-02-05 06:02:41.937+00
 eeee718094739d8af331d728c1612f0b276bd92ad953e494e75cc38a8b8aa3ae	5f49e9f9-d1c2-4e6b-bd15-a0f0400c561f	2025-12-11 12:57:36.713+00
 68ba3c60c40fd129bc89b900277cf8f28001b4df4014eaa2730d922b1bba22bc	5f49e9f9-d1c2-4e6b-bd15-a0f0400c561f	2025-12-11 12:57:54.657+00
 961942a05b2827a97cd82eace82f727789789c2d926be8a69e16b928741a9641	499a97be-ad00-42fa-b838-6f6426292cf4	2025-12-11 12:59:25.157+00
 761011e68638c49a4050e9933c3cddc1b7052c1e54492d6b92b11d1bac7e7ad2	499a97be-ad00-42fa-b838-6f6426292cf4	2025-12-11 12:59:49.645+00
 e2457b7a222f70958dfdccf4e66ceb1b61fcb610ef9679da43585def9ee80897	b434beb9-01b1-4696-be19-0c696fec4da3	2025-12-11 13:12:44.622+00
-dacaa1316c49e78dab9646e09f7005db3b48f7f166cbd722f6e5a976c67c1e23	c03f041d-a78a-4b3c-9153-b5a02448bd77	2026-01-09 11:05:17.375+00
 93cfce72225f35c0e49b61a78f2a3a4099e6d0bdc939112a25f32caf56726e2a	d81da3fb-09c2-435b-92a9-c1b284a2f4e4	2025-12-11 17:27:01.466+00
 0afaeb8d9895ed51302aa2a5408f9af874662054bed089e14c7a84d668117c45	f76888ff-444f-4d18-8872-72021eaaf8c7	2025-12-11 17:37:23.503+00
 fc1c9defefd69ed68a3976d3f85fc69a2b2cae0c318ce066180554d80a426457	f76888ff-444f-4d18-8872-72021eaaf8c7	2025-12-11 17:37:52.135+00
@@ -7425,6 +7435,7 @@ fed98009201f17691de3f67eb44d3b84a573068b255e5d5454c7fe718f9c993a	803961ee-8898-4
 93b42c03b9b5333c7272df5735d8428801004904fdfa32e56bf54a7e0a7096c3	da811d1e-43ca-49b5-8d0e-5fd1a47de9b1	2025-12-15 02:29:58.249+00
 6091f39e087b5714d5c9520045fac5452d0aaf937393f8af5fac60f3b87784d2	da811d1e-43ca-49b5-8d0e-5fd1a47de9b1	2025-12-15 02:30:10.501+00
 f9851c100815151a137f59fbc8b0cd93205026dde94f9662106979d36118714a	1b21600e-4f6e-407f-a401-74edd3258d59	2025-12-15 12:02:05.174+00
+957635187540115f89028f072a9dd3acbfa9202c4dc458a3c20f4b1a2a00267d	c03f041d-a78a-4b3c-9153-b5a02448bd77	2026-02-05 05:40:59.816+00
 68077c6de55ba5b40f862c8b17ee3a020adeec2dddcc71f791fb3a00745e57c4	7c7fbc40-a2de-462a-a292-b21fea2a9112	2025-12-15 19:07:04.897+00
 bd9e8f9d288d8afc200780d5b45673c3d13e56f128b14140f8257a49b37b34a4	7c7fbc40-a2de-462a-a292-b21fea2a9112	2025-12-15 19:08:36.68+00
 0143c1ea182e24cf55dbcf4e0318b013678609723c783913db60f0e0fd0a2694	fb18ac03-fbcd-4551-90f0-1baad5dec7fa	2025-12-15 19:17:56.649+00
@@ -7545,7 +7556,13 @@ b78d3b5df49114061f6fdd8affe90cce11b4e61336312c1f8541b223c4bf758b	0f595b6e-bcae-4
 941c80995a0b45deacf5df3ca211b65df9bdce55630fb16ff3f27bff392346e8	0f595b6e-bcae-4fa2-84ab-a125bb7403d5	2026-01-01 12:06:57.358+00
 2e52335374105262f5fd68105ef0ffb98f60f7b9725954db4ef4f0e391498bb7	d81da3fb-09c2-435b-92a9-c1b284a2f4e4	2026-02-02 08:24:46.172+00
 68fa26bc6509bce378e936b9f2e328397bcd9d2f91d53fead83c325d5763a8e5	54113ef4-dd72-482e-83d6-ab7a78353a8d	2026-01-04 15:07:09.994+00
-c438ca688508163b3974e4bbe4dbc454a3d7836a4716144b381885c40a5f2a09	d81da3fb-09c2-435b-92a9-c1b284a2f4e4	2026-02-04 13:52:07.969+00
+2c3f8116487ed475a3425e7102dfe9e1ffeae486aad8a5ce7b3566864301a7b7	c3e290ca-809c-4ea1-8424-335d27565ad1	2026-01-07 11:07:48.178+00
+dae2e34e7377bf2b994e134cc37ae793711a302d464b79cc9875f4990da2cd87	e8b06ff1-0262-4185-abd4-f042c568f816	2026-01-07 13:56:05.445+00
+0ff42a7b0ced086abbc35b0d1b08ab2619592837dfa66660395191e7a5d5e11e	e8b06ff1-0262-4185-abd4-f042c568f816	2026-01-07 13:56:22.921+00
+1b3e2578a8c1df214b12e63c932f6a1f03b3105bd3de8992d968199980666b3a	4615f82c-0260-4aa4-ae6b-999dcce70f3d	2026-01-07 14:31:37.749+00
+bba4a505c07249699099a26ced9a18776be36b037b02c18b5dd2c88e785b49f1	3e0d4de6-c653-463d-bc86-90f4648d0eb6	2026-01-07 16:33:11.055+00
+ca018fa0c71b3035ccf3350b4238127f7588aedd85e9bbcd9d8d90e40c7094fa	74269236-0a5f-42a6-b6df-5f6044f1788f	2026-01-07 23:53:57.273+00
+a9609c2c3c3c9bdf579c658f0c405ab9710523099f9783d822edb24482c41bc6	f4bf878b-d2d5-48a6-89ec-46e917ca1221	2026-01-08 06:17:16.401+00
 \.
 
 
@@ -14194,6 +14211,7 @@ d04ac29e-7671-45cd-8be7-ed9bd24815aa	5983658f-f8f1-43ff-bee1-e867baa7a0e9	\N	fac
 ba75d44c-8ef4-43e4-9bd4-2c4092fe7484	f7f0f513-95a6-4a46-b8aa-67d8c801317d	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2025-12-13 20:34:34.404337
 2b0858be-85b3-4185-ae2c-7afd3a0f4921	57450856-3790-4b48-97a6-e9383cc76deb	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari	188.245.45.171	\N	2025-12-13 20:34:36.596573
 e1fa6e39-6461-408b-991f-80a044a6fe9b	27906f65-1732-43d7-9867-82115143c713	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2025-12-13 20:37:57.192493
+9b543f9c-d2d0-40a6-9a53-06bfaeeb97a6	183cc9a4-8e57-4c52-88e3-6ffb699cb49b	\N	\N	\N	\N	f	okhttp/4.12.0	188.245.45.171	\N	2026-01-06 10:31:18.581315
 8f921bf3-73a6-4196-9d49-63a70dab564a	5dc950a1-f3e6-44f4-8b6f-8cc9b1ca7c0d	\N	faceBook	paid_social	Social Media Campaign	f	Mozilla/5.0 (Linux; Android 15; SM-A055F Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/538.0.0.53.70;IABMV/1;]	188.245.45.171	http://m.facebook.com/	2025-12-13 20:37:58.530616
 2e55cb06-af23-44df-90aa-b4e4051fb0b7	89aa72ec-464f-412c-b332-c510b452640a	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari	188.245.45.171	\N	2025-12-13 20:37:59.944694
 d4336d91-e6f5-4ac0-bbab-0151f55fba7b	5830f1ac-464d-4005-9fa0-ce2f0191f352	\N	faceBook	paid_social	Social Media Campaign	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36	188.245.45.171	https://l.facebook.com/	2025-12-13 20:53:08.974136
@@ -17088,6 +17106,80 @@ a632a8d0-8926-4890-b78b-ff84e9ab09e3	80c43951-292d-4f7b-bae7-37d2a5e8f8c4	\N	\N	
 1456b230-fbd8-40c9-9a37-736dc8328084	fa86e05d-d368-4b0c-aeab-7cbae415dc74	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-01-05 20:31:10.016285
 7a4f2e0a-a8ee-4d68-b153-e8e646e40e8c	36638ad1-2c3f-4391-8e02-c78f506b078f	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-05 21:25:05.883031
 050ed303-f14c-4d61-9ea8-f4f3a948a6af	ae677413-c824-44a9-8735-5d8e0e61336c	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 11; TECNO BD2p Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/492.0.0.6.105;FBCX/modulariab;]	188.245.45.171	https://bs.cahaya-ilmu.com/	2026-01-05 21:43:23.897165
+9dee30e7-4d01-4184-96a2-71d521e15da3	13b740e5-0023-46cd-af28-934570a112d9	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2026-01-06 01:08:13.887141
+7db30b98-2718-4396-9893-c3d4ea362e44	017fa1a3-c052-46e4-9511-48230304e57b	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2026-01-06 01:19:50.237526
+3d5798b3-9f9d-4f27-9445-7ca8d1b8a92f	df64a8a6-7fe9-4475-840d-48b7e029ed0f	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; HubSpot Crawler; HubSpot Domain check; +https://www.hubspot.com)	188.245.45.171	\N	2026-01-06 01:47:01.936096
+87f362c3-bc76-444b-a74f-da04f112bb27	c25148d6-8e45-4c03-bc5c-5daed898db6d	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-06 01:47:33.422864
+6017e391-43fd-4865-88d3-3cc8214594f4	0aeb28bd-9815-4f33-9e75-048a0e7f6aca	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-06 02:15:56.093778
+561e5e5b-e1b6-4d3a-a831-ed3eaa1ac8e1	98da3958-e0fc-46f8-93bc-a4492ac14a27	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-06 02:22:58.778258
+2a351d7f-3b27-4034-864d-33282e662893	9fd96c81-644a-4950-862f-8d63efb262ed	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-06 03:16:49.59101
+77c11589-f2ca-492f-9b50-91dc51ef18d9	a4023b66-c063-48e2-8ef0-838600acf9e9	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 13; Infinix X6528 Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.116 Safari/537.36	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 03:35:02.213812
+132e7cb4-3b91-479a-ab27-78e70406e88a	3d17522b-cc55-4a15-94a2-0e1409278ca5	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-06 03:52:59.25819
+002a546b-8779-4b6e-bf77-842506678465	91a85cd6-c6c9-4312-bef7-d1ebff98c4d3	\N	\N	\N	\N	f	Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36	188.245.45.171	\N	2026-01-06 04:05:24.460998
+0354bf10-ef6d-47a7-a608-b5341e0f3c2e	f0822f48-df8b-4b03-94c6-f4f85f373f43	\N	\N	\N	\N	f	Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36	188.245.45.171	\N	2026-01-06 04:05:24.668852
+f6756533-68f5-4a78-8d7b-ce855cc9f447	92716271-96fa-4359-a024-b802e201c25b	\N	\N	\N	\N	f	Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36	188.245.45.171	\N	2026-01-06 04:14:24.801102
+fcbd040e-2c84-4c1b-924d-6914620ec514	45480fa0-0df1-4fdb-8430-0276f4899b78	\N	\N	\N	\N	f	Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36	188.245.45.171	\N	2026-01-06 04:14:25.284425
+674ca4de-b8b7-410e-8eca-767956c17d89	f3f8cf65-ba29-4a35-a461-7ce8218a0fe4	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-01-06 05:01:06.182219
+81757781-dbd9-4b90-9f51-d4ac10f09a98	09ead692-199b-4e1e-9ffa-ab0a49d132c7	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-06 05:05:29.956907
+9d29253a-96a0-485d-adf5-b4ca90e98bc7	68d5cd8d-bdf9-42a3-b36b-1aba0987d994	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 05:07:53.770954
+ee91d6f9-5602-4e35-8d15-cfc2427645ab	ce99e364-0f86-4456-99b9-c70f59b25fe0	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 05:07:54.141844
+850ecf75-3976-4a9e-9f8d-bfcbb7126e06	09ead692-199b-4e1e-9ffa-ab0a49d132c7	c3e290ca-809c-4ea1-8424-335d27565ad1	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://accounts.google.com/	2026-01-06 05:12:09.356692
+210a7ca5-3419-45c6-9643-375c566f79be	d7f14b12-a9fa-4bdc-a45b-5e64e7b1fc38	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 05:12:13.438671
+b2b2e026-6b7d-4e6b-bed1-005d93e92c01	4f44f2ad-2336-4387-85ad-bb97b5ca531a	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 05:12:13.809918
+610cc5ad-cb05-4fc5-979c-5501f76d7e8f	09ead692-199b-4e1e-9ffa-ab0a49d132c7	c3e290ca-809c-4ea1-8424-335d27565ad1	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://int-insights.com/client-console/surveys/create	2026-01-06 05:15:08.064336
+bf30f42c-f2d1-472c-b3ce-a3761363bb77	09ead692-199b-4e1e-9ffa-ab0a49d132c7	c3e290ca-809c-4ea1-8424-335d27565ad1	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://accounts.google.com/	2026-01-06 05:16:52.612235
+7f797942-b891-4648-82ae-7b46535a0bf0	c1679fc1-ee7d-4960-8f6b-670d3a1b3782	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2026-01-06 05:31:00.397497
+3a7d6009-e4ee-4da6-9dea-70bb84ea10ad	99375cb7-1abf-4b31-9f98-466991026220	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-01-06 06:38:15.446697
+9f1a0ef5-374b-4e06-998b-40b4bebe390e	f07e6622-3691-4d75-944d-f495e97c6b7f	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-06 07:12:19.601571
+85648a9c-f223-46a3-8f87-2bcd88266031	99ed32db-a19f-4556-84db-3beac5e80d1a	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-06 07:12:20.369623
+67e2fa01-b5de-4853-acc5-3f1119b88a4b	e71b66f6-3e49-46dd-8610-380d16047c9d	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-06 07:12:20.477315
+9e2c7394-ba23-464a-bc6e-894c099b495e	d8603577-1694-481a-a4b4-dd10ab67c820	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-06 07:54:25.146907
+79171fb4-1817-4878-8bfa-083849667fb7	898a201f-d0f4-4ad5-9669-2d023bdc9d48	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	\N	2026-01-06 08:27:46.388782
+b52500ec-15f4-4c3c-a222-3cd38e29ded7	898a201f-d0f4-4ad5-9669-2d023bdc9d48	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	\N	2026-01-06 08:28:06.124784
+75c49acb-e73a-4d5e-bdf4-c912510d3519	898a201f-d0f4-4ad5-9669-2d023bdc9d48	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent/register	2026-01-06 08:29:18.105973
+2a0572b7-370f-456b-898e-1dea523201c6	898a201f-d0f4-4ad5-9669-2d023bdc9d48	c03f041d-a78a-4b3c-9153-b5a02448bd77	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	\N	2026-01-06 08:29:24.750048
+221905a1-f876-48aa-9ec7-5753577e544f	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent/signin	2026-01-06 08:32:24.7739
+a24b4d65-7b0b-4baf-a216-6bf803b04431	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent/signin	2026-01-06 08:32:30.190865
+3817695e-40f4-4a5a-8bd7-b48ded6e4aca	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent/signin	2026-01-06 08:32:32.630387
+3334bf1f-f344-40ea-a35a-d941db609afa	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console?redirectTo=/agent/signin	2026-01-06 08:33:13.912998
+efd011a9-fd08-4384-9886-e9b3eee6b2cd	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:39:38.208707
+f8392e7e-a4a4-4f6a-9778-8e5a2207da72	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:41:11.134989
+b5256837-a541-40e4-b125-01ddc0c5083b	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:42:01.145783
+a95c364a-3d23-433d-a71d-968246cb9494	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:42:05.130427
+85b5a349-8662-4b46-a399-7accb227d43e	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:42:24.002323
+f6db8a75-af33-47b0-8571-ed942615c1a6	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:42:30.098454
+aa74c17e-1d94-4324-ac5b-bc8a44b169c2	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:42:40.928289
+61800110-78e6-4a4a-8f10-d06b7b396847	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:42:52.105293
+d96bb084-4383-4042-ad0c-79f7ad5ab8d3	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:51:36.224791
+2df6ff74-3b13-4c9b-940f-fc79a99bad1c	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:51:43.968046
+6f854c0d-85c1-4715-a051-cda0e3d8906b	dbeeff10-97f8-471b-9487-077c6a50c6db	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-06 08:54:17.200407
+8903cc0b-cfcc-416c-9a9c-1534d9a306a9	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 08:56:41.791242
+c89caba9-eda5-425b-b62d-4a9d234152cf	898a201f-d0f4-4ad5-9669-2d023bdc9d48	4615f82c-0260-4aa4-ae6b-999dcce70f3d	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36	41.57.108.219	http://localhost:5173/agent-console/billing	2026-01-06 09:08:50.109105
+93b190f8-f5a2-41b6-9c0f-c6820f13c500	4064bc77-d75b-4889-8986-33d0586b626b	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-06 10:32:12.586908
+97eebdc2-0b54-4368-8786-a153745a218b	28943215-47be-4fef-94ba-8af99d0645ea	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 14; en; TECNO BG6m Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 HiBrowser/v2.25.6.3;lang=es;nation=DO;locale=es_DO UWS/ Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-06 10:32:25.17545
+0a9cafad-3c73-406b-a9a2-55988e94cd39	fb550eff-9379-4625-83d9-c4ac64d53a9a	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; SM-J600F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.143 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/543.0.0.55.73;IABMV/1;]	188.245.45.171	https://bs.cahaya-ilmu.com/	2026-01-06 11:46:02.880609
+9f314370-508c-4603-8b54-47350b81331c	03f6f07e-f1e7-4734-9546-249799bd869f	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.122 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2026-01-06 12:05:14.583173
+eeb8abdd-9377-4c1f-b299-aee455d9558d	68efb1be-5fa7-43e3-8c04-58515380da16	\N	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 15:08:49.921701
+8d9053ad-a66d-4839-9c2f-d8a97566c02c	7baab1a8-58ad-4728-956d-6ffad2c0b7e6	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-01-06 15:38:06.424381
+ff7ea45c-7472-4b91-829e-975ca6fd4abd	45506a6a-d8e2-44f0-8757-408a0ecf342a	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/29.0 Chrome/136.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2026-01-06 17:51:10.018671
+da4fc70d-0436-4791-932c-59999792d68a	a5795f9c-e9e2-4682-9443-044e77081c0a	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; Infinix X612 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.171 Mobile Safari/537.36	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 18:00:40.327756
+7c82b3a5-ec4d-4e5f-997b-4958994b9be8	50e50e70-8900-403b-bf58-5eaed379b2a0	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; Infinix X612 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.171 Mobile Safari/537.36	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 18:00:41.760348
+f4774219-0fc7-484a-a420-5a5718ea21e1	b59bdfec-caf1-4cbf-9af5-828d7810f057	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-01-06 18:47:21.8048
+9ff344af-5df1-4842-a855-e4e1e24b683a	7fa185a6-37d2-4d1b-a1e7-00374537d1e0	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 15; NIC-LX2 Build/HONORNIC-L42; ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36 musical_ly_2024204040 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_version/42.4.4 ByteLocale/ar ByteFullLocale/ar Region/EG AppId/1233 Spark/1.7.2 AppVersion/42.4.4 PIA/2.5.3 BytedanceWebview/d8a21c6	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 21:03:36.199754
+4ec18969-2636-45c5-82cc-af0bf8b71fdb	efeaf889-526c-4f99-8617-d17d4496d7a4	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 12; CPH2477 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.34 Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/492.0.0.6.105;FBCX/modulariab;]	188.245.45.171	https://bs.cahaya-ilmu.com/	2026-01-06 21:07:00.459429
+20788f5e-c8dc-44ca-8f56-43de98688e7a	b16ea28f-d264-4481-9d16-540e6b234d84	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 21:10:11.394033
+37b173fe-f3d7-468a-91a6-57886c46c4eb	1317bdbf-4fa4-4c1b-8721-40e05def8b81	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 21:10:26.152749
+95352f2f-e85f-4d78-9523-5c210aa6d262	28f5fd68-687a-474b-b99e-904320b105fd	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 11; vivo 1904; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36 VivoBrowser/13.3.0.0	188.245.45.171	\N	2026-01-06 21:11:50.113895
+84c3ad99-a01e-49f3-9467-ec9201beac27	51747da9-8c80-4656-8574-c648214d309b	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 12; SM-A032F Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.34 Mobile Safari/537.36	188.245.45.171	\N	2026-01-06 21:17:02.610588
+d3f5a848-1aea-4192-9539-46b98840b989	2bd65219-e448-444b-a5ad-26d0ba3af88b	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 21:17:03.90387
+9b040f4d-c75e-4b35-b148-42e5f88c96a5	5e916614-01f0-4493-87b2-fc8ad34e5df2	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 21:17:10.322691
+007f2cbc-317a-410a-a1ab-63d6185c15b0	8ecc5993-3629-451c-a65b-43c5c46e9d97	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 21:17:10.988207
+e69f24c6-f0b3-49df-80da-75f35a1f2bb3	9623941b-699a-48f5-84a1-d56936cfbb24	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)	188.245.45.171	\N	2026-01-06 21:35:25.124929
+62eb0048-9959-4a1c-830d-55283bfc4a8a	b53aef4f-1ff2-43da-b05e-9145509cb097	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.169 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)	188.245.45.171	\N	2026-01-06 22:18:25.684617
+bad0381d-7524-4365-84be-0a215c1c9245	8b4b168f-da0f-45e4-ab57-20486edfaf7e	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 15; SM-A057F Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/143.0.7499.143 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/543.0.0.55.73;IABMV/1;]	188.245.45.171	https://syndicatedsearch.goog/	2026-01-06 22:27:39.568532
+a848892b-d5e4-44b7-abae-dc2c30b518d4	c74e896c-d96a-47f3-b5e2-c74cca36a2ce	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-01-06 22:44:48.266544
+5102e4cd-fb91-4d5b-bca7-2454fa994657	45ffe416-2a03-4923-8244-cb8150f5c2a6	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-07 00:15:30.009392
+2f8bf621-a40a-478f-96f0-ace9dfb2a797	18ed268f-91fa-4375-95ff-45f33b754e06	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://www.google.com/	2026-01-07 00:15:42.391475
 \.
 
 
@@ -17222,6 +17314,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict X4k8VXTyyMbyqsL2HvHil1leFLCVCXABsgFptLsWsKJrdKZbHNdoGwgOpPqMHDq
+-- \unrestrict MUIam9i1bkxAJZzLByL5kuH1NjEHotbbLNEhK7cUkchhyhGYHx4WSLpIsPxwEee
 
 RESET ALL;
