@@ -311,6 +311,18 @@ CREATE TABLE IF NOT EXISTS "public"."email_verification" (
 ALTER TABLE "public"."email_verification" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."feedback_collection" (
+    "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL,
+    "name" "text" NOT NULL,
+    "email" "text" NOT NULL,
+    "feedback" "text" NOT NULL,
+    "created_at" timestamp with time zone DEFAULT ("now"() AT TIME ZONE 'utc'::"text") NOT NULL
+);
+
+
+ALTER TABLE "public"."feedback_collection" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."old_surveys" (
     "surveyid" "text" NOT NULL,
     "client_id" "text" NOT NULL,
@@ -657,6 +669,11 @@ ALTER TABLE ONLY "public"."cost_table"
 
 
 
+ALTER TABLE ONLY "public"."feedback_collection"
+    ADD CONSTRAINT "feedback_collection_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."password_reset"
     ADD CONSTRAINT "password_reset_pkey" PRIMARY KEY ("id");
 
@@ -915,6 +932,9 @@ ALTER TABLE "public"."cost_table" ENABLE ROW LEVEL SECURITY;
 
 
 ALTER TABLE "public"."email_verification" ENABLE ROW LEVEL SECURITY;
+
+
+ALTER TABLE "public"."feedback_collection" ENABLE ROW LEVEL SECURITY;
 
 
 ALTER TABLE "public"."old_surveys" ENABLE ROW LEVEL SECURITY;
@@ -1271,6 +1291,12 @@ GRANT ALL ON SEQUENCE "public"."cost_table_id_seq" TO "service_role";
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."email_verification" TO "anon";
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."email_verification" TO "authenticated";
 GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."email_verification" TO "service_role";
+
+
+
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."feedback_collection" TO "anon";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."feedback_collection" TO "authenticated";
+GRANT SELECT,INSERT,REFERENCES,DELETE,TRIGGER,TRUNCATE,UPDATE ON TABLE "public"."feedback_collection" TO "service_role";
 
 
 
