@@ -316,7 +316,8 @@ CREATE TABLE IF NOT EXISTS "public"."feedback_collection" (
     "name" "text" NOT NULL,
     "email" "text" NOT NULL,
     "feedback" "text" NOT NULL,
-    "created_at" timestamp with time zone DEFAULT ("now"() AT TIME ZONE 'utc'::"text") NOT NULL
+    "created_at" timestamp with time zone DEFAULT ("now"() AT TIME ZONE 'utc'::"text") NOT NULL,
+    "surveyid" "text"
 );
 
 
@@ -821,6 +822,11 @@ ALTER TABLE ONLY "public"."consumer_package"
 
 ALTER TABLE ONLY "public"."email_verification"
     ADD CONSTRAINT "email_verification_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id");
+
+
+
+ALTER TABLE ONLY "public"."feedback_collection"
+    ADD CONSTRAINT "feedback_collection_surveyid_survey_surveyid_fk" FOREIGN KEY ("surveyid") REFERENCES "public"."survey"("surveyid") ON DELETE CASCADE;
 
 
 
