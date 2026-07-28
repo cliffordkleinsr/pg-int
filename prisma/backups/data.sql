@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict wYkGGwCroZxGCUOUSZDiUYjrobhmWBc0df8mDdSdJynP11nPkSbNuFPPfBlQ8Mk
+-- \restrict bVlTr91vCv0mndk38qH8fhEpdefsZu9rYPeLavcaVqoPs4k8dmeS0PwPrYyGlDV
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -71026,6 +71026,7 @@ ab5c19d9-00ca-466f-9068-75e409873e86	2c502289-2723-4de1-899e-c2503367df92	\N	\N	
 40ac4aa0-941a-4d6e-9fea-84616fa3c62a	1ea8f934-e2db-4ffd-bf56-5579378a6caa	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-07-19 04:31:26.449757
 cff8a7d5-6e86-42af-b9c5-ef681ec4bb8b	8fac78d1-ba66-4014-94a8-8c03d11e1e18	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15	188.245.45.171	\N	2026-07-19 05:17:08.31605
 f369a260-fdd0-44c0-a089-40eff805ffc4	c920f5d5-f1ad-4d0b-9f38-d7289f6abd76	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 26_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1 (Ecosia ios@12.3.1.3108)	188.245.45.171	\N	2026-07-19 05:17:08.416359
+024040a0-f72f-4551-af75-028d676d6b1f	97c3884d-cc90-424f-aabd-77b80917a0a6	\N	\N	\N	\N	f	QR Scanner Android	188.245.45.171	\N	2026-07-27 06:35:58.443205
 67977a63-9f7e-4dbb-9ffb-2dd5888c2338	3c7424c5-3343-466f-8521-db36a5088b00	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-07-19 05:24:48.101561
 0eee398d-e013-4c0d-b8af-16404098dd03	2b0d49dc-7956-478d-94b8-e1e94bf4082d	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2026-07-19 05:33:39.902326
 a149fd9d-5e9c-4611-a366-da83da1e848a	b75fa688-7c9f-41dc-a08a-e8f1d36e7197	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-07-19 05:34:13.959406
@@ -71181,6 +71182,14 @@ a8947c5d-6336-42e8-83ec-8d34d443a43c	2ce01ed9-36c6-488a-b9ea-c2b9af3dc5db	\N	\N	
 2f482248-1990-463f-9a66-acc2871e821e	1a56989d-01a8-4143-99ca-55006e8ef9da	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-07-26 15:34:18.011761
 ef338ab2-8c2b-414a-b76d-c18200b2e595	0e0595ec-21c5-4b71-a62d-6bcbda7ee9ca	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-07-26 23:38:39.077491
 f41942ae-908b-48ff-b21f-e6583b55b179	2cbfb640-6394-4581-b9b9-e6af352a79d0	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-07-27 00:38:56.466462
+8acdc25b-7b4a-4528-9ad7-361c30c304f6	168c6dc7-ccfb-4231-b286-c0dbc4f7b011	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-07-27 03:36:11.263576
+c302d226-5922-438c-95a7-d8b56d409e94	cc09b377-6934-4fbf-9a09-5e599b8e5a5c	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-07-27 04:35:52.792141
+3f7ae94d-5484-4478-9eab-eb0e97894b86	31f42db3-7271-46ec-ba3c-dce2e73db001	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.128 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2026-07-27 04:42:41.472714
+e5728930-1916-4af0-be25-513c70dc0275	a58289e4-207b-4d11-aec3-53f00710142a	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2026-07-27 05:20:34.468854
+be9cde76-d1ee-46f0-871c-85830961ff1d	611e54ce-157f-4fc2-9763-b7e5b262062d	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-07-27 07:35:57.613855
+b4cbbcd8-2267-4a3c-8b3c-72f5e5297d1f	e7c99c1c-c4ff-412e-a923-9126b6f91801	\N	faceBook	paid_social	Social Media Campaign	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-07-27 08:16:24.3668
+668db651-b745-4088-a72c-32048d8d06e0	711f1daf-6880-45db-b95c-8890c5d5260c	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-07-27 14:16:18.608214
+85127de9-ebe9-43f5-921a-1e4b2c7c35d0	12f43875-de34-4953-af09-c3bb45bfc776	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-07-27 19:18:21.654172
 \.
 
 
@@ -71307,6 +71316,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict wYkGGwCroZxGCUOUSZDiUYjrobhmWBc0df8mDdSdJynP11nPkSbNuFPPfBlQ8Mk
+-- \unrestrict bVlTr91vCv0mndk38qH8fhEpdefsZu9rYPeLavcaVqoPs4k8dmeS0PwPrYyGlDV
 
 RESET ALL;
