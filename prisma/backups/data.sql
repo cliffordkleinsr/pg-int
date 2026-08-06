@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ATa0ReZZhWJvjLSoNndbigEjZyZducyKfQ6PWTTECW1kTygUTFQpEhSaAWVjYey
+-- \restrict ibKN78a66jILFofEHdb45ax3eOLmFaLwF4ZPGpu4eaj8l5sjUA9739vwj9fmraO
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -71344,6 +71344,12 @@ a7d2f115-0657-423a-a5a9-cd508c1730b3	f4ccdd20-cb77-4e8f-9711-9d57f4cac196	\N	\N	
 4e770e02-e296-4df7-89fd-0c452deabbd6	8103e889-35e4-44ce-8c19-6dd785cfedda	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-08-04 14:45:31.870263
 42301f10-0ee5-4e39-a81c-f4322a17b6ce	7198fd9c-6928-4885-9625-0b58db264657	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-08-04 15:07:45.517982
 58c3281a-9504-47d7-a079-24447b678fb4	b811c35e-081d-4b63-adc9-733b7e37ac07	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot	188.245.45.171	\N	2026-08-04 17:20:25.774479
+67d05640-9e23-454c-bc89-4405de3722be	61db8985-99b3-4092-a780-02a222d0d518	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-05 04:42:24.197485
+1cb60b80-89e7-4bab-b139-7535676d6d62	cbe9bcf5-52f2-4f8a-91c7-baeeb93f37c9	\N	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36	188.245.45.171	\N	2026-08-05 05:47:14.190444
+c6a1ba62-c54f-475a-9d17-9ab17e0a7c92	b69bac8a-4911-46b3-9070-e7beb1c08a95	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)	188.245.45.171	https://domraider.eu.com	2026-08-05 07:04:06.709564
+0f930ba0-eb1a-4619-8cfc-e8dccb99dc7e	0732d8e6-f8ed-4845-9aa8-753acb4c608c	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-05 07:44:36.99426
+f89519a3-0582-4b36-b9d0-e60721e77545	1c4a4b62-9254-401b-80b1-e346ce73ea06	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-08-05 08:30:57.106439
+97606845-b072-41bf-abab-9a699879b1c5	35fa2232-0631-428c-8f52-d27ceb41c1b6	\N	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.5249.119 Safari/537.36	188.245.45.171	http://int-insights.com	2026-08-05 22:18:48.270584
 \.
 
 
@@ -71470,6 +71476,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ATa0ReZZhWJvjLSoNndbigEjZyZducyKfQ6PWTTECW1kTygUTFQpEhSaAWVjYey
+-- \unrestrict ibKN78a66jILFofEHdb45ax3eOLmFaLwF4ZPGpu4eaj8l5sjUA9739vwj9fmraO
 
 RESET ALL;
