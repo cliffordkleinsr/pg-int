@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict zpG4YTf1v6tV33OJAsFsyv6o04wePsRGsGfAZjez4CTgR1qKQBY8xaaSPx2yAGd
+-- \restrict 586Prnj8g1q1I0ki8aK9bLYaPsKAfumuDagGTVSgj2ATOPA3h53ZIMayfeLzGLu
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -37472,6 +37472,7 @@ a4cbcb6a-23f9-4aac-b504-477494f18d5d	c4b7ccf8-1e64-46bb-a421-72d1d4552204	\N	fac
 75aabbc1-aeb0-49cd-ba37-a42e0e5745e9	80b65198-1b88-4373-b61b-a974918da8c5	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 15:36:42.324945
 48c397e9-df5c-4165-ad53-5916676c9d93	985375f5-b4b3-4063-89e1-0e55ac6e95e3	\N	facebook	cpc	paid_ads	f	Mozilla/5.0 (Linux; Android 10; SM-G960F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/145.0.7632.159 Mobile Safari/537.36	188.245.45.171	https://l.facebook.com/	2026-03-22 15:37:55.2241
 1cf128f3-3791-452b-845a-f7714b35100b	3ac4d6dd-687a-44aa-9ff3-5910d249a50e	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 15:37:59.042479
+87e202dd-bdd7-49cd-8060-2100582b086e	733aa26b-952b-4519-8664-682ef7345b7a	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)	188.245.45.171	\N	2026-08-07 09:30:33.642045
 a5bed2b4-1b7d-4633-be6c-ee353b806360	9aa95d27-6b2f-467c-b030-8117021f80b1	\N	facebook	cpc	paid_ads	f	Mozilla/5.0 (Linux; Android 11; SM-A105G Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/145.0.7632.159 Mobile Safari/537.36	188.245.45.171	https://l.facebook.com/	2026-03-22 15:41:32.983905
 54e18b12-a6da-4f0d-83fb-809fbd7cec46	653c9582-2597-47db-9dd7-f61bad41c73d	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 15:42:07.424488
 74974e24-d1f4-4026-979d-fd773b21e28a	2b1cd2d2-613f-42a7-a371-abc97ffd8a3e	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 15:42:18.702575
@@ -71362,6 +71363,12 @@ d1d1d1ef-19fa-4b3c-952a-1eb9429b9cd8	4e9400e0-d098-4ae0-8dcc-36270c95badd	\N	\N	
 a15f6651-7935-44a2-b5ee-b9d7ab7a4e8e	bd9f0f37-9c70-4faf-9d2f-349c42ad4a26	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-08-06 19:36:19.912567
 ef7c0c4e-47a6-4ce5-a9cf-5b06f19a8c55	6847cf95-bc20-43b7-90c3-e9b4c23c5562	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)	188.245.45.171	\N	2026-08-06 21:20:27.759829
 3cca17b6-b94f-4002-881e-2b1cea3c420c	ed90db01-78f0-45c1-9582-ceface3b067b	\N	\N	\N	\N	f	com.apple.AuthenticationServicesCore.AuthenticationServicesAgent/8623.1.14.10.9 CFNetwork/3860.300.31 Darwin/25.2.0	188.245.45.171	\N	2026-08-06 21:21:27.986388
+6ae2070e-2e2a-485c-890e-deed163b0ad2	784d1a11-0c97-4fab-b4a9-70e30282e728	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-07 04:42:38.81242
+1bad5f60-ea32-4141-8ef0-4e83d05a6a77	99aa650e-b55f-44d8-860c-94a140e2386d	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-08-07 05:00:40.787534
+806f76d2-f507-4f0b-bc64-beafd4926472	4b30226a-5ffa-4f2a-9146-e63b8d150647	\N	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20100101 Firefox/125.0	188.245.45.171	http://int-insights.com/	2026-08-07 05:23:09.323664
+73315230-8fcc-4fc8-98e4-4ab7639bce22	13e95635-6d56-476c-a6d5-0ceb28756186	\N	\N	\N	\N	f	SamsungPass (Android; Samsung Electronics)	188.245.45.171	\N	2026-08-07 09:11:33.78059
+321c7726-be60-43cf-a879-5c54f04afc67	ca02abb1-c260-47dd-8582-9d7ba39d6abc	\N	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20100101 Firefox/125.0	188.245.45.171	http://int-insights.com/	2026-08-07 05:49:56.304286
+e187140f-1cae-4478-b11b-d0796d921f3f	07d39434-fa29-4ec2-ace7-34fb69b85a17	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-07 07:37:12.971523
 \.
 
 
@@ -71432,7 +71439,7 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- Name: client_transactions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 4, true);
+SELECT pg_catalog.setval('"public"."client_transactions_id_seq"', 5, true);
 
 
 --
@@ -71488,6 +71495,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict zpG4YTf1v6tV33OJAsFsyv6o04wePsRGsGfAZjez4CTgR1qKQBY8xaaSPx2yAGd
+-- \unrestrict 586Prnj8g1q1I0ki8aK9bLYaPsKAfumuDagGTVSgj2ATOPA3h53ZIMayfeLzGLu
 
 RESET ALL;
