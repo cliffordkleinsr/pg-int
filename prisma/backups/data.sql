@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict 586Prnj8g1q1I0ki8aK9bLYaPsKAfumuDagGTVSgj2ATOPA3h53ZIMayfeLzGLu
+-- \restrict ccBXYRcTvwTEqcVCXdnRD4L4jrAwtcpC0KWsH5Gi9JT2xEzg4TqXO4IjMfymzVN
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -8814,6 +8814,7 @@ d6bb3814-65ce-486e-8211-78658d97cef0	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	
 72d9ec78-37ba-48c7-ab24-1e4c04322e12	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	Excellent	2026-08-01 03:57:22.634485+00	1564
 d33f81a5-1565-4409-8dec-a57eb971de54	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	Excellent	2026-08-01 03:57:23.613565+00	1565
 70278f0d-e803-4192-b8da-772a5337bee3	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	Overall an amazing stay, all the workers were perfect and were of great help. Would deffinetly stay again.	2026-08-01 03:58:07.264666+00	1566
+70278f0d-e803-4192-b8da-772a5337bee3	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	We could not ask for more. Staff is the soul of Oilepo. After the warm welcome, they took care of every request of our group providing an excellent service,always very kind and  and helpful. The food was great with many options for vegetarians. The Room was very clean and with all the amenities you need for your stay. I really recommend to stay at Oilepo while visiting Amboseli Park.	2026-08-08 13:16:01.875662+00	1567
 \.
 
 
@@ -71369,6 +71370,17 @@ ef7c0c4e-47a6-4ce5-a9cf-5b06f19a8c55	6847cf95-bc20-43b7-90c3-e9b4c23c5562	\N	\N	
 73315230-8fcc-4fc8-98e4-4ab7639bce22	13e95635-6d56-476c-a6d5-0ceb28756186	\N	\N	\N	\N	f	SamsungPass (Android; Samsung Electronics)	188.245.45.171	\N	2026-08-07 09:11:33.78059
 321c7726-be60-43cf-a879-5c54f04afc67	ca02abb1-c260-47dd-8582-9d7ba39d6abc	\N	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20100101 Firefox/125.0	188.245.45.171	http://int-insights.com/	2026-08-07 05:49:56.304286
 e187140f-1cae-4478-b11b-d0796d921f3f	07d39434-fa29-4ec2-ace7-34fb69b85a17	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-07 07:37:12.971523
+839ba117-4aad-4e81-a117-796be1de66d3	1c249a88-98d2-43b5-9af9-c8297194d5a0	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-08 04:34:28.365814
+9301724d-b1c0-48b0-8d4b-8aea7e000cd2	51d46b21-2ede-4a5b-a561-d590ced69b31	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-08-08 07:08:50.35004
+cedbac7e-d236-4953-875a-eb95550ca422	6ae9bf13-cff7-4c0e-8874-f10bcbb8897f	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-08 07:39:13.102568
+fffc2e50-a647-413e-9edb-5ff84fdfbbe0	4a9596b6-e71c-40af-b6a7-e1d4dba782e4	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-08-08 10:17:52.565761
+fb335360-e633-475a-afbd-e0519bb8dc2a	aa3ead55-51fc-4b78-b477-cf33d6840d65	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-08-08 11:09:56.933226
+e98a28e2-69ab-4055-890f-0220c21000e8	5fd77717-584c-48d4-9569-9b611e24e425	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-08-08 13:01:49.867723
+d19ae8f8-9e51-4f63-aee3-490d74fdb79b	17d7cc96-1dc6-4ce4-814a-a78b6aedc033	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2026-08-08 13:13:45.040821
+0ffc7640-60d8-43c9-abd5-1691f54c8195	17d7cc96-1dc6-4ce4-814a-a78b6aedc033	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://int-insights.com/anonymous/377db4fa-c085-4cb3-b77e-c17e860e6fd4/all	2026-08-08 13:16:02.869085
+5c2eee99-2f32-40ed-8973-d4cebcf29467	17d7cc96-1dc6-4ce4-814a-a78b6aedc033	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://int-insights.com/anonymous/377db4fa-c085-4cb3-b77e-c17e860e6fd4	2026-08-08 13:26:49.436682
+6ed9fabb-10c2-44b7-97bf-bdcdb37356f7	c9b5fceb-6b4f-42ce-b099-1ab8d8429ebb	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)	188.245.45.171	http://int-insights.com	2026-08-08 16:00:11.218489
+a004b1d2-42df-47b2-a786-b245a39b4868	51bbd09e-769c-4106-a456-d20d1a82c0b8	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2026-08-08 21:03:14.078277
 \.
 
 
@@ -71474,7 +71486,7 @@ SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 -- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."response_table_id_seq"', 1566, true);
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 1567, true);
 
 
 --
@@ -71495,6 +71507,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict 586Prnj8g1q1I0ki8aK9bLYaPsKAfumuDagGTVSgj2ATOPA3h53ZIMayfeLzGLu
+-- \unrestrict ccBXYRcTvwTEqcVCXdnRD4L4jrAwtcpC0KWsH5Gi9JT2xEzg4TqXO4IjMfymzVN
 
 RESET ALL;
