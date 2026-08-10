@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ccBXYRcTvwTEqcVCXdnRD4L4jrAwtcpC0KWsH5Gi9JT2xEzg4TqXO4IjMfymzVN
+-- \restrict m3P0HuASvfVaDjHSXgLtbCqECeuApTI7G4qZg30zSRVcDIRTGXc7PEmekEpC19X
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -8815,6 +8815,8 @@ d6bb3814-65ce-486e-8211-78658d97cef0	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	
 d33f81a5-1565-4409-8dec-a57eb971de54	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	Excellent	2026-08-01 03:57:23.613565+00	1565
 70278f0d-e803-4192-b8da-772a5337bee3	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	Overall an amazing stay, all the workers were perfect and were of great help. Would deffinetly stay again.	2026-08-01 03:58:07.264666+00	1566
 70278f0d-e803-4192-b8da-772a5337bee3	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	We could not ask for more. Staff is the soul of Oilepo. After the warm welcome, they took care of every request of our group providing an excellent service,always very kind and  and helpful. The food was great with many options for vegetarians. The Room was very clean and with all the amenities you need for your stay. I really recommend to stay at Oilepo while visiting Amboseli Park.	2026-08-08 13:16:01.875662+00	1567
+d33f81a5-1565-4409-8dec-a57eb971de54	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	Excellent	2026-08-09 08:56:39.299355+00	1568
+70278f0d-e803-4192-b8da-772a5337bee3	377db4fa-c085-4cb3-b77e-c17e860e6fd4	\N	\N	Great job! Keep doing what you’re doing 	2026-08-09 08:57:31.133955+00	1569
 \.
 
 
@@ -71381,6 +71383,17 @@ d19ae8f8-9e51-4f63-aee3-490d74fdb79b	17d7cc96-1dc6-4ce4-814a-a78b6aedc033	\N	\N	
 5c2eee99-2f32-40ed-8973-d4cebcf29467	17d7cc96-1dc6-4ce4-814a-a78b6aedc033	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36	188.245.45.171	https://int-insights.com/anonymous/377db4fa-c085-4cb3-b77e-c17e860e6fd4	2026-08-08 13:26:49.436682
 6ed9fabb-10c2-44b7-97bf-bdcdb37356f7	c9b5fceb-6b4f-42ce-b099-1ab8d8429ebb	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)	188.245.45.171	http://int-insights.com	2026-08-08 16:00:11.218489
 a004b1d2-42df-47b2-a786-b245a39b4868	51bbd09e-769c-4106-a456-d20d1a82c0b8	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2026-08-08 21:03:14.078277
+2165fe64-62e0-47d2-8653-c56ab8f3ba9e	8b6dcafb-2201-43ab-8814-7da35899e403	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-08-09 03:51:33.10182
+43e550f2-98b7-4141-bc5e-ea51d6339889	e121b39d-fbe7-4b69-9c3a-00f06e1a3136	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/151.0.7922.57 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-08-09 03:51:40.667771
+d8ec2c06-648c-4b24-8193-798c4be27104	5bf87c87-904f-48f3-80fa-c96d9ccb2e41	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2026-08-09 03:51:56.11975
+870a49c5-a428-41e5-a412-7fb251b95618	5cdf214b-e199-4ec2-bd3e-c865031ce008	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-09 04:37:21.262384
+0d253f46-7ca4-4b6c-a6dc-b09955fb85ea	83a2f506-60df-49db-a540-07c68c961982	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-09 07:37:18.718729
+cd9721f7-e749-4daf-a12c-786dc70b5c28	f09719c5-e900-43d2-b049-3a5fb25f4059	\N	\N	\N	\N	f	Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1	188.245.45.171	\N	2026-08-09 08:55:58.768027
+419cb75c-2821-4a39-b771-95630177bc23	dbae71ca-c182-4bc0-b9a2-0b6b7df2d4e7	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-08-09 12:38:32.707589
+e9f1fc6c-d500-4d8c-b6dd-c673768ec049	cde3dc95-ffa9-42f3-94ab-943ef8ad5705	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-08-09 13:42:31.552573
+66a086f1-8dc7-410b-99a9-85e2d6ad0a76	0bee776d-0265-4537-8174-bd947f5c91ca	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-08-09 16:04:44.141826
+359a4149-1783-425b-a020-685070f452d9	b12debe2-b1f1-4df2-9049-8bb847352546	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-08-09 17:07:59.571986
+afcffcc2-5695-4b36-96d8-2d635dee644a	212554a3-87a7-4df0-85d2-99eec5752b97	\N	\N	\N	\N	f	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))	188.245.45.171	\N	2026-08-09 21:27:07.064001
 \.
 
 
@@ -71486,7 +71499,7 @@ SELECT pg_catalog.setval('"public"."price_table_id_seq"', 1, false);
 -- Name: response_table_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('"public"."response_table_id_seq"', 1567, true);
+SELECT pg_catalog.setval('"public"."response_table_id_seq"', 1569, true);
 
 
 --
@@ -71507,6 +71520,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ccBXYRcTvwTEqcVCXdnRD4L4jrAwtcpC0KWsH5Gi9JT2xEzg4TqXO4IjMfymzVN
+-- \unrestrict m3P0HuASvfVaDjHSXgLtbCqECeuApTI7G4qZg30zSRVcDIRTGXc7PEmekEpC19X
 
 RESET ALL;
