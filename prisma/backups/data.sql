@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict gWHLWAoLl1alfE1kpYUWNgk8upQGBie6tHy2ZHqoXzmVQnB60qVer6JxNfPEroo
+-- \restrict W8RcohMt9oh9YNmfhVi6vfCcWI3qrGhxUafDPnx0ofnC0xDxQV1espfe0A6F1Ir
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -37529,6 +37529,7 @@ ef11b36d-49c7-4abb-b927-d3b730300805	3c8ef921-91f2-4c83-bc80-e3e5c726bab9	\N	fac
 303df34c-25ae-4775-99d2-1db94ab65b07	5c97a229-9fbb-480e-a3ee-286ee2b9b1fb	\N	facebook	cpc	paid_ads	f	Mozilla/5.0 (Linux; Android 15; TECNO CL6k Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/145.0.7632.162 Mobile Safari/537.36	188.245.45.171	https://l.facebook.com/	2026-03-22 16:05:52.247412
 8d933c49-0d2e-4c41-9da6-25a8a1d6b633	8ba71996-79ac-401b-b906-8c501271f1a8	\N	facebook	cpc	paid_ads	f	Mozilla/5.0 (Linux; Android 15; TECNO CL6k Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/145.0.7632.162 Mobile Safari/537.36	188.245.45.171	https://l.facebook.com/	2026-03-22 16:05:53.377552
 5a31f84f-c285-4e23-8336-2d05dee667a4	76a560dd-11a7-452c-8997-cc590065dd72	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 16:08:04.289972
+630799a0-80f8-4a8a-8147-56ca49b7fa7f	b6883054-a821-4fcc-961e-a35e388d5451	\N	\N	\N	\N	f	SamsungPass (Android; Samsung Electronics)	188.245.45.171	\N	2026-08-12 19:51:03.645441
 66490fa1-c515-49b0-8008-c4918034812a	3e12ab7c-e53d-42fc-b4b7-f4453d3178de	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 16:08:17.534757
 224344d9-3248-4787-8336-7a929b414474	51523e0e-5fc6-4333-ac84-eb6e1c042861	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 16:08:44.879248
 a5bd178e-3104-440a-ae61-8a98eeaf0ff3	36dfec05-3ade-4e52-bee4-dcb70a0092e5	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 16:09:30.460528
@@ -71437,6 +71438,15 @@ cb045922-d8b0-4999-9d70-26674232b678	e6fe639b-a211-4f7b-b627-92dd3e7ab007	\N	\N	
 a0f59c0c-4061-4eeb-9bae-6993a10606b8	0f665726-2194-40cb-a596-5ac5ef34f7c4	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)	188.245.45.171	https://www.linksnatcher.com	2026-08-11 16:01:28.555782
 db124806-d468-46cf-91ce-9898152dc84e	f72bd7ee-d22a-45ea-85dd-81860ba47b08	\N	\N	\N	\N	f	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	188.245.45.171	\N	2026-08-11 16:26:57.456781
 93e20d7f-3f61-4f17-9ab7-63bf02880fa3	3bfd5211-25b2-414a-bd8b-49bc4c04d4e4	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-08-11 18:18:57.271722
+12a535a2-928b-4559-83b7-fdc4f1e2ef99	d824104b-ea88-40ee-9ef8-3da3990e36ec	\N	\N	\N	\N	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-08-12 04:04:24.866966
+28fb07bb-1c3b-48ca-a478-552b1a851128	8a8700e4-95ef-45c7-8143-75a69e98a703	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-12 04:37:26.646347
+f4ce5c8b-0a70-4c1b-9189-69f3d0d5d708	8edc88c5-8742-48e3-8dd9-70c9f9f444d0	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-08-12 05:38:16.688988
+2bdf56d7-dc5e-423c-bb47-6c750c164cad	cf229a98-c4bb-459b-86a0-0c3bc2ffb694	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-08-12 06:56:51.999477
+b2f4ccb9-b670-40c0-a290-108d32c155bb	407187cf-bfcd-45ca-9836-1a3c6b4708e8	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-08-12 06:56:55.221058
+f9ae7c8a-b3e8-46a9-9aab-c002f7ffb0ff	d04deaaa-eff6-405e-a113-e3693b844a92	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-08-12 06:56:55.959526
+87be49da-5634-4404-8914-765500b03428	39054565-6179-4aeb-b709-670d75d40064	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-12 07:35:29.508298
+6b7450af-f22b-4f8f-8f84-49e737ff6746	28feb104-7b2e-4898-8df9-c6ad9d0cacd7	\N	\N	\N	\N	f	com.apple.AuthenticationServicesCore.AuthenticationServicesAgent/8624.4.5.10.5 CFNetwork/3860.700.1 Darwin/25.6.0	188.245.45.171	\N	2026-08-12 07:43:02.943966
+c6f3e4df-3134-4a43-a932-b0c1191a5c9f	b6894a6c-8275-4a22-831f-16ef5e94cb52	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-08-12 16:25:06.263016
 \.
 
 
@@ -71563,6 +71573,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict gWHLWAoLl1alfE1kpYUWNgk8upQGBie6tHy2ZHqoXzmVQnB60qVer6JxNfPEroo
+-- \unrestrict W8RcohMt9oh9YNmfhVi6vfCcWI3qrGhxUafDPnx0ofnC0xDxQV1espfe0A6F1Ir
 
 RESET ALL;
