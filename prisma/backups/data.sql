@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict W8RcohMt9oh9YNmfhVi6vfCcWI3qrGhxUafDPnx0ofnC0xDxQV1espfe0A6F1Ir
+-- \restrict b3PcVhjG3ibAgntS67UaJjIoFTzp6KiPqO1YSg7jRgoOBkCPy3Ecd5vS4OuRJBn
 
 -- Dumped from database version 15.6
 -- Dumped by pg_dump version 17.6
@@ -37606,6 +37606,7 @@ c45495f1-f846-4858-ab49-ab26b96ddf6c	d6bdfd58-5412-4114-a1d2-762bbd00aa77	\N	fac
 2d78c859-24a5-4fa7-aea5-8a1d02e88349	4b8f8beb-f6d0-4e18-b30b-4c6b94790de9	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 17:24:58.591347
 ccf05c89-6ad5-4182-853c-3435d2069c42	b8f2b636-bb86-482f-8b9c-c0cff29c57d9	\N	facebook	cpc	paid_ads	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2026-03-22 17:25:03.267187
 1aab64ab-5779-44fc-9075-2a386b974e49	b8f2b636-bb86-482f-8b9c-c0cff29c57d9	\N	facebook	cpc	paid_ads	f	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36	188.245.45.171	\N	2026-03-22 17:25:04.895663
+1844e662-60be-401c-87ac-3923fd201dec	04030101-e056-474f-830b-030d581ce6fb	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; Barkrowler/0.9; +https://babbar.tech/crawler)	188.245.45.171	\N	2026-08-13 05:31:50.569037
 6e0ff992-bac5-4c69-b316-c75ed03a7031	c2dafe6b-92d9-4318-974a-05a85449c565	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 17:25:56.818944
 2633de0c-300a-482e-be28-384588a02ba9	65a335ce-11f5-4fd9-93a1-eafbd54244a3	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 17:26:13.058667
 71f55ae9-f26c-471a-9db3-70622fd824e6	2975e1d4-153c-4daf-a0e8-512e1c5b3947	\N	facebook	cpc	paid_ads	f	facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)	188.245.45.171	\N	2026-03-22 17:27:32.796168
@@ -71447,6 +71448,16 @@ f9ae7c8a-b3e8-46a9-9aab-c002f7ffb0ff	d04deaaa-eff6-405e-a113-e3693b844a92	\N	\N	
 87be49da-5634-4404-8914-765500b03428	39054565-6179-4aeb-b709-670d75d40064	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-12 07:35:29.508298
 6b7450af-f22b-4f8f-8f84-49e737ff6746	28feb104-7b2e-4898-8df9-c6ad9d0cacd7	\N	\N	\N	\N	f	com.apple.AuthenticationServicesCore.AuthenticationServicesAgent/8624.4.5.10.5 CFNetwork/3860.700.1 Darwin/25.6.0	188.245.45.171	\N	2026-08-12 07:43:02.943966
 c6f3e4df-3134-4a43-a932-b0c1191a5c9f	b6894a6c-8275-4a22-831f-16ef5e94cb52	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36	188.245.45.171	\N	2026-08-12 16:25:06.263016
+f0e0583c-fae3-406a-8059-d730173ef832	10626ee5-d48a-410b-8409-60e8290209a6	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot	188.245.45.171	\N	2026-08-13 01:25:54.904361
+5c673975-59f2-4ce7-b6a2-710b1a9ec1b9	8c9f0002-291e-48cc-9d0f-9fe7df925d4a	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-13 04:30:16.241078
+aab426a0-4d39-4831-9023-39ad2903ec3a	97af5b11-5d36-43ba-9b59-ffbe1c690a74	\N	\N	\N	\N	f	com.apple.AuthenticationServicesCore.AuthenticationServicesAgent/8624.4.5.10.5 CFNetwork/3860.700.1 Darwin/25.6.0	188.245.45.171	\N	2026-08-13 07:19:25.223469
+2a2d0ae1-89b6-453a-9246-ceba21b026e5	8d8c2b73-f18d-416c-9897-a2ea934745a5	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 CloudflareWebScanner/1.0	188.245.45.171	\N	2026-08-13 07:35:10.851483
+5cd949aa-5606-4a13-8fc4-ffbbaa0d735b	5ea864d1-cccf-4eb1-aa90-b25d4515c88d	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot	188.245.45.171	\N	2026-08-13 09:44:58.263997
+c2778db5-fc5f-42c1-a615-d4dbbbe7f94b	7edd1233-a95c-4aeb-bd7b-c14c520f5d2b	\N	\N	\N	\N	f	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)	188.245.45.171	\N	2026-08-13 13:20:47.221586
+004bb36d-6dcd-4d7e-b725-55cc4f865a0a	6b324247-158a-45ce-ae6e-03fc5aecd0f2	\N	\N	\N	\N	f	meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)	188.245.45.171	\N	2026-08-13 15:50:43.750079
+f1707070-ca46-4f54-ab55-eacf8bf0267c	fb0c5ddf-de80-4976-8cdb-1e8964bb57fd	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)	188.245.45.171	\N	2026-08-13 18:16:35.435475
+14beebaa-8eb3-4b2f-a6e2-56c6a6930f52	4d04e966-6a4d-453a-ab96-4b7e4d13351c	\N	\N	\N	\N	f	Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)	188.245.45.171	\N	2026-08-13 21:34:51.731513
+9124d7c7-3e19-41ce-a8f2-aa1ff0dc6579	af3c4832-082f-417d-914b-8f984ffa9023	\N	\N	\N	\N	f	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36	188.245.45.171	\N	2026-08-13 22:04:28.721009
 \.
 
 
@@ -71573,6 +71584,6 @@ SELECT pg_catalog.setval('"public"."user_package_id_seq"', 1, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict W8RcohMt9oh9YNmfhVi6vfCcWI3qrGhxUafDPnx0ofnC0xDxQV1espfe0A6F1Ir
+-- \unrestrict b3PcVhjG3ibAgntS67UaJjIoFTzp6KiPqO1YSg7jRgoOBkCPy3Ecd5vS4OuRJBn
 
 RESET ALL;
